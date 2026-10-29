@@ -1,0 +1,140 @@
+{
+ "leaf_val_f1": {
+  "baseline_cnn": 0.7355634671882578,
+  "convnext_tiny": 0.9124965841614404,
+  "efficientnet_b0": 0.9049178704205864,
+  "efficientnet_v2_s": 0.9155614754743991,
+  "mobilenet_v3_large": 0.9084597747312343
+ },
+ "pest_val_f1": {
+  "efficientnet_v2_s": 0.6524297730459518
+ },
+ "calibration": {
+  "temperature": 0.76,
+  "ece": 0.09305450242342396,
+  "ece_calibrated": 0.015136639351916744,
+  "val_nll": 0.3127865493297577,
+  "val_nll_calibrated": 0.2281593680381775,
+  "ood_threshold": 0.6194753777980804,
+  "confidence_gate_val": {
+   "0.50": {
+    "coverage": 0.9870052054076321,
+    "accuracy_answered": 0.942555774776142,
+    "errors_flagged": 203,
+    "errors_total": 1717
+   },
+   "0.60": {
+    "coverage": 0.9679811257162116,
+    "accuracy_answered": 0.9514856081708449,
+    "errors_flagged": 463,
+    "errors_total": 1717
+   },
+   "0.70": {
+    "coverage": 0.9478335767516758,
+    "accuracy_answered": 0.9593441327538522,
+    "errors_flagged": 688,
+    "errors_total": 1717
+   },
+   "0.80": {
+    "coverage": 0.9235666404523837,
+    "accuracy_answered": 0.9682912983537426,
+    "errors_flagged": 935,
+    "errors_total": 1717
+   },
+   "0.90": {
+    "coverage": 0.8857806238999363,
+    "accuracy_answered": 0.9792415338434871,
+    "errors_flagged": 1226,
+    "errors_total": 1717
+   }
+  }
+ },
+ "selective_test": [
+  {
+   "threshold": 0.0,
+   "coverage": 1.0,
+   "accuracy": 0.933757402939241
+  },
+  {
+   "threshold": 0.5,
+   "coverage": 0.9873144695474154,
+   "accuracy": 0.9406820453956382
+  },
+  {
+   "threshold": 0.6,
+   "coverage": 0.9688893763252175,
+   "accuracy": 0.9496660755386183
+  },
+  {
+   "threshold": 0.7,
+   "coverage": 0.9487095123199532,
+   "accuracy": 0.9580748333397557
+  },
+  {
+   "threshold": 0.8,
+   "coverage": 0.9261533962126197,
+   "accuracy": 0.9657772163890423
+  },
+  {
+   "threshold": 0.9,
+   "coverage": 0.8872559771879798,
+   "accuracy": 0.976679027606098
+  },
+  {
+   "threshold": 0.95,
+   "coverage": 0.843021130364846,
+   "accuracy": 0.9850823937554206
+  }
+ ],
+ "robustness": [
+  {
+   "condition": "Clean",
+   "accuracy": 0.9333359217269762,
+   "f1_macro": 0.9029954351077404,
+   "gate_pass_rate": 0.9939819847802454,
+   "accuracy_after_gate": 0.9332447951251904
+  },
+  {
+   "condition": "Defocus blur",
+   "accuracy": 0.8988973443081224,
+   "f1_macro": 0.8611360886866237,
+   "gate_pass_rate": 0.00990060568411244,
+   "accuracy_after_gate": 0.5058823529411764
+  },
+  {
+   "condition": "Sensor noise",
+   "accuracy": 0.9138841435005436,
+   "f1_macro": 0.8810683197276973,
+   "gate_pass_rate": 0.9991846560024849,
+   "accuracy_after_gate": 0.9145521663104721
+  },
+  {
+   "condition": "Low light",
+   "accuracy": 0.9285991613604597,
+   "f1_macro": 0.8987626163531257,
+   "gate_pass_rate": 0.9111663301754931,
+   "accuracy_after_gate": 0.9280296574058292
+  },
+  {
+   "condition": "Over-exposure",
+   "accuracy": 0.9088756018015219,
+   "f1_macro": 0.8733705124812201,
+   "gate_pass_rate": 0.9209116322410312,
+   "accuracy_after_gate": 0.9178717483873687
+  },
+  {
+   "condition": "JPEG compression",
+   "accuracy": 0.8944323652741109,
+   "f1_macro": 0.8602829324473892,
+   "gate_pass_rate": 0.9974763161981675,
+   "accuracy_after_gate": 0.8949048304853839
+  },
+  {
+   "condition": "25% occlusion",
+   "accuracy": 0.8872883988196925,
+   "f1_macro": 0.845359484281505,
+   "gate_pass_rate": 0.9979810529585339,
+   "accuracy_after_gate": 0.887682850918145
+  }
+ ]
+}

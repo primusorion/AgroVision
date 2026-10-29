@@ -1,0 +1,198 @@
+{
+  "crop": "Mango",
+  "scientific_name": "Mangifera indica",
+  "family": "Anacardiaceae",
+  "description": "India's most important fruit tree; Andhra Pradesh and Telangana grow mainly Banganapalli, Totapuri and Suvarnarekha. New leaf flushes and the flowering period (December-February) are the stages most exposed to diseases and pests.",
+  "common_varieties": ["Banganapalli (Benishan)", "Totapuri (Bangalora)", "Suvarnarekha", "Neelum", "Himayat (Imam Pasand)", "Alphonso"],
+  "npk": {"N": 1000, "P2O5": 500, "K2O": 1000, "unit": "g/plant/year"},
+  "npk_split": "For trees 10 years and older: apply half the N with all P and K and 50 kg FYM just after harvest (June-July) and the remaining N in September-October when the soil is moist.",
+  "conditions": {
+    "Anthracnose": {
+      "name": "Anthracnose",
+      "kind": "disease",
+      "cause": "Colletotrichum gloeosporioides",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "Fungal disease of tender leaves, flowers, twigs and fruits that is worst when rain or heavy dew falls during flushing and flowering. It causes blossom blight, fruit drop and black spots on ripening fruits.",
+      "symptoms": [
+        "Irregular brown to black spots on young leaves, often starting at the margins and tip",
+        "Dead centres of spots fall out, leaving holes and tattered leaves",
+        "Flowers and panicle stalks turn black and dry",
+        "Young twigs dry back from the tip",
+        "Black sunken spots on fruits"
+      ],
+      "spread": "Rain and dew splash spores from dead twigs, old panicles and infected leaves onto new flush, flowers and fruits.",
+      "action": "Prune and burn dead twigs and old panicles and spray a fungicide on the new flush and at panicle emergence.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "At panicle emergence and again at pea-size fruit stage."},
+        {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Alternative at flowering; also checks powdery mildew."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "After pruning and on new flush in the rainy season."}
+      ]
+    },
+    "Bacterial canker": {
+      "name": "Bacterial Canker (Black Spot)",
+      "kind": "disease",
+      "cause": "Xanthomonas citri pv. mangiferaeindicae",
+      "type": "Bacterial",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Bacterial disease of leaves, twigs and fruits that spreads in rainy, windy weather. Raised black cankers on fruits crack and ooze gum, causing fruit drop and loss of market value.",
+      "symptoms": [
+        "Small water-soaked angular spots between the leaf veins",
+        "Spots become raised, black and rough with a yellow halo",
+        "Black cracked cankers on leaf stalks, twigs and fruits",
+        "Gum oozing from cracked fruit spots and early fruit drop"
+      ],
+      "spread": "Wind-driven rain, infected grafts and pruning tools carry the bacteria, which enter through leaf pores and wounds.",
+      "action": "Prune out and burn infected twigs and spray a copper fungicide at 10-15 day intervals in wet weather.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L", "notes": "2-3 sprays at 10-15 day intervals after the first spots are seen."},
+        {"name": "Disease-free grafts and windbreaks", "type": "Cultural", "dose": "-", "notes": "Take scion wood only from healthy trees; wind injury opens the way for infection."}
+      ]
+    },
+    "Die back": {
+      "name": "Die Back",
+      "kind": "disease",
+      "cause": "Lasiodiplodia theobromae (Botryodiplodia theobromae)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Fungal disease in which twigs and branches dry from the tip downward, most visible from October to December. Repeated attacks kill large limbs and can kill young or stressed trees.",
+      "symptoms": [
+        "Twigs dry from the tip backward and the bark turns dark",
+        "Leaves on affected twigs turn brown, roll upward at the margins and fall",
+        "Bark cracks and oozes gum",
+        "Brown streaks inside the wood when the twig is split"
+      ],
+      "spread": "Spores spread by rain and wind enter through wounds, pruning cuts and graft unions, especially on trees stressed by drought or poor nutrition.",
+      "action": "Prune dried twigs 5-10 cm below the dead part into healthy wood, burn them and paste the cut ends with copper fungicide.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Pruning of affected twigs below the dead wood", "type": "Cultural", "dose": "-", "notes": "Cut in dry weather and burn the prunings; take grafting wood only from healthy trees."},
+        {"name": "Copper oxychloride 50 WP paste or Bordeaux paste", "type": "Fungicide", "dose": "Paint on cut ends", "notes": "Apply the same day as pruning."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Spray the tree after pruning and repeat after 15 days."}
+      ]
+    },
+    "Gall midge": {
+      "name": "Leaf Gall Midge",
+      "kind": "pest",
+      "cause": "Procontarinia matteiana (mango leaf gall midge)",
+      "type": "Insect",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny midge flies lay eggs in tender leaves and the maggots feeding inside cause wart-like galls. Heavy galling makes leaves curl and drop early, reducing new growth.",
+      "symptoms": [
+        "Many small raised wart-like galls on the leaf blade",
+        "Galls are green at first, later brown-black with a tiny exit hole",
+        "Heavily galled leaves crinkle, curl and fall early",
+        "Poor new flush on badly affected shoots"
+      ],
+      "spread": "Adult midges fly to new flushes to lay eggs, and several generations build up during flushing periods.",
+      "action": "Clip off and burn heavily galled leaves and protect the next new flush with neem oil or a systemic insecticide.",
+      "manage": "leaf_miner",
+      "treatment": [
+        {"name": "Removal and burning of heavily galled shoots", "type": "Cultural", "dose": "-", "notes": "Do this before the next flush emerges."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "At bud burst of the new flush and again 7-10 days later."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "On new flush only if galling was heavy last season; do not spray on open flowers, to protect pollinators."}
+      ]
+    },
+    "Leaf-cutting weevil": {
+      "name": "Leaf-Cutting Weevil",
+      "kind": "pest",
+      "cause": "Deporaus marginatus",
+      "type": "Insect",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A small weevil that lays eggs in tender leaves and then cuts them off near the base. Nursery plants and young orchards lose their new flush and stop growing.",
+      "symptoms": [
+        "Tender leaves cut straight across near the base, as if with scissors",
+        "Cut leaf pieces lying on the ground under the tree",
+        "Leaf stubs left on the new shoots",
+        "Small dark snouted weevils on the tender flush"
+      ],
+      "spread": "Adult weevils fly between trees, and the grubs develop in the cut leaf pieces on the ground before entering the soil to pupate.",
+      "action": "Collect and burn the cut leaf pieces from the ground every day during flushing.",
+      "manage": "beetles_weevils",
+      "treatment": [
+        {"name": "Daily collection and burning of fallen cut leaves", "type": "Cultural", "dose": "-", "notes": "The eggs and grubs are inside these pieces; this breaks the cycle."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "On the new flush at 7-day intervals to deter feeding and egg laying."},
+        {"name": "Lambda-cyhalothrin 5 EC", "type": "Insecticide", "dose": "As per label", "notes": "Only on new flush of nursery plants and young trees when weevils are many; not on open flowers."}
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Oidium mangiferae",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal disease of panicles, young fruits and tender leaves, favoured by cool nights and cloudy weather at flowering. It causes heavy flower and fruitlet drop and can destroy most of the crop.",
+      "symptoms": [
+        "White powdery growth on panicles, flowers and young fruits",
+        "Flowers and pea-size fruits turn brown and drop",
+        "White powder on the underside of young leaves",
+        "Young leaves twist and show purplish-brown patches"
+      ],
+      "spread": "Wind-borne spores spread from infected leaves and old panicles to the new panicles.",
+      "action": "Spray wettable sulphur at panicle emergence and follow with a systemic fungicide 15 days later.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "First spray when panicles are 8-10 cm long; avoid in hot weather above 35 °C."},
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Second spray 15 days after the first."},
+        {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Alternative for the second or third spray; also checks anthracnose."}
+      ]
+    },
+    "Sooty mold": {
+      "name": "Sooty Mould",
+      "kind": "disease",
+      "cause": "Capnodium mangiferae (grows on insect honeydew)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Black fungal growth that lives on the sticky honeydew dropped by hoppers, scales and mealybugs. It does not infect the leaf but blocks sunlight and soils the fruits.",
+      "symptoms": [
+        "Black soot-like film on the upper leaf surface that rubs or peels off",
+        "Sticky, shiny honeydew on leaves",
+        "Hoppers, scales or mealybugs on shoots and panicles, often with ants",
+        "Blackened panicles and fruits in severe cases"
+      ],
+      "spread": "The mould grows wherever sap-sucking insects deposit honeydew, and its spores are carried by wind and rain.",
+      "action": "Control the sap-sucking insects that produce the honeydew and wash off the black film with a starch spray.",
+      "manage": "sooty_mold",
+      "treatment": [
+        {"name": "Starch (maida) solution 5%", "type": "Cultural", "dose": "1 kg boiled in 5 L water, diluted to 20 L", "notes": "The dried starch flakes off and takes the black mould with it."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Against mango hoppers at panicle emergence, before flowers open."},
+        {"name": "Pruning of dense, overlapping branches", "type": "Cultural", "dose": "-", "notes": "Hoppers and mould build up in shaded, crowded canopies."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep watching the new flush and the panicles, where most problems begin.",
+      "symptoms": [
+        "Uniform green leaves without spots, galls or black film",
+        "No white powder on leaves or panicles",
+        "Normal new flush"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular pruning, balanced manuring and weekly scouting, especially during flushing and flowering.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

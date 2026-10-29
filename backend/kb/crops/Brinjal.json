@@ -1,0 +1,146 @@
+{
+  "crop": "Brinjal",
+  "scientific_name": "Solanum melongena",
+  "family": "Solanaceae",
+  "description": "Brinjal (eggplant, vankaya) is a staple vegetable grown year-round across India on small holdings. It is a hardy warm-season crop that does best at 21-30 °C on well-drained, fertile loam.",
+  "common_varieties": ["Pusa Purple Long", "Pusa Purple Cluster", "Arka Nidhi", "Arka Anand (F1)", "Bhagyamati", "CO 2"],
+  "npk": {"N": 100, "P2O5": 50, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Basal at transplanting: 1/2 N + full P2O5 + full K2O; top-dress the remaining N at 30 days after transplanting (hybrids: up to 200:150:100 kg/ha, with the top-dressed N in 2-3 splits).",
+  "conditions": {
+    "Insect damage": {
+      "name": "Insect Damage",
+      "kind": "pest",
+      "cause": "Unspecified chewing or sucking insects, such as hadda beetle (Henosepilachna vigintioctopunctata), shoot and fruit borer (Leucinodes orbonalis), leafhopper (Amrasca biguttula biguttula) and ash weevil (Myllocerus spp.)",
+      "type": "Insect",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "This class covers feeding injury by chewing or sucking insects on brinjal leaves; the photo cannot tell which species is responsible. Hadda beetle, shoot and fruit borer, leafhoppers and ash weevils are the usual causes in India.",
+      "symptoms": [
+        "Leaf surface scraped into a net-like, papery skeleton (hadda beetle)",
+        "Irregular holes or notched leaf edges (caterpillars, ash weevil)",
+        "Leaf edges yellow, curl upward and turn brown (leafhopper burn)",
+        "Wilted, drooping shoot tips with a bore hole (shoot and fruit borer)",
+        "Insects, grubs or yellow egg clusters on the leaf underside"
+      ],
+      "spread": "Adults fly in from older brinjal crops, other solanaceous crops and weeds, and numbers build up quickly in warm weather where brinjal is grown continuously.",
+      "action": "Find the insect before spraying: hand-pick hadda beetles, grubs and egg clusters, clip off wilted shoot tips, and spray neem oil 1500 ppm 3-5 ml/L on both leaf surfaces.",
+      "manage": "beetles_weevils",
+      "treatment": [
+        {"name": "Clip wilted shoots and bored fruits", "type": "Cultural", "dose": "Weekly", "notes": "Cut wilted shoot tips below the bore hole and destroy them with bored fruits to remove shoot and fruit borer larvae."},
+        {"name": "Emamectin benzoate 5 SG", "type": "Insecticide", "dose": "0.4 g/L", "notes": "Only if shoot and fruit borer damage is confirmed and increasing; observe the waiting period before picking."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Only if leafhoppers or whiteflies are confirmed on leaf undersides; max 2 sprays per season, never during flowering (bees)."}
+      ]
+    },
+    "Leaf spot": {
+      "name": "Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora solani-melongenae and Alternaria melongenae (also A. solani)",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Leaf spot of brinjal is caused by Cercospora and Alternaria fungi, which the photo cannot tell apart, and is common in warm, humid weather. Heavy spotting makes leaves yellow and drop early, and Alternaria can also spot the fruits.",
+      "symptoms": [
+        "Small yellow spots that turn grey-brown, round to angular, often with a pale centre (Cercospora)",
+        "Brown spots with concentric rings that crack in the centre (Alternaria)",
+        "Spots merge and the leaf turns yellow and drops",
+        "Large, sunken brown spots on fruits, which yellow and fall early"
+      ],
+      "spread": "Both fungi survive on infected crop debris and seed and spread by wind, rain splash and irrigation water; favoured by warm, humid, rainy weather and dense planting.",
+      "action": "Remove the worst-spotted leaves and spray Mancozeb 75 WP (2.5 g/L), repeating after 10-15 days if new spots appear.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "Systemic (FRAC 1) alternative when spots keep spreading; max 2 sprays, alternate with Mancozeb."}
+      ]
+    },
+    "Mosaic virus": {
+      "name": "Mosaic Virus",
+      "kind": "disease",
+      "cause": "Virus complex: Cucumber mosaic virus (aphid-borne) and tobamoviruses such as Tobacco mosaic virus (contact-spread)",
+      "type": "Viral",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Mosaic of brinjal is caused by a complex of viruses that mottle and deform the leaves and stunt the plant. Plants infected early bear few, small fruits, and there is no cure.",
+      "symptoms": [
+        "Light and dark green mottling (mosaic) on leaves",
+        "Blistered, puckered or deformed leaves",
+        "Small leaves and stunted plants when infected early",
+        "Few, small or misshapen fruits"
+      ],
+      "spread": "Aphids carry cucumber mosaic virus from infected crops and weeds within seconds of feeding, while tobamoviruses spread in sap on hands, tools and clothing and survive in debris and on seed.",
+      "action": "No cure: uproot and destroy mosaic plants early, wash hands and tools with soap before touching healthy plants, and keep aphids down with neem oil 1500 ppm 3-5 ml/L.",
+      "manage": "viral_aphid",
+      "vector": "Aphids (Aphis gossypii, Myzus persicae)",
+      "treatment": [
+        {"name": "Wash hands and tools with soap", "type": "Cultural", "dose": "-", "notes": "Some brinjal mosaic viruses spread in plant sap; handle healthy plants first and do not use tobacco while working."},
+        {"name": "Protected nursery", "type": "Cultural", "dose": "40-50 mesh insect-proof net", "notes": "Raise seedlings under net so that they are virus-free at transplanting."}
+      ]
+    },
+    "White mold": {
+      "name": "White Mold",
+      "kind": "disease",
+      "cause": "Sclerotinia sclerotiorum",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "White mold (Sclerotinia rot) is a soil-borne fungal disease that rots brinjal stems, leaves and fruits in cool, wet weather. The fungus leaves hard black resting bodies that survive in soil for years.",
+      "symptoms": [
+        "Water-soaked, pale brown soft rot on stems, leaf stalks or leaves",
+        "White cottony fungal growth on the rotting parts in humid weather",
+        "Hard black bodies like mouse droppings in the white growth or inside the stem",
+        "Branches above the rot wilt and dry, with bleached, straw-coloured stems"
+      ],
+      "spread": "Black resting bodies (sclerotia) survive for years in soil and release airborne spores that infect through fallen petals, dying leaves and wounds; favoured by cool (15-20 °C), wet weather and a dense canopy.",
+      "action": "Cut out and bag rotting plants and branches before the black bodies fall to the soil, burn or bury them deep, and keep the crop canopy open and dry.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {"name": "Carbendazim 50 WP (foliar)", "type": "Fungicide", "dose": "1 g/L", "notes": "Spray stems and the lower canopy at flowering in cool, wet weather; max 2 sprays."},
+        {"name": "Deep summer ploughing", "type": "Cultural", "dose": "-", "notes": "Bury the black resting bodies deep and rotate with cereals for 3 years; mustard, beans, peas and cabbage host the same fungus."},
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2-3 g/L", "notes": "Only if the white growth is a dry powder on firm leaves with no rot - that is powdery mildew, not white mold; do not spray above 32 °C."}
+      ]
+    },
+    "Wilt": {
+      "name": "Wilt",
+      "kind": "disease",
+      "cause": "Wilt complex: Ralstonia solanacearum (bacterial wilt), Fusarium oxysporum f. sp. melongenae and Verticillium dahliae (fungal wilts)",
+      "type": "Bacterial",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Wilt of brinjal is caused by soil-borne bacteria or fungi that block the water-conducting vessels; the photo cannot tell them apart. Bacterial wilt is the commonest and fastest form in warm, wet soils, and no spray cures a wilted plant.",
+      "symptoms": [
+        "Leaves droop and the whole plant wilts, at first only in the midday heat",
+        "Lower leaves yellow and dry before the plant collapses (slower in fungal wilt)",
+        "Brown discolouration inside the lower stem when cut",
+        "Milky white ooze streams from the cut stem in a glass of clear water (bacterial wilt only)",
+        "Stunted, wilting plants in patches that widen along the irrigation flow"
+      ],
+      "spread": "The bacteria and fungi survive for years in soil and crop debris and enter roots through wounds made by transplanting, weeding and nematodes; spread by irrigation water, soil on tools and infected seedlings, and favoured by warm, wet soil.",
+      "action": "Uproot wilted plants with the root-ball soil and destroy them away from the field, and stop irrigation water flowing from that spot to healthy plants; no spray cures wilt.",
+      "manage": "bacterial_wilt",
+      "treatment": [
+        {"name": "Cut-stem water test", "type": "Cultural", "dose": "-", "notes": "Hold a cut lower stem in a glass of clear water: a milky stream means bacterial wilt; brown streaks without ooze point to Fusarium or Verticillium wilt."},
+        {"name": "Carbendazim 50 WP (soil drench)", "type": "Fungicide", "dose": "1 g/L", "notes": "Only where the water test shows no ooze (fungal wilt): drench the base of neighbouring plants to slow spread."},
+        {"name": "Wilt-resistant varieties", "type": "Cultural", "dose": "-", "notes": "Arka Nidhi, Arka Keshav, Arka Neelkanth and Arka Anand (IIHR) resist bacterial wilt; plant them in fields with a wilt history."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "No disease or pest symptoms are visible on this brinjal leaf. Keep up balanced nutrition, regular irrigation and weekly scouting to keep the crop healthy.",
+      "symptoms": ["Uniform green colour", "No spots, lesions, mottling, curling or webbing"],
+      "spread": "-",
+      "action": "No treatment is needed.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

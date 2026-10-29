@@ -1,0 +1,917 @@
+{
+  "healthy": {
+    "treatment": [
+      {"name": "No spray needed", "type": "Cultural", "dose": "-", "notes": "Scout weekly, including leaf undersides; act at the first spots, curling or pests."}
+    ],
+    "organic": [
+      "Well-decomposed FYM 8-10 t/acre (20-25 t/ha) for vegetables, about 5 t/acre for field crops, or vermicompost 2 t/acre before planting; trees: FYM in the basin every year",
+      "Trichoderma harzianum 2.5 kg/ha enriched in 100 kg FYM to protect roots from soil-borne disease"
+    ],
+    "cultural": [
+      "Keep recommended spacing, with staking or pruning where the crop needs it, for airflow",
+      "Irrigate at the base (drip preferred); avoid waterlogging",
+      "Rotate annual crops with a crop of a different family every 2-3 years",
+      "Remove weeds that host pests and viruses"
+    ],
+    "avoid": [
+      "Excess urea - lush growth attracts pests and disease",
+      "Overhead irrigation late in the day",
+      "Unneeded pesticide sprays that kill natural enemies"
+    ]
+  },
+  "fungal_leaf_spot": {
+    "treatment": [
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Protectant (FRAC M3); start at first spots, repeat every 7-10 days."},
+      {"name": "Chlorothalonil 75 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Protectant (FRAC M5); alternate with Mancozeb; only where the label lists your crop."},
+      {"name": "Difenoconazole 25 EC", "type": "Fungicide", "dose": "0.5 ml/L", "notes": "Systemic (FRAC 3) when spots spread up the plant; max 2 sprays/season, only where the label lists your crop."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% as a protectant spray (copper is permitted in organic farming, within limits)",
+      "Pseudomonas fluorescens or Bacillus subtilis bio-formulation 5-10 g/L foliar spray every 10 days"
+    ],
+    "cultural": [
+      "Remove spotted leaves as soon as spots appear and destroy crop debris after harvest",
+      "Mulch to stop rain splash from soil",
+      "Keep spacing and pruning open for airflow; irrigate at the base",
+      "Rotate annual crops 2-3 years with a non-host crop and control weed hosts"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation and working among wet plants",
+      "Excess nitrogen - soft, dense growth favours infection",
+      "Repeating the same systemic fungicide group (resistance)",
+      "Leaving infected debris in the field"
+    ]
+  },
+  "fungal_blight": {
+    "treatment": [
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Protectant (FRAC M3); start at first symptoms, repeat every 7-10 days."},
+      {"name": "Chlorothalonil 75 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Protectant (FRAC M5); alternate with Mancozeb; only where the label lists your crop."},
+      {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Systemic (FRAC 11) for spreading infection; max 2 sprays/season, alternate with protectants, only where the label lists your crop."},
+      {"name": "Difenoconazole 25 EC", "type": "Fungicide", "dose": "0.5 ml/L", "notes": "Systemic triazole (FRAC 3) for severe infection; only where the label lists your crop."}
+    ],
+    "organic": [
+      "Pseudomonas fluorescens or Bacillus subtilis bio-formulation 5-10 g/L foliar spray every 10 days",
+      "Trichoderma harzianum 2.5 kg/ha enriched in 100 kg FYM applied to soil",
+      "Bordeaux mixture 1% as a protectant spray (copper is permitted in organic farming, within limits)"
+    ],
+    "cultural": [
+      "Remove and destroy infected lower leaves and crop debris",
+      "Mulch to stop spores splashing up from soil",
+      "Stake and space plants for airflow; irrigate at the base",
+      "Rotate 2-3 years with non-host crops and remove weed hosts",
+      "Keep plants well fed - stressed plants get blight more"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation and working among wet plants",
+      "Excess nitrogen - soft, dense growth favours infection",
+      "Repeating the same systemic fungicide group (resistance)"
+    ]
+  },
+  "powdery_mildew": {
+    "treatment": [
+      {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2-3 g/L", "notes": "Low-cost contact spray at the first white patches, repeat after 10-15 days; do not spray above 32 °C or on sulphur-sensitive crops (many cucurbits)."},
+      {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "2 ml/L", "notes": "Systemic triazole (FRAC 3) when mildew keeps spreading; max 2 sprays/season."},
+      {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Different group (FRAC 11) for rotation; max 2 sprays/season, only where the label lists your crop."}
+    ],
+    "organic": [
+      "Wettable sulphur 80 WP 2-3 g/L (sulphur is permitted in organic farming)",
+      "Neem oil 1500 ppm 3-5 ml/L with a sticker at the first white patches",
+      "Bacillus subtilis bio-formulation 5-10 g/L foliar spray as a preventive"
+    ],
+    "cultural": [
+      "Remove and destroy heavily mildewed leaves and shoots",
+      "Space and prune for sunlight and airflow inside the canopy",
+      "Give balanced fertilizer; avoid heavy nitrogen that produces soft new growth",
+      "Grow mildew-tolerant varieties where available"
+    ],
+    "avoid": [
+      "Sulphur sprays above 32 °C or within 2 weeks of an oil spray (leaf burn)",
+      "Excess nitrogen and dense, shaded canopies",
+      "Repeating the same triazole or strobilurin group (resistance)"
+    ]
+  },
+  "downy_mildew": {
+    "treatment": [
+      {"name": "Metalaxyl 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Systemic + contact (FRAC 4 + M3) at first symptoms; repeat after 10-12 days; max 2-3 sprays/season (resistance)."},
+      {"name": "Cymoxanil 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Curative + protectant; rotate with the Metalaxyl product."},
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Preventive spray when cool, cloudy, humid weather is forecast."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% or Copper hydroxide 77 WP 2 g/L as a protectant (copper is permitted in organic farming, within limits)",
+      "Bio-agents alone cannot stop an active downy mildew outbreak - start protectant sprays before symptoms in cool, wet weather"
+    ],
+    "cultural": [
+      "Remove and destroy infected leaves and plants",
+      "Keep leaves dry: no overhead irrigation, wide spacing, good drainage",
+      "Use disease-free, treated seed and resistant varieties recommended for your region",
+      "Rotate 2-3 years with a non-host crop and destroy volunteer plants"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation, especially in the evening",
+      "Dense planting and waterlogged plots",
+      "Relying only on Metalaxyl - resistant strains are common"
+    ]
+  },
+  "oomycete_blight": {
+    "treatment": [
+      {"name": "Metalaxyl 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Systemic + contact (FRAC 4 + M3); repeat after 10-12 days; max 2-3 sprays/season (resistance)."},
+      {"name": "Cymoxanil 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Curative + protectant; rotate with the Metalaxyl product."},
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Preventive spray when cool, cloudy, humid weather is forecast."},
+      {"name": "Chlorothalonil 75 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Protectant alternative to Mancozeb; only where the label lists your crop."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% or Copper hydroxide 77 WP 2 g/L as a protectant (copper is permitted in organic farming, within limits)",
+      "Bio-agents alone cannot stop an active blight epidemic - start copper sprays before symptoms in blight weather"
+    ],
+    "cultural": [
+      "Remove and destroy infected plants or plant parts (bury deep or burn); never compost them",
+      "Keep foliage dry: no overhead irrigation, good spacing and airflow",
+      "Improve drainage - the pathogen spreads in standing water",
+      "Use disease-free seed or planting material; destroy cull piles and volunteer plants",
+      "Grow blight-resistant varieties recommended for your region (ask your KVK)"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation",
+      "Leaving infected plants or cull piles near the field",
+      "Relying only on Metalaxyl - resistant strains are common"
+    ]
+  },
+  "rust": {
+    "treatment": [
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Protectant (FRAC M3) at the first pustules; repeat every 10-15 days."},
+      {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Systemic triazole (FRAC 3) when pustules are spreading; max 2 sprays/season."},
+      {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "2 ml/L", "notes": "Alternative triazole; alternate with Mancozeb, not with another triazole."}
+    ],
+    "organic": [
+      "Wettable sulphur 80 WP 2-3 g/L as a protectant at the first pustules (not above 32 °C)",
+      "No bio-agent reliably stops rust once pustules are widespread - rely on resistant varieties and timely sowing"
+    ],
+    "cultural": [
+      "Grow rust-resistant varieties recommended for your region",
+      "Sow at the recommended time - late-sown crops get more rust",
+      "Destroy volunteer plants, crop residue and alternate weed hosts",
+      "Avoid dense stands and excess nitrogen",
+      "Scout lower leaves weekly so the first spray is on time"
+    ],
+    "avoid": [
+      "Excess nitrogen and very dense sowing",
+      "Late sowing",
+      "More than two triazole sprays in a season (resistance)"
+    ]
+  },
+  "anthracnose": {
+    "treatment": [
+      {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "Systemic (FRAC 1) at first symptoms; max 2 sprays, alternate with a protectant."},
+      {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Protectant (FRAC M3); repeat every 10-15 days in wet weather."},
+      {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Protectant for trees after pruning and on new flush."},
+      {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Different group (FRAC 11) when infection keeps spreading; max 2 sprays/season, only where the label lists your crop."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% as a protectant spray (copper is permitted in organic farming, within limits)",
+      "Pseudomonas fluorescens bio-formulation 5-10 g/L foliar spray",
+      "Seed treatment with Trichoderma viride 4 g/kg seed for seed-sown crops"
+    ],
+    "cultural": [
+      "Prune and destroy infected twigs, leaves and mummified fruits",
+      "Use disease-free seed or planting material",
+      "Open the canopy for airflow; avoid overhead irrigation",
+      "Avoid wounding plants and fruits; harvest in dry weather",
+      "Rotate annual crops 2-3 years with a non-host crop"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation and working among wet plants",
+      "Leaving infected twigs, fruits or debris in the field",
+      "Repeating the same systemic fungicide group (resistance)"
+    ]
+  },
+  "sooty_mold": {
+    "treatment": [
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Controls the aphids, whiteflies, hoppers, scales or mealybugs whose honeydew feeds the mould; cover leaf undersides."},
+      {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Only if sucking insects are confirmed and numerous; max 2 sprays per season, never during flowering (bees)."},
+      {"name": "Starch spray", "type": "Cultural", "dose": "1 kg starch or maida boiled in 5 L water, diluted to 20 L", "notes": "The dried starch flakes off and lifts the black mould from the leaf."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% against the sucking insects",
+      "Fish oil rosin soap 25 g/L against scales and mealybugs",
+      "Wash light mould off with a strong jet of water"
+    ],
+    "cultural": [
+      "Find and control the sucking insect first - the mould only grows on its honeydew",
+      "Prune crowded, shaded branches to let in light and air",
+      "Control ants on trunks - they protect scales, mealybugs and aphids",
+      "Avoid excess nitrogen that attracts sucking insects"
+    ],
+    "avoid": [
+      "Fungicide sprays alone - the mould returns unless the insects are controlled",
+      "Excess nitrogen",
+      "Insecticide sprays during flowering (bees)"
+    ]
+  },
+  "bacterial_foliar": {
+    "treatment": [
+      {"name": "Copper hydroxide 77 WP", "type": "Bactericide", "dose": "2 g/L", "notes": "Spray at first symptoms, repeat every 7-10 days in wet weather. Do not add Streptocycline or other antibiotics - India has banned streptomycin and tetracycline for crop use (from 2024)."},
+      {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L", "notes": "Alternative copper; stay within label frequency (copper build-up, leaf burn)."},
+      {"name": "Mancozeb 75 WP (tank-mixed with copper)", "type": "Fungicide", "dose": "2 g/L", "notes": "Improves copper's control of copper-tolerant bacterial strains."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% as a protectant spray (copper is permitted in organic farming, within limits)",
+      "Bacillus subtilis / Pseudomonas fluorescens sprays 5-10 g/L as a preventive",
+      "Seed treatment with Pseudomonas fluorescens 10 g/kg seed"
+    ],
+    "cultural": [
+      "Use disease-free seed and healthy planting material; raise nursery away from old fields",
+      "Remove infected leaves and destroy crop debris after harvest",
+      "Use drip or furrow irrigation instead of sprinklers",
+      "Do not work in the field while plants are wet",
+      "Rotate 2-3 years with a non-host crop"
+    ],
+    "avoid": [
+      "Overhead/sprinkler irrigation and working among wet plants",
+      "Excess nitrogen - soft, dense growth favours infection",
+      "Saving seed or planting material from infected plants",
+      "Streptocycline or other antibiotics - prohibited for crop use in India"
+    ]
+  },
+  "bacterial_wilt": {
+    "treatment": [
+      {"name": "Remove wilted plants", "type": "Cultural", "dose": "-", "notes": "Uproot with the root ball and surrounding soil and destroy away from the field; there is no curative spray."},
+      {"name": "Pseudomonas fluorescens", "type": "Biological", "dose": "2.5 kg/ha mixed in 50 kg FYM, applied to soil", "notes": "Preventive: protects healthy roots; does not cure wilted plants."},
+      {"name": "Copper oxychloride 50 WP (soil drench)", "type": "Bactericide", "dose": "3 g/L", "notes": "Drench the pit of removed plants and the neighbouring plants to slow spread."}
+    ],
+    "organic": [
+      "Pseudomonas fluorescens 2.5 kg/ha in 50 kg FYM at planting",
+      "Neem cake 250 kg/ha at final land preparation",
+      "Well-decomposed FYM or compost; never raw manure"
+    ],
+    "cultural": [
+      "Rotate 2-3 years with cereals (maize, rice, sorghum) or other non-host crops",
+      "Plant on raised beds with good drainage",
+      "Use resistant varieties or grafted seedlings where available",
+      "Clean tools between plants and avoid injuring roots during weeding",
+      "Control root-knot nematodes - their wounds let the bacteria in"
+    ],
+    "avoid": [
+      "Letting irrigation water flow from wilted patches to healthy plants",
+      "Growing the same or related host crops on the infested field next season",
+      "Antibiotic sprays - prohibited for crop use in India and they do not cure wilt"
+    ]
+  },
+  "soilborne_wilt_rot": {
+    "treatment": [
+      {"name": "Remove wilted or rotted plants", "type": "Cultural", "dose": "-", "notes": "Uproot with the roots and destroy away from the field; no spray cures a plant that has already wilted."},
+      {"name": "Trichoderma viride / T. harzianum", "type": "Biological", "dose": "2.5 kg/ha enriched in 100 kg FYM to soil; 4 g/kg seed as seed treatment", "notes": "Preventive; apply at planting. Do not mix with chemical fungicides."},
+      {"name": "Carbendazim 50 WP (soil drench)", "type": "Fungicide", "dose": "1 g/L", "notes": "Spot-drench the base of affected and neighbouring plants to slow spread."},
+      {"name": "Copper oxychloride 50 WP (soil drench)", "type": "Fungicide", "dose": "3 g/L", "notes": "Alternative drench for collar and root rots in wet soil."}
+    ],
+    "organic": [
+      "Trichoderma 2.5 kg/ha enriched in 100 kg FYM applied to soil",
+      "Neem cake 250 kg/ha at final land preparation",
+      "Pseudomonas fluorescens 2.5 kg/ha in 50 kg FYM as soil application"
+    ],
+    "cultural": [
+      "Rotate 3-4 years with non-host crops such as cereals",
+      "Plant on raised beds; improve drainage and avoid waterlogging",
+      "Use resistant or tolerant varieties and disease-free seed or planting material",
+      "Deep summer ploughing, or soil solarisation of nursery beds and sick patches",
+      "Avoid root injury during weeding and earthing-up"
+    ],
+    "avoid": [
+      "Over-irrigation and standing water around the stem",
+      "Replanting the same crop on the sick field",
+      "Moving soil, tools or seedlings from infected patches to clean fields"
+    ]
+  },
+  "viral_whitefly": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Uproot early and destroy (bury or burn) to remove the virus source; no spray cures an infected plant."},
+      {"name": "Yellow sticky traps", "type": "Cultural", "dose": "12-15 traps/acre", "notes": "Monitor and mass-trap adult whiteflies; replace when covered."},
+      {"name": "Diafenthiuron 50 WP", "type": "Insecticide", "dose": "1 g/L", "notes": "Spray leaf undersides; alternate with a different group; only where the label lists your crop."},
+      {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Neonicotinoid (IRAC 4A); max 2 sprays per season, avoid during flowering (bees); only where the label lists your crop."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% against whitefly",
+      "Yellow sticky traps 12-15 per acre",
+      "2-3 border rows of maize or sorghum as a barrier crop against whitefly"
+    ],
+    "cultural": [
+      "Raise nursery under 40-50 mesh insect-proof net",
+      "Grow virus-resistant or tolerant varieties recommended for your region",
+      "Use silver/reflective plastic mulch to repel whiteflies",
+      "Remove weed hosts; avoid planting next to older infected crops"
+    ],
+    "avoid": [
+      "Keeping infected plants in the field",
+      "Repeating the same insecticide group (whitefly resistance)",
+      "Sowing or transplanting unprotected seedlings in the whitefly season"
+    ]
+  },
+  "viral_aphid": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Uproot early and destroy to remove the virus source; no spray cures an infected plant."},
+      {"name": "Yellow sticky traps", "type": "Cultural", "dose": "12-15 traps/acre", "notes": "Monitor winged aphids; replace when covered."},
+      {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Lowers aphid numbers but cannot fully stop spread - aphids pass these viruses within seconds of feeding; max 2 sprays per season, avoid during flowering (bees)."},
+      {"name": "Flonicamid 50 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Different group (IRAC 29) for rotation against aphids."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% to deter aphids",
+      "2-3 border rows of maize or sorghum as a barrier crop",
+      "Silver/reflective plastic mulch to repel winged aphids"
+    ],
+    "cultural": [
+      "Use certified, virus-free seed or planting material",
+      "Rogue infected plants as soon as they are seen, before aphids build up",
+      "Remove weed and volunteer hosts in and around the field",
+      "Grow resistant or tolerant varieties",
+      "Wash hands and tools with soap when moving from infected to healthy plants"
+    ],
+    "avoid": [
+      "Saving seed or planting material from infected plants",
+      "Planting next to older infected crops",
+      "Relying on insecticide alone - it does not stop the spread of aphid-borne mosaic viruses"
+    ]
+  },
+  "viral_hopper": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Uproot early and destroy to remove the virus source; no spray cures an infected plant."},
+      {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Against the leafhopper or planthopper vector (IRAC 4A); max 2 sprays per season, avoid during flowering (bees)."},
+      {"name": "Buprofezin 25 SC", "type": "Insecticide", "dose": "1.5 ml/L", "notes": "Insect growth regulator (IRAC 16) against hopper nymphs; slower acting but soft on natural enemies."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% against leafhoppers and planthoppers",
+      "Conserve spiders and mirid bugs - avoid early broad-spectrum sprays"
+    ],
+    "cultural": [
+      "Grow virus-resistant or tolerant varieties",
+      "Sow or plant at the same time as neighbouring fields",
+      "Destroy stubble, ratoons, volunteer plants and grassy weeds that carry the virus and the hoppers",
+      "Protect the nursery and the first 30-40 days of the crop, when infection does most damage",
+      "Avoid excess nitrogen"
+    ],
+    "avoid": [
+      "Staggered planting next to older infected fields",
+      "Synthetic pyrethroids - they cause hopper resurgence",
+      "Keeping infected plants or ratoons in the field"
+    ]
+  },
+  "viral_thrips": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Uproot early and destroy to remove the virus source; no spray cures an infected plant."},
+      {"name": "Blue sticky traps", "type": "Cultural", "dose": "12-15 traps/acre", "notes": "Monitor thrips before deciding on chemical sprays."},
+      {"name": "Spinosad 45 SC", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Against thrips (IRAC 5); max 2 sprays per season, spray in the evening (bees)."},
+      {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Different group (IRAC 4A) for rotation; avoid during flowering (bees)."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% against thrips",
+      "Blue sticky traps 12-15 per acre",
+      "2-3 border rows of maize or sorghum as a barrier crop"
+    ],
+    "cultural": [
+      "Rogue infected plants early - they do not recover",
+      "Sow at the recommended time and spacing; gappy, thin stands attract thrips",
+      "Raise seedlings under insect-proof net where the crop is transplanted",
+      "Remove weed hosts in and around the field",
+      "Grow tolerant varieties where available"
+    ],
+    "avoid": [
+      "Keeping infected plants in the field",
+      "Repeating the same insecticide group (thrips resistance)",
+      "Synthetic pyrethroids - they flare thrips and mites"
+    ]
+  },
+  "viral_contact": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Bag and destroy infected plants; handle healthy plants first."},
+      {"name": "Disinfect hands and tools", "type": "Cultural", "dose": "Soap wash for hands; tools dipped in 10% household bleach or 20% skim-milk solution", "notes": "Before pruning, staking or moving between plants."},
+      {"name": "Clean seed or planting material", "type": "Cultural", "dose": "-", "notes": "Use certified, treated seed; the virus is carried on seed coats and in crop debris."}
+    ],
+    "organic": [
+      "No biological cure exists; sanitation and clean seed are the organic control",
+      "Dip hands and tools in 20% skim-milk solution while handling plants"
+    ],
+    "cultural": [
+      "Use certified, treated seed and resistant hybrids",
+      "Do not smoke or handle tobacco while working with plants",
+      "Minimise pruning and handling when mosaic is present",
+      "Remove crop debris after harvest - the virus survives in debris"
+    ],
+    "avoid": [
+      "Insecticide sprays against a contact-spread virus - they do not help",
+      "Tobacco use in the field",
+      "Saving seed from infected plants"
+    ]
+  },
+  "phytoplasma": {
+    "treatment": [
+      {"name": "Remove infected plants", "type": "Cultural", "dose": "-", "notes": "Uproot and destroy as soon as symptoms are seen; infected plants never recover and no spray cures them."},
+      {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Against the leafhopper vectors (IRAC 4A); max 2 sprays per season, avoid during flowering (bees)."},
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Deters leafhoppers between insecticide sprays."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% against leafhoppers",
+      "Yellow sticky traps 12-15 per acre to monitor leafhoppers"
+    ],
+    "cultural": [
+      "Use healthy seed, seedlings or planting material from a disease-free field",
+      "Rogue infected plants early; do not ratoon a badly infected crop",
+      "Remove weed hosts in and around the field",
+      "Grow tolerant varieties recommended for your region"
+    ],
+    "avoid": [
+      "Taking planting material from infected fields",
+      "Antibiotic (tetracycline) treatments - prohibited for crop use in India",
+      "Leaving infected plants standing as a source for leafhoppers"
+    ]
+  },
+  "nematode": {
+    "treatment": [
+      {"name": "Neem cake", "type": "Biological", "dose": "250 kg/ha at final land preparation", "notes": "Mix into the root zone; suppresses nematodes and feeds the crop."},
+      {"name": "Purpureocillium lilacinum (Paecilomyces lilacinus) 1% WP", "type": "Biological", "dose": "As per label", "notes": "Egg-parasitic fungus; mix with FYM and apply to the root zone at planting."},
+      {"name": "Pseudomonas fluorescens", "type": "Biological", "dose": "2.5 kg/ha mixed in 50 kg FYM, applied to soil", "notes": "Apply at planting; protects new roots."},
+      {"name": "Fluopyram 34.48% SC", "type": "Nematicide", "dose": "As per label", "notes": "Soil drench or through drip; use only where the label lists your crop."}
+    ],
+    "organic": [
+      "Neem cake 250 kg/ha at final land preparation",
+      "Marigold (Tagetes) as an intercrop or in rotation to suppress root-knot nematodes",
+      "Trichoderma or Pseudomonas fluorescens 2.5 kg/ha enriched in FYM"
+    ],
+    "cultural": [
+      "Rotate 2-3 years with non-host crops (cereals such as maize, sorghum or rice; marigold)",
+      "Deep summer ploughing 2-3 times to dry out nematodes; solarise nursery beds",
+      "Use nematode-free seedlings, tubers or planting material",
+      "Uproot and destroy galled roots after harvest instead of ploughing them in",
+      "Grow resistant varieties or rootstocks where available"
+    ],
+    "avoid": [
+      "Moving soil, tools or seedlings from infested plots to clean plots",
+      "Growing susceptible crops year after year on the same land",
+      "Carbofuran or phorate granules - banned or highly hazardous"
+    ]
+  },
+  "algal": {
+    "treatment": [
+      {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Spray affected leaves and twigs; repeat after 15-20 days if fresh spots appear."},
+      {"name": "Bordeaux mixture 1%", "type": "Fungicide", "dose": "1 kg copper sulphate + 1 kg lime in 100 L water", "notes": "Traditional alternative; prepare fresh and use the same day."}
+    ],
+    "organic": [
+      "Bordeaux mixture 1% (copper is permitted in organic farming, within limits)",
+      "Compost or FYM in the basin to restore plant vigour"
+    ],
+    "cultural": [
+      "Prune and destroy badly spotted twigs and open the canopy to sun and air",
+      "Correct plant nutrition, especially potassium - weak plants are attacked most",
+      "Improve drainage and regulate overhead shade",
+      "Keep the basin weed-free"
+    ],
+    "avoid": [
+      "Dense shade and crowded, unpruned canopies",
+      "Neglecting fertilizer and irrigation - algal spot follows plant stress",
+      "Copper sprays beyond the label frequency (copper build-up, leaf burn)"
+    ]
+  },
+  "spider_mites": {
+    "treatment": [
+      {"name": "Abamectin 1.9 EC", "type": "Miticide", "dose": "0.5 ml/L", "notes": "Spray leaf undersides; repeat after 10-12 days if live mites remain. Highly toxic to bees - not on open flowers; only where the label lists your crop."},
+      {"name": "Spiromesifen 22.9 SC", "type": "Miticide", "dose": "0.8 ml/L", "notes": "Different mode of action (IRAC 23); rotate with Abamectin to delay resistance."},
+      {"name": "Wettable sulphur 80 WP", "type": "Miticide", "dose": "2-3 g/L", "notes": "Low-cost option; avoid spraying in heat above 32 °C (leaf burn)."},
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "For light infestations; cover leaf undersides."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L with a sticker, covering leaf undersides",
+      "Release predatory mites (Phytoseiulus persimilis) where available",
+      "Strong water spray on leaf undersides to knock off mites and webbing"
+    ],
+    "cultural": [
+      "Keep plants irrigated - water-stressed plants suffer most",
+      "Remove heavily infested leaves and nearby weeds",
+      "Reduce dust along field paths",
+      "Scout leaf undersides with a hand lens twice a week in hot, dry weather"
+    ],
+    "avoid": [
+      "Synthetic pyrethroids and broad-spectrum insecticides - they kill predatory mites and trigger outbreaks",
+      "Excess nitrogen",
+      "Repeating the same miticide (mites develop resistance fast)"
+    ]
+  },
+  "sucking_insects": {
+    "treatment": [
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "First-line spray for low populations; cover leaf undersides and add a sticker."},
+      {"name": "Yellow sticky traps (blue for thrips)", "type": "Cultural", "dose": "12-15 traps/acre", "notes": "Monitor numbers before deciding on chemical sprays."},
+      {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "For aphids, jassids/leafhoppers and whiteflies when numbers keep rising (IRAC 4A); max 2 sprays per season, never during flowering (bees)."},
+      {"name": "Flonicamid 50 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Different group (IRAC 29) for rotation; softer on natural enemies."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% on leaf undersides",
+      "Beauveria bassiana or Lecanicillium lecanii bio-formulation as per label, sprayed in the evening",
+      "Conserve ladybird beetles, lacewings and spiders - avoid needless sprays"
+    ],
+    "cultural": [
+      "Confirm the insect on leaf undersides with a 10x hand lens before spraying",
+      "Remove weed hosts in and around the field",
+      "Avoid excess nitrogen - soft growth attracts sucking insects",
+      "Grow tolerant varieties and border rows of maize or sorghum where recommended"
+    ],
+    "avoid": [
+      "Synthetic pyrethroids - they kill natural enemies and cause resurgence",
+      "Repeating neonicotinoids (imidacloprid, thiamethoxam, acetamiprid) spray after spray",
+      "Spraying during flowering or when bees are active"
+    ]
+  },
+  "caterpillars": {
+    "treatment": [
+      {"name": "Bacillus thuringiensis var. kurstaki", "type": "Biological", "dose": "1-2 g/L", "notes": "Most effective on young larvae; spray in the evening."},
+      {"name": "Pheromone traps", "type": "Cultural", "dose": "5 per acre", "notes": "Use the lure for the species present (e.g. Helicoverpa, Spodoptera) to monitor moth flights."},
+      {"name": "Emamectin benzoate 5 SG", "type": "Insecticide", "dose": "0.4 g/L", "notes": "Only if caterpillar damage is confirmed and increasing."},
+      {"name": "Chlorantraniliprole 18.5 SC", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Alternative with a different mode of action (IRAC 28)."}
+    ],
+    "organic": [
+      "Bacillus thuringiensis var. kurstaki 1-2 g/L or NSKE 5% on young larvae",
+      "NPV of the pest species (HaNPV / SlNPV) sprayed in the evening, as per label",
+      "Hand-pick and destroy egg masses and larvae",
+      "Bird perches in the field to encourage insect-eating birds"
+    ],
+    "cultural": [
+      "Inspect plants early morning/evening; hand-pick and destroy larvae",
+      "Deep summer ploughing to expose pupae in the soil",
+      "Remove weeds and crop residues that shelter larvae",
+      "Grow trap or border crops where recommended for the crop"
+    ],
+    "avoid": [
+      "Spraying without finding live larvae - old holes do not need a spray",
+      "Synthetic pyrethroids - they kill natural enemies and flare mites and whiteflies",
+      "Repeating the same insecticide group (resistance)"
+    ]
+  },
+  "stem_borer": {
+    "treatment": [
+      {"name": "Remove and destroy bored shoots", "type": "Cultural", "dose": "-", "notes": "Clip dead hearts and wilted, bored shoots below the bore hole and destroy them with the larva inside."},
+      {"name": "Pheromone traps", "type": "Cultural", "dose": "As per supplier or KVK recommendation for the borer species", "notes": "Monitor moth flights so that sprays are timed to egg hatch."},
+      {"name": "Chlorantraniliprole 18.5 SC", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "At egg hatch or the first dead hearts / bored shoots (IRAC 28); max 2 sprays per season."},
+      {"name": "Emamectin benzoate 5 SG", "type": "Insecticide", "dose": "0.4 g/L", "notes": "Different group (IRAC 6) for rotation; only where the label lists your crop."}
+    ],
+    "organic": [
+      "Trichogramma egg-parasitoid cards released from the start of moth flight, as per supplier or KVK schedule",
+      "NSKE 5% or neem oil 1500 ppm 3-5 ml/L at egg-laying",
+      "Pheromone or light traps to monitor and trap moths"
+    ],
+    "cultural": [
+      "Destroy stubble and crop residue after harvest - borers carry over in them",
+      "Remove dead hearts and bored shoots every week",
+      "Sow or plant at the same time as neighbouring fields",
+      "Avoid excess nitrogen",
+      "Grow tolerant varieties where available"
+    ],
+    "avoid": [
+      "Leaving stubble or bored plants standing after harvest",
+      "Phorate or carbofuran granules - banned or highly hazardous",
+      "Spraying after larvae are already deep inside the stem - time sprays to egg hatch"
+    ]
+  },
+  "beetles_weevils": {
+    "treatment": [
+      {"name": "Hand collection", "type": "Cultural", "dose": "-", "notes": "Collect and destroy adults, grubs and egg masses in the early morning; shake beetles into a bucket of soapy water."},
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Deters feeding and egg laying; NSKE 5% is an alternative."},
+      {"name": "Beauveria bassiana", "type": "Biological", "dose": "As per label", "notes": "Fungal bio-insecticide; spray in the evening in humid weather."},
+      {"name": "Lambda-cyhalothrin 5 EC", "type": "Insecticide", "dose": "0.5 ml/L (as per label)", "notes": "Only if damage is heavy and still increasing and the label lists your crop; one spray, not during flowering - it also kills natural enemies and can flare mites."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5%",
+      "Beauveria bassiana or Metarhizium anisopliae bio-formulation as per label",
+      "Hand collection of adults and grubs in the early morning"
+    ],
+    "cultural": [
+      "Remove and destroy heavily eaten leaves carrying eggs or grubs",
+      "Keep bunds and field borders free of weeds that shelter adults",
+      "Summer ploughing to expose grubs and pupae in the soil",
+      "Avoid excess nitrogen and very dense planting"
+    ],
+    "avoid": [
+      "Routine insecticide sprays for light feeding - plants tolerate some leaf loss",
+      "Repeated pyrethroid sprays (mite and whitefly flare-ups)",
+      "Excess nitrogen"
+    ]
+  },
+  "leaf_miner": {
+    "treatment": [
+      {"name": "Remove mined leaves", "type": "Cultural", "dose": "-", "notes": "Pick and destroy heavily mined leaves and shoots with the larvae inside."},
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Spray young leaves and new flush every 7-10 days while mines are fresh; NSKE 5% is an alternative."},
+      {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Systemic; on new flush when fresh mines keep appearing; max 2 sprays per season, never during flowering (bees)."},
+      {"name": "Chlorantraniliprole 18.5 SC", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "For caterpillar-type miners (IRAC 28); only where the label lists your crop."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5% on young leaves",
+      "Yellow sticky traps 12-15 per acre for adult leaf-miner flies",
+      "Conserve parasitic wasps - they control most miners if sprays do not kill them"
+    ],
+    "cultural": [
+      "Pick and destroy mined leaves",
+      "Protect the new flush - mature, hardened leaves are not attacked",
+      "Avoid heavy nitrogen and frequent irrigation that force repeated soft flushes",
+      "Prune so that plants flush together and can be protected in one go"
+    ],
+    "avoid": [
+      "Broad-spectrum sprays that kill the miners' parasitoids",
+      "Spraying old, dry mines - the larva has already left",
+      "Excess nitrogen"
+    ]
+  },
+  "grasshopper": {
+    "treatment": [
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Deters feeding on young crops; NSKE 5% is an alternative."},
+      {"name": "Metarhizium anisopliae", "type": "Biological", "dose": "As per label", "notes": "Fungal bio-insecticide; works slowly (7-10 days), best on young hoppers in humid weather."},
+      {"name": "Lambda-cyhalothrin 5 EC", "type": "Insecticide", "dose": "0.5 ml/L (as per label)", "notes": "Only for heavy numbers on a young crop and where the label lists your crop; spray bunds and field borders first; not during flowering (toxic to bees)."}
+    ],
+    "organic": [
+      "Neem oil 1500 ppm 3-5 ml/L or NSKE 5%",
+      "Metarhizium anisopliae bio-formulation as per label",
+      "Let poultry and birds feed on hoppers on bunds and fallow land"
+    ],
+    "cultural": [
+      "Plough or scrape bunds and fallow land in summer to expose egg pods",
+      "Keep bunds and field borders free of grassy weeds",
+      "Scout field borders early - hoppers move in from bunds and grassland",
+      "Sweep-net or hand-collect hoppers in the cool early morning"
+    ],
+    "avoid": [
+      "Leaving weedy bunds and fallow patches undisturbed",
+      "Blanket sprays for light feeding - crops tolerate some leaf loss",
+      "Spraying in the heat of the day, when hoppers fly away"
+    ]
+  },
+  "scale_mealybug": {
+    "treatment": [
+      {"name": "Prune infested parts", "type": "Cultural", "dose": "-", "notes": "Cut and destroy heavily encrusted twigs, leaves or fronds before spraying."},
+      {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Add soap or a sticker and wet the insects thoroughly; repeat after 10-15 days."},
+      {"name": "Buprofezin 25 SC", "type": "Insecticide", "dose": "1.5 ml/L", "notes": "Insect growth regulator (IRAC 16) against crawlers and nymphs; soft on natural enemies."},
+      {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "Systemic alternative (IRAC 4A); max 2 sprays per season, never during flowering (bees)."}
+    ],
+    "organic": [
+      "Fish oil rosin soap 25 g/L or neem oil 1500 ppm 3-5 ml/L, wetting the colonies thoroughly",
+      "Release Cryptolaemus montrouzieri ladybird beetles against mealybugs where available",
+      "Conserve parasitic wasps and ladybirds - avoid broad-spectrum sprays"
+    ],
+    "cultural": [
+      "Control ants with sticky bands on trunks or by destroying nests - ants protect and spread these insects",
+      "Prune and destroy infested twigs; keep the canopy open",
+      "Use clean, pest-free planting material",
+      "Remove weed hosts around the plants"
+    ],
+    "avoid": [
+      "Synthetic pyrethroids - they kill the natural enemies that keep scales and mealybugs down",
+      "Moving infested planting material, fruit or tools to clean plots",
+      "Light sprays that do not wet the insects - their waxy cover sheds them"
+    ]
+  },
+  "deficiency_N": {
+    "treatment": [
+      {"name": "Urea (46-0-0)", "type": "Fertilizer", "dose": "Soil: 20-25 kg/acre (50-60 kg/ha) top-dressed near roots, then irrigate; or foliar 1% (10 g/L) in cool hours", "notes": "Apply now, then continue the crop's split schedule; trees: give the next split of the yearly N dose in the basin."}
+    ],
+    "organic": [
+      "Well-decomposed FYM, compost or vermicompost before planting",
+      "Green manure or a legume in the rotation",
+      "Azospirillum or Azotobacter (Rhizobium for pulses) biofertilizer as seed or soil treatment, as per label"
+    ],
+    "cultural": [
+      "Split nitrogen into 2-4 doses instead of one heavy dose",
+      "Top-dress on moist soil and irrigate lightly afterwards",
+      "Improve drainage - waterlogged soil loses nitrogen and roots cannot take it up",
+      "Control weeds that compete for nitrogen",
+      "Confirm with a soil test before the next crop"
+    ],
+    "avoid": [
+      "One heavy dose of urea - it burns roots, leaches away and attracts pests and disease",
+      "Top-dressing on dry soil or just before heavy rain",
+      "Foliar urea stronger than 1% or in hot sun (leaf scorch)"
+    ]
+  },
+  "deficiency_P": {
+    "treatment": [
+      {"name": "DAP (18-46-0) or SSP (0-16-0)", "type": "Fertilizer", "dose": "Soil: DAP 20-25 kg/acre or SSP 50 kg/acre banded near the root zone", "notes": "At the next side-dressing; phosphorus moves little in soil, so place it near the roots."},
+      {"name": "Mono-ammonium phosphate 12:61:0", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "Quick response; 2 sprays 10 days apart."},
+      {"name": "19:19:19 (water-soluble NPK)", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "Alternative foliar feed where 12:61:0 is not available."}
+    ],
+    "organic": [
+      "FYM or compost enriched with rock phosphate (acid soils)",
+      "Phosphate-solubilising bacteria (PSB) biofertilizer as seed or soil treatment, as per label",
+      "Mycorrhiza (VAM) inoculant in nurseries and tree basins, as per label"
+    ],
+    "cultural": [
+      "Band phosphorus near the root zone instead of broadcasting",
+      "Correct soil pH as per soil test - phosphorus is locked up in very acid and very alkaline soils",
+      "Cold or waterlogged soil causes temporary purpling - wait for warm weather before adding more",
+      "Confirm with a soil test"
+    ],
+    "avoid": [
+      "Broadcasting phosphate on the soil surface",
+      "Mixing zinc sulphate with phosphate fertilizers (they lock each other up)",
+      "Over-applying phosphate - it induces zinc and iron deficiency"
+    ]
+  },
+  "deficiency_K": {
+    "treatment": [
+      {"name": "MOP (0-0-60)", "type": "Fertilizer", "dose": "Soil: 20-25 kg/acre top-dress, then irrigate", "notes": "Use SOP (0-0-50) instead for chloride-sensitive crops such as tobacco, grapes and processing potato."},
+      {"name": "Potassium nitrate 13:0:45", "type": "Fertilizer", "dose": "5-10 g/L foliar", "notes": "Quick correction; repeat after 10-15 days."},
+      {"name": "SOP (0-0-50)", "type": "Fertilizer", "dose": "10 g/L (1%) foliar", "notes": "Alternative foliar spray."}
+    ],
+    "organic": [
+      "Wood ash where available, worked into the soil",
+      "FYM or compost before planting",
+      "Return crop residues to the soil instead of burning them - straw is rich in potassium"
+    ],
+    "cultural": [
+      "Apply potassium in 2-3 splits on sandy or high-rainfall soils",
+      "Keep soil moisture even - dry soil blocks potassium uptake",
+      "Balance nitrogen and potassium - heavy nitrogen without potash worsens scorch",
+      "Confirm with a soil test"
+    ],
+    "avoid": [
+      "Heavy nitrogen without potassium",
+      "MOP on chloride-sensitive crops",
+      "Very heavy potash doses - they induce magnesium deficiency"
+    ]
+  },
+  "deficiency_Mg": {
+    "treatment": [
+      {"name": "Magnesium sulphate (MgSO4·7H2O)", "type": "Fertilizer", "dose": "Foliar 5-10 g/L (0.5-1%); soil 10 kg/acre (25 kg/ha)", "notes": "2 sprays at 10-15 day interval; soil application for long-term correction."},
+      {"name": "Dolomitic limestone", "type": "Fertilizer", "dose": "As per soil test", "notes": "On acid soils it corrects both soil pH and magnesium."}
+    ],
+    "organic": [
+      "FYM or compost to improve nutrient holding",
+      "Dolomite on acid soils, as per soil test"
+    ],
+    "cultural": [
+      "Sandy, acid and heavily leached soils need magnesium regularly",
+      "Keep potash and ammonium doses moderate - they block magnesium uptake",
+      "Confirm with a soil or leaf test"
+    ],
+    "avoid": [
+      "Excess potash (MOP / SOP)",
+      "Tank-mixing magnesium sulphate with calcium nitrate (it precipitates)"
+    ]
+  },
+  "deficiency_Fe": {
+    "treatment": [
+      {"name": "Ferrous sulphate (FeSO4·7H2O)", "type": "Fertilizer", "dose": "Foliar 5 g/L + citric acid 1 g/L (or neutralised with lime 2.5 g/L); soil 10 kg/acre (25 kg/ha) mixed with FYM", "notes": "Spray the new growth; 2-3 sprays at 7-10 day interval."},
+      {"name": "Fe-EDTA (12% Fe)", "type": "Fertilizer", "dose": "1 g/L foliar", "notes": "Chelated iron; more reliable on high-pH, calcareous soils."}
+    ],
+    "organic": [
+      "FYM or compost, with ferrous sulphate mixed in, to keep iron available",
+      "Green manuring on calcareous soils"
+    ],
+    "cultural": [
+      "Improve drainage - iron chlorosis is worst on wet, calcareous or high-pH soils",
+      "Irrigate lightly; do not keep the root zone saturated",
+      "Confirm with a soil test (pH and free lime)"
+    ],
+    "avoid": [
+      "Over-irrigation and waterlogging",
+      "Excess phosphate or lime",
+      "Spraying ferrous sulphate in hot sun (leaf scorch)"
+    ]
+  },
+  "deficiency_Mn": {
+    "treatment": [
+      {"name": "Manganese sulphate", "type": "Fertilizer", "dose": "5 g/L (0.5%) foliar", "notes": "2-3 sprays at 10-15 day interval on the new leaves; add lime 2.5 g/L on tender crops to avoid scorch."}
+    ],
+    "organic": [
+      "FYM or compost to improve micronutrient availability",
+      "Green manuring on sandy and alkaline soils"
+    ],
+    "cultural": [
+      "Commonest on sandy, alkaline or over-limed soils - check soil pH",
+      "Keep the soil moist but not waterlogged",
+      "Confirm with a leaf or soil test"
+    ],
+    "avoid": [
+      "Over-liming",
+      "Exceeding the dose - manganese is toxic in excess, especially on acid soils"
+    ]
+  },
+  "deficiency_Zn": {
+    "treatment": [
+      {"name": "Zinc sulphate (ZnSO4·7H2O, 21% Zn)", "type": "Fertilizer", "dose": "Foliar 5 g/L + lime 2.5 g/L; soil 10 kg/acre (25 kg/ha) as basal", "notes": "2-3 sprays at 10-15 day interval; one soil dose lasts 2-3 crops."},
+      {"name": "Zn-EDTA (12% Zn)", "type": "Fertilizer", "dose": "As per label", "notes": "Chelated zinc; foliar alternative that needs no lime."}
+    ],
+    "organic": [
+      "FYM or compost with zinc sulphate mixed in",
+      "Zinc-solubilising bacteria biofertilizer, as per label"
+    ],
+    "cultural": [
+      "Apply zinc separately from phosphate fertilizers",
+      "Common on high-pH, calcareous, sandy and long-flooded soils - confirm with a soil test",
+      "Drain flooded fields for a few days where zinc deficiency appears"
+    ],
+    "avoid": [
+      "Mixing zinc sulphate with DAP or SSP",
+      "Excess phosphate",
+      "Spraying un-neutralised zinc sulphate on tender leaves (scorch)"
+    ]
+  },
+  "deficiency_B": {
+    "treatment": [
+      {"name": "Borax (11% B)", "type": "Fertilizer", "dose": "Foliar 1-2 g/L; soil 10 kg/ha (4 kg/acre) as basal only if a soil test shows deficiency", "notes": "Dissolve in a little warm water first; 2 sprays 10-15 days apart."},
+      {"name": "Solubor (disodium octaborate, 20% B)", "type": "Fertilizer", "dose": "1 g/L foliar", "notes": "Dissolves easily; alternative to borax."}
+    ],
+    "organic": [
+      "FYM or compost - most soil boron is held in organic matter",
+      "Mulch and regular irrigation to keep boron available in dry spells"
+    ],
+    "cultural": [
+      "Keep soil moisture even - drought blocks boron uptake",
+      "Common on sandy, leached, calcareous or over-limed soils - confirm with a soil test",
+      "Apply boron only at the tested dose"
+    ],
+    "avoid": [
+      "Overdosing - the gap between enough and toxic boron is small",
+      "Over-liming",
+      "Repeating soil borax every season without a soil test"
+    ]
+  },
+  "deficiency_Ca": {
+    "treatment": [
+      {"name": "Calcium nitrate (15.5-0-0 + 19% Ca)", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "2-3 sprays at 10-15 day interval on young leaves and fruits; never tank-mix with phosphate or sulphate fertilizers."},
+      {"name": "Gypsum (calcium sulphate)", "type": "Fertilizer", "dose": "Soil, as per soil test", "notes": "Supplies calcium without raising soil pH."},
+      {"name": "Agricultural lime", "type": "Fertilizer", "dose": "Soil, as per soil test", "notes": "For acid soils only; apply 3-4 weeks before planting."}
+    ],
+    "organic": [
+      "FYM or compost before planting",
+      "Lime or dolomite on acid soils, gypsum on neutral to alkaline soils, as per soil test"
+    ],
+    "cultural": [
+      "Keep soil moisture even - calcium moves only with water, so dry-wet swings cause deficiency",
+      "Mulch to steady soil moisture",
+      "Keep ammonium and potash doses moderate - they compete with calcium",
+      "Confirm with a soil test"
+    ],
+    "avoid": [
+      "Irregular irrigation",
+      "Excess nitrogen and potash",
+      "Tank-mixing calcium nitrate with sulphate or phosphate fertilizers"
+    ]
+  },
+  "deficiency_S": {
+    "treatment": [
+      {"name": "Gypsum (calcium sulphate, 15-18% S)", "type": "Fertilizer", "dose": "Soil: 200 kg/ha (80 kg/acre), or as per soil test", "notes": "Broadcast and mix into moist soil; also supplies calcium."},
+      {"name": "Bentonite sulphur (90% S)", "type": "Fertilizer", "dose": "Soil: 10 kg/acre (25 kg/ha)", "notes": "Slow-release; apply at planting or early growth."},
+      {"name": "Wettable sulphur 80 WP", "type": "Fertilizer", "dose": "2-3 g/L foliar", "notes": "Short-term foliar supply; do not spray above 32 °C."}
+    ],
+    "organic": [
+      "Gypsum or elemental sulphur (both permitted in organic farming)",
+      "FYM or compost - most soil sulphur is held in organic matter"
+    ],
+    "cultural": [
+      "Use sulphur-containing fertilizers (SSP, ammonium sulphate) for part of the dose in place of DAP and urea",
+      "Common on sandy, low-organic-matter soils and where only urea and DAP are used",
+      "Oilseeds, pulses and onion need more sulphur - confirm with a soil test"
+    ],
+    "avoid": [
+      "Using only urea and DAP year after year",
+      "Sulphur sprays above 32 °C (leaf burn)"
+    ]
+  },
+  "deficiency_general": {
+    "treatment": [
+      {"name": "Soil or leaf-tissue test", "type": "Cultural", "dose": "-", "notes": "Take a soil sample to your KVK or soil-testing lab; a photo cannot tell which nutrient is short."},
+      {"name": "Recommended NPK dose", "type": "Fertilizer", "dose": "As per the crop's N:P2O5:K2O schedule", "notes": "Apply the remaining recommended dose in splits; do not add extra urea alone."},
+      {"name": "19:19:19 (water-soluble NPK)", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "2 sprays 15 days apart for quick support during active growth."},
+      {"name": "Micronutrient mixture (Zn, Fe, Mn, B, Cu)", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "State-notified grade, or e.g. IIHR Arka Vegetable Special for vegetables; 2-3 sprays at 15-day intervals."}
+    ],
+    "organic": [
+      "FYM 8-10 t/acre or vermicompost 2 t/acre before planting",
+      "Green manure or a legume in the rotation",
+      "Biofertilizers (Azospirillum or Rhizobium, PSB) as seed or soil treatment, as per label"
+    ],
+    "cultural": [
+      "Check drainage and roots first - waterlogging, root rot and nematodes cause the same yellowing",
+      "Follow the split schedule instead of one heavy dose",
+      "Correct soil pH as per soil test (lime on acid soils, gypsum on sodic soils)",
+      "Keep soil moisture even so roots can take up nutrients"
+    ],
+    "avoid": [
+      "Guessing with extra urea - it worsens most other deficiencies",
+      "Mixing many fertilizers and pesticides in one tank",
+      "Foliar sprays in hot sun or stronger than the stated dose (leaf scorch)"
+    ]
+  },
+  "abiotic": {
+    "treatment": [
+      {"name": "No pesticide needed", "type": "Cultural", "dose": "-", "notes": "Not caused by a pest or pathogen; find and remove the stress (herbicide drift, heat, cold, water or fertilizer injury)."},
+      {"name": "19:19:19 (water-soluble NPK)", "type": "Fertilizer", "dose": "5 g/L foliar", "notes": "One or two light sprays help new growth recover once the stress is over."}
+    ],
+    "organic": [
+      "Mulch to even out soil moisture and temperature",
+      "Compost or FYM to improve soil structure"
+    ],
+    "cultural": [
+      "Irrigate lightly and regularly to help the plant grow out of the damage",
+      "Watch the new leaves - if they come out normal, the plant is recovering",
+      "Keep a separate sprayer for herbicides, or wash the sprayer thoroughly three times before other sprays",
+      "Do not spray herbicides in wind or next to sensitive crops",
+      "Improve drainage and protect young plants from extreme heat or cold where possible"
+    ],
+    "avoid": [
+      "Fungicide or insecticide sprays for this problem - they will not help",
+      "Using the herbicide sprayer for other sprays without thorough washing",
+      "Fertilizer or pesticide overdoses and spraying in hot sun"
+    ]
+  }
+}

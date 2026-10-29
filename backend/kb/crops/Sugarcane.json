@@ -1,0 +1,362 @@
+{
+  "crop": "Sugarcane",
+  "scientific_name": "Saccharum officinarum (commercial hybrids of Saccharum spp.)",
+  "family": "Poaceae",
+  "description": "Sugarcane is a 10-14 month irrigated cash crop planted from setts in Andhra Pradesh, Telangana, Maharashtra, Karnataka, Tamil Nadu and Uttar Pradesh, usually followed by one or more ratoons. Because it is grown from cuttings, most of its serious diseases travel in the seed cane.",
+  "common_varieties": [
+    "Co 86032",
+    "Co 0238",
+    "CoC 671",
+    "CoM 0265",
+    "87A298",
+    "2003V46"
+  ],
+  "npk": {"N": 250, "P2O5": 100, "K2O": 120, "unit": "kg/ha"},
+  "npk_split": "Apply all P and K in the furrows at planting; give N in two equal splits at 45 and 90 days after planting, before final earthing up.",
+  "conditions": {
+    "Banded chlorosis": {
+      "name": "Banded Chlorosis",
+      "kind": "abiotic",
+      "cause": "Cold or heat injury to the young leaf while still rolled in the spindle",
+      "type": "Abiotic",
+      "severity_weight": 0.3,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A weather injury, not a disease: a spell of cold nights or very hot days damages the leaf while it is still rolled in the spindle. The leaf later opens with a pale band across it, and new leaves grow normally.",
+      "symptoms": [
+        "Pale yellow to white band running across the leaf blade",
+        "Bands at about the same position on several leaves of the same age",
+        "Rest of the leaf is normal green",
+        "Tissue in the band may later dry or tear"
+      ],
+      "spread": "Does not spread; it follows a spell of cold nights or very hot days.",
+      "action": "Do not spray anything; continue normal irrigation and fertiliser and the new leaves will come out green.",
+      "manage": "abiotic",
+      "treatment": []
+    },
+    "Brown rust": {
+      "name": "Brown Rust",
+      "kind": "disease",
+      "cause": "Puccinia melanocephala",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that forms rusty-brown pustules mainly on the underside of the leaves of susceptible varieties. It is most active on young crops in cool, humid weather and dries the leaves early.",
+      "symptoms": [
+        "Small elongated yellow flecks that turn reddish-brown",
+        "Raised brown pustules 2-10 mm long, mainly on the lower leaf surface",
+        "Orange-brown powder rubs off on the fingers",
+        "Badly rusted leaves dry early"
+      ],
+      "spread": "Wind-borne spores spread in cool, humid weather with heavy dew.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L on the affected young crop and repeat after 15 days if new pustules keep forming.",
+      "manage": "rust",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "2 sprays 15 days apart on young crops of susceptible varieties; older crops usually outgrow the rust."
+        },
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Alternative where the rust is severe."
+        },
+        {
+          "name": "Rust-resistant variety",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Replace varieties that rust every year when the field is replanted."
+        }
+      ]
+    },
+    "Brown spot": {
+      "name": "Brown Spot",
+      "kind": "disease",
+      "cause": "Cercospora longipes",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that forms reddish-brown oval spots on the older leaves during humid, rainy weather. It is usually minor, but severe spotting dries the leaves early and slows cane growth.",
+      "symptoms": [
+        "Oval to elongated reddish-brown spots on both leaf surfaces",
+        "Narrow yellow halo around each spot",
+        "Centres of old spots turn straw-coloured with a red-brown rim",
+        "Spots merge into large patches and the leaf dries early"
+      ],
+      "spread": "Wind and rain-splashed spores spread from older infected leaves in humid, rainy weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L only if the spots are spreading to the upper green leaves during the growing period.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "2 sprays 15 days apart in the monsoon if spotting is heavy."
+        },
+        {
+          "name": "Copper oxychloride 50 WP",
+          "type": "Fungicide",
+          "dose": "3 g/L",
+          "notes": "Alternative protectant spray."
+        }
+      ]
+    },
+    "Grassy shoot": {
+      "name": "Grassy Shoot Disease",
+      "kind": "disease",
+      "cause": "Sugarcane grassy shoot phytoplasma (Candidatus Phytoplasma sacchari)",
+      "type": "Phytoplasma",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A phytoplasma disease carried in the seed cane that turns the clump into a bunch of thin, pale, grass-like shoots with no millable cane. No spray cures it, and it becomes much worse in ratoons.",
+      "symptoms": [
+        "Many thin tillers giving the clump a grassy look",
+        "Narrow leaves that are pale yellow to completely white",
+        "Stunted clump with few or no millable canes",
+        "Side buds on the canes sprout early"
+      ],
+      "spread": "Spreads mainly through setts taken from infected clumps, and to a small extent by leafhoppers and cutting knives.",
+      "action": "Dig out and destroy the grassy clumps with their roots and do not take seed cane or a ratoon from this field.",
+      "manage": "phytoplasma",
+      "vector": "Leafhopper (Deltocephalus vulgaris)",
+      "treatment": [
+        {
+          "name": "Uproot affected clumps",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove whole clumps as soon as they are seen and fill the gaps with healthy settlings."
+        },
+        {
+          "name": "Heat-treated or tissue-culture seed cane",
+          "type": "Cultural",
+          "dose": "aerated steam at 50 C for 1 hour",
+          "notes": "Done at sugar factory or research station seed nurseries; take seed only from such disease-free nurseries."
+        },
+        {
+          "name": "Do not ratoon a heavily affected crop",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Plough out and replant if more than about 15% of clumps are affected."
+        }
+      ]
+    },
+    "Mosaic virus": {
+      "name": "Mosaic",
+      "kind": "disease",
+      "cause": "Sugarcane mosaic virus / Sugarcane streak mosaic virus",
+      "type": "Viral",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A virus disease carried in the seed cane that gives young leaves a pale green and dark green patchwork. There is no cure, and it slowly reduces cane yield over successive crops.",
+      "symptoms": [
+        "Pale green to yellow patches and broken streaks alternating with normal green",
+        "Pattern is clearest on the young leaves near the spindle",
+        "Mottling visible when the leaf is held against the light",
+        "Stunted growth and thin canes in susceptible varieties"
+      ],
+      "spread": "Spreads mainly through setts from infected canes, and sugarcane mosaic virus is also carried from plant to plant by aphids.",
+      "action": "Remove the mottled clumps from seed plots and plant only virus-free seed cane, because no spray cures the virus.",
+      "manage": "viral_aphid",
+      "vector": "Aphids (Rhopalosiphum maidis, Melanaphis sacchari)",
+      "treatment": [
+        {
+          "name": "Virus-free seed cane",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Use tissue-culture (meristem) raised or certified nursery seed cane; never take setts from mottled clumps."
+        },
+        {
+          "name": "Rogue seed plots",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Inspect seed nurseries every month and remove affected clumps."
+        }
+      ]
+    },
+    "Pokkah boeng": {
+      "name": "Pokkah Boeng",
+      "kind": "disease",
+      "cause": "Fusarium sacchari / Fusarium verticillioides (Fusarium fujikuroi complex)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease of the growing top that appears in the monsoon on fast-growing 3-7 month old cane. Most plants recover, but in severe cases the top rots and the cane dies.",
+      "symptoms": [
+        "Young top leaves pale yellow to white at the base",
+        "Leaves wrinkled, twisted and shortened, and they fail to open properly",
+        "Reddish stripes and ladder-like tears in the pale area",
+        "In severe cases the growing top rots and dies (top rot)",
+        "Knife-cut-like slits on the stalk rind"
+      ],
+      "spread": "Airborne spores settle in the leaf whorl and infect in hot, humid monsoon weather after a dry spell.",
+      "action": "Spray carbendazim 50 WP 1 g/L into the tops of the affected crop and remove canes whose tops have rotted.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {
+          "name": "Carbendazim 50 WP",
+          "type": "Fungicide",
+          "dose": "1 g/L",
+          "notes": "Direct the spray into the leaf whorl; 2-3 sprays at 15-day intervals during the monsoon."
+        },
+        {
+          "name": "Copper oxychloride 50 WP",
+          "type": "Fungicide",
+          "dose": "3 g/L",
+          "notes": "Alternative to carbendazim."
+        },
+        {
+          "name": "Remove canes with top rot",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Cut out and destroy canes with rotted tops or knife-cut symptoms."
+        }
+      ]
+    },
+    "Sett rot": {
+      "name": "Sett Rot (Pineapple Disease)",
+      "kind": "disease",
+      "cause": "Ceratocystis paradoxa",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A soil-borne fungus that enters through the cut ends of planted setts and rots them before or soon after they sprout. It leaves gaps in the rows, especially in poorly drained or deeply planted fields.",
+      "symptoms": [
+        "Setts fail to sprout, leaving gaps in the rows",
+        "Inside of the sett turns red, then black and hollow",
+        "Split setts smell like ripe pineapple",
+        "Young shoots turn yellow, wither and die"
+      ],
+      "spread": "The fungus lives in the soil and enters through the cut ends of setts, favoured by waterlogging, deep planting and cool or very dry soil that delays sprouting.",
+      "action": "Dig up a few unsprouted setts to confirm the rot, then fill the gaps with fungicide-dipped setts or settlings and correct the drainage.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {
+          "name": "Carbendazim 50 WP (sett dip)",
+          "type": "Fungicide",
+          "dose": "1 g/L, dip setts for 15 minutes",
+          "notes": "Treat all setts before planting, including those used for gap filling."
+        },
+        {
+          "name": "Fresh three-budded setts, planted shallow",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Use setts from a healthy 8-10 month crop, plant within a day of cutting and cover with only 2-3 cm of soil."
+        },
+        {
+          "name": "Drain the field",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Avoid water standing in the furrows during the first 4-6 weeks after planting."
+        }
+      ]
+    },
+    "Smut": {
+      "name": "Smut (Whip Smut)",
+      "kind": "disease",
+      "cause": "Sporisorium scitamineum",
+      "type": "Fungal",
+      "severity_weight": 0.85,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that lives inside the cane and turns the growing tip into a long black whip full of spores. It is carried in the seed cane, increases sharply in ratoons, and leaf sprays do not cure infected clumps.",
+      "symptoms": [
+        "Long black whip-like shoot growing from the top of the cane",
+        "Whip is first covered by a thin silvery skin that bursts to release black powder",
+        "Thin, grass-like canes with narrow, stiff, upright leaves",
+        "Many slender tillers in the affected clump"
+      ],
+      "spread": "Black spores blow from the whips onto the buds of standing cane, and the disease is carried to new fields in infected setts.",
+      "action": "Cover each whip with a bag before the skin bursts, cut it off, then dig out and burn the whole clump.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {
+          "name": "Bag and remove whips, uproot clumps",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Slip a thick bag over the whip before cutting so that the spores do not scatter; burn the clump away from the field."
+        },
+        {
+          "name": "Propiconazole 25 EC (sett dip)",
+          "type": "Fungicide",
+          "dose": "1 ml/L, dip setts for 15 minutes",
+          "notes": "Treat setts before planting and take seed only from a smut-free nursery crop."
+        },
+        {
+          "name": "Do not ratoon an affected crop",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Plough out if more than about 10% of clumps show whips, and replant with a resistant variety."
+        }
+      ]
+    },
+    "Yellow leaf disease": {
+      "name": "Yellow Leaf Disease",
+      "kind": "disease",
+      "cause": "Sugarcane yellow leaf virus (Polerovirus)",
+      "type": "Viral",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A virus disease carried in the seed cane and by aphids that yellows the midrib and then the whole leaf of maturing cane. There is no cure, and it reduces cane weight and juice quality, most of all in ratoons.",
+      "symptoms": [
+        "Midrib turns bright yellow on the underside of the 3rd to 6th leaf from the top",
+        "Yellowing spreads from the midrib into the leaf blade",
+        "Leaves dry from the tip downward along the midrib",
+        "Midrib turns pink or reddish in some varieties",
+        "Short top internodes giving a bunchy top in severe cases"
+      ],
+      "spread": "Spreads through setts from infected canes and from plant to plant by the sugarcane aphid.",
+      "action": "Do not take seed cane from this field and replant with virus-free tissue-culture seed cane, because no spray cures the virus.",
+      "manage": "viral_aphid",
+      "vector": "Sugarcane aphid (Melanaphis sacchari)",
+      "treatment": [
+        {
+          "name": "Virus-free seed cane",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Use tissue-culture (meristem) raised seedlings or seed from a certified three-tier nursery."
+        },
+        {
+          "name": "Aphid control in seed nurseries (e.g. imidacloprid 17.8 SL)",
+          "type": "Insecticide",
+          "dose": "as per label",
+          "notes": "Worth doing only in seed plots, to slow fresh infection; it does not cure infected cane."
+        },
+        {
+          "name": "Good nutrition and irrigation",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Well-fed, well-watered crops lose less yield; avoid repeated ratoons of affected crops."
+        }
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing sugarcane plant.",
+      "symptoms": [
+        "Uniform green leaf blade with a pale midrib",
+        "No spots, pustules, stripes or mottling",
+        "Top leaves open normally"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue scheduled irrigation, nitrogen splits and earthing up, and keep taking seed cane only from healthy plots.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

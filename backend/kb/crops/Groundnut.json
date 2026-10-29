@@ -1,0 +1,195 @@
+{
+  "crop": "Groundnut",
+  "scientific_name": "Arachis hypogaea",
+  "family": "Fabaceae",
+  "description": "Groundnut is the main rainfed kharif oilseed of Anantapur, Kurnool, Chittoor and Kadapa in Andhra Pradesh and of southern Telangana, and is also grown in rabi under irrigation. Leaf spots (tikka) and rust together cause most of its leaf loss.",
+  "common_varieties": [
+    "Kadiri 6 (K 6)",
+    "Kadiri Lepakshi (K 1812)",
+    "Dharani (TCGS 1043)",
+    "TAG 24",
+    "ICGV 91114",
+    "TMV 2"
+  ],
+  "npk": {"N": 20, "P2O5": 40, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Apply all N, P and K at sowing, and gypsum 500 kg/ha beside the rows at flowering to pegging (30-45 days) followed by earthing up.",
+  "conditions": {
+    "Early leaf spot": {
+      "name": "Early Leaf Spot",
+      "kind": "disease",
+      "cause": "Passalora arachidicola (Cercospora arachidicola)",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot (tikka) that appears about a month after sowing as brown spots ringed with yellow. It makes the lower leaves yellow and fall, which cuts pod yield and haulm quality.",
+      "symptoms": [
+        "Round to irregular dark brown spots 1-10 mm across with a clear yellow halo",
+        "Spots dark brown on the upper surface and lighter brown below",
+        "First seen about 30 days after sowing on the lower leaves",
+        "Affected leaves turn yellow and drop"
+      ],
+      "spread": "Spores from infected crop residue and volunteer plants are carried by wind and rain splash in warm, wet weather.",
+      "action": "Spray chlorothalonil 75 WP 2 g/L when spots first appear and repeat after 15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Chlorothalonil 75 WP",
+          "type": "Fungicide",
+          "dose": "2 g/L",
+          "notes": "Start at first spots, about 30-35 days after sowing; 2-3 sprays at 15-day intervals."
+        },
+        {
+          "name": "Tebuconazole 250 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Alternate with chlorothalonil; it also controls rust."
+        },
+        {
+          "name": "Rotate and remove volunteers",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Avoid groundnut after groundnut, and destroy volunteer plants and infected haulms."
+        }
+      ]
+    },
+    "Late leaf spot": {
+      "name": "Late Leaf Spot",
+      "kind": "disease",
+      "cause": "Nothopassalora personata (Phaeoisariopsis personata)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The more damaging of the two tikka leaf spots, appearing from mid-season as black spots with little or no yellow halo. It causes heavy leaf fall before harvest and often occurs together with rust.",
+      "symptoms": [
+        "Small, nearly round black spots with little or no yellow halo",
+        "Underside of the spot is black and rough, with rings of spore tufts",
+        "First seen about 45-55 days after sowing",
+        "Spots also on leaf stalks, stems and pegs",
+        "Heavy leaf drop leaving bare stems"
+      ],
+      "spread": "Spores from crop residue and volunteer plants are carried by wind and rain splash in warm, humid weather with long leaf wetness.",
+      "action": "Spray chlorothalonil 75 WP 2 g/L or hexaconazole 5 EC 2 ml/L now and repeat after 15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Chlorothalonil 75 WP",
+          "type": "Fungicide",
+          "dose": "2 g/L",
+          "notes": "2-3 sprays at 15-day intervals from first appearance."
+        },
+        {
+          "name": "Hexaconazole 5 EC",
+          "type": "Fungicide",
+          "dose": "2 ml/L",
+          "notes": "Alternate with chlorothalonil; it also controls rust."
+        },
+        {
+          "name": "Tolerant variety and rotation",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Grow a leaf-spot-tolerant variety such as Kadiri Lepakshi (K 1812) and rotate with cereals or millets."
+        }
+      ]
+    },
+    "Nutrient deficiency": {
+      "name": "Nutrient Deficiency",
+      "kind": "deficiency",
+      "cause": "Unspecified nutrient shortage (most often iron; also nitrogen, zinc, calcium or sulphur)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The leaves show a nutrient shortage, but the photo alone cannot tell which nutrient is lacking. In groundnut the most common cause is iron chlorosis on calcareous black soils or after waterlogging; a soil test confirms the rest.",
+      "symptoms": [
+        "Young leaves yellow between the veins while the veins stay green (iron)",
+        "Young leaves turn almost white and papery in severe cases (iron)",
+        "Whole plant pale green and stunted, older leaves yellow first (nitrogen or sulphur)",
+        "Small, narrow pale leaves with short internodes (zinc)",
+        "Poorly filled or empty pods (calcium)"
+      ],
+      "spread": "Does not spread; it follows the soil, so it shows in patches where the soil is calcareous, sandy, waterlogged or low in organic matter.",
+      "action": "Get the soil tested, and if the young leaves are yellow with green veins spray ferrous sulphate 5 g/L with citric acid 1 g/L twice, a week apart.",
+      "manage": "deficiency_general",
+      "treatment": [
+        {
+          "name": "Ferrous sulphate + citric acid (foliar spray)",
+          "type": "Fertilizer",
+          "dose": "5 g/L + 1 g/L",
+          "notes": "For yellow young leaves with green veins (iron chlorosis); 2 sprays a week apart."
+        },
+        {
+          "name": "Gypsum",
+          "type": "Fertilizer",
+          "dose": "500 kg/ha",
+          "notes": "Apply beside the rows at flowering to pegging and earth up; it supplies the calcium and sulphur needed for pod filling."
+        },
+        {
+          "name": "Zinc sulphate (foliar spray)",
+          "type": "Fertilizer",
+          "dose": "2 g/L",
+          "notes": "For small pale leaves with short internodes; 2 sprays a week apart."
+        }
+      ]
+    },
+    "Rust": {
+      "name": "Rust",
+      "kind": "disease",
+      "cause": "Puccinia arachidis",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that forms orange-brown powdery pustules on the underside of the leaves, usually together with late leaf spot. Leaves dry up but stay on the plant, and the pods remain small and poorly filled.",
+      "symptoms": [
+        "Small orange to reddish-brown raised pustules on the lower leaf surface",
+        "Rusty powder rubs off on the fingers",
+        "Small yellow-brown flecks on the upper surface above the pustules",
+        "Leaves dry and curl but stay attached to the plant"
+      ],
+      "spread": "Wind-borne spores from volunteer and earlier-sown groundnut spread in cool, humid weather with dew or intermittent rain.",
+      "action": "Spray chlorothalonil 75 WP 2 g/L, covering the underside of the leaves, and repeat after 15 days.",
+      "manage": "rust",
+      "treatment": [
+        {
+          "name": "Chlorothalonil 75 WP",
+          "type": "Fungicide",
+          "dose": "2 g/L",
+          "notes": "2 sprays 15 days apart from first pustules; it also controls leaf spots."
+        },
+        {
+          "name": "Hexaconazole 5 EC",
+          "type": "Fungicide",
+          "dose": "2 ml/L",
+          "notes": "Alternate with chlorothalonil."
+        },
+        {
+          "name": "Destroy volunteer plants",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove self-sown groundnut and avoid overlapping sowings, because the rust survives only on living groundnut."
+        }
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing groundnut plant.",
+      "symptoms": [
+        "Uniform green leaflets",
+        "No spots or pustules on either surface",
+        "No yellowing between the veins"
+      ],
+      "spread": "Not applicable.",
+      "action": "Apply gypsum at flowering and check the lower leaves every week from 30 days after sowing for leaf spot.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "crop": "Papaya",
+  "scientific_name": "Carica papaya",
+  "family": "Caricaceae",
+  "description": "Fast-growing fruit crop widely grown in Andhra Pradesh, Telangana, Gujarat, Karnataka and Maharashtra, fruiting within 9-10 months of planting. Insect-borne viruses are the main threat, so healthy seedlings and early removal of sick plants matter more than sprays.",
+  "common_varieties": ["Red Lady (Taiwan 786)", "Arka Surya", "Arka Prabhat", "CO 8", "Pusa Delicious", "Coorg Honey Dew"],
+  "npk": {"N": 250, "P2O5": 250, "K2O": 500, "unit": "g/plant/year"},
+  "npk_split": "Apply in six equal doses at two-month intervals starting from the second month after planting, with 10 kg FYM per plant at planting.",
+  "conditions": {
+    "Leaf curl virus": {
+      "name": "Leaf Curl Virus",
+      "kind": "disease",
+      "cause": "Papaya leaf curl virus (Begomovirus)",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Virus disease spread by whiteflies that curls and crinkles the leaves and stops growth. Infected plants set few or no fruits and there is no cure.",
+      "symptoms": [
+        "Leaves curl downward and inward and crinkle",
+        "Veins become thick and dark green on the underside",
+        "Leaves turn leathery and brittle with twisted stalks",
+        "Stunted plant with few, small, misshapen fruits"
+      ],
+      "spread": "Whiteflies carry the virus from infected papaya, tomato, tobacco and weed hosts to healthy plants; it is not spread by seed or touch.",
+      "action": "Uproot and destroy infected plants at once and control whiteflies on the remaining plants.",
+      "manage": "viral_whitefly",
+      "treatment": [
+        {"name": "Uprooting and destruction of infected plants", "type": "Cultural", "dose": "-", "notes": "No spray cures a virus-infected plant; early removal protects the rest."},
+        {"name": "Seedlings raised under insect-proof net (40-50 mesh)", "type": "Cultural", "dose": "-", "notes": "Plant only healthy seedlings; keep the field away from tomato, chilli and tobacco."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "Against whiteflies on the leaf underside, with yellow sticky traps in the field."}
+      ],
+      "vector": "Whitefly (Bemisia tabaci)"
+    },
+    "Mealybug": {
+      "name": "Papaya Mealybug",
+      "kind": "pest",
+      "cause": "Paracoccus marginatus",
+      "type": "Insect",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Sap-sucking insect covered in white wax that forms cottony clusters on leaves, stems and fruits. Heavy attacks cause leaf yellowing, fruit drop and can kill the plant.",
+      "symptoms": [
+        "White cottony masses along the veins on the leaf underside, on stems and on fruits",
+        "Leaves crinkle, turn yellow and dry",
+        "Sticky honeydew with black sooty mould",
+        "Ants moving up and down the stem",
+        "Flowers and young fruits drop"
+      ],
+      "spread": "Crawlers are carried by wind, ants, tools, clothing and infested seedlings, and the pest also lives on weeds such as parthenium and on hibiscus.",
+      "action": "Remove and destroy heavily infested parts and weeds and release the parasitoid Acerophagus papayae or spot-spray the colonies.",
+      "manage": "scale_mealybug",
+      "treatment": [
+        {"name": "Acerophagus papayae (parasitoid wasp)", "type": "Biological", "dose": "As supplied by KVK / ICAR-NBAIR", "notes": "The most effective control; do not spray insecticides where parasitoids have been released."},
+        {"name": "Fish oil rosin soap", "type": "Insecticide", "dose": "25 g/L", "notes": "Drench the colonies directly; neem oil 1500 ppm 5 ml/L is an alternative."},
+        {"name": "Buprofezin 25 SC", "type": "Insecticide", "dose": "1.5-2 ml/L", "notes": "Spot spray on infested plants only if the attack is severe and no parasitoids have been released; only where the label lists your crop."}
+      ]
+    },
+    "Mites": {
+      "name": "Mites",
+      "kind": "pest",
+      "cause": "Tetranychus urticae (red spider mite); also Polyphagotarsonemus latus (broad mite)",
+      "type": "Mite",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny mites suck sap from the leaf underside and multiply fast in hot, dry weather. Leaves turn pale and dry, and fruit skin becomes rough and scarred.",
+      "symptoms": [
+        "Fine yellow-white speckling on the upper leaf surface",
+        "Tiny red or pale moving dots and fine webbing on the underside",
+        "Leaves turn yellow-bronze, dry and fall",
+        "Young leaves narrow, stiff and claw-like when broad mite attacks (looks like virus)",
+        "Rough, brown, corky patches on fruit skin"
+      ],
+      "spread": "Mites move on wind, on workers' clothes and from plant to plant where leaves touch, building up quickly in dry, dusty conditions.",
+      "action": "Wash the leaf undersides with a strong water spray and apply a miticide if speckling keeps spreading.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Miticide", "dose": "2 g/L", "notes": "Spray on the leaf underside in the cool hours; can scorch leaves in hot weather."},
+        {"name": "Spiromesifen 22.9 SC", "type": "Miticide", "dose": "0.8 ml/L", "notes": "Papaya leaves scorch easily, so test on a few plants first; one spray per season, only where the label lists your crop."},
+        {"name": "Water spray on leaf undersides", "type": "Cultural", "dose": "-", "notes": "Knocks mites off and raises humidity; keep the crop free of dust and water stress."}
+      ]
+    },
+    "Mosaic virus": {
+      "name": "Mosaic Virus",
+      "kind": "disease",
+      "cause": "Papaya mosaic virus (Potexvirus); most field mosaic in India is papaya ringspot virus (PRSV-P)",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Virus disease that mottles young leaves in light and dark green and stunts the plant. In Indian fields most mosaic is caused by the aphid-borne ringspot virus, and there is no cure for either.",
+      "symptoms": [
+        "Light green or yellow and dark green mosaic pattern on young leaves",
+        "Leaves puckered or blistered and smaller than normal",
+        "Stunted plant with a bunchy top",
+        "Few, small fruits"
+      ],
+      "spread": "Aphids carry the ringspot virus from plant to plant within seconds of feeding, and true papaya mosaic virus spreads in sap on hands and tools.",
+      "action": "Uproot and destroy infected plants as soon as mosaic is seen, before the virus spreads to neighbours.",
+      "manage": "viral_aphid",
+      "treatment": [
+        {"name": "Uprooting and destruction of infected plants", "type": "Cultural", "dose": "-", "notes": "No spray cures a virus-infected plant; remove plants before flowering for the best effect."},
+        {"name": "Washing hands and tools after handling sick plants", "type": "Cultural", "dose": "-", "notes": "Use soap and water; work in healthy plants first."},
+        {"name": "Barrier rows of maize or sorghum around the field", "type": "Cultural", "dose": "2 rows", "notes": "Sow before planting papaya so incoming aphids land and lose the virus on the barrier crop."}
+      ],
+      "vector": "Aphids (Aphis gossypii, Myzus persicae)"
+    },
+    "Ring spot virus": {
+      "name": "Ring Spot Virus",
+      "kind": "disease",
+      "cause": "Papaya ringspot virus type P (PRSV-P, Potyvirus)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most destructive papaya disease in India, spread by aphids. Plants infected young stay stunted and give almost no marketable fruit, and there is no cure.",
+      "symptoms": [
+        "Yellow mosaic and vein clearing on young leaves",
+        "Leaves become narrow and thread-like (shoe-string)",
+        "Dark green oily streaks on leaf stalks and the upper stem",
+        "Ring or C-shaped marks on fruits",
+        "Stunted plant with poor fruit set"
+      ],
+      "spread": "Winged aphids pick up the virus from infected papaya or cucurbit plants and pass it on within seconds of probing; it is not spread by seed.",
+      "action": "Uproot and destroy infected plants as soon as symptoms appear and replant only with seedlings raised under insect-proof net.",
+      "manage": "viral_aphid",
+      "treatment": [
+        {"name": "Uprooting and destruction of infected plants", "type": "Cultural", "dose": "-", "notes": "Insecticides do not stop this virus because aphids pass it on before they die."},
+        {"name": "Barrier rows of maize or sorghum around the field", "type": "Cultural", "dose": "2 rows", "notes": "Sow 2-3 weeks before planting papaya; do not grow cucurbits in or near the field."},
+        {"name": "Seedlings raised under insect-proof net (40-50 mesh)", "type": "Cultural", "dose": "-", "notes": "Plant so that young plants escape the peak aphid season; replace the whole crop after one fruiting cycle if infection is heavy."}
+      ],
+      "vector": "Aphids (Aphis gossypii, Myzus persicae, Aphis craccivora)"
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep checking young leaves every week, as virus symptoms show there first.",
+      "symptoms": [
+        "Uniform green leaves without mosaic, curling or speckling",
+        "No white cottony insects or webbing on the underside",
+        "Normal growth of the crown"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular irrigation without waterlogging, bimonthly fertiliser doses and weekly scouting.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "crop": "Raspberry",
+  "scientific_name": "Rubus idaeus",
+  "family": "Rosaceae",
+  "description": "Cane fruit of cool climates, grown in India only on a small scale in the hills. It needs well-drained, slightly acidic soil and mild summers.",
+  "common_varieties": ["Heritage", "Autumn Bliss", "Tulameen", "Glen Ample", "Willamette", "Meeker"],
+  "npk": {"N": 70, "P2O5": 40, "K2O": 80, "unit": "kg/ha"},
+  "npk_split": "Apply compost with all P and K before growth starts in spring and the N in two splits, at bud break and after fruit set; adjust by soil test.",
+  "conditions": {
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep the rows open and remove old fruited canes after harvest to keep it that way.",
+      "symptoms": [
+        "Uniform green leaves without spots or rust-coloured powder",
+        "No curling, mottling or webbing",
+        "Vigorous new canes"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular cane pruning, mulching, balanced nutrition and weekly scouting.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

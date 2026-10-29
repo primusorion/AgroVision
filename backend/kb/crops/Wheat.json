@@ -1,0 +1,188 @@
+{
+  "crop": "Wheat",
+  "scientific_name": "Triticum aestivum",
+  "family": "Poaceae",
+  "description": "Wheat is the main rabi cereal of north and central India, grown under irrigation in the Indo-Gangetic plains and on a small area in the cooler parts of Telangana and Maharashtra. It needs a cool, dry season, and the rusts are its main disease threat.",
+  "common_varieties": [
+    "HD 2967",
+    "HD 3086",
+    "DBW 187 (Karan Vandana)",
+    "DBW 303",
+    "GW 322",
+    "Lok 1"
+  ],
+  "npk": {"N": 120, "P2O5": 60, "K2O": 40, "unit": "kg/ha"},
+  "npk_split": "Apply all P and K with half the N at sowing; top-dress the remaining N in two equal splits at the first irrigation (crown root initiation, about 21 days) and at late tillering.",
+  "conditions": {
+    "Brown rust": {
+      "name": "Brown Rust (Leaf Rust)",
+      "kind": "disease",
+      "cause": "Puccinia triticina",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The most widespread wheat rust in India, forming orange-brown powdery pustules scattered over the leaf. Early attack dries the leaves before the grain fills and gives shrivelled grain.",
+      "symptoms": [
+        "Small round to oval orange-brown pustules scattered at random on the upper leaf surface",
+        "Orange-brown powder rubs off on the fingers",
+        "Pustules turn black late in the season",
+        "Heavily rusted leaves dry early"
+      ],
+      "spread": "Wind-borne spores travel long distances and infect in mild (15-25 C) weather with dew or light rain.",
+      "action": "Spray propiconazole 25 EC 1 ml/L when pustules first appear on the upper leaves before grain filling.",
+      "manage": "rust",
+      "treatment": [
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Spray at first pustules; repeat after 15 days only if new pustules appear on the flag leaf."
+        },
+        {
+          "name": "Tebuconazole 250 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Alternative to propiconazole."
+        },
+        {
+          "name": "Rust-resistant variety",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Sow a currently recommended resistant variety and avoid very late sowing."
+        }
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Blumeria graminis f. sp. tritici",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that grows as white powder on the leaves and sheaths in cool, humid, cloudy weather, mostly in the northern hills and foothills. Dense crops given heavy nitrogen are affected most.",
+      "symptoms": [
+        "White to grey powdery patches on the upper leaf surface and leaf sheaths",
+        "Patches start on the lower leaves and move upward",
+        "Leaf tissue under the patches turns yellow, then brown",
+        "Tiny black dots appear in old patches"
+      ],
+      "spread": "Wind-borne spores spread in cool (15-22 C), humid, cloudy weather and do not need free water on the leaf.",
+      "action": "Spray propiconazole 25 EC 1 ml/L if the powdery patches reach the upper leaves before heading.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "One spray when mildew moves to the upper leaves or ear; repeat after 15 days if needed."
+        },
+        {
+          "name": "Wettable sulphur 80 WP",
+          "type": "Fungicide",
+          "dose": "2-3 g/L",
+          "notes": "Lower-cost alternative for early, light infection."
+        }
+      ]
+    },
+    "Septoria leaf blotch": {
+      "name": "Septoria Leaf Blotch",
+      "kind": "disease",
+      "cause": "Zymoseptoria tritici (Septoria tritici)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf blotch of cool, wet weather that starts on the lower leaves and climbs with rain splash. It is uncommon in the Indian plains and is seen mainly in hill areas with prolonged rain.",
+      "symptoms": [
+        "Irregular to oval tan-brown blotches, often limited by the veins",
+        "Yellow margin around the blotches",
+        "Tiny black dots inside the blotches",
+        "Blotches merge and the leaf dies from the tip"
+      ],
+      "spread": "Spores from infected stubble are splashed up the plant by rain during cool, wet spells.",
+      "action": "Spray propiconazole 25 EC 1 ml/L if blotches reach the top two leaves before grain filling.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "One spray at flag-leaf emergence to heading protects the leaves that fill the grain."
+        },
+        {
+          "name": "Tebuconazole 250 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Alternative to propiconazole."
+        },
+        {
+          "name": "Bury stubble and rotate",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Plough in wheat stubble and avoid wheat after wheat in affected fields."
+        }
+      ]
+    },
+    "Yellow rust": {
+      "name": "Yellow Rust (Stripe Rust)",
+      "kind": "disease",
+      "cause": "Puccinia striiformis f. sp. tritici",
+      "type": "Fungal",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most damaging wheat rust in the cool north-western plains and hills, forming yellow powdery stripes along the leaf. It spreads from small patches to the whole field within days in cool, damp weather.",
+      "symptoms": [
+        "Bright yellow to orange pustules in narrow stripes along the veins",
+        "Yellow powder comes off on fingers and clothes",
+        "Starts in small patches in the field, usually in January-February",
+        "Stripes turn brown-black and the leaves dry",
+        "Pustules inside the ear glumes in severe attack"
+      ],
+      "spread": "Wind-borne spores spread fast in cool (10-15 C) weather with dew, fog or light rain.",
+      "action": "Spray propiconazole 25 EC 1 ml/L as soon as the first yellow-striped patch is seen and inform the local agriculture office.",
+      "manage": "rust",
+      "treatment": [
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Spray the patch and the surrounding crop at once; repeat after 15 days if the rust continues."
+        },
+        {
+          "name": "Tebuconazole 250 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Alternative to propiconazole."
+        },
+        {
+          "name": "Resistant variety",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Replace old susceptible varieties with a currently recommended yellow-rust-resistant one."
+        }
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing wheat plant.",
+      "symptoms": [
+        "Uniform green leaf blade",
+        "No pustules, powder or blotches",
+        "No yellow stripes"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue timely irrigation and nitrogen top-dressing, and check the crop weekly for rust from January onward.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

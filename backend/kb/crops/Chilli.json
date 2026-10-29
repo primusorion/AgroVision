@@ -1,0 +1,117 @@
+{
+  "crop": "Chilli",
+  "scientific_name": "Capsicum annuum",
+  "family": "Solanaceae",
+  "description": "Chilli is a major spice and vegetable crop of India, and Andhra Pradesh (Guntur) and Telangana are the largest producers of dry chilli. It is grown as a kharif and rabi crop at 20-30 °C on well-drained black and red loam soils.",
+  "common_varieties": ["Teja (S17)", "Guntur Sannam (S4)", "LCA 334", "Byadgi Kaddi", "Pusa Jwala", "Arka Meghana (F1)"],
+  "npk": {"N": 120, "P2O5": 80, "K2O": 80, "unit": "kg/ha"},
+  "npk_split": "Basal at transplanting: 1/4 N + full P2O5 + full K2O; top-dress the remaining N in three equal splits at 30, 60 and 90 days after transplanting (open-pollinated varieties need only 120:60:30 kg/ha).",
+  "conditions": {
+    "Cercospora leaf spot": {
+      "name": "Cercospora Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora capsici",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Cercospora (frog-eye) leaf spot is a common fungal disease of chilli in warm, humid weather. Heavy spotting causes leaf drop, which weakens the plant and exposes fruits to sunscald.",
+      "symptoms": [
+        "Small round spots with a light grey to white centre and a dark brown border (frog-eye)",
+        "Dry spot centres crack and fall out, leaving shot-holes",
+        "Heavily spotted leaves turn yellow and drop",
+        "Similar oval spots on leaf stalks, stems and fruit stalks"
+      ],
+      "spread": "Survives on seed and infected crop debris and spreads by wind, rain splash and irrigation water; favoured by warm (20-30 °C), humid weather and close planting.",
+      "action": "Spray Mancozeb 75 WP (2.5 g/L) at the first spots and repeat after 10-15 days, and collect and destroy fallen leaves.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "Systemic (FRAC 1) alternative when spots keep spreading; max 2 sprays, alternate with Mancozeb."},
+        {"name": "Seed treatment with Trichoderma viride", "type": "Biological", "dose": "4 g/kg seed", "notes": "Before sowing the nursery; reduces seed-borne infection."}
+      ]
+    },
+    "Mites and thrips": {
+      "name": "Mites and Thrips",
+      "kind": "pest",
+      "cause": "Yellow mite (Polyphagotarsonemus latus) and chilli thrips (Scirtothrips dorsalis); also black thrips (Thrips parvispinus) on flowers",
+      "type": "Mite",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Yellow mite and chilli thrips are the main sucking pests of chilli in Andhra Pradesh and Telangana and together cause the leaf curl (murda) complex. Both feed on tender shoots, buds and young fruits, causing leaf curl, flower drop and scarred fruits.",
+      "symptoms": [
+        "Leaves curl upward like a boat and crinkle (thrips)",
+        "Leaves curl downward with long, thin leaf stalks and a bronzed, shiny underside (mites)",
+        "Shoot tips stunted and bushy with small, crowded leaves",
+        "Buds and flowers drop",
+        "Fruits stay small with rough brown scars"
+      ],
+      "spread": "Thrips fly and drift on wind from older chilli, cotton and weeds, and mites are carried on wind, seedlings, tools and clothing; dry spells favour thrips, warm humid weather favours mites, and pyrethroid sprays flare both.",
+      "action": "Check the underside of curled top leaves with a hand lens, then spray Diafenthiuron 50 WP (1 g/L) on the leaf undersides and follow up after 10 days with a product from a different group.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Diafenthiuron 50 WP", "type": "Insecticide", "dose": "1 g/L", "notes": "Acts on both mites and thrips (IRAC 12A); spray leaf undersides in the cooler part of the day."},
+        {"name": "Spinosad 45 SC", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "For thrips (upward curl), IRAC 5; rotate with Fipronil 5 SC 1.5-2 ml/L (IRAC 2B; highly toxic to bees - never on open flowers), and spray in the evening to protect bees."},
+        {"name": "Blue sticky traps", "type": "Cultural", "dose": "12-15 traps/acre", "notes": "Monitor thrips before deciding on chemical sprays."}
+      ]
+    },
+    "Nutrient deficiency": {
+      "name": "Nutrient Deficiency",
+      "kind": "deficiency",
+      "cause": "Unspecified nutrient shortage (commonly nitrogen, potassium, magnesium, zinc, iron or boron)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows yellowing or discolouration typical of a nutrient shortage, but the photo cannot tell which nutrient is lacking. Chilli is a heavy feeder, and deficiencies are common on light soils, after heavy rain and where only urea is applied.",
+      "symptoms": [
+        "Even pale green to yellow colour starting on older leaves (nitrogen)",
+        "Yellowing between green veins on older leaves (magnesium) or on young leaves (iron, zinc)",
+        "Brown, scorched edges on older leaves (potassium)",
+        "Small, narrow leaves and short shoots (zinc)",
+        "Distorted young leaves with flower and fruit drop (boron, calcium)"
+      ],
+      "spread": "Not infectious; it appears in patches that follow soil type, drainage and fertilizer use rather than spreading from plant to plant.",
+      "action": "Get the soil tested, apply the remaining recommended fertilizer in splits, and spray a micronutrient mixture at 5 g/L twice at a 15-day interval.",
+      "manage": "deficiency_general",
+      "treatment": [
+        {"name": "Check drainage and pests first", "type": "Cultural", "dose": "-", "notes": "Waterlogging, root rot, mites and thrips also discolour chilli leaves; fertilizer will not correct those."}
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Leveillula taurica (asexual stage Oidiopsis taurica)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Powdery mildew is a fungal disease of chilli in the cool, dry months, growing mostly on the underside of leaves. Severe attacks cause heavy leaf fall, which cuts yield and exposes fruits to sunscald.",
+      "symptoms": [
+        "White powdery growth on the underside of leaves",
+        "Pale yellow patches on the upper surface above the white growth",
+        "Leaves curl upward, turn yellow and drop",
+        "Bare branches with sun-scalded fruits in severe attacks"
+      ],
+      "spread": "Airborne spores from infected chilli and other host crops spread on wind; favoured by cool, dry weather with dewy nights (15-25 °C), typically from November to February.",
+      "action": "Spray wettable sulphur 80 WP (3 g/L) on the leaf undersides at the first white patches and repeat after 15 days, but not when the temperature is above 32 °C.",
+      "manage": "powdery_mildew",
+      "treatment": []
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "No disease or pest symptoms are visible on this chilli leaf. Keep up balanced nutrition, regular irrigation and weekly scouting to keep the crop healthy.",
+      "symptoms": ["Uniform green colour", "No spots, lesions, mottling, curling or webbing"],
+      "spread": "-",
+      "action": "No treatment is needed.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

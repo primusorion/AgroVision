@@ -1,0 +1,30 @@
+{
+  "crop": "Blueberry",
+  "scientific_name": "Vaccinium corymbosum",
+  "family": "Ericaceae",
+  "description": "Acid-loving berry shrub of temperate regions, grown in India only on a small scale in the hills and in pot or protected culture using low-chill varieties. It needs very acidic soil (pH 4.5-5.5) rich in organic matter and good drainage.",
+  "common_varieties": ["Biloxi", "Misty", "Sharpblue", "Jewel", "Bluecrop", "Duke"],
+  "npk": {"N": 30, "P2O5": 15, "K2O": 15, "unit": "g/plant/year"},
+  "npk_split": "For mature bushes: split into 2-3 doses from bud break to fruit set, using ammonium sulphate and sulphate of potash (not nitrate or chloride forms), and adjust P and K by soil test.",
+  "conditions": {
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Yellowing between green veins on new leaves usually means the soil is not acidic enough, so check soil pH regularly.",
+      "symptoms": [
+        "Uniform green leaves without spots",
+        "No yellowing between the veins on young leaves",
+        "Normal new shoot growth"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Keep the soil acidic and mulched, water regularly and scout the plants every week.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

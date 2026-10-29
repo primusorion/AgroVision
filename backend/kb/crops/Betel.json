@@ -1,0 +1,80 @@
+{
+  "crop": "Betel",
+  "scientific_name": "Piper betle",
+  "family": "Piperaceae",
+  "description": "Betel vine (tamalapaku, paan) is a perennial shade-loving creeper grown for its fresh leaves in closed gardens in Andhra Pradesh, Tamil Nadu, West Bengal and Odisha. The leaves are chewed fresh, so sprays should be applied only after plucking and the waiting period observed.",
+  "common_varieties": ["Tellaku", "Kapoori", "Bangla", "Desawari", "Meetha", "Sirugamani 1 (SGM 1)"],
+  "npk": {"N": 150, "P2O5": 100, "K2O": 30, "unit": "kg/ha"},
+  "npk_split": "Per year, give half the N as neem cake and half as urea along with all P and K, in three equal splits at 40-45 day intervals starting 15 days after lifting the vines.",
+  "conditions": {
+    "Leaf rot": {
+      "name": "Leaf Rot",
+      "kind": "disease",
+      "cause": "Phytophthora parasitica (syn. Phytophthora nicotianae)",
+      "type": "Oomycete",
+      "severity_weight": 0.9,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "The most destructive disease of betel vine, caused by a soil-borne water mould that rots the leaves and, as foot rot, kills whole vines. It spreads fast in cool, wet weather and in waterlogged gardens.",
+      "symptoms": [
+        "Water-soaked dark brown to black round spots, often starting at the leaf margin or tip",
+        "Spots enlarge quickly with light and dark rings",
+        "Leaves close to the soil rot first and drop",
+        "Whitish growth on rotting leaves in humid weather",
+        "With foot rot, vines wilt suddenly and the stem base turns black"
+      ],
+      "spread": "The pathogen lives in the soil and spreads through rain splash, irrigation water and infected cuttings, mainly in the cool, wet season.",
+      "action": "Remove and burn rotting leaves and vines, improve drainage, and drench the soil around the vines with 1% Bordeaux mixture at monthly intervals during the wet season.",
+      "manage": "oomycete_blight",
+      "treatment": [
+        {"name": "Bordeaux mixture 1%", "type": "Fungicide", "dose": "1% (1 kg copper sulphate + 1 kg lime in 100 L water), soil drench", "notes": "Drench the root zone at monthly intervals in the wet season; prepare fresh on the day of use."},
+        {"name": "Bordeaux mixture 0.5%", "type": "Fungicide", "dose": "0.5% foliar spray", "notes": "Spray only after plucking marketable leaves and keep the longest possible gap before the next plucking."},
+        {"name": "Trichoderma viride", "type": "Biological", "dose": "as per label", "notes": "Mix with neem cake or farmyard manure and apply to the root zone; do not apply together with Bordeaux drench."}
+      ]
+    },
+    "Leaf spot": {
+      "name": "Leaf Spot",
+      "kind": "disease",
+      "cause": "Colletotrichum capsici / Colletotrichum gloeosporioides (anthracnose); bacterial leaf spot (Xanthomonas axonopodis pv. betlicola) looks similar",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Leaf spotting of betel vine in humid, rainy weather, caused mostly by anthracnose fungus and sometimes by bacteria. Spotted leaves cannot be sold, and severe attack causes leaf yellowing and fall.",
+      "symptoms": [
+        "Small brown to black round or irregular spots with a yellow halo",
+        "Spots enlarge and the centre turns grey-brown and dry",
+        "Spots merge, the leaf turns yellow and drops",
+        "Black sunken streaks on the vine stem in anthracnose",
+        "Angular water-soaked, greasy spots on the underside if bacterial"
+      ],
+      "spread": "Spread by rain splash, infected cuttings and plant debris in humid, rainy weather.",
+      "action": "Pluck marketable leaves first, remove and burn the spotted leaves, and then spray 0.5% Bordeaux mixture or copper oxychloride 50 WP 3 g/L.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Bordeaux mixture 0.5%", "type": "Fungicide", "dose": "0.5% foliar spray", "notes": "Copper acts on both the fungal and the bacterial leaf spot; spray after plucking and repeat after 15-20 days in wet weather."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L water", "notes": "Alternative to Bordeaux mixture; observe the label waiting period before the next plucking."},
+        {"name": "Garden sanitation", "type": "Cultural", "dose": "-", "notes": "Use cuttings from healthy vines, remove fallen leaves and avoid working in the garden when the leaves are wet."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep the garden well drained and shaded.",
+      "symptoms": [
+        "Glossy, uniform green heart-shaped leaves",
+        "No spots, rot or yellowing",
+        "Steady new leaf growth on the vine"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting, especially of leaves close to the soil in wet weather.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

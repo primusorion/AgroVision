@@ -1,0 +1,478 @@
+{
+  "crop": "Rice",
+  "scientific_name": "Oryza sativa",
+  "family": "Poaceae",
+  "description": "Rice is the main food crop of Andhra Pradesh and Telangana, grown in kharif and rabi mostly as transplanted paddy under canal, tank and borewell irrigation. It stands in water for most of its life, which favours blast, bacterial blight, sheath blight and stem borer.",
+  "common_varieties": [
+    "BPT 5204 (Samba Mahsuri)",
+    "MTU 1010 (Cottondora Sannalu)",
+    "MTU 7029 (Swarna)",
+    "RNR 15048 (Telangana Sona)",
+    "MTU 1001 (Vijetha)",
+    "KNM 118 (Kunaram Sannalu)"
+  ],
+  "npk": {"N": 120, "P2O5": 60, "K2O": 40, "unit": "kg/ha"},
+  "npk_split": "Apply all P and half the K at final puddling; give N in three equal splits at transplanting, active tillering and panicle initiation, with the remaining K at panicle initiation.",
+  "conditions": {
+    "Bacterial leaf blight": {
+      "name": "Bacterial Leaf Blight",
+      "kind": "disease",
+      "cause": "Xanthomonas oryzae pv. oryzae",
+      "type": "Bacterial",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A bacterial disease that enters through leaf tips and wounds and blocks the veins, drying the leaf from the tip downward. It is worst after storms in the rainy season in fields given heavy nitrogen.",
+      "symptoms": [
+        "Yellow to straw-coloured stripes starting at the leaf tip and running down one or both edges",
+        "Wavy border between the dried and the green part of the leaf",
+        "Milky or yellow bacterial droplets on fresh lesions in the early morning",
+        "In early attacks seedlings wilt and whole hills dry up (kresek)"
+      ],
+      "spread": "Spreads with wind-driven rain, flood and irrigation water moving from field to field, and enters through wounds from storms or leaf clipping.",
+      "action": "Stop urea top-dressing, drain the field for 3-4 days and do not let water flow from the affected field into healthy ones.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {
+          "name": "Withhold nitrogen and drain the field",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Skip the next urea dose and drain standing water for 3-4 days; resume nitrogen only after the spread stops."
+        },
+        {
+          "name": "Copper hydroxide 77 WP",
+          "type": "Bactericide",
+          "dose": "2 g/L",
+          "notes": "Spray at first symptoms and repeat after 10-12 days; it only slows the spread, no chemical cures the disease; only where the label lists your crop."
+        },
+        {
+          "name": "Resistant variety next season",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Grow a blight-resistant variety such as Improved Samba Mahsuri (RP Bio 226) in fields that get the disease every year."
+        }
+      ]
+    },
+    "Bacterial leaf streak": {
+      "name": "Bacterial Leaf Streak",
+      "kind": "disease",
+      "cause": "Xanthomonas oryzae pv. oryzicola",
+      "type": "Bacterial",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A bacterial disease that forms narrow streaks between the leaf veins, mostly from tillering to booting in warm, wet weather. It is usually less damaging than bacterial leaf blight but can dry the leaves of susceptible varieties.",
+      "symptoms": [
+        "Narrow, water-soaked, translucent streaks between the veins",
+        "Streaks turn yellow-orange and later brown",
+        "Tiny yellow beads of bacterial ooze along the streaks",
+        "Badly streaked leaves turn brown and dry"
+      ],
+      "spread": "Carried on infected seed and spread by rain splash, wind-driven rain and irrigation water, entering through leaf pores and wounds.",
+      "action": "Hold back nitrogen top-dressing, avoid walking through the wet crop and spray copper hydroxide 2 g/L if the streaks keep spreading.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {
+          "name": "Copper hydroxide 77 WP",
+          "type": "Bactericide",
+          "dose": "2 g/L",
+          "notes": "Spray when streaks are spreading to new leaves; repeat once after 10-12 days if wet weather continues; only where the label lists your crop."
+        },
+        {
+          "name": "Clean seed",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Do not keep seed from an affected field; use certified seed next season."
+        }
+      ]
+    },
+    "Bacterial panicle blight": {
+      "name": "Bacterial Panicle Blight",
+      "kind": "disease",
+      "cause": "Burkholderia glumae",
+      "type": "Bacterial",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A seed-borne bacterial disease that rots the grains at flowering, leaving upright panicles with empty or discoloured grain. It is uncommon in India and appears mainly when nights are hot and humid at heading.",
+      "symptoms": [
+        "Panicles stay upright because the grains do not fill",
+        "Grains turn straw-coloured to grey-brown, darker at the base",
+        "Panicle branches stay green under the discoloured grains",
+        "Grey patch with a reddish-brown border on the flag-leaf sheath"
+      ],
+      "spread": "Carried in seed and spread between panicles by rain and wind at flowering, favoured by hot nights and excess nitrogen.",
+      "action": "Do not save seed from this field, because no registered spray cures the disease once the panicles are affected.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {
+          "name": "Certified disease-free seed",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "The main control; discard seed from affected fields."
+        },
+        {
+          "name": "Balanced nitrogen and timely planting",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Avoid excess or late urea and plant on time so that flowering escapes the hottest nights."
+        }
+      ]
+    },
+    "Blast": {
+      "name": "Blast",
+      "kind": "disease",
+      "cause": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "type": "Fungal",
+      "severity_weight": 0.95,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The most destructive fungal disease of rice, attacking leaves, stem nodes and the neck of the panicle. Neck blast at heading can leave whole panicles empty.",
+      "symptoms": [
+        "Spindle or eye-shaped leaf spots with a grey-white centre and brown border",
+        "Spots join and the leaves look burnt",
+        "Stem nodes turn black and break easily",
+        "Neck of the panicle turns grey-brown and the panicle falls over with chaffy grain"
+      ],
+      "spread": "Airborne spores spread quickly in cool nights with long dew, cloudy drizzly weather and heavily nitrogen-fed crops.",
+      "action": "Spray tricyclazole 75 WP 0.6 g/L now and again at panicle emergence, and hold back nitrogen top-dressing.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {
+          "name": "Tricyclazole 75 WP",
+          "type": "Fungicide",
+          "dose": "0.6 g/L",
+          "notes": "Spray at first leaf spots and repeat at panicle emergence to protect the neck."
+        },
+        {
+          "name": "Isoprothiolane 40 EC",
+          "type": "Fungicide",
+          "dose": "1.5 ml/L",
+          "notes": "Alternative to tricyclazole; rotate between the two if a second spray is needed."
+        },
+        {
+          "name": "Split nitrogen, keep water in the field",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Skip urea while the disease is active and do not let the field dry, as water stress worsens blast."
+        }
+      ]
+    },
+    "Brown spot": {
+      "name": "Brown Spot",
+      "kind": "disease",
+      "cause": "Bipolaris oryzae (Cochliobolus miyabeanus)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf and grain spot that signals a weak crop on poor, potash-deficient or water-stressed soil. It reduces grain filling and causes discoloured grain.",
+      "symptoms": [
+        "Oval, sesame-seed-shaped brown spots with a grey or whitish centre",
+        "Spots scattered evenly over the leaf blade",
+        "Dark brown to black spots on the grain husks",
+        "Nursery seedlings with brown specks and blighted leaves"
+      ],
+      "spread": "Seed-borne and carried by wind-blown spores, and severe where the soil is short of potash or the crop is short of water.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L and correct the crop's nutrition and water supply, since the disease follows poor soil.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Spray when spots appear on upper leaves; repeat after 10-15 days if needed."
+        },
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Use at booting to heading to protect the flag leaf and grain."
+        },
+        {
+          "name": "Potash and balanced fertiliser",
+          "type": "Fertilizer",
+          "dose": "as per soil test",
+          "notes": "Apply the recommended potash; brown spot is worst on potash-deficient and light soils."
+        }
+      ]
+    },
+    "Downy mildew": {
+      "name": "Downy Mildew",
+      "kind": "disease",
+      "cause": "Sclerophthora macrospora",
+      "type": "Oomycete",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A soil-borne water mould that infects seedlings when the nursery or young crop is flooded. It is a minor disease that twists the leaves and deforms the panicle of scattered plants.",
+      "symptoms": [
+        "Small whitish-yellow spots and streaks on young leaves",
+        "Leaves thick, twisted and stunted",
+        "Panicles deformed, twisted and partly stuck in the leaf sheath",
+        "Dwarf plants with extra tillers"
+      ],
+      "spread": "Resting spores in the soil release swimming spores that infect seedlings submerged in the first weeks after sowing.",
+      "action": "Pull out and bury the affected plants and do not let the nursery or young crop stay submerged.",
+      "manage": "downy_mildew",
+      "treatment": [
+        {
+          "name": "Raised, well-drained nursery",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Avoid flooding the seedbed in the first 3 weeks and remove grassy weeds that carry the disease."
+        },
+        {
+          "name": "Metalaxyl 8% + Mancozeb 64% WP",
+          "type": "Fungicide",
+          "dose": "as per label",
+          "notes": "Rarely needed in rice; consider only where many nursery seedlings are affected."
+        }
+      ]
+    },
+    "Hispa": {
+      "name": "Rice Hispa",
+      "kind": "pest",
+      "cause": "Dicladispa armigera",
+      "type": "Insect",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A small blue-black spiny beetle whose adults scrape the green surface of the leaf and whose grubs mine inside it. Young transplanted crops are attacked most, and badly damaged leaves turn white and dry.",
+      "symptoms": [
+        "White parallel streaks along the leaf where adults have scraped it",
+        "Irregular whitish, papery blotches where grubs tunnel inside the leaf",
+        "Small blue-black beetles covered with spines on the leaves",
+        "Heavily attacked fields look whitish and scorched"
+      ],
+      "spread": "Adults fly in from grassy weeds and neighbouring fields soon after transplanting, favoured by early rains and heavy nitrogen.",
+      "action": "Clip and destroy the mined leaf tips and spray only if there are more than 2 beetles or 2 damaged leaves per hill.",
+      "manage": "beetles_weevils",
+      "treatment": [
+        {
+          "name": "Clip seedling leaf tips before transplanting",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Removes most eggs laid near the tips; destroy the clippings."
+        },
+        {
+          "name": "Sweep net and remove mined leaves",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Sweep adults in the early morning and destroy leaves with grub mines."
+        },
+        {
+          "name": "Lambda-cyhalothrin 5 EC",
+          "type": "Insecticide",
+          "dose": "0.5 ml/L",
+          "notes": "Only above 2 adults or 2 damaged leaves per hill; do not repeat, as pyrethroids can flare up brown planthopper."
+        }
+      ]
+    },
+    "Leaf scald": {
+      "name": "Leaf Scald",
+      "kind": "disease",
+      "cause": "Microdochium oryzae (Monographella albescens)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal disease that scalds the leaf from the tip or edge with banded lesions, mostly late in the season. It is favoured by wet weather, close planting and heavy nitrogen.",
+      "symptoms": [
+        "Banded lesions with alternating light tan and dark brown zones",
+        "Lesions start at the leaf tip or edge and move inward",
+        "Affected leaf tips dry out and bleach to a straw colour",
+        "Lesion edges look water-soaked in wet weather"
+      ],
+      "spread": "Survives on seed and stubble and spreads by rain-splashed spores in wet weather on dense, nitrogen-rich crops.",
+      "action": "Avoid further nitrogen top-dressing and spray carbendazim 50 WP 1 g/L if the upper leaves are being scalded before heading.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Carbendazim 50 WP",
+          "type": "Fungicide",
+          "dose": "1 g/L",
+          "notes": "One spray when lesions reach the upper leaves; older leaves at maturity need no spray."
+        },
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Alternative protectant spray in continuous wet weather."
+        }
+      ]
+    },
+    "Narrow brown leaf spot": {
+      "name": "Narrow Brown Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora janseana (Sphaerulina oryzina)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that appears as short, narrow brown lines on the upper leaves from heading onward. It is usually minor but can dry the flag leaf early on potash-deficient soils.",
+      "symptoms": [
+        "Short, narrow, linear brown spots 2-10 mm long running along the veins",
+        "Spots are darker and narrower on resistant varieties, wider and lighter on susceptible ones",
+        "Mostly on the upper leaves late in the crop",
+        "Brown netted discolouration on the leaf sheath"
+      ],
+      "spread": "Wind-borne spores from infected stubble, volunteer rice and grassy weeds, favoured by warm humid weather and low potash.",
+      "action": "Spray propiconazole 25 EC 1 ml/L once between booting and heading only if the spots are increasing on the top leaves.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Propiconazole 25 EC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "One spray between booting and heading protects the flag leaf; no spray is needed close to harvest."
+        },
+        {
+          "name": "Recommended potash dose",
+          "type": "Fertilizer",
+          "dose": "as per soil test",
+          "notes": "Crops short of potash are affected more."
+        }
+      ]
+    },
+    "Sheath blight": {
+      "name": "Sheath Blight",
+      "kind": "disease",
+      "cause": "Rhizoctonia solani",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A soil-borne fungal disease that starts on the leaf sheath at the water line and climbs up the plant in dense, heavily fertilised crops. It causes lodging and poorly filled grain.",
+      "symptoms": [
+        "Oval greenish-grey spots on the leaf sheath near the water level",
+        "Spots enlarge with a grey-white centre and brown border, like snake skin",
+        "Lesions move up to the leaf blades and upper sheaths",
+        "Small brown mustard-seed-like sclerotia on the lesions"
+      ],
+      "spread": "Sclerotia float on the irrigation water and infect at the water line, and the fungus then spreads from plant to plant by leaf contact in dense, humid crops.",
+      "action": "Spray validamycin 3 L 2 ml/L or hexaconazole 5 EC 2 ml/L directed at the base of the plants and skip the next urea dose.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {
+          "name": "Validamycin 3 L",
+          "type": "Fungicide",
+          "dose": "2 ml/L",
+          "notes": "Direct the spray to the lower sheaths; repeat after 15 days if lesions keep climbing."
+        },
+        {
+          "name": "Hexaconazole 5 EC",
+          "type": "Fungicide",
+          "dose": "2 ml/L",
+          "notes": "Alternative to validamycin; rotate between the two."
+        },
+        {
+          "name": "Pseudomonas fluorescens (talc formulation)",
+          "type": "Biological",
+          "dose": "2.5 kg/ha mixed with 50 kg FYM",
+          "notes": "Broadcast about 30 days after transplanting in fields with a sheath blight history."
+        }
+      ]
+    },
+    "Stem borer (dead heart)": {
+      "name": "Stem Borer (Dead Heart)",
+      "kind": "pest",
+      "cause": "Scirpophaga incertulas (yellow stem borer)",
+      "type": "Insect",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Caterpillars of the yellow stem borer bore into the tiller and cut the growing shoot from inside. Attack before flowering gives dead hearts, and attack after flowering gives white, empty ear heads.",
+      "symptoms": [
+        "Central shoot of a tiller turns brown and dry while the outer leaves stay green",
+        "The dried central shoot pulls out easily",
+        "Brown, hairy egg masses near the leaf tips",
+        "Small bore holes and frass on the stem",
+        "White, empty ear heads after flowering"
+      ],
+      "spread": "Moths fly in at night and lay egg masses on the leaf tips, and the larvae carry over in the stubble between crops.",
+      "action": "Pull out and destroy the dead hearts and apply insecticide only if more than 10% of tillers are affected.",
+      "manage": "stem_borer",
+      "treatment": [
+        {
+          "name": "Chlorantraniliprole 18.5 SC",
+          "type": "Insecticide",
+          "dose": "0.3 ml/L",
+          "notes": "Spray when dead hearts exceed 10% of tillers or one egg mass per square metre is seen."
+        },
+        {
+          "name": "Cartap hydrochloride 4 GR",
+          "type": "Insecticide",
+          "dose": "20-25 kg/ha",
+          "notes": "Broadcast in 2-3 cm of standing water and hold the water for 3-4 days."
+        },
+        {
+          "name": "Pheromone traps (yellow stem borer lure)",
+          "type": "Biological",
+          "dose": "8 traps/ha",
+          "notes": "Fix from 15 days after transplanting to watch moth flights and time the spray."
+        }
+      ]
+    },
+    "Tungro": {
+      "name": "Tungro",
+      "kind": "disease",
+      "cause": "Rice tungro bacilliform virus + Rice tungro spherical virus",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A virus disease carried by green leafhoppers that stunts the plant and turns the leaves yellow-orange. There is no cure once a plant is infected, and early infection can cause near-total loss.",
+      "symptoms": [
+        "Leaves turn yellow to orange from the tip downward",
+        "Stunted plants with fewer tillers",
+        "Young leaves mottled or striped, old leaves with rusty specks",
+        "Late flowering and small panicles with partly filled grain",
+        "Affected hills occur in patches"
+      ],
+      "spread": "Green leafhoppers pick up the virus from infected rice, stubble and volunteer plants and carry it to healthy plants within hours.",
+      "action": "Pull out and bury the infected hills and control green leafhoppers in the nursery and young crop, because no spray cures the virus.",
+      "manage": "viral_hopper",
+      "vector": "Green leafhopper (Nephotettix virescens)",
+      "treatment": [
+        {
+          "name": "Rogue infected hills",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove and bury yellow stunted hills early; plough in stubble after harvest to destroy the virus source."
+        },
+        {
+          "name": "Thiamethoxam 25 WG",
+          "type": "Insecticide",
+          "dose": "0.2 g/L",
+          "notes": "Controls the leafhopper vector in the nursery and up to 40 days after transplanting; it does not cure infected plants."
+        },
+        {
+          "name": "Imidacloprid 17.8 SL",
+          "type": "Insecticide",
+          "dose": "0.25 ml/L",
+          "notes": "Same group (IRAC 4A) as thiamethoxam, so use one or the other, not both one after the other; it does not cure infected plants."
+        }
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing rice plant.",
+      "symptoms": [
+        "Uniform green leaf blade",
+        "No spots, streaks or dried tips",
+        "No insects or feeding marks"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue split nitrogen, proper water management and weekly scouting of the field.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

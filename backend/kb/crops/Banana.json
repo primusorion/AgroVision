@@ -1,0 +1,329 @@
+{
+  "crop": "Banana",
+  "scientific_name": "Musa spp. (Musa acuminata x Musa balbisiana)",
+  "family": "Musaceae",
+  "description": "Banana is a year-round fruit crop grown under irrigation in Andhra Pradesh (Kadapa, Anantapur, the Godavari districts), Tamil Nadu, Maharashtra and Gujarat, mostly from tissue-culture plants or suckers. It is a heavy feeder, especially of potassium and nitrogen, and each plant gives one bunch in 11-14 months.",
+  "common_varieties": ["Grand Naine (G-9)", "Dwarf Cavendish", "Robusta", "Karpura Chakkerakeli (Poovan)", "Tella Chakkerakeli", "Nendran"],
+  "npk": {"N": 200, "P2O5": 60, "K2O": 300, "unit": "g/plant/year"},
+  "npk_split": "Give all phosphorus at planting and split nitrogen and potash into 3-5 equal doses between the 2nd and 7th month after planting (or weekly through drip).",
+  "conditions": {
+    "Boron deficiency": {
+      "name": "Boron Deficiency",
+      "kind": "deficiency",
+      "cause": "Boron (B)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of boron, seen on sandy, leached or calcareous soils and in dry spells. It deforms the newest leaves and, when severe, stops the growing point and spoils bunch filling.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "Pale white to yellow streaks running across the veins (at right angles to them) on the leaf blade",
+        "New leaves narrow, crinkled, thick and brittle, with wavy or incomplete blades",
+        "New leaf fails to unroll fully and may stick or tear",
+        "In severe cases the heart leaf dies and fingers are poorly filled"
+      ],
+      "spread": "Not infectious - occurs on light sandy, high-rainfall leached or lime-rich soils and during drought.",
+      "action": "Spray boric acid on the young leaves and apply borax to the soil only as per soil test.",
+      "manage": "deficiency_B",
+      "nutrient": "B",
+      "treatment": [
+        {"name": "Boric acid foliar spray", "type": "Fertilizer", "dose": "1 g/L", "notes": "Spray at 3, 5 and 7 months after planting; do not exceed the dose, since excess boron scorches leaf edges."},
+        {"name": "Borax to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Mix with FYM and spread evenly around the plant; small overdoses are toxic."}
+      ]
+    },
+    "Calcium deficiency": {
+      "name": "Calcium Deficiency",
+      "kind": "deficiency",
+      "cause": "Calcium (Ca)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Shortage of calcium reaching the new leaves, common on acid or sandy soils, after very fast growth or where heavy potash or ammonium is applied. It deforms the youngest leaves and makes fruit peel split.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "Spike leaf - the new leaf comes out with the blade missing, narrow or deformed",
+        "Yellowing between the veins near the leaf edge, later drying into dead patches",
+        "Side veins look thick and the leaf is crinkled and brittle",
+        "Fruit peel splits at ripening"
+      ],
+      "spread": "Not infectious - seen on acid, sandy or sodic soils, with uneven watering and with excess potash, magnesium or ammonium.",
+      "action": "Spray calcium nitrate on the young leaves and apply lime (acid soil) or gypsum (sodic soil) as per soil test.",
+      "manage": "deficiency_Ca",
+      "nutrient": "Ca",
+      "treatment": [
+        {"name": "Calcium nitrate foliar spray", "type": "Fertilizer", "dose": "5 g/L", "notes": "Two or three sprays at 10-15 day intervals on the young leaves."},
+        {"name": "Agricultural lime (acid soil) or gypsum (sodic / high-pH soil)", "type": "Fertilizer", "dose": "as per soil test", "notes": "Keep irrigation regular; calcium moves into the plant only with water."}
+      ]
+    },
+    "Cordana leaf spot": {
+      "name": "Cordana Leaf Spot",
+      "kind": "disease",
+      "cause": "Neocordana musae (syn. Cordana musae)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal leaf spot of older banana leaves in warm, humid weather, often following Sigatoka or leaf injury. It is usually minor but can dry large areas of the lower leaves in crowded, wet plantations.",
+      "symptoms": [
+        "Large oval or diamond-shaped pale brown spots with clear ring-like zones",
+        "Dark brown border with a bright yellow halo",
+        "Spots mostly along the leaf edge, merging into long dead strips",
+        "Greyish-brown underside of the spot",
+        "Mainly on the lower, older leaves"
+      ],
+      "spread": "Spores formed on the underside of spots are carried by wind and rain splash in humid weather.",
+      "action": "Cut off and remove badly spotted lower leaves and spray mancozeb with a sticker if spots are moving to the upper leaves.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Remove spotted lower leaves", "type": "Cultural", "dose": "-", "notes": "Take them out of the field; keep at least 8-10 healthy leaves on the plant and remove extra suckers for airflow."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Add a sticker, since banana leaves are waxy; repeat after 15 days in wet weather."},
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Alternate with mancozeb; the same sprays also control Sigatoka."}
+      ]
+    },
+    "Iron deficiency": {
+      "name": "Iron Deficiency",
+      "kind": "deficiency",
+      "cause": "Iron (Fe)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available iron, common on calcareous, alkaline or waterlogged soils where iron is locked up. Young leaves turn yellow-white and growth and bunch size are reduced.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "Whole blade of young leaves turns pale yellow to almost white between the veins",
+        "Veins stay green at first, then fade too",
+        "Older leaves below remain green",
+        "Stunted plant and small bunch if it continues"
+      ],
+      "spread": "Not infectious - occurs on lime-rich, high-pH or waterlogged soils and with excess phosphate or manganese.",
+      "action": "Spray ferrous sulphate on the young leaves and improve drainage around the plants.",
+      "manage": "deficiency_Fe",
+      "nutrient": "Fe",
+      "treatment": [
+        {"name": "Ferrous sulphate (19% Fe) foliar spray", "type": "Fertilizer", "dose": "2-5 g/L", "notes": "Add a sticker; repeat 2-3 times at 10-15 day intervals. Use the lower dose on tender tissue-culture plants."},
+        {"name": "FYM / compost and drainage", "type": "Cultural", "dose": "-", "notes": "Organic matter and good drainage keep iron available on calcareous soils."}
+      ]
+    },
+    "Magnesium deficiency": {
+      "name": "Magnesium Deficiency",
+      "kind": "deficiency",
+      "cause": "Magnesium (Mg)",
+      "type": "Nutrient",
+      "severity_weight": 0.45,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of magnesium, seen on light acid soils and in old plantations given heavy potash for years. Older leaves yellow early, reducing the green leaf area that fills the bunch.",
+      "symptoms": [
+        "Shows on the older, lower leaves",
+        "Broad yellow band between the leaf edge and the midrib, while the strip next to the midrib stays green",
+        "Purplish-blue mottling on the leaf stalks",
+        "Leaf sheaths pull away from the pseudostem",
+        "Young leaves stay green"
+      ],
+      "spread": "Not infectious - occurs on sandy, acid or leached soils and where potash is applied heavily without magnesium.",
+      "action": "Spray magnesium sulphate on the leaves and apply magnesium to the soil as per soil test.",
+      "manage": "deficiency_Mg",
+      "nutrient": "Mg",
+      "treatment": [
+        {"name": "Magnesium sulphate (Epsom salt) foliar spray", "type": "Fertilizer", "dose": "10 g/L", "notes": "Two sprays 15 days apart with a sticker; yellowed old leaves will not regreen fully."},
+        {"name": "Magnesium sulphate or dolomite (acid soils) to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Keep potash doses in line with the recommendation."}
+      ]
+    },
+    "Manganese deficiency": {
+      "name": "Manganese Deficiency",
+      "kind": "deficiency",
+      "cause": "Manganese (Mn)",
+      "type": "Nutrient",
+      "severity_weight": 0.4,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Shortage of available manganese, mostly on alkaline or calcareous soils. It causes a typical comb-tooth yellowing on the second to fourth youngest leaves and can blemish fruit.",
+      "symptoms": [
+        "Shows on the 2nd to 4th youngest leaves",
+        "Yellowing between the veins that starts at the leaf edge and runs inward along the veins",
+        "Veins stay green, giving a comb-tooth pattern",
+        "A narrow green edge may remain, later with small dead patches",
+        "Midrib area stays green"
+      ],
+      "spread": "Not infectious - occurs on high-pH, lime-rich or over-limed soils.",
+      "action": "Spray manganese sulphate on the leaves.",
+      "manage": "deficiency_Mn",
+      "nutrient": "Mn",
+      "treatment": [
+        {"name": "Manganese sulphate foliar spray", "type": "Fertilizer", "dose": "2-5 g/L", "notes": "Add a sticker; repeat after 15 days if new leaves still show the pattern."}
+      ]
+    },
+    "Pestalotiopsis leaf spot": {
+      "name": "Pestalotiopsis Leaf Spot",
+      "kind": "disease",
+      "cause": "Pestalotiopsis spp.",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal leaf spot caused by a weak fungus that attacks banana leaves already injured by wind, insects or stress. It is usually minor but spreads in warm, wet weather on weak plants.",
+      "symptoms": [
+        "Small brown spots that grow into irregular grey-brown to tan dead patches",
+        "Dark brown border, often with a yellow halo",
+        "Patches often start from the leaf edge, tip or a wound",
+        "Tiny black dots (fungal bodies) scattered in the dead tissue",
+        "Dead areas become dry and papery"
+      ],
+      "spread": "Spores from dead leaf tissue are spread by rain splash and wind and enter through wounds.",
+      "action": "Remove and destroy affected leaves and spray mancozeb with a sticker if the spots keep spreading.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Remove affected leaves and dry trash", "type": "Cultural", "dose": "-", "notes": "Avoid leaf injury and improve airflow by desuckering; feed and water the plants properly."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Add a sticker; repeat after 15 days in wet weather."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "Alternate with mancozeb if the disease continues."}
+      ]
+    },
+    "Potassium deficiency": {
+      "name": "Potassium Deficiency",
+      "kind": "deficiency",
+      "cause": "Potassium (K)",
+      "type": "Nutrient",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "The most yield-limiting deficiency in banana, since the crop removes very large amounts of potassium. Older leaves die quickly, leaving too few green leaves to fill the bunch.",
+      "symptoms": [
+        "Shows on the oldest leaves first",
+        "Rapid orange-yellow colour starting at the leaf tip and edges",
+        "Yellow areas quickly dry and scorch brown",
+        "Midrib bends or breaks and the dry leaf tip curls inward",
+        "Small bunch with thin, poorly filled fingers"
+      ],
+      "spread": "Not infectious - occurs on sandy or leached soils and wherever potash application is low for the yield taken.",
+      "action": "Apply the due split of muriate of potash around the plant and irrigate.",
+      "manage": "deficiency_K",
+      "nutrient": "K",
+      "treatment": [
+        {"name": "Muriate of potash (60% K2O) to soil", "type": "Fertilizer", "dose": "as per schedule (300 g K2O per plant in 3-5 splits)", "notes": "Apply in a ring 30-45 cm from the plant and irrigate; do not skip the later splits."},
+        {"name": "Sulphate of potash foliar / bunch spray", "type": "Fertilizer", "dose": "20 g/L", "notes": "Two sprays on leaves and bunch after the last hand opens improve finger filling."}
+      ]
+    },
+    "Sigatoka": {
+      "name": "Sigatoka Leaf Spot",
+      "kind": "disease",
+      "cause": "Pseudocercospora musae, P. eumusae and P. fijiensis (Mycosphaerella leaf spot complex)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "The most important leaf disease of banana, destroying green leaf area in warm, rainy or humid weather. Plants reach bunching with too few leaves, so bunches are small and fruit ripens early and unevenly.",
+      "symptoms": [
+        "Small pale yellow or dark streaks running parallel to the leaf veins",
+        "Streaks grow into spindle-shaped brown spots with a grey centre and dark border",
+        "Yellow halo around the spots",
+        "Spots merge and the leaf dries from the edge inward",
+        "Few green leaves left at bunch stage"
+      ],
+      "spread": "Spores from spotted and dead leaves are carried by wind and rain splash, fastest in crowded, wet, poorly drained plantations.",
+      "action": "Cut off and remove the spotted leaf parts and spray propiconazole with a sticker, alternating with mancozeb at 2-3 week intervals.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Add sticker or spray oil as per label; cover the younger leaves; do not use more than 2-3 times a season."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Alternate with propiconazole to delay resistance; add a sticker."},
+        {"name": "De-leafing, desuckering and drainage", "type": "Cultural", "dose": "-", "notes": "Remove spotted leaf portions every 2-3 weeks and take them out of the field; keep correct spacing and one follower sucker."}
+      ]
+    },
+    "Sulphur deficiency": {
+      "name": "Sulphur Deficiency",
+      "kind": "deficiency",
+      "cause": "Sulphur (S)",
+      "type": "Nutrient",
+      "severity_weight": 0.4,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of sulphur, seen on sandy, low-organic-matter soils where only sulphur-free fertilisers such as urea, DAP and MOP are used. Young leaves turn pale and the plant and bunch stay small.",
+      "symptoms": [
+        "Shows on the youngest leaves, including the heart leaf",
+        "Whole young leaf evenly pale yellow to yellowish-white, veins included",
+        "Older leaves stay green (opposite of nitrogen deficiency)",
+        "Later, side veins thicken and small dead patches form at the leaf edge",
+        "Stunted plant with a small or choked bunch"
+      ],
+      "spread": "Not infectious - occurs on sandy, leached soils low in organic matter and with continuous use of sulphur-free fertilisers.",
+      "action": "Switch part of the fertiliser to sulphur-containing sources such as ammonium sulphate, single super phosphate or gypsum.",
+      "manage": "deficiency_S",
+      "nutrient": "S",
+      "treatment": [
+        {"name": "Ammonium sulphate (24% S) or single super phosphate (11% S) in place of urea / DAP", "type": "Fertilizer", "dose": "as per schedule", "notes": "Supplies sulphur within the normal nitrogen and phosphorus dose."},
+        {"name": "Gypsum to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Also supplies calcium; apply with FYM."}
+      ]
+    },
+    "Xanthomonas wilt": {
+      "name": "Banana Xanthomonas Wilt",
+      "kind": "disease",
+      "cause": "Xanthomonas vasicola pv. musacearum",
+      "type": "Bacterial",
+      "severity_weight": 1.0,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A deadly bacterial wilt of banana known from East and Central Africa and not confirmed in India, where similar wilting is more likely Panama (Fusarium) wilt or bacterial rhizome rot. It blocks the water vessels, kills the plant and has no cure.",
+      "symptoms": [
+        "Leaves turn yellow, wilt and collapse, starting with any leaf",
+        "Yellow bacterial slime oozes from a cut pseudostem within minutes",
+        "Fruit ripens early and unevenly, with rusty-brown stains inside the pulp",
+        "Male bud and bunch stalk shrivel and blacken",
+        "Whole mat dies"
+      ],
+      "spread": "Spread by cutting tools, insects visiting the male flower, infected suckers and contact with diseased plant sap.",
+      "action": "Stop moving suckers out of the field, uproot and bury the affected plants, disinfect knives between plants and report the case to the horticulture department for confirmation.",
+      "manage": "bacterial_wilt",
+      "treatment": [
+        {"name": "Uproot and bury or burn affected mats", "type": "Cultural", "dose": "-", "notes": "No chemical cures an infected plant; do not replant banana in that spot for at least 6 months."},
+        {"name": "Disinfect cutting tools between plants", "type": "Cultural", "dose": "-", "notes": "Flame the blade or dip it in household bleach solution before moving to the next plant."},
+        {"name": "Break off the male bud with a forked stick after the last hand forms", "type": "Cultural", "dose": "-", "notes": "Removes the entry point for insect-carried bacteria; do not use a knife."}
+      ]
+    },
+    "Zinc deficiency": {
+      "name": "Zinc Deficiency",
+      "kind": "deficiency",
+      "cause": "Zinc (Zn)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available zinc, common on alkaline, calcareous or sandy soils and where phosphate is applied heavily. New leaves stay narrow and striped, and bunches are small with twisted fingers.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "New leaves narrow, small and lance-shaped",
+        "Alternating yellow-white and green stripes between the side veins",
+        "Reddish-purple colour on the underside of the unrolling leaf",
+        "Leaves crowded at the top; fingers small, twisted and pale at the tip"
+      ],
+      "spread": "Not infectious - occurs on high-pH, lime-rich or sandy soils and with heavy phosphate use.",
+      "action": "Spray zinc sulphate on the young leaves.",
+      "manage": "deficiency_Zn",
+      "nutrient": "Zn",
+      "treatment": [
+        {"name": "Zinc sulphate (21% Zn) foliar spray", "type": "Fertilizer", "dose": "5 g/L", "notes": "Add a sticker; spray at 3, 5 and 7 months after planting or as soon as symptoms appear."},
+        {"name": "Zinc sulphate to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Apply with FYM, not mixed with phosphate fertiliser."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease or nutrient deficiency. A broad, evenly green blade indicates a well-fed, well-watered plant.",
+      "symptoms": [
+        "Uniform green leaf blade with no streaks, spots or yellow bands",
+        "Leaf edge green and intact apart from normal wind tearing",
+        "New leaves unroll fully and are of normal width"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue the fertiliser splits, regular irrigation, desuckering and removal of old dry leaves.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

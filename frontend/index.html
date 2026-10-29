@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgroVision AI — Crop Health Analyzer</title>
+  <meta name="description" content="Upload a leaf or insect photo to identify the crop, diagnose disease, pest damage and nutrient deficiency, identify insect pests, and get fertilizer and treatment advice. Runs fully offline on CPU.">
+  <meta name="theme-color" content="#0f4a2f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f4a2f'/%3E%3Cpath d='M25 6C13 6 7 12.5 7 20.5c0 1.6.4 3 1 4.2L6 26.8 7.3 28l2-2c1.2.7 2.6 1 4 1C21 27 25 19.5 25 8z' fill='%239be3b4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="topbar no-print">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#analyze">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30">
+          <path d="M26 5C13.5 5 6.5 11.8 6.5 20.3c0 1.7.4 3.2 1.1 4.5L5 27.4 6.6 29l2.6-2.6c1.3.7 2.8 1.1 4.3 1.1C22 27.5 26 19.6 26 7.4z" fill="currentColor"/>
+          <path d="M9.6 26.2C12.5 20 16.6 15 22 11.2" fill="none" stroke="#0f4a2f" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text"><strong>AgroVision AI</strong><small>Crop Health Analyzer</small></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#analyze">Analyze</a>
+      <a href="#crops">Crops</a>
+      <a href="#performance">Performance</a>
+      <a href="#how">How it works</a>
+    </nav>
+    <span id="apiStatus" class="pill pill-wait" role="status" title="Checking the backend…">
+      <span class="dot" aria-hidden="true"></span><span class="pill-text">Checking…</span>
+    </span>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ============ ANALYZE ============ -->
+  <section id="analyze" aria-labelledby="analyze-title">
+    <div class="hero no-print">
+      <div class="wrap">
+        <p class="eyebrow">KL University Capstone · AIML-25 · On-device crop-health analysis</p>
+        <h1 id="analyze-title">Crop health from a single photo</h1>
+        <p class="lead">Photograph a crop leaf &mdash; or the insect pest itself. AgroVision identifies the crop, diagnoses disease, pest damage and nutrient deficiency, names insect pests and recommends fertilizer and treatment &mdash; fully offline, on a CPU.</p>
+        <p id="heroStats" class="hero-stats" hidden></p>
+        <ul class="objectives" aria-label="Capstone objectives covered">
+          <li><b>1</b>Crop variety</li>
+          <li><b>2.1</b>Disease</li>
+          <li><b>2.2</b>Nutrient deficiency</li>
+          <li><b>3.1</b>Pest detection</li>
+          <li><b>3.2</b>Fertilizer advisory</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap analyze-body">
+      <div class="upload-grid no-print">
+        <div class="card upload-card">
+          <h2 class="card-title">Upload a leaf or insect photo</h2>
+          <div id="dropzone" class="dropzone">
+            <div id="dzEmpty" class="dz-empty">
+              <svg class="dz-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M14 34h-2a9 9 0 0 1-1-17.9A12 12 0 0 1 34.3 13 10 10 0 0 1 36 33h-2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M24 40V22m0 0-7 7m7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p class="dz-title">Drag &amp; drop a photo here</p>
+              <p class="dz-or">or</p>
+              <button type="button" class="btn btn-ghost" data-action="choose">Choose image</button>
+              <p class="dz-hint">JPG, PNG or WEBP &middot; up to 10 MB &middot; one leaf (or one insect), in focus, good light. You can also paste an image.</p>
+            </div>
+            <div id="dzPreview" class="dz-preview" hidden>
+              <img id="previewImg" alt="Preview of the selected photo">
+              <div class="dz-meta">
+                <span id="fileName" class="file-name"></span>
+                <span id="fileSize" class="muted"></span>
+              </div>
+            </div>
+          </div>
+          <input type="file" id="fileInput" accept="image/*" hidden>
+          <div class="upload-actions">
+            <button type="button" id="analyzeBtn" class="btn btn-primary" data-action="analyze" disabled>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 6 12l4.3 4.3-1.5 1.5-4.3-4.3A7.5 7.5 0 1 1 10.5 3zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" fill="currentColor"/></svg>
+              <span class="btn-label">Analyze photo</span>
+            </button>
+            <button type="button" id="changeBtn" class="btn btn-ghost" data-action="choose" hidden>Change photo</button>
+            <button type="button" id="clearBtn" class="btn btn-link" data-action="reset" hidden>Clear</button>
+          </div>
+        </div>
+
+        <div class="card samples-card">
+          <h2 class="card-title">Try a sample photo</h2>
+          <p class="muted small">Held-out test photos the model never trained on &mdash; <b>lab</b> = plain background, <b>field</b> = real farm conditions. Click one to analyze it.</p>
+          <div id="sampleFilters" class="filter-chips" role="group" aria-label="Filter samples by kind"></div>
+          <div id="samples" class="samples" aria-busy="true">
+            <p class="muted small">Loading samples…</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="progress" class="card progress no-print" hidden>
+        <div class="progress-head">
+          <h2 class="card-title">Analyzing your photo</h2>
+          <p id="progressText" class="muted small" aria-live="polite"></p>
+        </div>
+        <ol id="stepper" class="stepper">
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Quality gate</span></li>
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Plant / insect check</span></li>
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Crop &amp; diagnosis</span></li>
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Nutrient analysis</span></li>
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Pest detection</span></li>
+          <li><span class="step-dot" aria-hidden="true"></span><span class="step-label">Advisory</span></li>
+        </ol>
+      </div>
+
+      <div id="rejected" class="card rejected" hidden tabindex="-1"></div>
+      <div id="results" class="results" hidden tabindex="-1" aria-label="Analysis results"></div>
+    </div>
+  </section>
+
+  <!-- ============ SUPPORTED CROPS ============ -->
+  <section id="crops" class="section no-print" aria-labelledby="crops-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">What the leaf model recognises</p>
+        <h2 id="crops-title">Supported crops</h2>
+        <p class="muted">Every crop below has its own learned classes. Conditions are coloured by kind; search by crop, family or condition.</p>
+      </div>
+      <div class="crop-tools">
+        <label class="search">
+          <span class="visually-hidden">Search crops and conditions</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 6 12l4.3 4.3-1.5 1.5-4.3-4.3A7.5 7.5 0 1 1 10.5 3zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" fill="currentColor"/></svg>
+          <input type="search" id="cropSearch" placeholder="Search e.g. rice, blight, zinc, Solanaceae" autocomplete="off">
+        </label>
+        <p id="cropCount" class="muted small" aria-live="polite"></p>
+      </div>
+      <div id="cropLegend" class="kind-legend"></div>
+      <div id="cropGrid" class="crop-grid">
+        <div class="card empty"><span class="spinner" aria-hidden="true"></span> Loading crops…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODEL PERFORMANCE ============ -->
+  <section id="performance" class="section section-alt no-print" aria-labelledby="perf-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Evaluation on the held-out test set</p>
+        <h2 id="perf-title">Model Performance</h2>
+        <p id="perfLead" class="muted">Metrics are computed on images the models never saw during training or model selection.</p>
+      </div>
+      <div id="perfBody" aria-live="polite">
+        <div class="card empty"><span class="spinner" aria-hidden="true"></span> Loading metrics…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how" class="section no-print" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">System pipeline</p>
+        <h2 id="how-title">How it works</h2>
+        <p class="muted">One photo goes through up to six stages. Every stage runs locally on a CPU &mdash; no internet connection or cloud service is needed.</p>
+      </div>
+      <ol class="pipeline">
+        <li class="pipe-step">
+          <span class="pipe-num">1</span>
+          <h3>Quality gate</h3>
+          <p>Checks resolution, sharpness, brightness, contrast and leaf coverage. Unusable photos are rejected with retake tips.</p>
+        </li>
+        <li class="pipe-step pipe-model">
+          <span class="pipe-num">2</span>
+          <h3>Leaf model</h3>
+          <p>A CNN classifier over every crop condition plus two router classes. It names the crop and the primary finding &mdash; or routes the photo as &ldquo;not a plant&rdquo; (rejected) or &ldquo;insect&rdquo;.</p>
+          <p class="pipe-tags"><span>Obj 1 · Crop</span><span>Obj 2.1 · Disease</span><span>Learned</span></p>
+        </li>
+        <li class="pipe-step pipe-model pipe-or">
+          <span class="pipe-num">3a</span>
+          <h3>Insect model</h3>
+          <p>Insect photos go to a second CNN trained on IP102 (102 pest species) for the species, its host crops, damage and control. If it is not trained yet, the photo falls back to leaf analysis with a warning.</p>
+          <p class="pipe-tags"><span>Obj 3.1 · Pests</span><span>Learned</span></p>
+        </li>
+        <li class="pipe-step">
+          <span class="pipe-num">3b</span>
+          <h3>Leaf analysis</h3>
+          <p>Leaf photos get Grad-CAM plus leaf segmentation and colour/shape measurements: yellowing, necrosis, purpling, marginal scorch, holes and stippling.</p>
+          <p class="pipe-tags"><span>Obj 2.2 · Nutrients</span><span>Obj 3.1 · Pest damage</span></p>
+        </li>
+        <li class="pipe-step">
+          <span class="pipe-num">4</span>
+          <h3>Advisory engine</h3>
+          <p>Combines the model output with the measurements into a transparent health score, then looks up fertilizer, treatment and safety advice in a knowledge base for Indian smallholder farms.</p>
+          <p class="pipe-tags"><span>Health score</span><span>Obj 3.2 · Fertilizer</span></p>
+        </li>
+        <li class="pipe-step">
+          <span class="pipe-num">5</span>
+          <h3>Report</h3>
+          <p>A dashboard that says where each finding came from, with explanations, safety notes and a printable report.</p>
+        </li>
+      </ol>
+
+      <div class="card honesty">
+        <h3>Learned or rule-based? Each finding says which.</h3>
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th scope="col">Finding</th><th scope="col">Source</th><th scope="col">Details</th></tr></thead>
+          <tbody>
+            <tr><td>Crop and primary diagnosis</td><td><span class="badge badge-info">Learned</span></td><td>Leaf model trained on labelled lab and field photos of every supported crop.</td></tr>
+            <tr><td>Disease</td><td><span class="badge badge-info">Learned</span></td><td>Disease classes of the leaf model; the affected leaf area is measured by image analysis.</td></tr>
+            <tr><td>Pest damage</td><td><span class="badge badge-info">Learned</span> <span class="badge badge-amber">Rules</span></td><td>Learned pest-damage classes where training data exists (e.g. armyworm, jassids, mites, leaf miner); otherwise inferred from virus&ndash;vector links or read from holes and stippling.</td></tr>
+            <tr><td>Nutrient deficiency</td><td><span class="badge badge-info">Learned</span> <span class="badge badge-amber">Rules</span></td><td>Learned for the crops with labelled deficiency photos (banana, citrus, coffee, date palm, groundnut, chilli, lemon, cotton); a leaf-colour rule estimate (N, P, K, Mg, Fe) for the rest.</td></tr>
+            <tr><td>Insect species</td><td><span class="badge badge-info">Learned</span></td><td>Insect model trained on IP102, used only when the leaf model routes the photo as an insect.</td></tr>
+            <tr><td>Health score, fertilizer and treatment</td><td><span class="badge badge-amber">Rules</span></td><td>Transparent penalty model and an agronomic knowledge base; doses are general guidance.</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="how-notes">
+        <div class="card">
+          <h3>Runs fully offline</h3>
+          <p>The models, image analysis and advisory knowledge base are all bundled with the app. Inference takes well under a second on an ordinary laptop CPU, which makes it suitable for on-device use in the field.</p>
+        </div>
+        <div class="card">
+          <h3>Honest about its limits</h3>
+          <p>Low-confidence and unfamiliar-looking photos are flagged instead of answered silently, and rule-based findings are labelled as estimates. All findings are decision support &mdash; confirm with a soil test or your local KVK.</p>
+        </div>
+        <div class="card">
+          <h3>Built with</h3>
+          <ul class="tags">
+            <li>PyTorch · torchvision CNNs</li><li>Grad-CAM</li><li>OpenCV</li><li>FastAPI</li><li>HTML · CSS · JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p><strong>AgroVision AI</strong> &middot; KL University Capstone Project &middot; AIML-25 On-Device Crop-Disease Detection for Smallholder Farmers</p>
+    <p class="small">Decision-support tool. Always confirm diagnoses and chemical use with your local Krishi Vigyan Kendra (KVK) or agriculture officer.</p>
+  </div>
+</footer>
+
+<div id="toast" class="toast no-print" role="alert" hidden></div>
+
+<dialog id="lightbox" class="lightbox" aria-labelledby="lbCap">
+  <div class="lb-inner">
+    <button type="button" class="lb-close" data-action="close-lightbox" aria-label="Close preview">&times;</button>
+    <img id="lbImg" alt="">
+    <div class="lb-foot">
+      <p id="lbCap"></p>
+      <a id="lbOpen" href="#" target="_blank" rel="noopener">Open full size in new tab</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

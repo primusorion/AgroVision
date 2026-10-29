@@ -1,0 +1,53 @@
+{
+  "crop": "Cherry",
+  "scientific_name": "Prunus avium",
+  "family": "Rosaceae",
+  "description": "Sweet cherry is a temperate fruit grown in India in the Kashmir valley and the cool high hills of Himachal Pradesh and Uttarakhand. It needs long winter chilling and is not suited to the plains or to South India.",
+  "common_varieties": ["Double (Bigarreau Noir Grossa)", "Misri (Bigarreau Napoleon)", "Makhmali", "Awal Number", "Stella", "Black Heart"],
+  "npk": {"N": 500, "P2O5": 250, "K2O": 700, "unit": "g/plant/year"},
+  "npk_split": "For full-bearing trees: apply FYM with all P and K in December-January, half the N 2-3 weeks before flowering and the rest a month later.",
+  "conditions": {
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Podosphaera clandestina",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal disease that covers young leaves and shoots with white powder in warm weather with humid nights. It weakens nursery plants and young trees and can spoil fruits.",
+      "symptoms": [
+        "White powdery patches on young leaves and shoot tips",
+        "Leaves pucker, curl upward and become leathery",
+        "Stunted new shoots",
+        "Dull white bloom on fruits in severe cases"
+      ],
+      "spread": "Wind-blown spores spread from leaf to leaf, and the fungus survives winter on fallen leaves and bark.",
+      "action": "Spray wettable sulphur at the first white patches and prune to let air and light into the canopy.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Repeat after 10-14 days; do not spray in hot sunny weather above 30 °C."},
+        {"name": "Removal of water sprouts and dense inner shoots", "type": "Cultural", "dose": "-", "notes": "Mildew starts on soft shaded growth inside the canopy."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep following the regular orchard care schedule.",
+      "symptoms": [
+        "Uniform green leaves without spots or white powder",
+        "No curling or puckering",
+        "Normal shoot growth"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular pruning, balanced manuring and weekly scouting of the orchard.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

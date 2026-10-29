@@ -1,0 +1,204 @@
+{
+  "crop": "Lemon",
+  "scientific_name": "Citrus aurantiifolia (acid lime), Citrus limon (lemon)",
+  "family": "Rutaceae",
+  "description": "Acid lime (nimma) and lemon are small thorny evergreen trees grown across Andhra Pradesh, Telangana, Maharashtra, Gujarat and Tamil Nadu, flowering and fruiting almost round the year. Acid lime is highly prone to citrus canker and to virus and dieback problems, so clean planting material matters most.",
+  "common_varieties": ["Kagzi Lime", "Balaji", "Vikram", "Pramalini", "PKM-1", "Sai Sarbati"],
+  "npk": {"N": 600, "P2O5": 200, "K2O": 300, "unit": "g/plant/year"},
+  "npk_split": "Apply nitrogen in two equal splits (before the main flowering flush and at the onset of monsoon) and all FYM, phosphorus and potash with one of them; the dose is for trees of 6 years and older.",
+  "conditions": {
+    "Anthracnose": {
+      "name": "Anthracnose (Wither Tip)",
+      "kind": "disease",
+      "cause": "Colletotrichum gloeosporioides",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal disease that kills twigs from the tip backwards and spots leaves and fruit, mainly on trees already weakened by drought, poor nutrition or waterlogging. Repeated attacks lead to dieback and falling yields.",
+      "symptoms": [
+        "Twigs dry from the tip backwards and turn silvery grey (wither tip)",
+        "Small black dots (fungal bodies) on the dead twigs",
+        "Light brown dead patches on leaves, often from the tip or edge, with a dark border",
+        "Leaves, flowers and young fruit drop",
+        "Brown to black sunken spots on fruit"
+      ],
+      "spread": "Spores formed on dead twigs are splashed by rain and dew onto leaves, flowers and fruit during wet weather.",
+      "action": "Prune all dead twigs 5 cm below the dried part in dry weather, burn them and spray copper oxychloride immediately after pruning.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Prune dead wood and paste cut ends with Bordeaux paste", "type": "Cultural", "dose": "-", "notes": "Dead twigs are the main source of spores; prune before the monsoon."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Spray right after pruning and again after 15-20 days."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "Alternate with copper if wet weather continues; not more than two sprays a season."}
+      ]
+    },
+    "Bacterial blight": {
+      "name": "Bacterial Blight (Citrus Blast)",
+      "kind": "disease",
+      "cause": "Pseudomonas syringae pv. syringae",
+      "type": "Bacterial",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "A bacterial disease that enters through wounds on leaf stalks and twigs during cool, wet and windy weather. Leaves blacken and dry on the twig and young shoots die back.",
+      "symptoms": [
+        "Water-soaked then black patch starting on the leaf stalk and spreading along the midrib",
+        "Leaves curl, dry and stay hanging on the twig or drop without the stalk",
+        "Dark brown dead areas along leaf edges and tips",
+        "Reddish-brown to black scabby patches on twigs around the leaf base",
+        "Small black sunken pits on fruit"
+      ],
+      "spread": "Bacteria living on the leaf surface enter through wounds made by wind, thorns and hail, and are spread by wind-driven rain.",
+      "action": "Prune blighted twigs in dry weather and spray a copper fungicide before and after spells of cool, rainy, windy weather.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L", "notes": "Protective only - must be on the leaves before the wet spell; repeat after heavy rain."},
+        {"name": "Copper hydroxide 77 WP", "type": "Bactericide", "dose": "2 g/L", "notes": "Alternative copper spray; do not use antibiotics, which are prohibited on crops."},
+        {"name": "Windbreaks and avoiding late nitrogen", "type": "Cultural", "dose": "-", "notes": "Wind injury and soft late-season flush make the disease worse."}
+      ]
+    },
+    "Citrus canker": {
+      "name": "Citrus Canker",
+      "kind": "disease",
+      "cause": "Xanthomonas citri subsp. citri",
+      "type": "Bacterial",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most serious disease of acid lime, caused by a bacterium that forms corky scabs on leaves, twigs, thorns and fruit. It is worst in the rainy season and makes fruit unfit for market.",
+      "symptoms": [
+        "Raised, rough, corky brown spots felt on both sides of the leaf",
+        "Yellow halo around each spot",
+        "Similar crater-like scabs on twigs, thorns and fruit",
+        "Spots clustered along leafminer tunnels",
+        "Leaf fall and twig dieback when severe"
+      ],
+      "spread": "Bacteria ooze from the spots in wet weather and are spread by rain splash, wind-driven rain, leafminer wounds, tools and infected nursery plants.",
+      "action": "Prune cankered twigs before the monsoon, burn them and spray copper oxychloride on every new flush during the rains.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L", "notes": "Spray after pruning and on each new flush at 15-20 day intervals in the rainy season; antibiotics are prohibited on crops."},
+        {"name": "Leafminer control on new flush (neem oil 1500 ppm)", "type": "Insecticide", "dose": "5 ml/L", "notes": "Leafminer tunnels are the main entry point for canker."},
+        {"name": "Canker-tolerant variety and clean nursery plants", "type": "Cultural", "dose": "-", "notes": "Balaji acid lime is tolerant; never plant seedlings showing canker spots."}
+      ]
+    },
+    "Leaf curl": {
+      "name": "Leaf Curl",
+      "kind": "disease",
+      "cause": "Virus complex (Citrus tristeza virus, Citrus yellow vein clearing virus), often with aphid or psyllid feeding on tender flush",
+      "type": "Viral",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Curling and crinkling of young lime or lemon leaves caused by virus infection or by sucking insects feeding on the tender flush; a photo alone cannot separate the two. Virus-infected trees cannot be cured by any spray and slowly become stunted and unproductive.",
+      "symptoms": [
+        "Young leaves curled, cupped or crinkled",
+        "Veins look clear or yellow when the leaf is held against the light",
+        "New shoots short with small leaves; the tree is stunted",
+        "Aphid or psyllid colonies and sticky honeydew on the underside of tender leaves (insect curl)",
+        "Curling returns on every new flush in virus-infected trees"
+      ],
+      "spread": "The viruses are carried by citrus aphids and by budwood or grafts taken from infected trees.",
+      "action": "Check the underside of curled leaves for aphids or psyllids and control them on the new flush, and replace trees that stay stunted with certified virus-free plants.",
+      "manage": "viral_aphid",
+      "vector": "Citrus aphids (Toxoptera citricida, Aphis gossypii)",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "On tender flush as soon as aphids or psyllids appear; repeat after 7-10 days."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "For heavy aphid or psyllid build-up on new flush; not during flowering (bee safety)."},
+        {"name": "Certified virus-free budded plants", "type": "Cultural", "dose": "-", "notes": "No chemical cures a virus-infected tree; never take budwood or seedlings from affected trees."}
+      ]
+    },
+    "Nutrient deficiency": {
+      "name": "Nutrient Deficiency",
+      "kind": "deficiency",
+      "cause": "Unspecified nutrient deficiency (most often zinc, iron, manganese, magnesium or nitrogen in lime and lemon)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows yellowing typical of a nutrient shortage, but the exact nutrient cannot be confirmed from the photo. Several micronutrients are usually short together in lime orchards on alkaline or sandy soils.",
+      "symptoms": [
+        "Whole older leaf evenly pale yellow, veins included - nitrogen",
+        "Small, narrow new leaves with yellow between sharply green veins - zinc",
+        "Young leaves yellow with a fine green vein network - iron",
+        "Normal-sized leaves with light-green mottle between darker veins - manganese",
+        "Older leaves yellow from the edge with a green inverted V at the base - magnesium"
+      ],
+      "spread": "Not infectious - caused by poor or unbalanced manuring, high soil pH, sandy leached soils or damaged roots.",
+      "action": "Get soil and leaf samples tested, apply the recommended FYM and NPK, and spray the citrus micronutrient mixture on the new flush.",
+      "manage": "deficiency_general",
+      "treatment": [
+        {"name": "Citrus micronutrient mixture spray (zinc sulphate 5 g + manganese sulphate 2 g + magnesium sulphate 2 g + ferrous sulphate 2 g + borax 1 g + lime 6 g + urea 10 g)", "type": "Fertilizer", "dose": "per litre of water", "notes": "Spray on each new flush when leaves are two-thirds expanded, 3-4 times a year; dissolve lime separately and strain."},
+        {"name": "Soil and leaf analysis with balanced NPK and FYM", "type": "Cultural", "dose": "as per soil test", "notes": "Confirms which nutrient is short before applying single-nutrient fertilisers."}
+      ]
+    },
+    "Sooty mould": {
+      "name": "Sooty Mould",
+      "kind": "disease",
+      "cause": "Capnodium citri",
+      "type": "Fungal",
+      "severity_weight": 0.5,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A black surface fungus that grows on the sugary honeydew dropped by blackfly, whitefly, aphids, mealybugs and scales. It does not enter the leaf but blocks sunlight, weakens the tree and dirties the fruit.",
+      "symptoms": [
+        "Black, soot-like coating on the upper surface of leaves, twigs and fruit",
+        "Coating can be rubbed or peeled off, leaving green leaf beneath",
+        "Sticky, shiny honeydew on leaves",
+        "Blackfly, whitefly, aphids, mealybugs or scales on the underside of leaves and on twigs",
+        "Ants moving on the tree"
+      ],
+      "spread": "The mould grows wherever honeydew falls, so it spreads with the sucking insects that produce it.",
+      "action": "Control the honeydew-producing insects on the underside of the leaves first, then loosen the black coating with a starch spray.",
+      "manage": "sooty_mold",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "Direct at the underside of leaves against blackfly, whitefly and aphids; repeat after 10 days."},
+        {"name": "Starch (maida) solution spray", "type": "Cultural", "dose": "1 kg boiled in 5 L water, diluted to 20 L", "notes": "Dries into flakes that peel off with the mould; spray on a sunny day."}
+      ]
+    },
+    "Spider mites": {
+      "name": "Spider Mites",
+      "kind": "pest",
+      "cause": "Citrus red mite (Panonychus citri), oriental mite (Eutetranychus orientalis)",
+      "type": "Mite",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny mites that suck the contents of leaf surface cells, building up fast in hot, dry and dusty conditions. Heavy attack causes leaf drop, twig dieback and silvery, scarred fruit.",
+      "symptoms": [
+        "Fine pale yellow or grey speckling on the upper leaf surface",
+        "Leaves look dull, dusty and silvery or bronzed",
+        "Tiny red or brown mites and fine webbing seen with a hand lens",
+        "Leaf drop in hot, dry weather",
+        "Fruit rind silvery or scarred"
+      ],
+      "spread": "Mites crawl between touching branches and drift on wind, and multiply fastest on water-stressed, dusty trees.",
+      "action": "Spray wettable sulphur or a registered miticide covering both leaf surfaces, and irrigate the trees.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Miticide", "dose": "3 g/L", "notes": "Do not spray above 35 C or within 2-3 weeks of an oil spray (leaf burn)."},
+        {"name": "Propargite 57 EC", "type": "Miticide", "dose": "1-2 ml/L (as per label)", "notes": "Use if sulphur does not hold the mites; rotate with a different miticide group; only where the label lists your crop."},
+        {"name": "Forceful water spray and regular irrigation", "type": "Cultural", "dose": "-", "notes": "Washes off mites and dust; mites surge on drought-stressed trees."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient deficiency. An even green, glossy leaf indicates a well-fed tree.",
+      "symptoms": [
+        "Uniform green, glossy leaf of normal size",
+        "No corky spots, black coating, curling or speckling",
+        "Veins and the tissue between them are the same green"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue regular manuring, irrigation and a check of every new flush for leafminer, canker and sucking insects.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

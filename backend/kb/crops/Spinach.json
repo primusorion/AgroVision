@@ -1,0 +1,122 @@
+{
+  "crop": "Spinach",
+  "scientific_name": "Basella alba (Malabar spinach)",
+  "family": "Basellaceae",
+  "description": "This entry covers Malabar spinach (bachali, poi), a fast-growing leafy vine grown in kitchen gardens and small plots through the warm, humid months. Leaves and tender shoots are picked every few days, so sprays must be kept to a minimum and waiting periods observed.",
+  "common_varieties": ["Green-stemmed local types", "Red-stemmed local types (Rubra)", "BARI Puishak-1", "BARI Puishak-2"],
+  "npk": {"N": 100, "P2O5": 50, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Apply half the N with all P and K at planting along with well-rotted farmyard manure, and top-dress the remaining N in small doses after each cutting.",
+  "conditions": {
+    "Anthracnose": {
+      "name": "Anthracnose",
+      "kind": "disease",
+      "cause": "Colletotrichum spp.",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that develops in warm, wet weather and makes the leaves unfit for sale. It starts as water-soaked spots that dry into brown, papery patches.",
+      "symptoms": [
+        "Small water-soaked spots that turn tan to brown",
+        "Spots enlarge and merge into dead patches",
+        "Centres become thin and papery and may fall out",
+        "Tiny dark dots in the centre of old spots"
+      ],
+      "spread": "Survives on plant debris and infected planting material and spreads by rain splash and overhead watering.",
+      "action": "Pick and destroy spotted leaves, stop overhead watering, and spray copper oxychloride 50 WP 3 g/L only if the spots keep spreading.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L water", "notes": "Harvest marketable leaves first and observe the label waiting period before the next picking."},
+        {"name": "Pseudomonas fluorescens", "type": "Biological", "dose": "as per label", "notes": "Safer option for a leafy crop that is picked often; spray after each cutting in wet weather."}
+      ]
+    },
+    "Bacterial spot": {
+      "name": "Bacterial Spot",
+      "kind": "disease",
+      "cause": "Bacterial leaf spot (Xanthomonas / Pseudomonas spp.)",
+      "type": "Bacterial",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A bacterial leaf spot that spreads fast after rain and makes the leaves unmarketable. Antibiotics must not be used; control depends on keeping the leaves dry and on copper sprays.",
+      "symptoms": [
+        "Small water-soaked angular spots, seen best from the underside",
+        "Spots turn dark brown to black, often with a yellow halo",
+        "Spots merge and the leaf tears",
+        "Spreads quickly after rain"
+      ],
+      "spread": "Spread by rain splash, overhead watering, and hands and tools when plants are handled wet.",
+      "action": "Remove spotted leaves, keep the foliage dry, and spray copper hydroxide 77 WP 2 g/L if the disease is spreading.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Copper hydroxide 77 WP", "type": "Bactericide", "dose": "2 g/L water", "notes": "Harvest marketable leaves first and observe the label waiting period before the next picking."},
+        {"name": "Dry-leaf handling", "type": "Cultural", "dose": "-", "notes": "Water at the base, train vines on a trellis and do not pick or prune when leaves are wet."}
+      ]
+    },
+    "Downy mildew": {
+      "name": "Downy Mildew",
+      "kind": "disease",
+      "cause": "Downy mildew oomycete (Peronospora spp.)",
+      "type": "Oomycete",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A leaf disease of cool, humid weather that shows as yellow patches on top of the leaf with downy growth underneath. Affected leaves curl, turn brown and cannot be sold.",
+      "symptoms": [
+        "Pale yellow irregular patches on the upper leaf surface",
+        "Grey to purplish downy growth on the underside below the patches",
+        "Patches turn brown and dry",
+        "Leaves curl and become unmarketable"
+      ],
+      "spread": "Spores spread by wind and water splash when leaves stay wet for long periods in cool, humid weather.",
+      "action": "Remove affected leaves, train the vines on a trellis for airflow, water at the base in the morning, and spray copper oxychloride 50 WP 3 g/L only if it keeps spreading.",
+      "manage": "downy_mildew",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L water", "notes": "Harvest marketable leaves first and observe the label waiting period before the next picking."},
+        {"name": "Spacing and airflow", "type": "Cultural", "dose": "-", "notes": "Avoid crowded planting and overhead watering in the evening."}
+      ]
+    },
+    "Insect damage": {
+      "name": "Insect Damage",
+      "kind": "pest",
+      "cause": "Chewing or sucking insects of unspecified species (leaf-eating caterpillars, beetles, leaf miners, aphids)",
+      "type": "Insect",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Leaf injury caused by insects; the photo shows the damage but not which insect did it. Check the plant to see what is feeding before choosing a control, and prefer hand-picking and neem on this frequently picked leafy crop.",
+      "symptoms": [
+        "Holes and chewed leaf edges",
+        "Scraped or skeletonised patches",
+        "White winding mines inside the leaf",
+        "Curled tender leaves with clusters of small insects"
+      ],
+      "spread": "Adult insects fly in from nearby crops and weeds and multiply quickly in warm weather.",
+      "action": "Hand-pick caterpillars and damaged leaves, and spray neem oil 1500 ppm 5 ml/L in the evening if damage continues.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "3-5 ml/L water", "notes": "Wash harvested leaves well; avoid synthetic insecticides on a crop picked every few days."},
+        {"name": "Bacillus thuringiensis var. kurstaki", "type": "Biological", "dose": "as per label", "notes": "Only if caterpillars are found feeding; spray in the evening."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular picking and balanced nutrition.",
+      "symptoms": [
+        "Thick, glossy, uniform green leaves",
+        "No spots, holes, mould or yellow patches",
+        "Steady new shoot growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue regular picking and check the leaf undersides every week.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

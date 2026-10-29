@@ -1,0 +1,370 @@
+[
+ {
+  "url": "/samples/00_Apple___Cedar_apple_rust.jpg",
+  "key": "Apple___Cedar_apple_rust",
+  "kind": "disease",
+  "label": "Apple \u00b7 Cedar Apple Rust",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/01_Banana___Pestalotiopsis_leaf_spot.jpg",
+  "key": "Banana___Pestalotiopsis_leaf_spot",
+  "kind": "disease",
+  "label": "Banana \u00b7 Pestalotiopsis Leaf Spot",
+  "imagery": "field",
+  "source": "BananaLSD_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/02_Bean___healthy.jpg",
+  "key": "Bean___healthy",
+  "kind": "healthy",
+  "label": "Bean \u00b7 Healthy",
+  "imagery": "field",
+  "source": "bean_disease_uganda"
+ },
+ {
+  "url": "/samples/03_Bell_Pepper___healthy.jpg",
+  "key": "Bell_Pepper___healthy",
+  "kind": "healthy",
+  "label": "Bell Pepper \u00b7 Healthy",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/04_Betel___Leaf_spot.jpg",
+  "key": "Betel___Leaf_spot",
+  "kind": "disease",
+  "label": "Betel \u00b7 Leaf Spot",
+  "imagery": "mixed",
+  "source": "betel_leaf_disease_classification_2"
+ },
+ {
+  "url": "/samples/05_Black_gram___Insect_damage.jpg",
+  "key": "Black_gram___Insect_damage",
+  "kind": "pest",
+  "label": "Black gram \u00b7 Insect Damage",
+  "imagery": "field",
+  "source": "black_gram_disease_classification"
+ },
+ {
+  "url": "/samples/06_Blueberry___healthy.jpg",
+  "key": "Blueberry___healthy",
+  "kind": "healthy",
+  "label": "Blueberry \u00b7 Healthy",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/07_Brinjal___Leaf_spot.jpg",
+  "key": "Brinjal___Leaf_spot",
+  "kind": "disease",
+  "label": "Brinjal \u00b7 Leaf Spot",
+  "imagery": "field",
+  "source": "eggplant_disease_classification"
+ },
+ {
+  "url": "/samples/08_Cashew___healthy.jpg",
+  "key": "Cashew___healthy",
+  "kind": "healthy",
+  "label": "Cashew \u00b7 Healthy",
+  "imagery": "field",
+  "source": "crop_pest_disease_classification"
+ },
+ {
+  "url": "/samples/09_Cassava___healthy.jpg",
+  "key": "Cassava___healthy",
+  "kind": "healthy",
+  "label": "Cassava \u00b7 Healthy",
+  "imagery": "field",
+  "source": "crop_pest_disease_classification"
+ },
+ {
+  "url": "/samples/10_Cherry___Powdery_mildew.jpg",
+  "key": "Cherry___Powdery_mildew",
+  "kind": "disease",
+  "label": "Cherry \u00b7 Powdery Mildew",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/11_Chilli___Mites_and_thrips.jpg",
+  "key": "Chilli___Mites_and_thrips",
+  "kind": "pest",
+  "label": "Chilli \u00b7 Mites and Thrips",
+  "imagery": "field",
+  "source": "COLD_chili_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/12_Citrus___Citrus_mite.jpg",
+  "key": "Citrus___Citrus_mite",
+  "kind": "pest",
+  "label": "Citrus \u00b7 Citrus Mite",
+  "imagery": "mixed",
+  "source": "citrusuat_disease_classification"
+ },
+ {
+  "url": "/samples/13_Coffee___Calcium_deficiency.jpg",
+  "key": "Coffee___Calcium_deficiency",
+  "kind": "deficiency",
+  "label": "Coffee \u00b7 Calcium Deficiency",
+  "imagery": "lab",
+  "source": "CoLeaf_nutritional_deficiency_classification"
+ },
+ {
+  "url": "/samples/14_Cotton___Leaf_reddening.jpg",
+  "key": "Cotton___Leaf_reddening",
+  "kind": "deficiency",
+  "label": "Cotton \u00b7 Leaf Reddening",
+  "imagery": "mixed",
+  "source": "cotton_leaf_disease_classification_bangladesh_2"
+ },
+ {
+  "url": "/samples/15_Date_palm___healthy.jpg",
+  "key": "Date_palm___healthy",
+  "kind": "healthy",
+  "label": "Date palm \u00b7 Healthy",
+  "imagery": "mixed",
+  "source": "date_palm_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/16_Grape___Black_rot.jpg",
+  "key": "Grape___Black_rot",
+  "kind": "disease",
+  "label": "Grape \u00b7 Black Rot",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/17_Groundnut___Early_leaf_spot.jpg",
+  "key": "Groundnut___Early_leaf_spot",
+  "kind": "disease",
+  "label": "Groundnut \u00b7 Early Leaf Spot",
+  "imagery": "field",
+  "source": "groundnut_leaf_disease_classification_2"
+ },
+ {
+  "url": "/samples/18_Lemon___Spider_mites.jpg",
+  "key": "Lemon___Spider_mites",
+  "kind": "pest",
+  "label": "Lemon \u00b7 Spider Mites",
+  "imagery": "mixed",
+  "source": "lemon_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/19_Lentil___Powdery_mildew.jpg",
+  "key": "Lentil___Powdery_mildew",
+  "kind": "disease",
+  "label": "Lentil \u00b7 Powdery Mildew",
+  "imagery": "field",
+  "source": "lentil_disease_classification"
+ },
+ {
+  "url": "/samples/20_Maize___healthy.jpg",
+  "key": "Maize___healthy",
+  "kind": "healthy",
+  "label": "Maize \u00b7 Healthy",
+  "imagery": "field",
+  "source": "TOM2024_disease_classification"
+ },
+ {
+  "url": "/samples/21_Mango___healthy.jpg",
+  "key": "Mango___healthy",
+  "kind": "healthy",
+  "label": "Mango \u00b7 Healthy",
+  "imagery": "lab",
+  "source": "mango_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/22_Okra___Cercospora_leaf_spot.jpg",
+  "key": "Okra___Cercospora_leaf_spot",
+  "kind": "disease",
+  "label": "Okra \u00b7 Cercospora Leaf Spot",
+  "imagery": "field",
+  "source": "OkraDiseaseNet_disease_classification"
+ },
+ {
+  "url": "/samples/23_Onion___Caterpillar.jpg",
+  "key": "Onion___Caterpillar",
+  "kind": "pest",
+  "label": "Onion \u00b7 Caterpillar",
+  "imagery": "field",
+  "source": "TOM2024_disease_classification"
+ },
+ {
+  "url": "/samples/24_Papaya___Mealybug.jpg",
+  "key": "Papaya___Mealybug",
+  "kind": "pest",
+  "label": "Papaya \u00b7 Papaya Mealybug",
+  "imagery": "field",
+  "source": "papaya_leaf_disease_classification_bangladesh"
+ },
+ {
+  "url": "/samples/25_Peach___Bacterial_spot.jpg",
+  "key": "Peach___Bacterial_spot",
+  "kind": "disease",
+  "label": "Peach \u00b7 Bacterial Spot",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/26_Potato___healthy.jpg",
+  "key": "Potato___healthy",
+  "kind": "healthy",
+  "label": "Potato \u00b7 Healthy",
+  "imagery": "field",
+  "source": "potato_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/27_Raspberry___healthy.jpg",
+  "key": "Raspberry___healthy",
+  "kind": "healthy",
+  "label": "Raspberry \u00b7 Healthy",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/28_Rice___Brown_spot.jpg",
+  "key": "Rice___Brown_spot",
+  "kind": "disease",
+  "label": "Rice \u00b7 Brown Spot",
+  "imagery": "field",
+  "source": "rice_leaf_disease_classification_india"
+ },
+ {
+  "url": "/samples/29_Soybean___Semilooper_caterpillar.jpg",
+  "key": "Soybean___Semilooper_caterpillar",
+  "kind": "pest",
+  "label": "Soybean \u00b7 Semilooper Caterpillar",
+  "imagery": "field",
+  "source": "MH_SoyaHealthVision_disease_classification_leaf"
+ },
+ {
+  "url": "/samples/30_Spinach___Insect_damage.jpg",
+  "key": "Spinach___Insect_damage",
+  "kind": "pest",
+  "label": "Spinach \u00b7 Insect Damage",
+  "imagery": "mixed",
+  "source": "IDDMSLD_spinach_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/31_Squash___Powdery_mildew.jpg",
+  "key": "Squash___Powdery_mildew",
+  "kind": "disease",
+  "label": "Squash \u00b7 Powdery Mildew",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/32_Strawberry___healthy.jpg",
+  "key": "Strawberry___healthy",
+  "kind": "healthy",
+  "label": "Strawberry \u00b7 Healthy",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/33_Sugarcane___healthy.jpg",
+  "key": "Sugarcane___healthy",
+  "kind": "healthy",
+  "label": "Sugarcane \u00b7 Healthy",
+  "imagery": "field",
+  "source": "sugarcane_leaf_disease_classification"
+ },
+ {
+  "url": "/samples/34_Sunflower___Gray_mold.jpg",
+  "key": "Sunflower___Gray_mold",
+  "kind": "disease",
+  "label": "Sunflower \u00b7 Gray Mold",
+  "imagery": "field",
+  "source": "sunflower_disease_classification"
+ },
+ {
+  "url": "/samples/35_Tea___Green_mirid_bug.jpg",
+  "key": "Tea___Green_mirid_bug",
+  "kind": "pest",
+  "label": "Tea \u00b7 Green Mirid Bug",
+  "imagery": "field",
+  "source": "teaLeafBD_disease_classification"
+ },
+ {
+  "url": "/samples/36_Tomato___Spider_mites.jpg",
+  "key": "Tomato___Spider_mites",
+  "kind": "pest",
+  "label": "Tomato \u00b7 Spider Mites",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/37_Turmeric___Leaf_blotch.jpg",
+  "key": "Turmeric___Leaf_blotch",
+  "kind": "disease",
+  "label": "Turmeric \u00b7 Leaf Blotch",
+  "imagery": "field",
+  "source": "turmeric_disease_classification"
+ },
+ {
+  "url": "/samples/38_Coffee___Nitrogen_deficiency.jpg",
+  "key": "Coffee___Nitrogen_deficiency",
+  "kind": "deficiency",
+  "label": "Coffee \u00b7 Nitrogen Deficiency",
+  "imagery": "lab",
+  "source": "CoLeaf_nutritional_deficiency_classification"
+ },
+ {
+  "url": "/samples/39_Citrus___Iron_deficiency.jpg",
+  "key": "Citrus___Iron_deficiency",
+  "kind": "deficiency",
+  "label": "Citrus \u00b7 Iron Deficiency",
+  "imagery": "mixed",
+  "source": "citrusuat_disease_classification"
+ },
+ {
+  "url": "/samples/40_Banana___Potassium_deficiency.jpg",
+  "key": "Banana___Potassium_deficiency",
+  "kind": "deficiency",
+  "label": "Banana \u00b7 Potassium Deficiency",
+  "imagery": "field",
+  "source": "banana_leaf_nutrient_classification"
+ },
+ {
+  "url": "/samples/41_Groundnut___Nutrient_deficiency.jpg",
+  "key": "Groundnut___Nutrient_deficiency",
+  "kind": "deficiency",
+  "label": "Groundnut \u00b7 Nutrient Deficiency",
+  "imagery": "field",
+  "source": "groundnut_leaf_disease_classification_2"
+ },
+ {
+  "url": "/samples/42_Rice___Blast.jpg",
+  "key": "Rice___Blast",
+  "kind": "disease",
+  "label": "Rice \u00b7 Blast",
+  "imagery": "field",
+  "source": "rice_leaf_disease_classification_india"
+ },
+ {
+  "url": "/samples/43_Tomato___Late_blight.jpg",
+  "key": "Tomato___Late_blight",
+  "kind": "disease",
+  "label": "Tomato \u00b7 Late Blight",
+  "imagery": "lab",
+  "source": "plantvillage"
+ },
+ {
+  "url": "/samples/44_insect.jpg",
+  "key": "Pest___Dasineura_sp",
+  "kind": "insect",
+  "imagery": "field",
+  "source": "ip102",
+  "label": "Insect \u00b7 Mango Gall Midge"
+ },
+ {
+  "url": "/samples/45_insect.jpg",
+  "key": "Pest___Xylotrechus",
+  "kind": "insect",
+  "imagery": "field",
+  "source": "ip102",
+  "label": "Insect \u00b7 Tiger Longhorn Stem Borer"
+ }
+]

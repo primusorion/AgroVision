@@ -1,0 +1,173 @@
+{
+  "crop": "Grape",
+  "scientific_name": "Vitis vinifera",
+  "family": "Vitaceae",
+  "description": "Grown in India mainly in Maharashtra, Karnataka, Telangana, Andhra Pradesh and Tamil Nadu, trained on bower or Y-trellis and pruned twice a year in the tropics. Most disease pressure comes after pruning in wet or humid weather.",
+  "common_varieties": ["Thompson Seedless", "Anab-e-Shahi", "Bangalore Blue", "Sharad Seedless", "Sonaka", "Flame Seedless"],
+  "npk": {"N": 300, "P2O5": 300, "K2O": 800, "unit": "kg/ha"},
+  "npk_split": "Split between the two prunings: give FYM, P and part of the N right after back (foundation) pruning and the rest of the N with most of the K after forward (fruit) pruning, adjusted by petiole and soil test.",
+  "conditions": {
+    "Bacterial leaf spot": {
+      "name": "Bacterial Leaf Spot",
+      "kind": "disease",
+      "cause": "Xanthomonas citri pv. viticola (Xanthomonas campestris pv. viticola)",
+      "type": "Bacterial",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Bacterial disease of leaves, canes and bunch stalks, also called bacterial canker, that flares up in warm rainy weather after pruning. Cankers on canes and bunch stalks reduce yield and carry the disease to the next season.",
+      "symptoms": [
+        "Small dark angular water-soaked spots along the veins, seen first on the leaf underside",
+        "Spots turn brown-black with a yellow halo and merge into dead patches",
+        "Dark, sunken, cracked cankers on petioles, canes and bunch stalks",
+        "Berries stay small and shrivel on cankered bunches"
+      ],
+      "spread": "Rain splash, wind-driven rain and pruning tools carry the bacteria from cankers on old canes to new leaves.",
+      "action": "Prune out and burn cankered canes in dry weather and spray a copper fungicide right after pruning.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Bordeaux mixture 1%", "type": "Bactericide", "dose": "10 g copper sulphate + 10 g lime per litre", "notes": "Spray immediately after pruning to protect cut ends."},
+        {"name": "Copper hydroxide 77 WP", "type": "Bactericide", "dose": "2 g/L", "notes": "On new growth at 7-10 day intervals in rainy spells; copper oxychloride 50 WP 3 g/L is an alternative."},
+        {"name": "Pruning-tool disinfection and dry-weather pruning", "type": "Cultural", "dose": "-", "notes": "Dip secateurs in disinfectant between vines; do not prune during rain."}
+      ]
+    },
+    "Black rot": {
+      "name": "Black Rot",
+      "kind": "disease",
+      "cause": "Guignardia bidwellii (Phyllosticta ampelicida)",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal disease of leaves and berries favoured by warm, rainy weather. It is of minor importance in India's dry grape regions but can destroy bunches in wet seasons.",
+      "symptoms": [
+        "Round reddish-brown leaf spots with a dark border",
+        "Tiny black dots arranged in a ring inside the spots",
+        "Berries turn brown, shrivel and become hard black mummies",
+        "Dark sunken lesions on young shoots and tendrils"
+      ],
+      "spread": "Rain splashes spores from mummified berries and infected canes onto young leaves and bunches.",
+      "action": "Remove and destroy mummified berries and infected canes and protect new growth with a fungicide before rain.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Removal of mummified berries and infected canes", "type": "Cultural", "dose": "-", "notes": "Do this at pruning; mummies left on the vine or ground restart the disease."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2-2.5 g/L", "notes": "From new shoot growth until berries begin to soften; observe the pre-harvest interval."}
+      ]
+    },
+    "Downy mildew": {
+      "name": "Downy Mildew",
+      "kind": "disease",
+      "cause": "Plasmopara viticola",
+      "type": "Oomycete",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most destructive grape disease in India, attacking leaves, shoots, flowers and young bunches in wet or dewy weather. Unprotected vines can lose the whole crop within days after rain.",
+      "symptoms": [
+        "Yellowish, oily-looking patches on the upper leaf surface",
+        "White downy growth on the underside below the patches",
+        "Patches turn brown and leaves dry and fall",
+        "Flower clusters and young berries turn brown and shrivel"
+      ],
+      "spread": "Spores spread by rain splash and wind and infect whenever leaves stay wet from rain or heavy dew.",
+      "action": "Spray a protective fungicide before forecast rain and a systemic one as soon as oily spots appear, covering the leaf underside.",
+      "manage": "downy_mildew",
+      "treatment": [
+        {"name": "Bordeaux mixture 1%", "type": "Fungicide", "dose": "10 g copper sulphate + 10 g lime per litre", "notes": "Protectant after pruning and before rainy spells."},
+        {"name": "Metalaxyl 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "At first oily spots; not more than 2 sprays a season to avoid resistance."},
+        {"name": "Cymoxanil 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Alternate with the above; observe the pre-harvest interval on the label."}
+      ]
+    },
+    "Esca": {
+      "name": "Esca (Black Measles)",
+      "kind": "disease",
+      "cause": "Phaeomoniella chlamydospora, Phaeoacremonium spp. and Fomitiporia spp. (trunk fungi)",
+      "type": "Fungal",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A trunk disease in which wood fungi enter through pruning wounds and slowly block the vine's water-conducting tissue. It mostly affects older vines, is uncommon in India, and no spray can cure it.",
+      "symptoms": [
+        "Yellow or red bands between the veins that turn brown, giving a 'tiger-stripe' leaf",
+        "Leaf margins dry and scorch",
+        "Small dark purple spots on berries",
+        "Sudden wilting and drying of a whole arm or vine in hot weather",
+        "Dark streaks or soft pale rot inside the trunk when cut across"
+      ],
+      "spread": "Spores released from infected wood in wet weather enter fresh pruning wounds, and infected cuttings carry the disease to new vineyards.",
+      "action": "Cut out affected arms or trunks well below the stained wood in dry weather, burn them and seal the cuts.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {"name": "Trunk renewal", "type": "Cultural", "dose": "-", "notes": "Saw off below all discoloured wood and retrain a healthy shoot from the base; uproot and burn dead vines."},
+        {"name": "Bordeaux paste (10%) on pruning cuts", "type": "Fungicide", "dose": "Paint on cuts", "notes": "Apply on large cuts the same day; prune only in dry weather."},
+        {"name": "Trichoderma paste on fresh pruning wounds", "type": "Biological", "dose": "As per label", "notes": "Protects wounds from new infection; it does not cure infected wood."}
+      ]
+    },
+    "Leaf blight": {
+      "name": "Leaf Blight (Isariopsis Leaf Spot)",
+      "kind": "disease",
+      "cause": "Pseudocercospora vitis (Isariopsis clavispora)",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Late-season fungal leaf spot common in warm, humid weather. Heavy attacks cause early leaf fall, which weakens the canes for the next crop.",
+      "symptoms": [
+        "Irregular or angular dark brown to reddish-brown spots on older leaves",
+        "Yellow halo around spots, which later merge into large dead patches",
+        "Dark olive-black fungal growth on the underside of the spots",
+        "Early yellowing and leaf fall"
+      ],
+      "spread": "Spores from infected and fallen leaves are spread by wind and rain splash.",
+      "action": "Collect and destroy fallen leaves and spray a protective fungicide on the remaining foliage.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2-2.5 g/L", "notes": "Two sprays 10-14 days apart; observe the pre-harvest interval."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "If spots keep increasing; not more than 2 sprays a season."}
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Erysiphe necator (Uncinula necator)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal disease favoured by warm, dry, cloudy weather and shade inside dense canopies. It attacks leaves, canes and berries, causing berry cracking and poor quality.",
+      "symptoms": [
+        "White to ash-grey powdery patches on both leaf surfaces",
+        "Leaves curl upward and look dull",
+        "Grey powdery coating on berries, which crack or stay small and hard",
+        "Dark brown-black blotches on green canes"
+      ],
+      "spread": "Wind-borne spores spread without rain, and the fungus survives in dormant buds and on canes.",
+      "action": "Spray sulphur or a systemic mildew fungicide at the first sign and remove excess shoots so light and air reach the bunches.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2 g/L", "notes": "Do not spray in hot weather above 32 °C; it scorches leaves and berries."},
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Not more than 2 sprays a season; long pre-harvest interval, so use before berry softening."},
+        {"name": "Myclobutanil 10 WP", "type": "Fungicide", "dose": "0.4 g/L", "notes": "Same fungicide group (FRAC 3) as hexaconazole, so do not alternate the two; rotate with sulphur or a different-group fungicide to delay resistance."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep watching closely after each pruning and during rainy or cloudy spells.",
+      "symptoms": [
+        "Uniform green leaves without oily patches, spots or powder",
+        "Clean leaf underside with no white growth",
+        "Normal shoot and bunch growth"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue canopy management, balanced nutrition and scouting twice a week in wet weather.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

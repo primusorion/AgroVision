@@ -1,0 +1,102 @@
+{
+  "crop": "Sunflower",
+  "scientific_name": "Helianthus annuus",
+  "family": "Asteraceae",
+  "description": "Sunflower is a short-duration oilseed grown in kharif, rabi and summer in Karnataka, Maharashtra, Andhra Pradesh and Telangana. It fits many rotations and needs boron and sulphur for good seed setting.",
+  "common_varieties": ["KBSH 44", "DRSH 1", "NDSH 1", "LSFH 171", "DRSF 108", "Morden"],
+  "npk": {"N": 60, "P2O5": 90, "K2O": 30, "unit": "kg/ha"},
+  "npk_split": "Apply half the N with all P and K at sowing and the remaining N in two equal splits at 30 days (button stage) and 50 days (flowering); spray borax 2 g/L at ray-floret opening.",
+  "conditions": {
+    "Downy mildew": {
+      "name": "Downy Mildew",
+      "kind": "disease",
+      "cause": "Plasmopara halstedii",
+      "type": "Oomycete",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A soil- and seed-borne disease that infects seedlings through the roots and becomes systemic. Infected plants stay dwarf and produce small, upright heads with little or no seed.",
+      "symptoms": [
+        "Stunted plants with short internodes",
+        "Pale green to yellow patches along the main veins of the leaves",
+        "White cottony growth on the underside of the yellow patches",
+        "Thick, crinkled, downward-curled leaves",
+        "Small erect heads with few or no seeds"
+      ],
+      "spread": "Resting spores live in the soil for many years and the disease also comes with infected seed; cool, wet soil in the first 2-3 weeks after sowing favours infection.",
+      "action": "Pull out and destroy stunted plants now, and for the next crop treat the seed with metalaxyl 35 WS 6 g/kg before sowing.",
+      "manage": "downy_mildew",
+      "treatment": [
+        {"name": "Metalaxyl 35 WS seed treatment", "type": "Fungicide", "dose": "6 g/kg seed", "notes": "The main control measure; spraying after symptoms appear cannot cure systemically infected plants."},
+        {"name": "Metalaxyl 8% + Mancozeb 64% WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "One spray at 20-30 days after sowing limits secondary spread to healthy plants."},
+        {"name": "Resistant hybrid and rotation", "type": "Cultural", "dose": "-", "notes": "Choose a hybrid released as downy mildew resistant and do not grow sunflower on the same field more than once in 3-4 years."}
+      ]
+    },
+    "Gray mold": {
+      "name": "Gray Mold",
+      "kind": "disease",
+      "cause": "Botrytis cinerea",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal rot of leaves, stems and flower heads that develops in cool, humid, rainy weather from flowering to maturity. Infected heads rot within 7-10 days and the seed becomes mouldy.",
+      "symptoms": [
+        "Brown water-soaked patches on leaves, stem and the back of the head",
+        "Grey fluffy mould on the rotting tissue in humid weather",
+        "Head turns soft and rots",
+        "Seeds discoloured and mouldy"
+      ],
+      "spread": "Airborne spores from crop residue infect wounds, old petals and wet tissue during cool, cloudy, rainy weather.",
+      "action": "Spray carbendazim 50 WP 1 g/L on the heads and upper leaves at the first sign and harvest the heads as soon as they mature.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Direct the spray onto the heads; repeat after 10 days if wet weather continues."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective alternative; alternate with carbendazim to delay resistance."},
+        {"name": "Timely harvest and drying", "type": "Cultural", "dose": "-", "notes": "Cut mature heads promptly, dry them in the sun and control head-feeding caterpillars that open wounds."}
+      ]
+    },
+    "Leaf scars": {
+      "name": "Leaf Scars (Septoria Leaf Spot)",
+      "kind": "disease",
+      "cause": "Septoria helianthi",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that begins on the lower leaves and moves upward in warm, wet weather. Spotted tissue dies and the leaves dry up, but yield loss is small unless the upper leaves are hit before seed filling.",
+      "symptoms": [
+        "Angular to irregular yellow-green spots on the lower leaves",
+        "Spots turn brown to grey, often with a narrow yellow border",
+        "Tiny black dots inside the old spots",
+        "Spots merge and the leaf dries and hangs on the stem"
+      ],
+      "spread": "Survives on infected crop residue and seed and spreads upward by rain splash.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L when the spots start moving to the middle leaves and repeat after 10-15 days if rain continues.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective spray; not needed if only the oldest leaves are spotted near maturity."},
+        {"name": "Residue removal and rotation", "type": "Cultural", "dose": "-", "notes": "Plough in or remove sunflower stalks after harvest and rotate with cereals or pulses for 2-3 years."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Uniform green, broad, heart-shaped leaves",
+        "No spots, mould, holes or yellow patches",
+        "Normal plant height and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting, especially from the button stage to flowering.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

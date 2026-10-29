@@ -1,0 +1,35 @@
+{
+  "crop": "Squash",
+  "scientific_name": "Cucurbita pepo",
+  "family": "Cucurbitaceae",
+  "description": "Summer squash (chappan kaddu) is a quick-growing bush cucurbit grown on a small scale near cities and in north India, while related pumpkins are common across Andhra Pradesh and Telangana. It is direct-sown on raised beds or pits and needs bees for fruit set.",
+  "common_varieties": ["Australian Green", "Pusa Alankar", "Punjab Chappan Kaddu-1", "Patty Pan", "Early Yellow Prolific"],
+  "npk": {"N": 100, "P2O5": 50, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Apply half the N with all P and K at sowing and the remaining N in two equal splits at 3-4 weeks after sowing and at flowering.",
+  "conditions": {
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Podosphaera xanthii (syn. Sphaerotheca fuliginea), Golovinomyces cichoracearum",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most common fungal disease of squash and other cucurbits, favoured by warm, dry days and humid nights. White powder covers the leaves, which then yellow and dry, leaving small and sun-scalded fruits.",
+      "symptoms": [
+        "White flour-like round patches on both leaf surfaces, leaf stalks and stems",
+        "Patches merge and cover the whole leaf",
+        "Leaves turn yellow, then brown and papery",
+        "Vines weaken and fruits stay small or get sunburnt"
+      ],
+      "spread": "Airborne spores spread quickly in warm, dry weather with humid nights and need no rain or leaf wetness.",
+      "action": "Spray azoxystrobin 23 SC 1 ml/L or carbendazim 50 WP 1 g/L on both leaf surfaces at the first white patches and repeat after 10-14 days.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Not more than two sprays in a season; observe the label waiting period before picking fruits; only where the label lists your crop."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Alternate with azoxystrobin to delay resistance."},
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2 g/L water", "notes": "Use only in cool weather; sulphur scorches cucurbit leaves in hot sun, so test on a few plants first."}
+      ]
+    }
+  }
+}

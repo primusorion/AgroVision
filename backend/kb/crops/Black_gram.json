@@ -1,0 +1,173 @@
+{
+  "crop": "Black gram",
+  "scientific_name": "Vigna mungo",
+  "family": "Fabaceae",
+  "description": "Black gram (urad, minumulu) is a short-duration pulse grown in kharif, rabi and in the rice fallows of coastal Andhra Pradesh. It fixes its own nitrogen and needs only a small starter dose with phosphorus.",
+  "common_varieties": ["LBG 752", "LBG 787", "PU 31", "TBG 104", "T 9", "VBN 8"],
+  "npk": {"N": 20, "P2O5": 50, "K2O": 20, "unit": "kg/ha"},
+  "npk_split": "Apply all N and P as basal at sowing, add potash only where the soil test shows low potassium, and treat the seed with Rhizobium culture.",
+  "conditions": {
+    "Anthracnose": {
+      "name": "Anthracnose",
+      "kind": "disease",
+      "cause": "Colletotrichum lindemuthianum / Colletotrichum truncatum",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A seed-borne fungal disease that spots the leaves and pods in cool, wet weather. Early infection kills seedlings and later infection gives spotted pods with shrivelled seed.",
+      "symptoms": [
+        "Round dark brown sunken spots with a dark centre and bright red-orange margin on leaves and pods",
+        "Spot centres fall out leaving shot-holes",
+        "Seedlings blighted soon after emergence",
+        "Spotted pods with shrivelled seed"
+      ],
+      "spread": "Carried by infected seed and crop debris and spread by rain splash in cool, wet weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or carbendazim 50 WP 1 g/L at the first spots and repeat after 15 days.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective spray; repeat after 15 days in wet weather."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Alternative; alternate with mancozeb."},
+        {"name": "Carbendazim 50 WP seed treatment", "type": "Fungicide", "dose": "2 g/kg seed", "notes": "Use seed from a healthy crop and treat before sowing."}
+      ]
+    },
+    "Cercospora leaf spot": {
+      "name": "Cercospora Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora canescens",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A common fungal leaf spot of black gram that builds up in humid weather from about 30 days after sowing. Heavy spotting at flowering and pod stage causes leaf fall and lower yield.",
+      "symptoms": [
+        "Small round spots with grey-white centre and reddish-brown margin",
+        "Many spots merge into irregular dead patches",
+        "Leaves dry and drop at flowering and pod formation",
+        "Similar spots on stems and pods"
+      ],
+      "spread": "Survives on crop debris and seed and spreads by wind and rain splash in humid weather.",
+      "action": "Spray carbendazim 50 WP 1 g/L or mancozeb 75 WP 2.5 g/L at the first spots and repeat after 15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "First spray at about 30 days after sowing or at first spots."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Alternate with carbendazim for the second spray."}
+      ]
+    },
+    "Insect damage": {
+      "name": "Insect Damage",
+      "kind": "pest",
+      "cause": "Chewing or sucking insects of unspecified species (e.g. Spodoptera litura, Maruca vitrata, leaf beetles, aphids, thrips)",
+      "type": "Insect",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Leaf injury caused by insects; the photo shows the damage but not which insect did it. Check the plant to see whether caterpillars, beetles or small sucking insects are present before choosing a spray.",
+      "symptoms": [
+        "Holes or ragged, chewed leaf edges",
+        "Scraped or skeletonised patches where only veins remain",
+        "Leaves and flowers webbed together with droppings inside",
+        "Curled or speckled leaves with small insects on the underside"
+      ],
+      "spread": "Adult insects fly in from neighbouring crops and weeds and multiply quickly in warm weather.",
+      "action": "Turn over the leaves to find which insect is feeding, hand-pick caterpillars and egg masses, and spray neem oil 1500 ppm 5 ml/L if damage is spreading.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "3-5 ml/L water", "notes": "First spray for light damage by any insect; spray in the evening."},
+        {"name": "Chlorantraniliprole 18.5 SC", "type": "Insecticide", "dose": "0.3 ml/L water", "notes": "Only if caterpillars (Spodoptera, spotted pod borer) are found feeding."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L water", "notes": "Only if aphids, whiteflies or thrips are found on the underside of leaves; toxic to bees - do not spray on open flowers; only where the label lists your crop."}
+      ]
+    },
+    "Leaf crinkle virus": {
+      "name": "Leaf Crinkle Virus",
+      "kind": "disease",
+      "cause": "Urdbean leaf crinkle virus",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A mainly seed-borne virus disease that makes the leaves large, thick and crinkled and stops the flowers from setting pods. There is no curative spray, and plants infected early give almost no yield.",
+      "symptoms": [
+        "Leaves larger than normal, thick and crinkled",
+        "Puckered, wavy leaf surface that is lighter green",
+        "Stunted, bushy plant",
+        "Flower buds malformed and remain closed, very few pods"
+      ],
+      "spread": "Comes mainly through infected seed and is spread further by sap contact and insects such as aphids.",
+      "action": "Pull out and destroy crinkled plants as soon as they are seen, within 45 days of sowing, and do not save seed from this field.",
+      "manage": "viral_aphid",
+      "vector": "Aphids (Aphis craccivora, Aphis gossypii)",
+      "treatment": [
+        {"name": "Roguing and clean seed", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; buy certified seed or take seed only from a crop that showed no crinkle."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L water", "notes": "Vector control only, when aphids are seen on the young crop; toxic to bees - do not spray on open flowers; only where the label lists your crop."}
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Erysiphe polygoni",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that covers leaves, stems and pods with white powder, mainly in rabi and rice-fallow crops. It forces early maturity and reduces pod filling.",
+      "symptoms": [
+        "White powdery patches on the upper leaf surface",
+        "Powder spreads to stems and pods",
+        "Leaves turn yellow, then brown, and drop",
+        "Crop matures early with small seed"
+      ],
+      "spread": "Airborne spores spread fast in cool, dry weather, especially on late-sown crops.",
+      "action": "Spray wettable sulphur 80 WP 3 g/L or hexaconazole 5 EC 2 ml/L at the first white patches and repeat after 10-15 days.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "3 g/L water", "notes": "Cover both leaf surfaces; do not spray in very hot afternoon sun."},
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "2 ml/L water", "notes": "Use if the disease is already well established."}
+      ]
+    },
+    "Yellow mosaic virus": {
+      "name": "Yellow Mosaic Virus",
+      "kind": "disease",
+      "cause": "Mungbean yellow mosaic virus / Mungbean yellow mosaic India virus (begomovirus)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most destructive disease of black gram, carried by whitefly. There is no curative spray, and plants infected before flowering give few, small pods with shrivelled seed.",
+      "symptoms": [
+        "Scattered small yellow specks on young leaves",
+        "Bright yellow and green mosaic patches that enlarge",
+        "Whole leaf turns yellow and later papery white",
+        "Stunted plants with few, small, yellow pods"
+      ],
+      "spread": "Spread by whiteflies from infected plants and weed hosts; it is not carried by seed or soil.",
+      "action": "Pull out yellow plants up to 40 days after sowing and spray thiamethoxam 25 WG 0.3 g/L to check whiteflies.",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {"name": "Resistant varieties", "type": "Cultural", "dose": "-", "notes": "Grow yellow mosaic resistant or tolerant varieties such as PU 31, LBG 787, TBG 104 or VBN 8; this is the most reliable control."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L water", "notes": "Vector control only; spray when whiteflies are seen and repeat after 10-15 days if they return, not more than 2 sprays a season; toxic to bees - do not spray on open flowers; only where the label lists your crop."},
+        {"name": "Acetamiprid 20 SP", "type": "Insecticide", "dose": "0.2 g/L water", "notes": "Alternative for whitefly, but the same group (IRAC 4A neonicotinoid) as thiamethoxam, so use one or the other, not one after the other; toxic to bees - do not spray on open flowers; only where the label lists your crop; install yellow sticky traps to monitor."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting.",
+      "symptoms": [
+        "Uniform green trifoliate leaves",
+        "No spots, yellow patches, crinkling or holes",
+        "Normal leaf size and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting and watch for whiteflies in the first 40 days.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

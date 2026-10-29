@@ -1,0 +1,177 @@
+{
+  "crop": "Tea",
+  "scientific_name": "Camellia sinensis",
+  "family": "Theaceae",
+  "description": "Tea is a perennial bush plucked for its tender shoots, grown in Assam, West Bengal (Darjeeling, Dooars, Terai) and the southern hills of the Nilgiris, Anamalais, Munnar and Wayanad. Because the leaf itself is the product, only chemicals approved in the Tea Board's Plant Protection Code may be sprayed and the waiting period before plucking must be kept.",
+  "common_varieties": ["TV-1", "TV-23", "Teenali 17/1/54", "UPASI-3", "UPASI-9", "AV-2"],
+  "npk": {"N": 120, "P2O5": 30, "K2O": 120, "unit": "kg/ha"},
+  "npk_split": "Split nitrogen and potash into 2-4 applications on moist soil during the growing season (first after the spring rains, last by September) and give phosphorus once a year; rates rise with yield, so follow the Tocklai / UPASI soil-test advice.",
+  "conditions": {
+    "Algal leaf spot": {
+      "name": "Algal Leaf Spot (Red Rust)",
+      "kind": "disease",
+      "cause": "Cephaleuros parasiticus (also Cephaleuros virescens)",
+      "type": "Algal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A parasitic green alga that grows on leaves and young stems of weak tea bushes in warm, wet weather. On stems it causes red rust, which yellows the leaves, kills young branches and is serious in young tea.",
+      "symptoms": [
+        "Round, slightly raised, velvety spots on the upper leaf surface, orange-rust to grey-green in colour",
+        "Orange-red hairy patches on young green stems",
+        "Leaves on affected stems turn yellow or patchy yellow-green",
+        "Stem bark cracks and young branches die back"
+      ],
+      "spread": "Spores are spread by rain splash and wind during the monsoon and attack bushes weakened by poor drainage, low potash, alkaline soil or lack of shade.",
+      "action": "Spray copper oxychloride on the stems and leaves and correct drainage, potash and shade so the bushes regain vigour.",
+      "manage": "algal",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "2-3 sprays at 15-20 day intervals from the pre-monsoon period, wetting the stems; keep the Plant Protection Code waiting period before plucking."},
+        {"name": "Improve drainage, potash supply and shade", "type": "Cultural", "dose": "-", "notes": "Red rust is a disease of weak bushes; vigorous tea is rarely affected."}
+      ]
+    },
+    "Brown blight": {
+      "name": "Brown Blight",
+      "kind": "disease",
+      "cause": "Colletotrichum camelliae (Glomerella cingulata)",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal leaf disease that attacks tea leaves injured by sun scorch, hail, plucking or pests, or bushes weakened by drought and poor nutrition. It causes leaf fall and reduces the maintenance foliage that feeds new shoots.",
+      "symptoms": [
+        "Small oval yellowish-green spots that turn brown",
+        "Spots grow into brown patches, often from the leaf edge, with a narrow yellow-green border",
+        "Old patches turn grey in the centre with faint rings",
+        "Tiny black dots scattered on the dead tissue",
+        "Affected leaves fall early"
+      ],
+      "spread": "Spores are spread by rain splash and wind and enter through wounds and sun-scorched tissue in warm, wet weather.",
+      "action": "Remove fallen and badly affected leaves, relieve stress on the bushes and spray copper oxychloride after plucking.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Spray just after a plucking round; keep the Plant Protection Code waiting period before the next plucking."},
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "as per label", "notes": "Use only as approved in the Tea Board Plant Protection Code and keep the waiting period."},
+        {"name": "Shade, potash and drought management", "type": "Cultural", "dose": "-", "notes": "Sun-scorched and under-fed bushes are attacked first."}
+      ]
+    },
+    "Gray blight": {
+      "name": "Grey Blight",
+      "kind": "disease",
+      "cause": "Pseudopestalotiopsis theae (syn. Pestalotiopsis theae)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal disease of mature tea leaves and of young shoots wounded by plucking or shearing. On plucked shoots it causes dieback from the cut end, which directly reduces the next flush.",
+      "symptoms": [
+        "Small brown spots that grow into large grey to greyish-white patches",
+        "Narrow dark brown border around each patch",
+        "Black dots arranged in rings on the upper surface of the patch",
+        "Patches often start at the leaf edge or tip",
+        "Young shoots die back from the plucked or sheared end"
+      ],
+      "spread": "Spores are spread by rain splash and enter through plucking, shearing and insect wounds in warm, humid weather.",
+      "action": "Spray copper oxychloride soon after plucking or shearing and remove badly affected leaves and dead shoots.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Spray within a day after plucking or shearing in wet weather; keep the Plant Protection Code waiting period."},
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "as per label", "notes": "Use only as approved in the Tea Board Plant Protection Code; alternate with copper."},
+        {"name": "Avoid hard plucking and shearing in wet weather", "type": "Cultural", "dose": "-", "notes": "Fewer wounds mean fewer infections; keep bushes well fed with potash."}
+      ]
+    },
+    "Green mirid bug": {
+      "name": "Green Mirid Bug",
+      "kind": "pest",
+      "cause": "Green mirid / plant bugs (Apolygus lucorum and related Miridae)",
+      "type": "Insect",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Small green sap-sucking bugs that pierce the buds and the tenderest leaves of the tea shoot. The punctured spots die and tear as the leaf grows, so the pluckable shoots become ragged and stunted.",
+      "symptoms": [
+        "Tiny brown to black puncture spots on buds and the youngest leaves",
+        "Spots tear into irregular holes as the leaf expands",
+        "Young leaves ragged, crinkled and deformed",
+        "Shoots stunted with thickened, rough leaves",
+        "Small, fast-moving green bugs on the shoots in early morning or evening"
+      ],
+      "spread": "Adults fly between bushes and from weeds and shaded, humid sections, and eggs are laid inside tender stems.",
+      "action": "Pluck off the damaged shoots on a short plucking round and spray neem or an approved insecticide on the tender shoots in the early morning or evening.",
+      "manage": "sucking_insects",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm (azadirachtin)", "type": "Insecticide", "dose": "3-5 ml/L", "notes": "Spray the plucking table in the early morning or late evening when the bugs are active."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.25 g/L", "notes": "Only as approved in the Tea Board Plant Protection Code; keep the waiting period before plucking."},
+        {"name": "Short plucking rounds and weed control", "type": "Cultural", "dose": "-", "notes": "Removes eggs and damaged shoots; clean weeds that harbour the bugs."}
+      ]
+    },
+    "Red spider mite": {
+      "name": "Red Spider Mite",
+      "kind": "pest",
+      "cause": "Oligonychus coffeae",
+      "type": "Mite",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The most damaging mite pest of tea, feeding on the upper surface of mature leaves in dry, warm weather. Heavy attack bronzes and defoliates the bush, so the next flushes are weak.",
+      "symptoms": [
+        "Upper surface of mature leaves turns reddish-brown or bronze, starting along the midrib and veins",
+        "Tiny red mites, white cast skins and fine webbing on the upper surface",
+        "Leaves dry and fall in dry weather",
+        "Patches of bronzed bushes, often near roads and in unshaded or waterlogged areas"
+      ],
+      "spread": "Mites spread by wind, on workers' clothes and baskets and on cattle, and build up fast in dry weather from February to May.",
+      "action": "Spray an approved miticide on the upper surface of the mature leaves of affected and surrounding bushes, and repeat after 7-10 days if live mites remain.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Propargite 57 EC", "type": "Miticide", "dose": "2 ml/L", "notes": "Wet the upper surface of mature leaves thoroughly; keep the Plant Protection Code waiting period before plucking."},
+        {"name": "Fenazaquin 10 EC", "type": "Miticide", "dose": "2 ml/L", "notes": "Rotate with a different miticide group to delay resistance."},
+        {"name": "Wettable sulphur 80 WP", "type": "Miticide", "dose": "2-3 g/L", "notes": "Low-cost option early in the season; do not spray in hot sun."}
+      ]
+    },
+    "Tea mosquito bug": {
+      "name": "Tea Mosquito Bug",
+      "kind": "pest",
+      "cause": "Helopeltis theivora",
+      "type": "Insect",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A slender sap-sucking bug that injects toxic saliva into buds, young leaves and tender stems of tea. It is the most serious tea pest in India and can stop a section from flushing altogether.",
+      "symptoms": [
+        "Round water-soaked spots on buds and young leaves that turn brown to black within a day",
+        "Young leaves curl, deform and dry, looking scorched",
+        "Tender shoots die back",
+        "Cracks and corky swellings on young stems where eggs are laid",
+        "Bushes fail to produce new shoots"
+      ],
+      "spread": "Adults fly from bush to bush and from alternate hosts such as guava and mikania weed, and multiply in humid, shaded sections from May to September.",
+      "action": "Pluck off all damaged shoots (black plucking) and spray an approved insecticide on the tender shoots in the early morning or late evening.",
+      "manage": "sucking_insects",
+      "treatment": [
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.25 g/L", "notes": "Only as approved in the Tea Board Plant Protection Code; keep the waiting period before plucking and do not repeat the same chemical."},
+        {"name": "Neem oil 1500 ppm (azadirachtin)", "type": "Insecticide", "dose": "3-5 ml/L", "notes": "For low infestation and between chemical rounds; spray in the early morning or late evening."},
+        {"name": "Black plucking, shade regulation and removal of alternate hosts", "type": "Cultural", "dose": "-", "notes": "Removing damaged shoots removes the eggs; thin dense shade and clear weeds around the section."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease or pest damage. Glossy green maintenance leaves and tender light-green shoots indicate a vigorous bush.",
+      "symptoms": [
+        "Mature leaves evenly dark green and glossy",
+        "Young shoots light green, soft and undamaged",
+        "No spots, bronzing, punctures or holes"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue regular plucking rounds, split manuring, shade and drainage upkeep and weekly scouting for mites and mosquito bug.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

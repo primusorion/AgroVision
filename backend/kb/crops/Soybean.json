@@ -1,0 +1,149 @@
+{
+  "crop": "Soybean",
+  "scientific_name": "Glycine max",
+  "family": "Fabaceae",
+  "description": "Soybean is a kharif oilseed-pulse grown mainly on the black soils of Madhya Pradesh, Maharashtra, Rajasthan and Telangana. It fixes its own nitrogen, so it needs only a small starter dose of nitrogen along with phosphorus and sulphur.",
+  "common_varieties": ["JS 335", "JS 95-60", "JS 93-05", "MAUS 71", "KDS 344 (Phule Agrani)", "NRC 37"],
+  "npk": {"N": 30, "P2O5": 60, "K2O": 40, "unit": "kg/ha"},
+  "npk_split": "Apply all N, P and K as basal at sowing along with 20 kg sulphur/ha, and treat the seed with Bradyrhizobium culture.",
+  "conditions": {
+    "Frogeye leaf spot": {
+      "name": "Frogeye Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora sojina",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that appears from flowering onward in warm, humid weather. Heavy spotting causes early leaf fall and discoloured seed.",
+      "symptoms": [
+        "Small round to angular spots with grey or tan centre and a narrow reddish-brown to purple margin",
+        "Spots merge and the leaf looks ragged or blighted",
+        "Fine grey mould on the underside of spots in humid weather",
+        "Sunken reddish-brown spots on stems and pods late in the season"
+      ],
+      "spread": "Survives on infected seed and crop residue and spreads by wind and rain splash in warm, wet weather.",
+      "action": "Spray tebuconazole 250 EC 1 ml/L or carbendazim 50 WP 1 g/L at the first spots and repeat once after 15 days if rain continues.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Tebuconazole 250 EC (25.9% EC)", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Spray at first spots, usually at flowering; repeat after 15 days if needed."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Alternative; do not use the same fungicide more than twice in a season."},
+        {"name": "Trichoderma viride seed treatment", "type": "Biological", "dose": "4 g/kg seed", "notes": "Use disease-free seed and treat before sowing; rotate with a cereal for 1-2 years."}
+      ]
+    },
+    "Mosaic virus": {
+      "name": "Mosaic Virus",
+      "kind": "disease",
+      "cause": "Soybean mosaic virus (potyvirus); yellow mosaic (Mungbean yellow mosaic India virus) gives similar yellow-green patches",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A virus disease that mottles and puckers the leaves and stunts the plant; soybean mosaic comes through infected seed and aphids, while yellow mosaic is carried by whitefly. There is no curative spray, and early infection cuts pod number and seed quality sharply.",
+      "symptoms": [
+        "Light green and dark green or bright yellow patches on young leaves",
+        "Leaves puckered, crinkled and curled downward at the edges",
+        "Stunted plants with short internodes",
+        "Few, small, deformed pods and mottled seed"
+      ],
+      "spread": "Soybean mosaic is seed-borne and spread by aphids; yellow mosaic is spread by whitefly from infected plants and weeds.",
+      "action": "Pull out and destroy mosaic plants as soon as you see them and spray thiamethoxam 25 WG 0.3 g/L to check aphids and whiteflies.",
+      "manage": "viral_aphid",
+      "vector": "Aphids (Aphis glycines, Aphis craccivora); whitefly (Bemisia tabaci) for yellow mosaic",
+      "treatment": [
+        {"name": "Roguing and clean seed", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; remove infected plants early and never save seed from an affected field."},
+        {"name": "Thiamethoxam 30 FS seed treatment", "type": "Insecticide", "dose": "10 ml/kg seed", "notes": "Protects the young crop from whitefly and aphids for the first 3-4 weeks."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L water", "notes": "Vector control only; spray when aphids or whiteflies are seen, and install yellow sticky traps; avoid spraying during flowering (bees)."}
+      ]
+    },
+    "Rust": {
+      "name": "Rust",
+      "kind": "disease",
+      "cause": "Phakopsora pachyrhizi",
+      "type": "Fungal",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fast-spreading fungal disease that can defoliate the crop within two to three weeks in cool, wet weather. It starts on the lower leaves at flowering and causes small, poorly filled pods.",
+      "symptoms": [
+        "Many tiny tan to reddish-brown raised pustules on the underside of lower leaves",
+        "Rusty brown powder comes off on the fingers",
+        "Leaves turn yellow, then brown, and fall early",
+        "Disease climbs from lower to upper leaves; pods fill poorly"
+      ],
+      "spread": "Spores are carried long distances by wind and infect when leaves stay wet for many hours from dew or continuous drizzle.",
+      "action": "Spray hexaconazole 5 EC 2 ml/L or propiconazole 25 EC 1 ml/L at the first pustules and repeat after 15 days.",
+      "manage": "rust",
+      "treatment": [
+        {"name": "Hexaconazole 5 EC", "type": "Fungicide", "dose": "2 ml/L water", "notes": "Wet the lower canopy and leaf undersides; repeat after 15 days."},
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Alternative triazole; spray before pustules reach the upper leaves."},
+        {"name": "Early sowing and tolerant varieties", "type": "Cultural", "dose": "-", "notes": "Sow at the onset of monsoon and avoid late or off-season soybean in rust-prone areas."}
+      ]
+    },
+    "Semilooper caterpillar": {
+      "name": "Semilooper Caterpillar",
+      "kind": "pest",
+      "cause": "Green semiloopers (Chrysodeixis acuta, Gesonia gemma, Thysanoplusia orichalcea)",
+      "type": "Insect",
+      "severity_weight": 0.7,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Green caterpillars that walk by looping their body and feed on soybean leaves, flowers and young pods. Damage is worst in August-September when several generations overlap.",
+      "symptoms": [
+        "Irregular holes in the leaves",
+        "Green caterpillars that form a loop when they move",
+        "Leaves eaten down to the veins in heavy attack",
+        "Flowers and young pods chewed"
+      ],
+      "spread": "Moths lay eggs on the leaves and several overlapping generations build up during the monsoon.",
+      "action": "Spray chlorantraniliprole 18.5 SC 0.3 ml/L when you find 3-4 caterpillars per metre of row or leaf damage is increasing at flowering.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Chlorantraniliprole 18.5 SC", "type": "Insecticide", "dose": "0.3 ml/L water", "notes": "One spray at flowering or early pod stage usually gives control."},
+        {"name": "Emamectin benzoate 5 SG", "type": "Insecticide", "dose": "0.4 g/L water", "notes": "Alternative; rotate with a different group if a second spray is needed; only where the label lists your crop."},
+        {"name": "Bacillus thuringiensis var. kurstaki", "type": "Biological", "dose": "as per label", "notes": "Works on young caterpillars; spray in the evening and fix bird perches in the field."}
+      ]
+    },
+    "Septoria brown spot": {
+      "name": "Septoria Brown Spot",
+      "kind": "disease",
+      "cause": "Septoria glycines",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A common fungal spot of the oldest, lowest leaves that moves upward in warm, rainy weather. It usually causes little loss unless it reaches the middle canopy during pod filling.",
+      "symptoms": [
+        "Small irregular dark brown spots on both sides of the lower leaves",
+        "Spots merge into brown blotches",
+        "Affected leaves turn yellow and drop from the bottom of the plant upward"
+      ],
+      "spread": "Survives on crop residue and seed and is splashed up onto the lower leaves by rain.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L only if the spots move up from the lower leaves into the middle canopy during flowering or pod filling.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective spray; needed only when the disease is climbing the canopy."},
+        {"name": "Crop rotation and residue ploughing", "type": "Cultural", "dose": "-", "notes": "Rotate with maize, sorghum or cotton and plough in soybean residue after harvest."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Uniform green trifoliate leaves",
+        "No spots, pustules, holes or mottling",
+        "Normal leaf size and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting, especially from flowering to pod filling.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

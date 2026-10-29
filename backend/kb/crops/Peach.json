@@ -1,0 +1,55 @@
+{
+  "crop": "Peach",
+  "scientific_name": "Prunus persica",
+  "family": "Rosaceae",
+  "description": "Stone fruit grown in the mid-hills of Himachal Pradesh, Uttarakhand and Jammu & Kashmir, with low-chill varieties in the Punjab and western Uttar Pradesh plains. It needs winter chilling and is rarely grown in South India.",
+  "common_varieties": ["July Elberta", "Shan-i-Punjab", "Florda Prince", "Pratap", "Sharbati", "Redhaven"],
+  "npk": {"N": 500, "P2O5": 250, "K2O": 700, "unit": "g/plant/year"},
+  "npk_split": "For full-bearing trees: apply FYM with all P and K in December-January, half the N before flowering and the rest after fruit set.",
+  "conditions": {
+    "Bacterial spot": {
+      "name": "Bacterial Spot",
+      "kind": "disease",
+      "cause": "Xanthomonas arboricola pv. pruni",
+      "type": "Bacterial",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Bacterial disease of leaves, twigs and fruits that is worst in warm, windy, rainy weather. It causes shot-holed leaves, early leaf fall and pitted, cracked fruits.",
+      "symptoms": [
+        "Small angular water-soaked spots, often clustered near the leaf tip and midrib",
+        "Spots turn purple-brown and the centres fall out, leaving shot holes",
+        "Spotted leaves turn yellow and drop early",
+        "Small sunken dark spots and cracks on fruit skin",
+        "Dark sunken cankers on young twigs"
+      ],
+      "spread": "Wind-driven rain carries bacteria from twig cankers to young leaves and fruits, entering through leaf pores and wounds.",
+      "action": "Spray a copper fungicide at leaf fall and again before bud swell, and prune out twigs with cankers.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L", "notes": "At leaf fall and at bud swell only; copper scorches peach leaves when sprayed in full leaf."},
+        {"name": "Open-canopy pruning and moderate nitrogen", "type": "Cultural", "dose": "-", "notes": "Leaves dry faster in an open tree; excess nitrogen makes soft growth that is easily infected."},
+        {"name": "Tolerant varieties and disease-free nursery plants", "type": "Cultural", "dose": "-", "notes": "Use for new plantings in areas where the disease is regular."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep following the regular orchard care schedule.",
+      "symptoms": [
+        "Uniform green leaves without spots or holes",
+        "No curling, blistering or early leaf fall",
+        "Normal shoot growth"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular pruning, balanced manuring and weekly scouting of the orchard.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

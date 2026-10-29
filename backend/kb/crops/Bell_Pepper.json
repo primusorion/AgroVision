@@ -1,0 +1,49 @@
+{
+  "crop": "Bell Pepper",
+  "scientific_name": "Capsicum annuum (Grossum group)",
+  "family": "Solanaceae",
+  "description": "Bell pepper (capsicum, shimla mirch) is a high-value vegetable grown in open fields in the cool season and in polyhouses year-round. It prefers 18-27 °C and well-drained loam rich in organic matter.",
+  "common_varieties": ["California Wonder", "Yolo Wonder", "Arka Mohini", "Arka Gaurav", "Arka Basant", "Pusa Deepti (F1)"],
+  "npk": {"N": 150, "P2O5": 75, "K2O": 75, "unit": "kg/ha"},
+  "npk_split": "Basal at transplanting: 1/3 N + full P2O5 + 1/2 K2O; top-dress the remaining N and K2O in splits at 30, 60 and 90 days after transplanting, or weekly by fertigation (range 120-150 : 60-80 : 60-80 kg/ha).",
+  "conditions": {
+    "Bacterial spot": {
+      "name": "Bacterial Spot",
+      "kind": "disease",
+      "cause": "Xanthomonas euvesicatoria (also X. vesicatoria, X. perforans, X. gardneri)",
+      "type": "Bacterial",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Bacterial spot is one of the most destructive pepper diseases in warm, rainy weather. It causes leaf spots and heavy leaf drop, exposing fruit to sunscald, and scabby fruit spots that cut market value.",
+      "symptoms": [
+        "Small, water-soaked spots that turn brown to dark brown, often with a yellow halo",
+        "Spots merge, often along leaf margins and tips where dew collects; dead centres may tear out (shot-hole)",
+        "Yellowing and heavy drop of affected leaves",
+        "Raised, scabby, wart-like spots on fruit"
+      ],
+      "spread": "Seed-borne and carried on transplants and crop debris; spreads by rain splash, overhead irrigation, wind-driven rain and handling wet plants; favoured by 24-30 °C and wet, humid weather.",
+      "action": "Spray a copper bactericide (Copper hydroxide 77 WP 2 g/L) now and every 7-10 days in wet weather; remove badly infected leaves.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Hot-water seed treatment", "type": "Cultural", "dose": "About 50 °C for 25-30 minutes", "notes": "Kills seed-borne bacteria before sowing; dry the seed in shade afterwards."},
+        {"name": "Rotate away from solanaceous crops", "type": "Cultural", "dose": "2-3 years", "notes": "Capsicum, chilli and tomato share these bacteria."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "No disease or pest symptoms are visible on this bell pepper leaf. Keep up balanced nutrition, regular irrigation and weekly scouting to keep the crop healthy.",
+      "symptoms": ["Uniform green colour", "No spots, lesions, mottling, curling or webbing"],
+      "spread": "-",
+      "action": "No treatment is needed.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

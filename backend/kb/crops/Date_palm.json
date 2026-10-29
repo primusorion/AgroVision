@@ -1,0 +1,226 @@
+{
+  "crop": "Date palm",
+  "scientific_name": "Phoenix dactylifera",
+  "family": "Arecaceae",
+  "description": "Date palm is grown in the hot, dry tracts of Kachchh (Gujarat) and western Rajasthan, with newer tissue-culture plantations in Tamil Nadu, Andhra Pradesh and Maharashtra. It tolerates heat and salinity but needs irrigation, dry weather at fruit ripening and hand pollination.",
+  "common_varieties": ["Barhee", "Halawy", "Khalas", "Medjool", "Khuneizi", "Zahidi"],
+  "npk": {"N": 1000, "P2O5": 500, "K2O": 1000, "unit": "g/plant/year"},
+  "npk_split": "Apply all FYM (50-100 kg), phosphorus and potash with half the nitrogen after harvest (September-October) and the rest of the nitrogen before flowering (January-February); the dose is for a bearing palm.",
+  "conditions": {
+    "Black scorch": {
+      "name": "Black Scorch",
+      "kind": "disease",
+      "cause": "Thielaviopsis punctulata (syn. Ceratocystis radicicola; formerly reported as Thielaviopsis paradoxa)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "A wound-entering fungus that attacks fronds, flower stalks, the growing bud and the trunk of date palm, mostly on palms stressed by drought or salinity. Infection of the central bud can bend the crown and kill the palm.",
+      "symptoms": [
+        "Hard black, burnt-looking patches on leaf stalks and leaflets, as if scorched by fire",
+        "New fronds come out short, twisted and blackened",
+        "Flower stalks and spathes rot and turn black",
+        "Rot of the central bud; the crown bends to one side",
+        "Dark, wet rot inside the trunk in advanced cases"
+      ],
+      "spread": "Spores from soil and diseased tissue enter through pruning cuts and other wounds and are carried by wind, rain splash and tools.",
+      "action": "Cut out and burn the blackened fronds and flower stalks, paste the cut surfaces with a copper fungicide and spray the crown.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Prune and burn affected fronds and flower stalks", "type": "Cultural", "dose": "-", "notes": "Disinfect the cutting tool between palms; relieve drought and salinity stress with regular irrigation."},
+        {"name": "Bordeaux paste on cut surfaces", "type": "Fungicide", "dose": "1 kg copper sulphate + 1 kg lime in 10 L water", "notes": "Apply to every pruning wound on the day of cutting."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Drench the crown and frond bases after pruning; repeat after 15-20 days."}
+      ]
+    },
+    "Fusarium wilt": {
+      "name": "Fusarium Wilt (Bayoud)",
+      "kind": "disease",
+      "cause": "Fusarium oxysporum f. sp. albedinis",
+      "type": "Fungal",
+      "severity_weight": 1.0,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A soil-borne fungus that blocks the water vessels of date palm and kills the tree; the true Bayoud disease is known from North Africa and is a quarantine disease not established in India. There is no cure, so any suspected palm must be reported and isolated.",
+      "symptoms": [
+        "One or a few fronds in the middle of the crown turn ash-grey, then white",
+        "Leaflets dry on one side of the frond first, from base to tip, then on the other side",
+        "Brown streak running along the leaf stalk on the affected side",
+        "Dried frond hangs down against the trunk like a wet feather",
+        "More fronds follow until the central bud and the palm die"
+      ],
+      "spread": "Spread through infected offshoots, soil, irrigation water and root contact between neighbouring palms.",
+      "action": "Do not take offshoots from the palm, stop irrigation water flowing from it to other palms and report it to the horticulture department for laboratory confirmation.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {"name": "Isolate, uproot and burn confirmed palms on the spot", "type": "Cultural", "dose": "-", "notes": "No fungicide cures a wilted palm; do not move offshoots, fronds or soil from the affected area."},
+        {"name": "Disease-free tissue-culture plants or offshoots from healthy groves", "type": "Cultural", "dose": "-", "notes": "Clean planting material is the only reliable protection."},
+        {"name": "Trichoderma-enriched FYM in the basin", "type": "Biological", "dose": "as per label", "notes": "Supportive for root health against other Fusarium rots; it does not cure wilt."}
+      ]
+    },
+    "Leaf spots": {
+      "name": "Leaf Spots",
+      "kind": "disease",
+      "cause": "Graphiola phoenicis (Graphiola leaf spot / false smut), Alternaria spp., Pestalotiopsis palmarum and other leaf-spot fungi",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A group of fungal leaf spots on date palm fronds, of which Graphiola leaf spot is the commonest in humid and coastal areas. Heavy spotting dries the older fronds early and reduces fruit yield.",
+      "symptoms": [
+        "Small yellow to brown spots on both sides of the leaflets and on the leaf stalk",
+        "Tiny hard black cup-like pustules (1-3 mm) that release yellow powder - Graphiola",
+        "Brown or grey spots with a dark margin on older fronds",
+        "Heavily spotted leaflets yellow and dry early"
+      ],
+      "spread": "Spores are spread by wind and rain splash and build up in humid weather and in crowded palms with many old fronds.",
+      "action": "Prune and burn the heavily spotted older fronds and spray copper oxychloride or mancozeb on the remaining fronds in humid weather.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Prune and burn heavily spotted old fronds", "type": "Cultural", "dose": "-", "notes": "Do this after harvest; keep wide spacing and avoid wetting the crown with sprinklers."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "2-3 sprays at 15-day intervals in the humid season."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L", "notes": "Alternate with copper; add a sticker."}
+      ]
+    },
+    "Magnesium deficiency": {
+      "name": "Magnesium Deficiency",
+      "kind": "deficiency",
+      "cause": "Magnesium (Mg)",
+      "type": "Nutrient",
+      "severity_weight": 0.4,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of magnesium, typical of sandy, leached soils and palms given heavy potash or nitrogen without magnesium. It spoils the look and working leaf area of the oldest fronds but does not kill the palm.",
+      "symptoms": [
+        "Shows on the oldest (lowest) fronds",
+        "Broad bright lemon-yellow band along the outer part of the frond",
+        "Centre of the frond along the leaf stalk stays clearly green, with a sharp boundary",
+        "Leaflet tips stay alive unless potassium is also short",
+        "Young fronds stay green"
+      ],
+      "spread": "Not infectious - occurs on sandy, leached soils and where potash or nitrogen is applied heavily without magnesium.",
+      "action": "Apply magnesium sulphate to the soil in the basin as per soil test and keep the yellow fronds on the palm until they dry.",
+      "manage": "deficiency_Mg",
+      "nutrient": "Mg",
+      "treatment": [
+        {"name": "Magnesium sulphate to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Spread over the basin and irrigate; yellow fronds do not regreen, so judge the result on new fronds."},
+        {"name": "Do not cut the yellow fronds", "type": "Cultural", "dose": "-", "notes": "The palm draws magnesium back from them; removing them moves the symptom to younger fronds."}
+      ]
+    },
+    "Manganese deficiency": {
+      "name": "Manganese Deficiency (Frizzle Top)",
+      "kind": "deficiency",
+      "cause": "Manganese (Mn)",
+      "type": "Nutrient",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Shortage of available manganese, mostly on alkaline or calcareous soils and in cold, wet root zones. It deforms the newest fronds and can kill the growing bud if not corrected.",
+      "symptoms": [
+        "Shows on the newest fronds",
+        "New fronds come out yellowish with dead brown streaks along the leaflets",
+        "Leaflets withered, curled and scorched, giving a frizzled look",
+        "New fronds much smaller than normal",
+        "Growing bud dies in severe cases"
+      ],
+      "spread": "Not infectious - occurs on high-pH, lime-rich soils and where roots are cold, waterlogged or damaged.",
+      "action": "Apply manganese sulphate to the soil in the basin and spray it on the young fronds.",
+      "manage": "deficiency_Mn",
+      "nutrient": "Mn",
+      "treatment": [
+        {"name": "Manganese sulphate to soil", "type": "Fertilizer", "dose": "as per soil test / label", "notes": "Spread over the basin and irrigate; recovery shows only on fronds that emerge later."},
+        {"name": "Manganese sulphate foliar spray on young fronds", "type": "Fertilizer", "dose": "as per label", "notes": "Gives a faster but short-lived effect on high-pH soils; repeat until normal fronds emerge."}
+      ]
+    },
+    "Potassium deficiency": {
+      "name": "Potassium Deficiency",
+      "kind": "deficiency",
+      "cause": "Potassium (K)",
+      "type": "Nutrient",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "The most common and serious deficiency of palms on sandy, leached soils. It starts on the oldest fronds, moves up the crown, thins the trunk tip and can finally kill the palm.",
+      "symptoms": [
+        "Shows on the oldest fronds first",
+        "Leaflets turn dull orange-yellow or bronze, with small see-through yellow-orange spots",
+        "Leaflet tips dry, brown and frizzled while the base of the frond stays green",
+        "Old fronds die early, leaving a small crown",
+        "Trunk narrows towards the top in long-standing cases"
+      ],
+      "spread": "Not infectious - occurs on sandy or leached soils and where potash is not applied regularly.",
+      "action": "Apply potash to the soil in the basin together with magnesium and keep the discoloured fronds on the palm until they are fully dry.",
+      "manage": "deficiency_K",
+      "nutrient": "K",
+      "treatment": [
+        {"name": "Sulphate of potash or muriate of potash to soil", "type": "Fertilizer", "dose": "as per schedule (about 1 kg K2O per bearing palm per year)", "notes": "Apply with magnesium sulphate, because potash alone can bring on magnesium deficiency."},
+        {"name": "Do not cut the discoloured fronds", "type": "Cultural", "dose": "-", "notes": "The palm draws potassium back from them; removing them speeds up the decline."}
+      ]
+    },
+    "Rachis blight": {
+      "name": "Rachis Blight",
+      "kind": "disease",
+      "cause": "Serenomyces phoenicis and related rachis-infecting fungi (Diplodia, Phomopsis, Fusarium spp.)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease of the leaf stalk (rachis) that cuts off water to the leaflets beyond the infected point. It kills the lower fronds early but seldom kills the palm.",
+      "symptoms": [
+        "Reddish-brown to dark brown streak running along the leaf stalk of older fronds",
+        "Leaflets dry on one side of the frond first, beside the streak",
+        "Brown discoloured tissue inside the leaf stalk when cut across",
+        "Lowest fronds die early while the crown and new fronds stay healthy"
+      ],
+      "spread": "Spores from dead, infected leaf stalks are spread by wind and rain and enter through wounds.",
+      "action": "Prune and burn the affected fronds, disinfect the cutting tool between palms and protect the cuts with a copper fungicide.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Prune and burn affected fronds", "type": "Cultural", "dose": "-", "notes": "Disinfect the tool between palms; if younger fronds and the bud also wilt, get the palm checked for Fusarium wilt."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Protective spray on leaf bases and cut surfaces after pruning; it does not cure infected fronds."}
+      ]
+    },
+    "White scale": {
+      "name": "White Scale",
+      "kind": "pest",
+      "cause": "Parlatoria blanchardi",
+      "type": "Insect",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "An armoured scale insect that crusts the leaflets, leaf stalks and fruit of date palm and sucks the sap. Young palms of 2-8 years suffer most, with fronds yellowing and drying and fruit shrivelling.",
+      "symptoms": [
+        "Tiny white to grey elongated scales (1-2 mm) crusting leaflets and leaf stalks",
+        "Yellow patches on the leaflet under the scales",
+        "Fronds turn yellow, then brown and dry",
+        "Fruit covered with scales, shrivelled and unsaleable"
+      ],
+      "spread": "Crawlers walk to new fronds or are carried by wind, workers and infested offshoots moved to new plantings.",
+      "action": "Prune and burn the heavily crusted older fronds after harvest and spray horticultural mineral oil with full coverage of the remaining fronds.",
+      "manage": "scale_mealybug",
+      "treatment": [
+        {"name": "Prune and burn heavily infested old fronds", "type": "Cultural", "dose": "-", "notes": "Plant only scale-free offshoots or tissue-culture plants."},
+        {"name": "Horticultural mineral (spray) oil", "type": "Insecticide", "dose": "as per label", "notes": "Wet both sides of the leaflets; do not spray in hot midday sun or during flowering."},
+        {"name": "Conserve ladybird beetles (Chilocorus, Pharoscymnus)", "type": "Biological", "dose": "-", "notes": "They feed on the scale; avoid broad-spectrum insecticides."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The frond shows no sign of disease, pest or nutrient deficiency. Evenly green to grey-green leaflets indicate a well-fed, well-watered palm.",
+      "symptoms": [
+        "Leaflets evenly green to grey-green from base to tip",
+        "No spots, black patches, white crust or dry tips",
+        "New fronds of normal length and shape"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue regular irrigation, yearly manuring and removal of only the fully dry fronds.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

@@ -1,0 +1,1578 @@
+{
+  "rice leaf roller": {
+    "name": "Rice Leaf Folder",
+    "scientific_name": "Cnaphalocrocis medinalis",
+    "crops": [
+      "Rice",
+      "Maize",
+      "Sorghum"
+    ],
+    "damage": "Leaves are folded lengthwise and stitched into tubes; the larva scrapes the green tissue inside, leaving long white papery streaks so the field looks scorched.",
+    "control": [
+      "Avoid excess nitrogen and close spacing, keep bunds weed-free and open or clip folded leaves; act at about 10% damaged leaves (5% at flag-leaf stage)",
+      "Release Trichogramma chilonis 1 lakh/ha, 3 times at weekly intervals, or spray neem oil 1500 ppm 3-5 ml/L",
+      "Chlorantraniliprole 18.5 SC 0.3 ml/L or cartap hydrochloride 4G 25 kg/ha if above threshold (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "rice leaf caterpillar": {
+    "name": "Rice Green Semilooper",
+    "scientific_name": "Naranga aenescens",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Slender green looping caterpillars scrape young leaves and then cut notches from the leaf edges of seedlings and early-tillering rice; plants usually recover.",
+    "control": [
+      "Scout the nursery and young crop; spray only if defoliation is heavy because the crop compensates",
+      "Conserve egg and larval parasitoids (Trichogramma, Cotesia); neem oil 1500 ppm 3-5 ml/L",
+      "Chlorantraniliprole 18.5 SC 0.3 ml/L only on severe outbreaks (wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "paddy stem maggot": {
+    "name": "Rice Stem Maggot",
+    "scientific_name": "Chlorops oryzae",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Barley"
+    ],
+    "damage": "Maggots feed inside the growing point: emerging leaves show long white-to-yellow stripes and ragged holes, and panicles come out deformed with empty or missing spikelets.",
+    "control": [
+      "Grow tolerant varieties, plant at the same time as neighbours and remove grassy weeds on bunds where the fly overwinters",
+      "Raise sturdy seedlings with balanced fertiliser; the crop often outgrows early damage",
+      "Thiamethoxam 25 WG 0.3 g/L in the nursery or at early tillering, or fipronil 0.3 GR as per label (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "asiatic rice borer": {
+    "name": "Striped Rice Stem Borer",
+    "scientific_name": "Chilo suppressalis",
+    "crops": [
+      "Rice",
+      "Maize",
+      "Sorghum"
+    ],
+    "damage": "Larvae bore into the stem: the central shoot dries in the vegetative stage (dead heart) and panicles turn white and chaffy at heading (white ear); affected tillers pull out easily.",
+    "control": [
+      "Clip seedling tips before transplanting, plough in stubble after harvest and use light or pheromone traps to monitor moths",
+      "Release Trichogramma japonicum 1 lakh/ha, 3 times at weekly intervals from 30 days after transplanting",
+      "Cartap hydrochloride 4G 25 kg/ha or chlorantraniliprole 18.5 SC 0.3 ml/L at 5-10% dead hearts (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "yellow rice borer": {
+    "name": "Yellow Stem Borer",
+    "scientific_name": "Scirpophaga incertulas",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Dead hearts in the tillering crop and white, empty ear heads at flowering; buff-coloured hairy egg masses are found near the leaf tips.",
+    "control": [
+      "Clip seedling tips to remove egg masses, harvest close to the ground and plough in stubble; pheromone traps 5/ha to monitor or 20/ha for mass trapping",
+      "Release Trichogramma japonicum 1 lakh/ha, 3 times at weekly intervals from 30 days after transplanting",
+      "Cartap hydrochloride 4G 25 kg/ha or chlorantraniliprole 18.5 SC 0.3 ml/L at 5-10% dead hearts (wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "rice gall midge": {
+    "name": "Rice Gall Midge",
+    "scientific_name": "Orseolia oryzae",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "The growing tiller turns into a hollow, pale tube like an onion leaf (silver shoot) that bears no panicle; plants are stunted with many extra tillers.",
+    "control": [
+      "Plant early in the season, grow resistant varieties and remove wild rice and grassy weeds; look for silver shoots at tillering",
+      "Conserve the parasitoid Platygaster oryzae by avoiding unnecessary sprays; use light traps for the midge",
+      "Thiamethoxam 25 WG 0.3 g/L at 5-10% silver shoots, or fipronil 0.3 GR as per label (wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Rice Stemfly": {
+    "name": "Rice Leaf Miner Fly",
+    "scientific_name": "Hydrellia griseola",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Barley",
+      "Oats"
+    ],
+    "damage": "Tiny maggots mine young leaves, leaving pale water-soaked streaks and blotches; leaves lying on the water rot and seedlings look ragged for 2-4 weeks after transplanting. The rice whorl maggot (Hydrellia philippina) common in India causes similar damage.",
+    "control": [
+      "Drain the field for 2-3 days at intervals during the first month - the flies are attracted to standing water",
+      "Avoid very early or staggered planting; the crop normally recovers by maximum tillering, so sprays are rarely needed",
+      "If more than 25% of leaves are damaged: thiamethoxam 25 WG 0.3 g/L, or fipronil 0.3 GR as per label (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "brown plant hopper": {
+    "name": "Brown Planthopper",
+    "scientific_name": "Nilaparvata lugens",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Brown hoppers crowd at the base of the plant and suck sap; plants yellow and dry in circular patches (hopper burn) that spread quickly and the crop lodges. It also spreads grassy stunt and ragged stunt viruses.",
+    "control": [
+      "Avoid excess nitrogen and dense planting, leave 30 cm alleys every 2-3 m and drain the field for 3-4 days when hoppers appear",
+      "Conserve spiders and mirid bugs and avoid synthetic pyrethroids, which cause resurgence; neem oil 1500 ppm 3-5 ml/L directed at the plant base",
+      "Buprofezin 25 SC 1.5 ml/L, pymetrozine 50 WG 0.6 g/L or flonicamid 50 WG 0.3 g/L directed at the base of the hills (rotate chemical groups; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "white backed plant hopper": {
+    "name": "White-backed Planthopper",
+    "scientific_name": "Sogatella furcifera",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Hoppers with a white band on the back suck sap from the lower stem, mostly in the first half of the season; leaves turn yellow then rusty-orange from the tip and patches dry up as hopper burn.",
+    "control": [
+      "Avoid excess nitrogen and close planting, leave alleys and drain the field for 3-4 days when hoppers build up",
+      "Conserve spiders and mirid bugs; neem oil 1500 ppm 3-5 ml/L directed at the plant base",
+      "Buprofezin 25 SC 1.5 ml/L or flonicamid 50 WG 0.3 g/L directed at the base of the hills (rotate chemical groups; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "small brown plant hopper": {
+    "name": "Small Brown Planthopper",
+    "scientific_name": "Laodelphax striatellus",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Barley"
+    ],
+    "damage": "Sucks sap from rice, wheat and maize seedlings causing yellowing; the main loss comes from the viruses it carries (rice stripe, black-streaked dwarf), which give yellow-striped, twisted and stunted plants.",
+    "control": [
+      "Remove grassy weeds and volunteer cereals around nurseries, avoid raising rice nurseries beside ripening wheat and use light traps to monitor",
+      "Cover the nursery with fine net, conserve spiders and pull out virus-affected plants early",
+      "Thiamethoxam 25 WG 0.3 g/L or buprofezin 25 SC 1.5 ml/L in the nursery and early crop (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "rice water weevil": {
+    "name": "Rice Water Weevil",
+    "scientific_name": "Lissorhoptrus oryzophilus",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Adults scrape long narrow white scars parallel to the leaf veins; the white legless grubs prune the roots so plants are stunted, yellow, tiller poorly and pull out easily. A quarantine pest - report suspected finds to the agriculture department.",
+    "control": [
+      "Drain the field for 7-10 days when grubs are found on the roots, level fields well and keep bunds free of grassy weeds",
+      "Transplant older, sturdy seedlings; apply Beauveria bassiana or Metarhizium anisopliae as per label",
+      "Insecticide seed treatment or granules as per label"
+    ]
+  },
+  "rice leafhopper": {
+    "name": "Rice Green Leafhopper",
+    "scientific_name": "Nephotettix spp. (N. virescens, N. nigropictus, N. cincticeps)",
+    "crops": [
+      "Rice"
+    ],
+    "damage": "Green wedge-shaped hoppers suck sap from the leaves, causing yellowing from the tips and stunting; they transmit rice tungro virus (yellow-orange leaves, stunted plants).",
+    "control": [
+      "Use light traps, avoid excess nitrogen and grow tungro-tolerant varieties in endemic areas; remove tungro-affected plants early",
+      "Neem oil 1500 ppm 3-5 ml/L or neem seed kernel extract 5%; conserve spiders and mirid bugs",
+      "Thiamethoxam 25 WG 0.3 g/L, imidacloprid 17.8 SL 0.3 ml/L or buprofezin 25 SC 1.5 ml/L in the nursery and early crop (wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "grain spreader thrips": {
+    "name": "Rice Thrips",
+    "scientific_name": "Haplothrips aculeatus",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Sorghum"
+    ],
+    "damage": "Tiny dark thrips rasp seedling leaves so the tips roll inward, turn yellow and dry; feeding inside the panicle gives discoloured, unfilled grains.",
+    "control": [
+      "Keep the nursery well irrigated or submerge it for a day - damage is worst under water stress; check by passing a wet palm over the seedlings",
+      "Neem oil 1500 ppm 3-5 ml/L or neem seed kernel extract 5%",
+      "Thiamethoxam 25 WG 0.3 g/L if leaf rolling exceeds 10% of seedlings (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "rice shell pest": {
+    "name": "Rice Skipper",
+    "scientific_name": "Parnara guttata",
+    "crops": [
+      "Rice",
+      "Sugarcane",
+      "Maize",
+      "Sorghum"
+    ],
+    "damage": "Green caterpillars with a dark-marked head tie leaf tips or fold leaf edges into tubes with silk and eat the blades from the margin inward, leaving only midribs when numerous.",
+    "control": [
+      "Usually a minor pest: open or hand-pick the leaf rolls and keep bunds free of grasses",
+      "Set up bird perches and conserve parasitoids; Bt or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Chlorantraniliprole 18.5 SC 0.3 ml/L only if defoliation is heavy (leaf folder sprays also control it; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "grub": {
+    "name": "White Grub",
+    "scientific_name": "Holotrichia spp. (Scarabaeidae larvae)",
+    "crops": [
+      "Groundnut",
+      "Sugarcane",
+      "Maize",
+      "Potato",
+      "Soybean"
+    ],
+    "damage": "C-shaped white grubs in the soil eat roots and tubers: plants wilt, yellow and die in patches and pull out easily with the roots chewed off. Adult beetles feed on tree leaves at night.",
+    "control": [
+      "Deep summer ploughing to expose grubs to birds; collect beetles from neem, ber and other host trees with light traps after the first monsoon showers",
+      "Apply Metarhizium anisopliae 5 kg/ha mixed in 250 kg well-rotted FYM; never use raw manure",
+      "Seed treatment or soil application of a labelled insecticide (e.g. imidacloprid, fipronil 0.3 GR) as per label"
+    ]
+  },
+  "mole cricket": {
+    "name": "Mole Cricket",
+    "scientific_name": "Gryllotalpa spp. (G. orientalis, G. fossor)",
+    "crops": [
+      "Rice",
+      "Potato",
+      "Maize",
+      "Wheat",
+      "Tomato"
+    ],
+    "damage": "Raised winding tunnels just under the soil surface; seedlings are cut at or below ground level, roots are chewed and patches of nursery or upland crop wilt and die.",
+    "control": [
+      "Flood the field or nursery for 1-2 days to drive crickets out, level fields well and use light traps for adults",
+      "Apply Beauveria bassiana or Metarhizium anisopliae with FYM to the soil; conserve birds and frogs",
+      "Poison bait or soil insecticide only in severe cases, as per label"
+    ]
+  },
+  "wireworm": {
+    "name": "Wireworm",
+    "scientific_name": "Elateridae larvae (Agriotes spp., Pleonomus spp.)",
+    "crops": [
+      "Wheat",
+      "Maize",
+      "Potato",
+      "Sugar Beet",
+      "Sugarcane"
+    ],
+    "damage": "Hard, shiny yellow-brown worm-like larvae bore into seeds, roots and stem bases, causing gaps in germination and wilting seedlings; in potato they drill narrow round holes into the tubers.",
+    "control": [
+      "Rotate away from grassland and cereals, plough in summer and bury potato or carrot pieces 5-10 cm deep as baits to monitor and trap larvae",
+      "Apply Metarhizium anisopliae 5 kg/ha with well-rotted FYM at sowing",
+      "Insecticide seed treatment (e.g. imidacloprid or thiamethoxam) as per label"
+    ]
+  },
+  "white margined moth": {
+    "name": "White-margined Cutworm",
+    "scientific_name": "Euxoa oberthuri",
+    "crops": [
+      "Maize",
+      "Sugar Beet",
+      "Soybean",
+      "Potato"
+    ],
+    "damage": "Grey-brown caterpillars hide in the soil by day and cut seedlings at ground level at night, leaving gaps in the rows; young larvae make small holes in leaves.",
+    "control": [
+      "Remove weeds before sowing, plough deeply and search the soil around freshly cut plants at dawn to collect larvae",
+      "Light traps or sugar-vinegar bait traps for moths; Bt or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Evening spray at the plant base with chlorantraniliprole 18.5 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "black cutworm": {
+    "name": "Black Cutworm",
+    "scientific_name": "Agrotis ipsilon",
+    "crops": [
+      "Potato",
+      "Maize",
+      "Tomato",
+      "Chickpea",
+      "Tobacco"
+    ],
+    "damage": "Greasy dark-grey caterpillars that curl into a C when disturbed cut young plants at ground level at night and drag them into the soil; they also bore holes into potato tubers.",
+    "control": [
+      "Deep summer ploughing and flood irrigation where possible; place small heaps of grass in the field in the evening and destroy the larvae hiding under them next morning",
+      "Light or pheromone traps for moths; apply Bt on young larvae or Metarhizium anisopliae to the soil",
+      "Evening spray or drench at the plant base with chlorantraniliprole 18.5 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "large cutworm": {
+    "name": "Greater Cutworm",
+    "scientific_name": "Agrotis tokionis",
+    "crops": [
+      "Maize",
+      "Cotton",
+      "Tobacco",
+      "Potato"
+    ],
+    "damage": "Large dull-brown caterpillars stay in the soil by day and cut the stems of seedlings at night, so plants are found lying wilted beside the row in the morning.",
+    "control": [
+      "Clean weeds from fields and bunds before sowing, plough deeply and hand-collect larvae from the soil near cut plants",
+      "Light traps or sugar-vinegar bait traps for moths; Bt or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Evening spray at the plant base with chlorantraniliprole 18.5 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "yellow cutworm": {
+    "name": "Turnip Moth (Common Cutworm)",
+    "scientific_name": "Agrotis segetum",
+    "crops": [
+      "Potato",
+      "Maize",
+      "Wheat",
+      "Sugar Beet",
+      "Chickpea"
+    ],
+    "damage": "Grey-brown to yellowish greasy caterpillars cut seedlings at ground level at night and gnaw cavities in potato tubers, beet and other root crops.",
+    "control": [
+      "Deep ploughing, weed removal and timely irrigation (wet soil kills young larvae); collect larvae near cut plants in the morning",
+      "Light or pheromone traps for moths; Bt on young larvae or Metarhizium anisopliae applied to the soil",
+      "Evening spray or drench at the plant base with chlorantraniliprole 18.5 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "red spider": {
+    "name": "Red Spider Mite",
+    "scientific_name": "Tetranychus urticae (incl. T. cinnabarinus)",
+    "crops": [
+      "Maize",
+      "Cotton",
+      "Brinjal",
+      "Okra",
+      "Bean"
+    ],
+    "damage": "Tiny red mites and fine webbing on the underside of leaves; leaves show yellow-white speckling, turn bronze and dry up, worst in hot dry weather.",
+    "control": [
+      "Keep the crop well irrigated, wash leaves with a strong water spray and remove badly infested leaves; avoid unnecessary pyrethroid sprays",
+      "Conserve predatory mites and ladybird beetles; neem oil 1500 ppm 3-5 ml/L or wettable sulphur 80 WP 3 g/L (not above 35 C)",
+      "Spiromesifen 22.9 SC 0.8 ml/L or fenazaquin 10 EC 2 ml/L, covering the leaf undersides (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "corn borer": {
+    "name": "Asian Corn Borer",
+    "scientific_name": "Ostrinia furnacalis",
+    "crops": [
+      "Maize",
+      "Sorghum",
+      "Pearl Millet",
+      "Cotton"
+    ],
+    "damage": "Rows of shot holes on leaves emerging from the whorl; larvae then bore into the stalk, tassel and cob, leaving frass at the holes, broken tassels and stems and damaged grain.",
+    "control": [
+      "Shred or destroy stalks and stubble after harvest, sow on time and use light or pheromone traps to monitor moths",
+      "Release Trichogramma chilonis 1-1.5 lakh/ha twice at weekly intervals from 10-12 days after emergence, or apply Bt into the whorl",
+      "Chlorantraniliprole 18.5 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L directed into the whorl at 10% infested plants (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "army worm": {
+    "name": "Oriental Armyworm",
+    "scientific_name": "Mythimna separata",
+    "crops": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Sorghum",
+      "Sugarcane"
+    ],
+    "damage": "Caterpillars hide in whorls or at the plant base by day and feed at night, eating leaves from the edges down to the midrib; they cut rice and wheat ear heads and march in bands from field to field.",
+    "control": [
+      "Scout at dusk, dig a trench around the field to stop marching larvae, flood rice fields briefly and use light traps",
+      "Set up bird perches; spray Bt or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Evening spray of emamectin benzoate 5 SG 0.4 g/L or chlorantraniliprole 18.5 SC 0.3 ml/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "aphids": {
+    "name": "Aphids",
+    "scientific_name": "Aphididae (e.g. Rhopalosiphum maidis, Aphis gossypii)",
+    "crops": [
+      "Maize",
+      "Sorghum",
+      "Cotton",
+      "Okra",
+      "Chilli"
+    ],
+    "damage": "Colonies of small soft green, yellow or black insects cluster on tender shoots, tassels and leaf undersides; leaves curl and yellow, and sticky honeydew leads to black sooty mould. Many species spread virus diseases.",
+    "control": [
+      "Avoid excess nitrogen, install yellow sticky traps and watch for ants and curled young leaves",
+      "Conserve ladybird beetles, lacewings and hoverflies; spray neem oil 1500 ppm 3-5 ml/L or a strong jet of water",
+      "Flonicamid 50 WG 0.3 g/L, thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L if colonies keep spreading (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Potosiabre vitarsis": {
+    "name": "White-spotted Flower Chafer",
+    "scientific_name": "Protaetia brevitarsis (syn. Potosia brevitarsis)",
+    "crops": [
+      "Maize",
+      "Peach",
+      "Grape",
+      "Apple"
+    ],
+    "damage": "Bronze-black beetles with white spots gather on maize silks and milky cobs and on ripe fruit and flowers, chewing them and inviting rot. The grubs live in manure and compost and do not harm roots.",
+    "control": [
+      "Hand-collect the sluggish beetles in the early morning and harvest ripe fruit promptly",
+      "Trap adults with fermenting fruit or sugar-vinegar bait; use only well-decomposed manure and treat compost heaps with Metarhizium anisopliae",
+      "Insecticides are rarely needed; if required use a product labelled for the crop, as per label"
+    ]
+  },
+  "peach borer": {
+    "name": "Yellow Peach Moth (Castor Shoot and Capsule Borer)",
+    "scientific_name": "Conogethes punctiferalis (syn. Dichocrocis punctiferalis)",
+    "crops": [
+      "Maize",
+      "Peach",
+      "Castor",
+      "Guava",
+      "Turmeric"
+    ],
+    "damage": "Pinkish caterpillars bore into maize cobs and stalks, fruits, castor capsules and ginger or turmeric shoots, pushing out frass bound with silk; fruits rot and drop and bored shoots dry up.",
+    "control": [
+      "Collect and destroy bored fruits, capsules and shoots; bag fruits where practical and use light traps for moths",
+      "Spray Bt or neem oil 1500 ppm 3-5 ml/L at flowering and early fruit set",
+      "Spinosad 45 SC 0.3 ml/L or chlorantraniliprole 18.5 SC 0.3 ml/L at the first sign of boring (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "english grain aphid": {
+    "name": "English Grain Aphid",
+    "scientific_name": "Sitobion avenae",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Oats"
+    ],
+    "damage": "Green to reddish-brown aphids with black cornicles cluster on the ear heads and flag leaves during grain filling; ears become sticky with honeydew and sooty mould and grains shrivel. It can spread barley yellow dwarf virus.",
+    "control": [
+      "Sow on time, avoid excess nitrogen and scout from ear emergence; act at about 10 aphids per tiller, starting with the field borders",
+      "Conserve ladybird beetles, lacewings, hoverflies and parasitoid wasps - they often control aphids late in the season",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L, on border rows first (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "green bug": {
+    "name": "Greenbug (Wheat Aphid)",
+    "scientific_name": "Schizaphis graminum",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Sorghum",
+      "Oats"
+    ],
+    "damage": "Pale green aphids with a darker green stripe down the back feed under the lower leaves; their toxic saliva causes yellow-to-red spots with dead centres and seedlings can die in patches. It also spreads barley yellow dwarf virus.",
+    "control": [
+      "Sow on time, destroy volunteer cereals and grassy weeds and scout seedlings in patches; avoid excess nitrogen",
+      "Conserve ladybird beetles, lacewings and parasitoid wasps; neem oil 1500 ppm 3-5 ml/L on small infestations",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L when colonies are found on most plants (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "bird cherry-oataphid": {
+    "name": "Bird Cherry-Oat Aphid",
+    "scientific_name": "Rhopalosiphum padi",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Oats",
+      "Maize"
+    ],
+    "damage": "Olive-green aphids with a rusty-red patch at the rear colonise the lower stem and leaf sheaths and later the ears; plants yellow and are stunted. It is the main vector of barley yellow dwarf virus.",
+    "control": [
+      "Avoid very early sowing, remove volunteer cereals and scout the lower stems; act at about 10 aphids per tiller",
+      "Conserve ladybird beetles, lacewings, hoverflies and parasitoid wasps; neem oil 1500 ppm 3-5 ml/L",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L, on border rows first (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "wheat blossom midge": {
+    "name": "Orange Wheat Blossom Midge",
+    "scientific_name": "Sitodiplosis mosellana",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Rye"
+    ],
+    "damage": "Tiny orange maggots feed on the developing kernel inside the floret; ears look normal from outside but grains are shrivelled, cracked and light, lowering yield and quality.",
+    "control": [
+      "Rotate wheat with non-cereal crops, use resistant varieties where available and inspect ears at dusk during ear emergence",
+      "Yellow sticky or pheromone traps for monitoring; conserve the parasitoid wasps that attack the larvae",
+      "If midges are numerous between ear emergence and flowering, spray a labelled insecticide in the evening, as per label"
+    ]
+  },
+  "penthaleus major": {
+    "name": "Winter Grain Mite (Blue Oat Mite)",
+    "scientific_name": "Penthaleus major",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Oats",
+      "Pea"
+    ],
+    "damage": "Dark blue-black mites with red-orange legs feed on leaves at night and on cool cloudy days; leaf tips turn silvery-grey, then brown and scorched, and plants are stunted.",
+    "control": [
+      "Rotate cereals with non-host crops, control grassy weeds and volunteer cereals and inspect early in the morning or on cloudy days",
+      "Good nutrition and irrigation help the crop outgrow damage; conserve predatory mites",
+      "Chemical control is seldom needed; if patches keep spreading use a labelled miticide, as per label"
+    ]
+  },
+  "longlegged spider mite": {
+    "name": "Brown Wheat Mite",
+    "scientific_name": "Petrobia latens",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Onion",
+      "Coriander"
+    ],
+    "damage": "Small brown mites with very long front legs feed on leaves in dry weather; leaves show fine pale stippling, turn bronze-yellow and dry from the tips, mostly in rainfed crops.",
+    "control": [
+      "Irrigate - rain or irrigation quickly knocks the mites down; rotate crops and avoid continuous wheat on dry land",
+      "Wettable sulphur 80 WP 3 g/L as a low-risk option",
+      "If damage continues after irrigation use a miticide labelled for the crop, as per label"
+    ]
+  },
+  "wheat phloeothrips": {
+    "name": "Wheat Thrips",
+    "scientific_name": "Haplothrips tritici",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Rye"
+    ],
+    "damage": "Dark slender adults and bright red larvae live in the flag-leaf sheath and ear; ears are silvery-white or partly blank at the tip and grains are shrivelled with brown spots.",
+    "control": [
+      "Plough stubble soon after harvest to kill overwintering larvae, rotate crops and grow early-maturing varieties",
+      "Conserve predators such as Orius bugs and lacewings; neem oil 1500 ppm 3-5 ml/L at ear emergence",
+      "Thiamethoxam 25 WG 0.3 g/L at ear emergence if numbers are high (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "wheat sawfly": {
+    "name": "Wheat Leaf Sawfly",
+    "scientific_name": "Dolerus tritici",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Oats"
+    ],
+    "damage": "Green caterpillar-like larvae eat wheat leaves from the edges and tips, leaving ragged notches; heavy attacks strip the leaves and may cut the ears.",
+    "control": [
+      "Deep plough after harvest to destroy pupae in the soil and rotate with non-cereals; flooding in a rice-wheat rotation reduces it",
+      "Sweep or shake larvae off plants in small plots; conserve birds and parasitoids; neem oil 1500 ppm 3-5 ml/L",
+      "Spray only if defoliation is heavy, using a labelled insecticide, as per label"
+    ]
+  },
+  "cerodonta denticornis": {
+    "name": "Cereal Leaf Miner",
+    "scientific_name": "Cerodontha denticornis",
+    "crops": [
+      "Wheat",
+      "Barley",
+      "Oats",
+      "Maize"
+    ],
+    "damage": "Maggots tunnel inside the leaves, producing long whitish mines running down from the leaf tip, often with dark frass; mined areas dry out. Damage is usually minor.",
+    "control": [
+      "Rotate crops, plough in stubble and remove grassy weeds; no action is needed for light mining",
+      "Conserve parasitoid wasps, which normally keep it in check; neem oil 1500 ppm 3-5 ml/L",
+      "Insecticide is rarely justified; if flag leaves are heavily mined use a labelled product, as per label"
+    ]
+  },
+  "beet fly": {
+    "name": "Beet Leaf Miner (Mangold Fly)",
+    "scientific_name": "Pegomya hyoscyami",
+    "crops": [
+      "Sugar Beet",
+      "Beetroot",
+      "Spinach"
+    ],
+    "damage": "White eggs are laid in rows under the leaves; maggots mine between the leaf surfaces, making large pale blisters that turn brown and dry. Young plants can be killed and spinach leaves become unmarketable.",
+    "control": [
+      "Remove and destroy mined leaves, control Chenopodium (bathua) weeds, rotate crops and plough deeply after harvest",
+      "Cover seedlings with insect net; conserve parasitoids; neem oil 1500 ppm 3-5 ml/L when eggs are seen",
+      "Spinosad 45 SC 0.3 ml/L if mining is heavy on young plants (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval, especially on leafy vegetables)"
+    ]
+  },
+  "flea beetle": {
+    "name": "Flea Beetle",
+    "scientific_name": "Chaetocnema spp. and Phyllotreta spp.",
+    "crops": [
+      "Sugar Beet",
+      "Radish",
+      "Cabbage",
+      "Mustard",
+      "Brinjal"
+    ],
+    "damage": "Tiny shiny beetles that jump when disturbed chew many small round shot holes in cotyledons and young leaves; seedlings can wilt and die in dry weather.",
+    "control": [
+      "Sow into a fine, moist seedbed for quick growth, irrigate, remove cruciferous weeds and use yellow sticky traps",
+      "Dust wood ash or spray neem oil 1500 ppm 3-5 ml/L on seedlings; sow radish or mustard as a trap crop",
+      "Seed treatment or spray with thiamethoxam 25 WG 0.3 g/L if seedlings are heavily holed (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "cabbage army worm": {
+    "name": "Cabbage Moth (Cabbage Armyworm)",
+    "scientific_name": "Mamestra brassicae",
+    "crops": [
+      "Cabbage",
+      "Cauliflower",
+      "Sugar Beet",
+      "Tomato",
+      "Pea"
+    ],
+    "damage": "Young larvae skeletonise leaves in groups; older green-to-brown caterpillars eat large holes and bore into cabbage heads, fouling them with wet frass.",
+    "control": [
+      "Hand-pick egg masses and young larvae, plough after harvest to expose pupae and use light or pheromone traps",
+      "Bt (Bacillus thuringiensis var. kurstaki) 1-2 g/L or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Spinosad 45 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L before larvae enter the heads (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "beet army worm": {
+    "name": "Beet Armyworm",
+    "scientific_name": "Spodoptera exigua",
+    "crops": [
+      "Onion",
+      "Chilli",
+      "Sugar Beet",
+      "Cotton",
+      "Chickpea"
+    ],
+    "damage": "Green caterpillars with a pale side stripe feed in groups under fine webbing and skeletonise leaves; later they bore into onion leaves, chilli fruits and pods.",
+    "control": [
+      "Remove weeds, collect the hair-covered egg masses and install pheromone traps (5 per acre) to monitor moths",
+      "Spray SeNPV (as per label), Bt or neem oil 1500 ppm 3-5 ml/L on young larvae in the evening",
+      "Emamectin benzoate 5 SG 0.4 g/L, chlorantraniliprole 18.5 SC 0.3 ml/L or spinosad 45 SC 0.3 ml/L (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Beet spot flies": {
+    "name": "Beet Leaf-mining Fly (Beet Spot Fly)",
+    "scientific_name": "Pegomya betae",
+    "crops": [
+      "Sugar Beet",
+      "Beetroot",
+      "Spinach"
+    ],
+    "damage": "Small grey flies lay eggs under beet leaves; the maggots mine inside the leaf and cause pale blotches that turn brown, and badly mined seedlings are stunted or die.",
+    "control": [
+      "Rotate beet with other crops, remove Chenopodium weeds and mined leaves and plough deeply after harvest to bury pupae",
+      "Sow early so plants are past the seedling stage when flies appear; neem oil 1500 ppm 3-5 ml/L when eggs are seen",
+      "Spinosad 45 SC 0.3 ml/L if many seedling leaves are mined (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "meadow moth": {
+    "name": "Beet Webworm (Meadow Moth)",
+    "scientific_name": "Loxostege sticticalis",
+    "crops": [
+      "Sugar Beet",
+      "Soybean",
+      "Sunflower",
+      "Lucerne (Alfalfa)",
+      "Maize"
+    ],
+    "damage": "Greenish-black caterpillars spin loose webs over the leaves and feed in groups, skeletonising and then stripping plants; outbreaks appear suddenly after mass moth flights.",
+    "control": [
+      "Remove Chenopodium and other broad-leaved weeds where moths lay eggs, plough after harvest to destroy cocoons and use light traps to track moth flights",
+      "Dig a trench to stop marching larvae; Bt or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Emamectin benzoate 5 SG 0.4 g/L or chlorantraniliprole 18.5 SC 0.3 ml/L on outbreaks (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "beet weevil": {
+    "name": "Sugar Beet Weevil",
+    "scientific_name": "Asproparthenis punctiventris (syn. Bothynoderes punctiventris)",
+    "crops": [
+      "Sugar Beet",
+      "Beetroot",
+      "Spinach"
+    ],
+    "damage": "Grey weevils chew off the cotyledons and young leaves of emerging beet, often killing seedlings and forcing re-sowing; the legless grubs gnaw the taproot so plants wilt.",
+    "control": [
+      "Rotate beet away from last year's fields, sow early at a good seed rate and dig steep-sided trenches around fields to trap walking weevils",
+      "Apply Beauveria bassiana or Metarhizium anisopliae to the soil; use aggregation pheromone traps where available",
+      "Insecticide seed treatment (e.g. thiamethoxam or imidacloprid) as per label"
+    ]
+  },
+  "sericaorient alismots chulsky": {
+    "name": "Oriental Brown Chafer",
+    "scientific_name": "Maladera orientalis (syn. Serica orientalis)",
+    "crops": [
+      "Sugar Beet",
+      "Soybean",
+      "Groundnut",
+      "Apple",
+      "Maize"
+    ],
+    "damage": "Small velvety dark-brown beetles come out at dusk and chew buds, seedlings and young leaves; the white grubs feed on roots and cause wilting patches.",
+    "control": [
+      "Use light traps at dusk, shake beetles from plants onto a sheet in the evening and destroy them, and plough deeply to expose grubs",
+      "Apply Metarhizium anisopliae 5 kg/ha with well-rotted FYM",
+      "Soil or seed insecticide treatment as per label where grub damage is regular"
+    ]
+  },
+  "alfalfa weevil": {
+    "name": "Alfalfa Weevil (Lucerne Weevil)",
+    "scientific_name": "Hypera postica",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Clover (Berseem)"
+    ],
+    "damage": "Small green grubs with a white stripe and black head feed in the shoot tips and skeletonise the leaves so the field looks greyish-white and frosted; first-cut fodder yield drops sharply.",
+    "control": [
+      "Cut the crop early when grubs are numerous and remove the fodder quickly so exposed grubs die in the sun; monitor with a sweep net",
+      "Conserve the parasitoid wasps (Bathyplectes spp.); spray Beauveria bassiana in cool, humid weather",
+      "Avoid insecticides on fodder near cutting; if unavoidable use a product labelled for lucerne and follow the waiting period, as per label"
+    ]
+  },
+  "flax budworm": {
+    "name": "Flax Budworm (Marbled Clover Moth)",
+    "scientific_name": "Heliothis viriplaca",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Linseed (Flax)",
+      "Soybean",
+      "Cotton"
+    ],
+    "damage": "Green to brownish striped caterpillars eat leaves and then bore into buds, flowers, pods and capsules, leaving round holes and frass.",
+    "control": [
+      "Use light traps to monitor moths, plough deeply after harvest to destroy pupae and cut lucerne early when larvae are present",
+      "Bt or neem oil 1500 ppm 3-5 ml/L on young larvae; conserve Trichogramma and other parasitoids",
+      "Emamectin benzoate 5 SG 0.4 g/L or spinosad 45 SC 0.3 ml/L at early bud and pod damage (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "alfalfa plant bug": {
+    "name": "Alfalfa Plant Bug",
+    "scientific_name": "Adelphocoris lineolatus",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Cotton",
+      "Bean",
+      "Clover (Berseem)"
+    ],
+    "damage": "Yellow-green bugs with two dark spots behind the head suck buds, flowers and young pods; buds turn white and drop, growth is stunted and seed is shrivelled.",
+    "control": [
+      "Monitor with a sweep net; cut lucerne on time and close to the ground to remove eggs laid in the stems",
+      "Leave uncut strips as a refuge for natural enemies; neem oil 1500 ppm 3-5 ml/L",
+      "On seed crops, flonicamid 50 WG 0.3 g/L or thiamethoxam 25 WG 0.3 g/L before flowering, never during bloom (protect bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "tarnished plant bug": {
+    "name": "Tarnished Plant Bug",
+    "scientific_name": "Lygus lineolaris (Lygus pratensis in Asia)",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Cotton",
+      "Strawberry",
+      "Bean",
+      "Tomato"
+    ],
+    "damage": "Brown mottled bugs with a pale V on the back suck buds, flowers and young fruit; squares and buds drop, shoot tips die back and fruits such as strawberry become misshapen.",
+    "control": [
+      "Control broad-leaved weeds in and around the field and avoid cutting all neighbouring lucerne at once, which drives bugs into other crops",
+      "Monitor with a sweep net or white sticky traps; neem oil 1500 ppm 3-5 ml/L; conserve spiders and predatory bugs",
+      "Flonicamid 50 WG 0.3 g/L or thiamethoxam 25 WG 0.3 g/L when buds are being shed, avoiding full bloom (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Locustoidea": {
+    "name": "Locusts and Grasshoppers",
+    "scientific_name": "Acridoidea (e.g. Locusta migratoria, Schistocerca gregaria, Hieroglyphus banian)",
+    "crops": [
+      "Rice",
+      "Maize",
+      "Wheat",
+      "Sugarcane",
+      "Sorghum"
+    ],
+    "damage": "Nymphs and adults chew leaves from the margins inward and cut ear heads; locust swarms can strip crops and trees bare within hours.",
+    "control": [
+      "Scrape and plough bunds and fallow land to expose egg pods; report locust swarms immediately to the agriculture department or Locust Warning Organisation",
+      "Drive hoppers into trenches and use noise and smoke to stop swarms settling; biopesticide Metarhizium acridum as per label",
+      "Swarm control is carried out by government teams; for local grasshopper outbreaks use a labelled insecticide, as per label"
+    ]
+  },
+  "lytta polita": {
+    "name": "Green Blister Beetle",
+    "scientific_name": "Lytta spp. (L. polita, L. caraganae)",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Soybean",
+      "Groundnut",
+      "Pea"
+    ],
+    "damage": "Shiny metallic green beetles gather in groups and strip the leaves and flowers of legumes, leaving bare stalks in patches. Their body fluid blisters the skin, and beetles baled into hay can poison livestock.",
+    "control": [
+      "Scout field edges; collect beetles early in the morning with a net or gloved hands (never bare hands) and drown them in soapy water",
+      "Do not feed fodder containing dead beetles; neem oil 1500 ppm 3-5 ml/L as a repellent on flowering patches",
+      "Spot-spray swarming patches only, with an insecticide labelled for the crop, as per label"
+    ]
+  },
+  "legume blister beetle": {
+    "name": "Bean Blister Beetle",
+    "scientific_name": "Epicauta gorhami",
+    "crops": [
+      "Soybean",
+      "Groundnut",
+      "Potato",
+      "Lucerne (Alfalfa)",
+      "Bean"
+    ],
+    "damage": "Slender black beetles with a reddish head feed in swarms on the leaves and flowers of legumes and potato, leaving only veins; attacked patches fail to set pods.",
+    "control": [
+      "Watch for swarms on field edges; collect beetles with a net or gloved hands in the morning and drown them in soapy water",
+      "Tolerate low numbers - the larvae eat grasshopper eggs; neem oil 1500 ppm 3-5 ml/L as a repellent",
+      "Spot-spray swarming patches only, with an insecticide labelled for the crop, as per label"
+    ]
+  },
+  "blister beetle": {
+    "name": "Blister Beetle (Pulse Flower Beetle)",
+    "scientific_name": "Mylabris spp. (e.g. M. pustulata, M. phalerata)",
+    "crops": [
+      "Pigeon Pea",
+      "Cowpea",
+      "Black gram",
+      "Okra",
+      "Groundnut"
+    ],
+    "damage": "Large black beetles with orange-red or yellow bands feed on flowers and tender pods so few pods set; damage is worst when the crop flowers in August-October.",
+    "control": [
+      "Hand-collect beetles in the morning with a net or gloves (their fluid blisters the skin) and kill them in soapy or kerosenised water - the most reliable method",
+      "Community light traps at night; neem oil 1500 ppm 3-5 ml/L or neem seed kernel extract 5% as a repellent",
+      "Insecticides give poor control and harm pollinators; if used, spray a labelled product in the evening, as per label"
+    ]
+  },
+  "therioaphis maculata Buckton": {
+    "name": "Spotted Alfalfa Aphid",
+    "scientific_name": "Therioaphis trifolii f. maculata",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Clover (Berseem)"
+    ],
+    "damage": "Small pale yellow aphids with rows of dark spots on the back feed under the lower leaves; leaves yellow along the veins, curl and drop from the bottom upward, and honeydew makes fodder sticky and mouldy.",
+    "control": [
+      "Grow resistant lucerne varieties, irrigate adequately and cut early when colonies build up",
+      "Conserve ladybird beetles, lacewings and parasitoid wasps; neem oil 1500 ppm 3-5 ml/L",
+      "Avoid insecticides on fodder; on seed crops flonicamid 50 WG 0.3 g/L (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "odontothrips loti": {
+    "name": "Lucerne Thrips",
+    "scientific_name": "Odontothrips loti",
+    "crops": [
+      "Lucerne (Alfalfa)",
+      "Clover (Berseem)"
+    ],
+    "damage": "Tiny dark thrips rasp young leaves and flower buds; leaflets are crinkled, cupped and silvery with brown edges, shoot tips are stunted and flowers drop, reducing fodder quality and seed set.",
+    "control": [
+      "Cut the crop early and remove the fodder when thrips build up; monitor by tapping shoots over white paper and with blue sticky traps",
+      "Conserve Orius bugs and predatory thrips; neem oil 1500 ppm 3-5 ml/L",
+      "On seed crops, spinosad 45 SC 0.3 ml/L before flowering; avoid sprays on fodder near cutting (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Thrips": {
+    "name": "Thrips",
+    "scientific_name": "Thysanoptera (e.g. Thrips tabaci, Thrips palmi, Frankliniella spp.)",
+    "crops": [
+      "Onion",
+      "Chilli",
+      "Cotton",
+      "Groundnut",
+      "Tomato"
+    ],
+    "damage": "Minute slender insects rasp leaves, buds and flowers, leaving silvery-white streaks and patches with black specks; leaves curl and tips dry. Several species spread tospoviruses (bud necrosis).",
+    "control": [
+      "Blue sticky traps, sprinkler irrigation, weed removal and maize or sorghum border rows",
+      "Neem oil 1500 ppm 3-5 ml/L; conserve predatory mites and Orius bugs; Beauveria bassiana as per label",
+      "Spinosad 45 SC 0.3 ml/L, rotated with thiamethoxam 25 WG 0.3 g/L to delay resistance (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "alfalfa seed chalcid": {
+    "name": "Alfalfa Seed Chalcid",
+    "scientific_name": "Bruchophagus roddi",
+    "crops": [
+      "Lucerne (Alfalfa)"
+    ],
+    "damage": "Tiny black wasps lay eggs in green pods; each larva hollows out a seed, leaving empty seed coats with a small round exit hole, so seed yield and germination fall. Fodder is not affected.",
+    "control": [
+      "Harvest seed crops early and evenly, clean the seed well and burn or bury chaff and screenings; destroy volunteer lucerne",
+      "Plough in crop residue after seed harvest so adults cannot emerge; conserve natural parasitoids",
+      "Sprays do not work because the larvae are protected inside the seed"
+    ]
+  },
+  "Pieris canidia": {
+    "name": "Indian Cabbage White Butterfly",
+    "scientific_name": "Pieris canidia",
+    "crops": [
+      "Cabbage",
+      "Cauliflower",
+      "Radish",
+      "Mustard"
+    ],
+    "damage": "Velvety green caterpillars eat ragged holes in the leaves from the edges, leaving only veins on young plants, and foul the heads with dark green droppings.",
+    "control": [
+      "Hand-pick eggs and caterpillars, cover nurseries with net and plant mustard as a trap crop around cabbage",
+      "Bt (Bacillus thuringiensis var. kurstaki) 1-2 g/L or neem oil 1500 ppm 3-5 ml/L; conserve Cotesia parasitoids",
+      "Spinosad 45 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L if damage continues (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Apolygus lucorum": {
+    "name": "Green Mirid Bug",
+    "scientific_name": "Apolygus lucorum",
+    "crops": [
+      "Cotton",
+      "Grape",
+      "Tea",
+      "Ber (Jujube)",
+      "Lucerne (Alfalfa)"
+    ],
+    "damage": "Small green bugs suck buds and young leaves; black dots appear and tear into ragged holes as the leaves expand, flower buds drop and grape berries show corky scars.",
+    "control": [
+      "Remove weeds and prunings where eggs overwinter; scout at dawn or dusk when bugs are active; use yellow or green sticky traps",
+      "Neem oil 1500 ppm 3-5 ml/L at bud break; conserve spiders and lacewings",
+      "Flonicamid 50 WG 0.3 g/L or thiamethoxam 25 WG 0.3 g/L on new flush if damage is spreading (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Limacodidae": {
+    "name": "Slug Caterpillars (Nettle Caterpillars)",
+    "scientific_name": "Limacodidae (e.g. Parasa lepida, Monema flavescens)",
+    "crops": [
+      "Grape",
+      "Mango",
+      "Tea",
+      "Castor",
+      "Coconut"
+    ],
+    "damage": "Slug-like green or brightly marked caterpillars with stinging spines feed in groups under the leaves, first scraping the surface and later eating whole leaves to the midrib. Touching them causes painful burning and rash.",
+    "control": [
+      "Do not touch with bare hands; clip and destroy leaves carrying groups of young larvae and scrape the hard egg-shaped cocoons off stems in winter",
+      "Light traps for moths; Bt 1-2 g/L or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Emamectin benzoate 5 SG 0.4 g/L or chlorantraniliprole 18.5 SC 0.3 ml/L on heavy outbreaks (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Viteus vitifoliae": {
+    "name": "Grape Phylloxera",
+    "scientific_name": "Daktulosphaira vitifoliae (syn. Viteus vitifoliae)",
+    "crops": [
+      "Grape"
+    ],
+    "damage": "Tiny yellow aphid-like insects form small pouch galls on the underside of leaves and knobby swellings on the roots; root rot follows and vines weaken and decline over a few years. A quarantine pest - report suspected cases.",
+    "control": [
+      "Plant only certified vines grafted on resistant rootstocks; do not move rooted plants or soil from affected vineyards",
+      "Hot-water treat dormant cuttings before planting (as per quarantine protocol); clean tools and footwear between vineyards",
+      "No spray cures root infestation; soil-applied systemic insecticides give only partial suppression - as per label and expert advice"
+    ]
+  },
+  "Colomerus vitis": {
+    "name": "Grape Erineum Mite (Blister Mite)",
+    "scientific_name": "Colomerus vitis",
+    "crops": [
+      "Grape"
+    ],
+    "damage": "Raised blisters on the upper leaf surface with white felt-like patches beneath that later turn brown; usually cosmetic, but heavy attack on young vines stunts the shoots.",
+    "control": [
+      "Remove and destroy blistered leaves early, use clean planting material and prune out heavily infested shoots",
+      "Wettable sulphur 80 WP 2-3 g/L from bud swell to early shoot growth (sulphur used against powdery mildew normally controls it)",
+      "Conserve predatory mites; a specific miticide is rarely needed - if used, as per label"
+    ]
+  },
+  "Brevipoalpus lewisi McGregor": {
+    "name": "Citrus Flat Mite (Bunch Mite)",
+    "scientific_name": "Brevipalpus lewisi",
+    "crops": [
+      "Grape",
+      "Citrus",
+      "Pomegranate",
+      "Walnut"
+    ],
+    "damage": "Very small flat reddish mites feed on bunch stems, berries and fruit rind, leaving dark scabby, corky brown patches and cracked skin; bunch stalks dry out.",
+    "control": [
+      "Remove loose bark and old bunch remnants where mites overwinter; check bunch stems and fruit with a hand lens",
+      "Wettable sulphur 80 WP 2-3 g/L (not above 35 C); conserve predatory mites",
+      "Fenazaquin 10 EC 2 ml/L or spiromesifen 22.9 SC 0.8 ml/L if scarring is spreading (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "oides decempunctata": {
+    "name": "Ten-spotted Grape Leaf Beetle",
+    "scientific_name": "Oides decempunctata",
+    "crops": [
+      "Grape"
+    ],
+    "damage": "Large rounded yellow beetles with ten black spots, and their dark grubs, chew holes in grape leaves and buds; heavy feeding leaves only the veins and weakens the vine.",
+    "control": [
+      "Shake vines over a sheet in the early morning to collect the sluggish beetles; clear fallen leaves and hoe the soil under vines in winter to destroy eggs",
+      "Scrape off egg masses near the trunk base; neem oil 1500 ppm 3-5 ml/L on young grubs",
+      "If defoliation is heavy, spray grubs on the lower leaves with a labelled insecticide, as per label"
+    ]
+  },
+  "Polyphagotars onemus latus": {
+    "name": "Broad Mite (Yellow Mite)",
+    "scientific_name": "Polyphagotarsonemus latus",
+    "crops": [
+      "Chilli",
+      "Bell Pepper",
+      "Tea",
+      "Citrus",
+      "Grape"
+    ],
+    "damage": "Mites too small to see feed on the youngest leaves: leaves curl downward and become narrow, thick and brittle with a bronzed shiny underside, growing tips are stunted and fruits show corky russet skin.",
+    "control": [
+      "Use healthy seedlings, remove badly curled shoots and avoid excess nitrogen; check young leaves with a hand lens",
+      "Wettable sulphur 80 WP 3 g/L or neem oil 1500 ppm 3-5 ml/L; conserve predatory mites (Amblyseius)",
+      "Spiromesifen 22.9 SC 0.8 ml/L or fenazaquin 10 EC 2 ml/L directed at shoot tips and leaf undersides (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Pseudococcus comstocki Kuwana": {
+    "name": "Comstock Mealybug",
+    "scientific_name": "Pseudococcus comstocki",
+    "crops": [
+      "Grape",
+      "Apple",
+      "Pear",
+      "Peach",
+      "Pomegranate"
+    ],
+    "damage": "White waxy insects with cottony egg masses collect in bunches, at the fruit calyx end and in bark cracks; honeydew and black sooty mould spoil the fruit and ants run up the stems.",
+    "control": [
+      "Strip loose bark, prune crowded shoots and band trunks with sticky bands to stop ants and crawlers",
+      "Release Cryptolaemus montrouzieri beetles (about 10 per vine or tree); neem oil 1500 ppm 3-5 ml/L or fish oil rosin soap",
+      "Buprofezin 25 SC 1.5 ml/L at the crawler stage (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "parathrene regalis": {
+    "name": "Grape Clearwing Moth",
+    "scientific_name": "Paranthrene regalis (syn. Nokona regalis)",
+    "crops": [
+      "Grape"
+    ],
+    "damage": "Larvae bore into young canes: the shoot swells at the entry point with frass pushed out, leaves above it yellow and wilt, and canes break easily.",
+    "control": [
+      "Cut and burn swollen, wilting canes below the swelling during the season and at winter pruning",
+      "Kill borers in valuable canes with a flexible wire; use pheromone or light traps to time the moth flight",
+      "Chlorantraniliprole 18.5 SC 0.3 ml/L at moth flight and egg hatch (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Ampelophaga": {
+    "name": "Grape Hawk Moth (Grape Hornworm)",
+    "scientific_name": "Ampelophaga rubiginosa",
+    "crops": [
+      "Grape"
+    ],
+    "damage": "Large green caterpillars with a horn at the tail eat whole leaves, leaving only the petioles; a few can strip a young vine. Large dark droppings on the ground give them away.",
+    "control": [
+      "Look for droppings and hand-pick the caterpillars; dig the soil around vines in winter to expose pupae",
+      "Light traps for moths; Bt 1-2 g/L or neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Emamectin benzoate 5 SG 0.4 g/L only if numbers are high (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Lycorma delicatula": {
+    "name": "Spotted Lanternfly",
+    "scientific_name": "Lycorma delicatula",
+    "crops": [
+      "Grape",
+      "Apple",
+      "Peach",
+      "Plum"
+    ],
+    "damage": "Black-and-white spotted nymphs (later red) and grey spotted adults with red hind wings suck sap from trunks and canes in large groups; honeydew and sooty mould coat vines and fruit and vines weaken. Not widely established in India - report sightings.",
+    "control": [
+      "Scrape the grey mud-like egg masses off trunks, posts and stones in winter; remove tree-of-heaven (Ailanthus) near vineyards",
+      "Sticky bands on trunks to catch climbing nymphs (cover with mesh to protect birds); neem oil 1500 ppm 3-5 ml/L on nymphs",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L on heavy infestations (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Xylotrechus": {
+    "name": "Tiger Longhorn Stem Borer",
+    "scientific_name": "Xylotrechus spp. (X. pyrrhoderus on grape, X. quadripes on coffee)",
+    "crops": [
+      "Grape",
+      "Coffee"
+    ],
+    "damage": "Grubs tunnel under the bark and into the wood: grape canes wilt above blackened nodes and snap, and coffee stems show ridges on the bark with yellowing and wilting; tunnels are packed with frass.",
+    "control": [
+      "Prune and burn infested canes; in coffee, trace and uproot affected plants before the beetle flight periods (April-May and October-December) and maintain adequate shade",
+      "Scrub the main stem to remove loose bark and apply 10% lime wash; pheromone traps for coffee white stem borer",
+      "Stem treatment with a labelled insecticide during flight periods, as per label and Coffee Board advice"
+    ]
+  },
+  "Cicadella viridis": {
+    "name": "Green Leafhopper",
+    "scientific_name": "Cicadella viridis",
+    "crops": [
+      "Grape",
+      "Rice",
+      "Maize",
+      "Mulberry",
+      "Apple"
+    ],
+    "damage": "Bluish-green leafhoppers suck sap, causing pale spotting and yellowing of leaves; females slit the bark of young shoots to lay eggs, leaving crescent-shaped scars that make twigs dry out.",
+    "control": [
+      "Keep vineyard and orchard floors free of grassy weeds; use light traps and yellow sticky traps",
+      "Neem oil 1500 ppm 3-5 ml/L; whitewash the trunks of young trees before egg laying",
+      "Imidacloprid 17.8 SL 0.3 ml/L or thiamethoxam 25 WG 0.3 g/L if numbers are high (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Miridae": {
+    "name": "Mirid Bugs (Plant Bugs)",
+    "scientific_name": "Miridae (e.g. Apolygus, Lygus, Helopeltis spp.)",
+    "crops": [
+      "Grape",
+      "Cotton",
+      "Tea",
+      "Cashew",
+      "Guava"
+    ],
+    "damage": "Fast-moving slender bugs suck tender shoots, buds and young fruit; feeding spots turn into dark sunken lesions or ragged holes, shoots die back and fruits are scabby and deformed.",
+    "control": [
+      "Prune and destroy affected shoots, remove weeds and alternate hosts and scout the new flush early in the morning",
+      "Neem oil 1500 ppm 3-5 ml/L; conserve red ants, spiders and predatory bugs; Beauveria bassiana as per label",
+      "Thiamethoxam 25 WG 0.3 g/L or flonicamid 50 WG 0.3 g/L on new flush and flowering shoots, avoiding full bloom (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Trialeurodes vaporariorum": {
+    "name": "Greenhouse Whitefly",
+    "scientific_name": "Trialeurodes vaporariorum",
+    "crops": [
+      "Tomato",
+      "Cucumber",
+      "Bean",
+      "Bell Pepper",
+      "Grape"
+    ],
+    "damage": "Clouds of tiny white moth-like flies rise when plants are shaken; scale-like nymphs under the leaves suck sap, leaves yellow, and honeydew with black sooty mould covers leaves and fruit. Worst in polyhouses and cool hill areas.",
+    "control": [
+      "Use insect-proof nets, clean seedlings and yellow sticky traps; remove old lower leaves carrying nymphs",
+      "Release the parasitoid Encarsia formosa in polyhouses; neem oil 1500 ppm 3-5 ml/L or Beauveria bassiana as per label",
+      "Spiromesifen 22.9 SC 0.8 ml/L, buprofezin 25 SC 1.5 ml/L or flonicamid 50 WG 0.3 g/L in rotation (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Erythroneura apicalis": {
+    "name": "Grape Leafhopper",
+    "scientific_name": "Arboridia apicalis (syn. Erythroneura apicalis)",
+    "crops": [
+      "Grape",
+      "Apple",
+      "Peach",
+      "Cherry"
+    ],
+    "damage": "Small pale leafhoppers feed under the leaves, which show white speckling that merges into pale patches; leaves dry and drop early and black excrement spots soil the bunches.",
+    "control": [
+      "Remove weeds and fallen leaves, thin the canopy for light and air and hang yellow sticky traps",
+      "Neem oil 1500 ppm 3-5 ml/L on nymphs under the leaves; conserve Anagrus egg parasitoids",
+      "Imidacloprid 17.8 SL 0.3 ml/L or thiamethoxam 25 WG 0.3 g/L when nymphs are numerous (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Papilio xuthus": {
+    "name": "Asian Swallowtail (Citrus Butterfly)",
+    "scientific_name": "Papilio xuthus",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Young caterpillars look like bird droppings and older ones are green with eye-like marks; they eat tender citrus leaves down to the midrib and can defoliate nursery plants and young trees.",
+    "control": [
+      "Hand-pick eggs, caterpillars and pupae in nurseries and young orchards",
+      "Bt (Bacillus thuringiensis var. kurstaki) 1-2 g/L or neem oil 1500 ppm 3-5 ml/L on young larvae; conserve Trichogramma and other parasitoids",
+      "Emamectin benzoate 5 SG 0.4 g/L only for severe attack on nursery stock (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Panonchus citri McGregor": {
+    "name": "Citrus Red Mite",
+    "scientific_name": "Panonychus citri",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Dark red mites on both leaf surfaces cause fine grey-white stippling; leaves and fruit look silvery and dull, and leaves and young fruit drop in dry weather.",
+    "control": [
+      "Irrigate well, reduce dust from orchard roads and avoid broad-spectrum sprays that kill predators",
+      "Conserve predatory mites and Stethorus beetles; horticultural oil or wettable sulphur 80 WP 3 g/L (not above 35 C, and never within 3 weeks of an oil spray)",
+      "Spiromesifen 22.9 SC 0.8 ml/L or fenazaquin 10 EC 2 ml/L, rotating groups (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Phyllocoptes oleiverus ashmead": {
+    "name": "Citrus Rust Mite",
+    "scientific_name": "Phyllocoptruta oleivora",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Microscopic mites make the fruit rind rough and russet-brown to black (silvery on lemons); fruits stay small and lose market value, and leaves show bronzing.",
+    "control": [
+      "Check fruits with a hand lens from fruit set onward and prune for an open canopy",
+      "Wettable sulphur 80 WP 3 g/L (not above 35 C) or horticultural oil; conserve predatory mites",
+      "Fenazaquin 10 EC 2 ml/L or spiromesifen 22.9 SC 0.8 ml/L when mites are found on many fruits (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Icerya purchasi Maskell": {
+    "name": "Cottony Cushion Scale",
+    "scientific_name": "Icerya purchasi",
+    "crops": [
+      "Citrus",
+      "Lemon",
+      "Guava",
+      "Pomegranate",
+      "Mango"
+    ],
+    "damage": "Reddish-brown scales carrying large white fluted egg sacs cluster on twigs and leaf midribs; honeydew, sooty mould, leaf drop and twig dieback follow.",
+    "control": [
+      "Prune and burn heavily infested twigs; control ants with trunk bands",
+      "Release or conserve the vedalia beetle (Rodolia cardinalis), which usually gives complete control; avoid broad-spectrum sprays",
+      "Neem oil 1500 ppm 3-5 ml/L or horticultural oil on crawlers; buprofezin 25 SC 1.5 ml/L if needed (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Unaspis yanonensis": {
+    "name": "Arrowhead Scale",
+    "scientific_name": "Unaspis yanonensis",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Brown oyster-shell-shaped female scales and white ridged male scales encrust leaves, twigs and fruit; yellow spots, leaf drop and twig dieback follow and heavily attacked trees can die.",
+    "control": [
+      "Use clean planting material; prune and burn encrusted branches and open up the canopy",
+      "Conserve parasitoid wasps (Aphytis yanonensis, Coccobius fulvus); horticultural mineral oil as per label",
+      "Buprofezin 25 SC 1.5 ml/L at crawler emergence (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Ceroplastes rubens": {
+    "name": "Red Wax Scale (Pink Wax Scale)",
+    "scientific_name": "Ceroplastes rubens",
+    "crops": [
+      "Citrus",
+      "Mango",
+      "Tea",
+      "Litchi"
+    ],
+    "damage": "Pinkish-red, hard waxy dome-shaped scales with white bands sit along leaf midribs and twigs; honeydew brings thick sooty mould that blackens leaves and fruit.",
+    "control": [
+      "Prune infested twigs, thin dense canopies and control ants",
+      "Conserve parasitoids (Anicetus beneficus) and ladybird beetles; neem oil 1500 ppm 3-5 ml/L or horticultural oil at the crawler stage",
+      "Buprofezin 25 SC 1.5 ml/L against crawlers - the adult wax cover resists sprays (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Chrysomphalus aonidum": {
+    "name": "Florida Red Scale",
+    "scientific_name": "Chrysomphalus aonidum",
+    "crops": [
+      "Citrus",
+      "Coconut",
+      "Banana",
+      "Mango"
+    ],
+    "damage": "Round, flat, dark reddish-brown to black armoured scales with a pale centre on leaves and fruit; a yellow spot forms around each scale, leaves drop and fruit is disfigured.",
+    "control": [
+      "Prune badly infested shoots and keep trees free of dust",
+      "Conserve Aphytis parasitoids and Chilocorus ladybird beetles; horticultural oil or neem oil 1500 ppm 3-5 ml/L on crawlers",
+      "Buprofezin 25 SC 1.5 ml/L at crawler emergence (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Parlatoria zizyphus Lucus": {
+    "name": "Black Parlatoria Scale",
+    "scientific_name": "Parlatoria ziziphi",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Tiny black rectangular scales with a white fringe stick firmly to leaves, twigs and fruit and cannot be washed off; fruits are downgraded and heavy attacks cause yellowing and twig dieback.",
+    "control": [
+      "Use clean nursery plants, prune infested twigs and open the canopy to light",
+      "Conserve parasitoid wasps (Aphytis, Encarsia) and ladybird beetles; horticultural oil or neem oil 1500 ppm 3-5 ml/L on crawlers",
+      "Buprofezin 25 SC 1.5 ml/L at crawler emergence (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Nipaecoccus vastalor": {
+    "name": "Spherical Mealybug",
+    "scientific_name": "Nipaecoccus viridis (syn. N. vastator)",
+    "crops": [
+      "Citrus",
+      "Cotton",
+      "Pomegranate",
+      "Grape",
+      "Mango"
+    ],
+    "damage": "Round white cottony masses on twigs, shoots and fruit; shoots become swollen and twisted, young fruits develop lumps and drop, and sooty mould grows on the honeydew.",
+    "control": [
+      "Prune and destroy infested shoots; control ants with sticky trunk bands and by destroying nests",
+      "Release Cryptolaemus montrouzieri (about 10 beetles per tree) and conserve Anagyrus parasitoids; neem oil 1500 ppm 3-5 ml/L or fish oil rosin soap",
+      "Buprofezin 25 SC 1.5 ml/L on crawlers (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Aleurocanthus spiniferus": {
+    "name": "Orange Spiny Whitefly (Citrus Spiny Blackfly)",
+    "scientific_name": "Aleurocanthus spiniferus",
+    "crops": [
+      "Citrus",
+      "Lemon",
+      "Tea",
+      "Grape",
+      "Guava"
+    ],
+    "damage": "Black spiny scale-like nymphs ringed with white wax crowd the underside of leaves; honeydew and thick sooty mould blacken the tree and reduce flowering and fruit set.",
+    "control": [
+      "Prune dense water-shoot growth and avoid excess nitrogen; yellow sticky traps for adults",
+      "Conserve parasitoids (Encarsia smithi, Amitus hesperidum); neem oil 1500 ppm 3-5 ml/L or horticultural oil on young nymphs",
+      "Buprofezin 25 SC 1.5 ml/L or spiromesifen 22.9 SC 0.8 ml/L at nymph hatch on new flush (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Tetradacus c Bactrocera minax": {
+    "name": "Chinese Citrus Fly",
+    "scientific_name": "Bactrocera minax",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Fruits yellow early around a sting mark and drop before harvest; inside, cream-coloured maggots feed on the pulp and seeds. Found in north-east India, Sikkim, Bhutan, Nepal and China, with one generation a year.",
+    "control": [
+      "Collect all dropped and prematurely yellow fruits every few days and bury them at least 50 cm deep or seal them in plastic bags for 2 weeks",
+      "Protein bait traps from fruit set, with neighbours acting together - this fly is not attracted to methyl eugenol traps",
+      "Protein hydrolysate bait with spinosad as spot sprays, as per label"
+    ]
+  },
+  "Dacus dorsalis(Hendel)": {
+    "name": "Oriental Fruit Fly",
+    "scientific_name": "Bactrocera dorsalis",
+    "crops": [
+      "Mango",
+      "Guava",
+      "Citrus",
+      "Banana",
+      "Papaya"
+    ],
+    "damage": "Females puncture ripening fruit to lay eggs; the spot turns brown and oozes, maggots feed in the pulp and fruits rot and drop.",
+    "control": [
+      "Collect and destroy fallen and infested fruit (bury 60 cm deep), harvest at the mature-green stage and rake the soil under trees to expose pupae",
+      "Methyl eugenol traps 6-10 per acre from 60 days before harvest; bag fruits where practical",
+      "Protein or jaggery bait with spinosad as spot sprays, as per label; hot-water treat mangoes (48 C for 60 minutes) after harvest"
+    ]
+  },
+  "Bactrocera tsuneonis": {
+    "name": "Japanese Orange Fly",
+    "scientific_name": "Bactrocera tsuneonis",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Maggots feed inside the segments of mandarin and orange fruits; fruits colour early, soften and drop. Not known to be established in India - report suspected cases.",
+    "control": [
+      "Pick up and destroy fallen and early-coloured fruit (deep burial or sealed bags) and do not move fruit out of affected areas",
+      "Protein bait traps for monitoring - it is not attracted to methyl eugenol; bag fruits in small orchards",
+      "Protein hydrolysate bait with spinosad as spot sprays, as per label"
+    ]
+  },
+  "Prodenia litura": {
+    "name": "Tobacco Caterpillar",
+    "scientific_name": "Spodoptera litura",
+    "crops": [
+      "Tobacco",
+      "Groundnut",
+      "Soybean",
+      "Cotton",
+      "Chilli"
+    ],
+    "damage": "Young larvae feed in groups and scrape leaves into papery, net-like patches; older dark caterpillars hide in the soil by day and eat large holes at night, defoliating the crop and boring into fruits and pods.",
+    "control": [
+      "Collect egg masses and leaves with clustered young larvae, grow castor as a trap crop on the borders and install pheromone traps 5 per acre",
+      "Spray SlNPV 250 LE/ha or Bt in the evening; neem oil 1500 ppm 3-5 ml/L on young larvae",
+      "Emamectin benzoate 5 SG 0.4 g/L or chlorantraniliprole 18.5 SC 0.3 ml/L for grown larvae (rotate chemical groups; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Adristyrannus": {
+    "name": "Fruit-piercing Moth",
+    "scientific_name": "Eudocima tyrannus (syn. Adris tyrannus)",
+    "crops": [
+      "Citrus",
+      "Pomegranate",
+      "Guava",
+      "Mango",
+      "Grape"
+    ],
+    "damage": "Large moths with leaf-like forewings and orange hind wings pierce ripening fruit at night; a pin-sized hole is surrounded by soft rotting tissue and fruits drop early.",
+    "control": [
+      "Bag fruits or bunches, collect and bury fallen fruit and remove wild creepers (Tinospora, Cocculus) around the orchard on which the caterpillars breed",
+      "Catch moths at night with a torch and net, smoke the orchard at dusk and hang light traps or fermented-fruit bait traps",
+      "Sprays on fruit are ineffective; use poison baits only as per label"
+    ]
+  },
+  "Phyllocnistis citrella Stainton": {
+    "name": "Citrus Leaf Miner",
+    "scientific_name": "Phyllocnistis citrella",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Silvery winding mines with a dark central line on young leaves; leaves curl and distort, growth of nursery and young trees is checked and the wounds favour citrus canker.",
+    "control": [
+      "Prune only in winter and avoid heavy nitrogen and irrigation that force continuous flushes; clip and destroy heavily mined flush in nurseries",
+      "Neem oil 1500 ppm 5 ml/L or neem seed kernel extract 5% on new flush; conserve parasitoid wasps",
+      "Imidacloprid 17.8 SL 0.3 ml/L or thiamethoxam 25 WG 0.3 g/L at the start of each flush on nursery and young trees (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Toxoptera citricidus": {
+    "name": "Brown Citrus Aphid",
+    "scientific_name": "Aphis citricidus (syn. Toxoptera citricidus)",
+    "crops": [
+      "Citrus",
+      "Lemon"
+    ],
+    "damage": "Shiny brown-black aphids crowd on new flush and flower buds; leaves curl and shoots are stunted, with honeydew and sooty mould. It is the most efficient vector of citrus tristeza virus.",
+    "control": [
+      "Plant virus-free budded plants, inspect every new flush and avoid excess nitrogen",
+      "Conserve ladybird beetles, hoverflies and lacewings; neem oil 1500 ppm 3-5 ml/L",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L on new flush when about a quarter of shoots carry colonies (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Toxoptera aurantii": {
+    "name": "Black Citrus Aphid",
+    "scientific_name": "Aphis aurantii (syn. Toxoptera aurantii)",
+    "crops": [
+      "Citrus",
+      "Lemon",
+      "Tea",
+      "Coffee"
+    ],
+    "damage": "Black to dark-brown aphids on tender shoots and under young leaves; leaves curl and crinkle, shoots stop growing and honeydew brings sooty mould.",
+    "control": [
+      "Inspect new flush, prune water shoots and avoid excess nitrogen; control ants that protect the colonies",
+      "Conserve ladybird beetles, hoverflies and lacewings; neem oil 1500 ppm 3-5 ml/L",
+      "Thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L on heavily infested flush (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Aphis citricola Vander Goot": {
+    "name": "Spirea Aphid (Green Citrus Aphid)",
+    "scientific_name": "Aphis spiraecola (syn. A. citricola)",
+    "crops": [
+      "Citrus",
+      "Lemon",
+      "Apple",
+      "Pear"
+    ],
+    "damage": "Bright yellow-green aphids with black cornicles pack the young shoots; leaves curl tightly inward, shoot growth is stunted and sooty mould develops on the honeydew.",
+    "control": [
+      "Inspect new flush, avoid excess nitrogen and control ants that protect the colonies",
+      "Conserve ladybird beetles, hoverflies and lacewings; neem oil 1500 ppm 3-5 ml/L before leaves curl",
+      "Flonicamid 50 WG 0.3 g/L, thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L on heavily infested flush (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Scirtothrips dorsalis Hood": {
+    "name": "Chilli Thrips",
+    "scientific_name": "Scirtothrips dorsalis",
+    "crops": [
+      "Chilli",
+      "Citrus",
+      "Mango",
+      "Grape",
+      "Tea"
+    ],
+    "damage": "Tiny pale-yellow thrips feed on young leaves, buds and fruit: leaves curl upward and turn bronze, shoots are stunted and fruits show grey-brown corky scars (a ring around the stalk end in citrus).",
+    "control": [
+      "Blue sticky traps, weed removal and no excess nitrogen or water stress; inspect new flush and flowers",
+      "Neem oil 1500 ppm 3-5 ml/L or neem seed kernel extract 5%; conserve predatory mites and Orius bugs",
+      "Spinosad 45 SC 0.3 ml/L or emamectin benzoate 5 SG 0.4 g/L, rotating groups (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Dasineura sp": {
+    "name": "Mango Gall Midge",
+    "scientific_name": "Dasineura spp. (e.g. D. amaramanjarae)",
+    "crops": [
+      "Mango"
+    ],
+    "damage": "Tiny maggots feed inside young leaves and flower buds: leaves show small wart-like galls that later leave holes, and buds and panicle stalks bend, dry and fail to set fruit.",
+    "control": [
+      "Prune and destroy galled flush and affected panicles; rake or plough the soil under trees to expose pupae",
+      "Yellow sticky traps at flush and bud burst; neem oil 1500 ppm 3-5 ml/L on new flush",
+      "Thiamethoxam 25 WG 0.3 g/L at bud burst if the attack was heavy in the previous season (not during full bloom; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Lawana imitata Melichar": {
+    "name": "White Flatid Planthopper (White Moth Cicada)",
+    "scientific_name": "Lawana imitata",
+    "crops": [
+      "Mango",
+      "Citrus",
+      "Litchi",
+      "Tea"
+    ],
+    "damage": "White moth-like hoppers sit in rows along the twigs, and nymphs covered in white woolly wax cluster on shoots and fruit stalks; they suck sap, weaken shoots and cause sooty mould and fruit drop.",
+    "control": [
+      "Prune crowded branches for light and air; knock nymphs off with a strong water jet or shake them into a net",
+      "Neem oil 1500 ppm 3-5 ml/L or Beauveria bassiana (as per label); conserve spiders and parasitoids",
+      "Imidacloprid 17.8 SL 0.3 ml/L or thiamethoxam 25 WG 0.3 g/L on nymphs if heavy, outside flowering (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Salurnis marginella Guerr": {
+    "name": "Brown-margined Flatid Planthopper",
+    "scientific_name": "Salurnis marginella",
+    "crops": [
+      "Mango",
+      "Citrus",
+      "Tea",
+      "Coffee",
+      "Litchi"
+    ],
+    "damage": "Pale green wedge-shaped hoppers with brown wing edges, and waxy white nymphs, line the tender shoots and suck sap; shoots weaken and honeydew leads to sooty mould on leaves and fruit.",
+    "control": [
+      "Prune crowded and infested shoots after harvest and keep the canopy open; wash nymphs off with a strong water jet",
+      "Neem oil 1500 ppm 3-5 ml/L or Beauveria bassiana (as per label); conserve spiders and parasitoids",
+      "Imidacloprid 17.8 SL 0.3 ml/L or thiamethoxam 25 WG 0.3 g/L on nymphs if heavy, outside flowering (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Deporaus marginatus Pascoe": {
+    "name": "Mango Leaf-cutting Weevil",
+    "scientific_name": "Deporaus marginatus",
+    "crops": [
+      "Mango"
+    ],
+    "damage": "New flush leaves are cut cleanly across near the base as if with scissors and the cut pieces litter the ground; the remaining stubs dry up and young trees and grafts lose their whole flush.",
+    "control": [
+      "Collect and burn the fallen cut leaf pieces daily - they carry the eggs; hoe the soil under trees to expose pupae",
+      "Shake adults from the new flush into a net in the morning; neem oil 1500 ppm 3-5 ml/L on emerging flush",
+      "Protect new flush on nursery and young trees with a labelled insecticide, as per label"
+    ]
+  },
+  "Chlumetia transversa": {
+    "name": "Mango Shoot Borer",
+    "scientific_name": "Chlumetia transversa",
+    "crops": [
+      "Mango",
+      "Litchi"
+    ],
+    "damage": "Pinkish caterpillars with dark spots bore down the tender shoots and panicle stalks from the tip; terminal leaves wilt and droop, the shoot dries and frass is seen at the entry hole.",
+    "control": [
+      "Clip affected shoots 5-10 cm below the damage and destroy them, especially in nurseries and young orchards",
+      "Neem oil 1500 ppm 3-5 ml/L on new flush; light traps for moths",
+      "Emamectin benzoate 5 SG 0.4 g/L or chlorantraniliprole 18.5 SC 0.3 ml/L at the start of new flush, repeated after 15 days if needed (only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Mango flat beak leafhopper": {
+    "name": "Mango Hopper",
+    "scientific_name": "Idioscopus spp. (I. clypealis, I. nitidulus)",
+    "crops": [
+      "Mango"
+    ],
+    "damage": "Wedge-shaped hoppers and nymphs crowd on panicles and tender shoots and suck sap; flowers wither and drop, fruit set fails and sticky honeydew with black sooty mould covers the leaves. Hoppers make a clicking sound when the tree is disturbed.",
+    "control": [
+      "Prune overcrowded and overlapping branches after harvest and avoid dense planting and excess nitrogen or irrigation before flowering",
+      "Spray Beauveria bassiana or Metarhizium anisopliae (as per label) or neem oil 1500 ppm 3-5 ml/L at panicle emergence",
+      "Imidacloprid 17.8 SL 0.3 ml/L at panicle emergence and thiamethoxam 25 WG 0.3 g/L after fruit set (pea size); do not spray at full bloom (wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  },
+  "Rhytidodera bowrinii white": {
+    "name": "Mango Longhorn Stem Borer",
+    "scientific_name": "Rhytidodera bowringii",
+    "crops": [
+      "Mango",
+      "Cashew"
+    ],
+    "damage": "Grubs tunnel inside branches and trunk and push frass and gum out of a row of holes; leaves on the branch yellow and the branch dries and breaks.",
+    "control": [
+      "Cut and burn dying branches below the tunnel; keep trees vigorous and avoid bark injuries",
+      "Hook out or kill grubs with a stiff wire and seal the holes with mud; light traps for adult beetles in the rainy season",
+      "Inject a labelled insecticide into live holes and plug with clay, as per label"
+    ]
+  },
+  "Sternochetus frigidus": {
+    "name": "Mango Pulp Weevil",
+    "scientific_name": "Sternochetus frigidus",
+    "crops": [
+      "Mango"
+    ],
+    "damage": "Fruits look sound outside, but the pulp contains grubs, pupae or dark weevils in brown tunnels and cavities filled with frass. Found mainly in north-east India and a quarantine pest.",
+    "control": [
+      "Collect and destroy all fallen fruit, clean the orchard after harvest and prune for an open, sunlit canopy; do not move fruit out of affected areas",
+      "Bag fruits from marble size; scrape loose bark and put sticky bands on the trunk to catch adults",
+      "Spray at marble stage and again 15 days later with a labelled insecticide, as per label"
+    ]
+  },
+  "Cicadellidae": {
+    "name": "Leafhoppers (Jassids)",
+    "scientific_name": "Cicadellidae (e.g. Amrasca biguttula biguttula, Empoasca spp.)",
+    "crops": [
+      "Cotton",
+      "Okra",
+      "Brinjal",
+      "Potato",
+      "Mango"
+    ],
+    "damage": "Small green wedge-shaped insects that move sideways feed under the leaves; leaf edges turn yellow, then brick-red and brown, and curl downward (hopper burn), and plants are stunted.",
+    "control": [
+      "Grow tolerant hairy-leaved varieties, avoid excess nitrogen and use yellow sticky traps; act at about 2 nymphs per leaf",
+      "Neem oil 1500 ppm 3-5 ml/L; conserve spiders, lacewings and ladybird beetles",
+      "Flonicamid 50 WG 0.3 g/L, thiamethoxam 25 WG 0.3 g/L or imidacloprid 17.8 SL 0.3 ml/L if hopper burn appears (not on open flowers - toxic to bees; only where the label lists your crop; wear gloves and mask; observe the pre-harvest interval)"
+    ]
+  }
+}

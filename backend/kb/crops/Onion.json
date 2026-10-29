@@ -1,0 +1,151 @@
+{
+  "crop": "Onion",
+  "scientific_name": "Allium cepa",
+  "family": "Amaryllidaceae",
+  "description": "Onion is a bulb vegetable grown in kharif, late kharif and rabi, mainly in Maharashtra, Karnataka, Madhya Pradesh and the Kurnool area of Andhra Pradesh. It is shallow-rooted and needs sulphur, good drainage and light, regular irrigation.",
+  "common_varieties": ["Bhima Super", "Bhima Shakti", "Agrifound Dark Red", "Agrifound Light Red", "N-53", "Arka Kalyan"],
+  "npk": {"N": 110, "P2O5": 40, "K2O": 60, "unit": "kg/ha"},
+  "npk_split": "Apply one-third of the N with all P, K and 30-45 kg sulphur/ha at transplanting, and the rest of the N in two equal splits at 30 and 45 days after transplanting.",
+  "conditions": {
+    "Caterpillar": {
+      "name": "Caterpillar",
+      "kind": "pest",
+      "cause": "Leaf-eating caterpillars (Spodoptera exigua, Spodoptera litura)",
+      "type": "Insect",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Caterpillars that scrape and bore into the hollow onion leaves and feed from inside. Young crops can be stripped quickly, and the feeding wounds let leaf diseases enter.",
+      "symptoms": [
+        "White papery scraped patches on the leaves",
+        "Holes in the leaves with caterpillars feeding inside the hollow leaf",
+        "Leaves cut or eaten from the tip",
+        "Green to brown droppings inside damaged leaves"
+      ],
+      "spread": "Moths lay egg masses on the leaves and the caterpillars move from plant to plant, feeding mostly at night.",
+      "action": "Collect and destroy egg masses and caterpillars, and spray emamectin benzoate 5 SG 0.4 g/L with a sticker in the evening if damage is spreading.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Emamectin benzoate 5 SG", "type": "Insecticide", "dose": "0.4 g/L water", "notes": "Add a sticker (0.5 ml/L) because onion leaves are waxy; spray in the evening; only where the label lists your crop."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L water", "notes": "For light damage or as the first spray on young caterpillars; add a sticker."}
+      ]
+    },
+    "Fusarium basal rot": {
+      "name": "Fusarium Basal Rot",
+      "kind": "disease",
+      "cause": "Fusarium oxysporum f. sp. cepae",
+      "type": "Fungal",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A soil-borne fungus that rots the roots and the basal plate of the bulb, in the field and later in storage. There is no cure once the base has rotted, so control depends on clean seedlings, rotation and drainage.",
+      "symptoms": [
+        "Leaves turn yellow and dry from the tip downward",
+        "Plant wilts and pulls out of the soil easily",
+        "Roots rotted and pinkish-brown, few in number",
+        "Base of the bulb brown and soft, sometimes with white mould",
+        "Bulbs rot from the base in storage"
+      ],
+      "spread": "The fungus lives in the soil for many years and spreads with infected seedlings, sets, soil and irrigation water, favoured by warm, waterlogged soil.",
+      "action": "Pull out and destroy the affected plants, improve drainage, and drench the affected patch with carbendazim 50 WP 1 g/L to slow the spread.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Dip seedling roots before transplanting and drench affected patches; this protects healthy plants but does not cure rotted ones."},
+        {"name": "Trichoderma viride", "type": "Biological", "dose": "as per label", "notes": "Mix with well-rotted farmyard manure and apply to the soil before transplanting."},
+        {"name": "Crop rotation", "type": "Cultural", "dose": "-", "notes": "Keep onion and garlic off the field for 3-4 years, plant on raised beds and avoid injuring bulbs at harvest."}
+      ]
+    },
+    "Leaf blight": {
+      "name": "Leaf Blight",
+      "kind": "disease",
+      "cause": "Stemphylium vesicarium; Colletotrichum gloeosporioides (anthracnose / twister)",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A fungal blight of onion leaves and seed stalks caused by Stemphylium, and in the rainy season also by Colletotrichum. Leaves dry from the tip downward and bulbs stay small.",
+      "symptoms": [
+        "Small yellow to orange flecks or streaks in the middle of the leaf, often on one side",
+        "Flecks grow into long spindle-shaped spots with pinkish margins",
+        "Leaves dry from the tip downward and look blighted",
+        "With Colletotrichum: pale sunken spots with black dots, twisted leaves and a long neck"
+      ],
+      "spread": "Survives on crop debris and spreads by wind and rain splash in warm, humid weather with long leaf wetness.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L with a sticker at the first flecks and alternate with propiconazole 25 EC 1 ml/L every 10-15 days.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Add a sticker (0.5 ml/L) because onion leaves are waxy; start from 30 days after transplanting in wet weather."},
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Alternate with mancozeb at 10-15 day intervals; add a sticker; only where the label lists your crop."},
+        {"name": "Raised beds and drainage", "type": "Cultural", "dose": "-", "notes": "Grow kharif onion on raised beds with drip or furrow irrigation and avoid excess nitrogen."}
+      ]
+    },
+    "Purple blotch": {
+      "name": "Purple Blotch",
+      "kind": "disease",
+      "cause": "Alternaria porri",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "The most common fungal disease of onion leaves and seed stalks in warm, humid weather. Leaves break at the blotches and dry, which reduces bulb size and seed yield.",
+      "symptoms": [
+        "Small white sunken spots with a purple centre",
+        "Oval purple-brown blotches with a yellow halo and dark rings",
+        "Leaves and seed stalks bend or break at the blotch",
+        "Leaves dry from the tip downward"
+      ],
+      "spread": "Survives on crop debris and seed and spreads by wind and rain splash in warm, humid weather; thrips injury makes it worse.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L with a sticker now and alternate with tebuconazole 250 EC 1 ml/L every 10-15 days.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Add a sticker (0.5 ml/L) because onion leaves are waxy."},
+        {"name": "Tebuconazole 250 EC (25.9% EC)", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Alternate with mancozeb at 10-15 day intervals; add a sticker."},
+        {"name": "Thrips control", "type": "Cultural", "dose": "-", "notes": "Keep thrips in check, because their feeding wounds let the fungus enter the leaf."}
+      ]
+    },
+    "Viral disease": {
+      "name": "Viral Disease",
+      "kind": "disease",
+      "cause": "Virus complex: Iris yellow spot virus (thrips-borne) and Onion yellow dwarf virus (aphid- and bulb-borne)",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Virus diseases of onion, mainly iris yellow spot carried by thrips and yellow dwarf carried in bulbs and by aphids. There is no curative spray; infected plants give small bulbs and seed stalks fall over.",
+      "symptoms": [
+        "Straw-coloured spindle or diamond-shaped spots on leaves and seed stalks, sometimes with a green centre",
+        "Yellow streaks along the leaves",
+        "Leaves flattened, crinkled and drooping",
+        "Stunted plants with small bulbs; seed stalks bend and lodge"
+      ],
+      "spread": "Iris yellow spot is spread by onion thrips, and yellow dwarf comes through infected bulbs or sets and is spread by aphids.",
+      "action": "Pull out and destroy badly affected plants and spray spinosad 45 SC 0.3 ml/L with a sticker to bring down thrips.",
+      "manage": "viral_thrips",
+      "vector": "Onion thrips (Thrips tabaci); aphids for yellow dwarf",
+      "treatment": [
+        {"name": "Roguing and clean planting material", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; raise seedlings from true seed in a clean nursery and do not plant bulbs or sets from an affected crop."},
+        {"name": "Spinosad 45 SC", "type": "Insecticide", "dose": "0.3 ml/L water", "notes": "Thrips control only; add a sticker and direct the spray into the leaf bases where thrips hide; only where the label lists your crop."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L water", "notes": "Use between insecticide sprays; blue sticky traps help to monitor thrips."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Upright, uniform green tubular leaves with a waxy bloom",
+        "No spots, streaks, holes or tip drying",
+        "Steady new leaf growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting for thrips and leaf spots, especially in humid weather.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

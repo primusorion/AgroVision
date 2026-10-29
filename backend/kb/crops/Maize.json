@@ -1,0 +1,328 @@
+{
+  "crop": "Maize",
+  "scientific_name": "Zea mays",
+  "family": "Poaceae",
+  "description": "Maize is grown in kharif and rabi across Telangana and Andhra Pradesh for grain, poultry feed and fodder, mostly as single-cross hybrids. It is a heavy feeder, and since 2018 fall armyworm has been its most damaging pest.",
+  "common_varieties": [
+    "DHM 117",
+    "DHM 121",
+    "DKC 9081",
+    "NK 6240",
+    "P 3396",
+    "HQPM 1"
+  ],
+  "npk": {"N": 180, "P2O5": 60, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Apply all P and K with one-third of the N at sowing; top-dress the remaining N in two equal splits at knee-high stage (25-30 days) and at tasselling (45-50 days).",
+  "conditions": {
+    "Common rust": {
+      "name": "Common Rust",
+      "kind": "disease",
+      "cause": "Puccinia sorghi",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that forms powdery brown pustules on both sides of the leaf, mainly in cool, humid weather in rabi and in the hills. Heavy rust before tasselling dries the leaves early and reduces grain filling.",
+      "symptoms": [
+        "Small round to elongated cinnamon-brown powdery pustules on both leaf surfaces",
+        "Pustules scattered or in bands across the leaf",
+        "Brown powder rubs off on the fingers",
+        "Pustules turn dark brown to black as the crop matures",
+        "Heavily rusted leaves yellow and dry early"
+      ],
+      "spread": "Wind-borne spores spread from field to field in cool (16-25 C), humid weather with heavy dew.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L when pustules first appear before tasselling, and repeat after 15 days if the weather stays cool and humid.",
+      "manage": "rust",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Start at first pustules; 2 sprays 15 days apart are usually enough. Rust appearing after grain filling needs no spray."
+        },
+        {
+          "name": "Resistant hybrid next season",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Choose a rust-tolerant hybrid for rabi sowings where rust comes every year."
+        }
+      ]
+    },
+    "Curvularia leaf spot": {
+      "name": "Curvularia Leaf Spot",
+      "kind": "disease",
+      "cause": "Curvularia lunata (Cochliobolus lunatus)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot of warm, humid weather that covers the leaf with many small pale spots ringed in yellow. It is usually moderate but can dry the leaves of susceptible hybrids.",
+      "symptoms": [
+        "Small round to oval pale straw-coloured spots 1-5 mm across",
+        "Each spot has a reddish-brown rim and a yellow halo",
+        "Spots look translucent when the leaf is held against the light",
+        "Many spots merge and the leaf yellows and dries"
+      ],
+      "spread": "Spores from crop residue and grassy weeds are carried by wind and rain splash in hot, humid weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L if the spots are spreading to the upper leaves before tasselling.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Spray when spots reach the leaves around the cob; repeat after 10-15 days if rain continues."
+        },
+        {
+          "name": "Destroy crop residue",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Plough in or remove stubble and rotate with a non-cereal crop."
+        }
+      ]
+    },
+    "Fall armyworm": {
+      "name": "Fall Armyworm",
+      "kind": "pest",
+      "cause": "Spodoptera frugiperda",
+      "type": "Insect",
+      "severity_weight": 0.85,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "An invasive caterpillar that feeds inside the whorl of young maize and later bores into tassels and cobs. Unchecked attack on a young crop can destroy the growing point.",
+      "symptoms": [
+        "Papery, window-like scraped patches on young leaves",
+        "Ragged, elongated holes in the whorl leaves",
+        "Wet, sawdust-like excreta plugging the whorl",
+        "Caterpillar with an inverted Y on the head and four dark dots in a square near the tail",
+        "Tassels and cobs bored in late attack"
+      ],
+      "spread": "Moths fly long distances at night and lay egg masses on the leaves, and the pest breeds all year where maize is grown continuously.",
+      "action": "Spray emamectin benzoate 5 SG 0.4 g/L into the whorls in the evening if more than 10% of plants show fresh damage.",
+      "manage": "caterpillars",
+      "treatment": [
+        {
+          "name": "Azadirachtin 1500 ppm (neem)",
+          "type": "Insecticide",
+          "dose": "5 ml/L",
+          "notes": "Use at the seedling to early whorl stage when 5-10% of plants show window-pane damage or egg masses."
+        },
+        {
+          "name": "Emamectin benzoate 5 SG",
+          "type": "Insecticide",
+          "dose": "0.4 g/L",
+          "notes": "Direct the spray into the whorl in the evening when more than 10% of plants are damaged."
+        },
+        {
+          "name": "Chlorantraniliprole 18.5 SC",
+          "type": "Insecticide",
+          "dose": "0.4 ml/L",
+          "notes": "Rotate with emamectin benzoate; do not use the same insecticide for consecutive sprays."
+        }
+      ]
+    },
+    "Grasshopper": {
+      "name": "Grasshopper",
+      "kind": "pest",
+      "cause": "Grasshoppers of unspecified species (Hieroglyphus, Oxya, Chrotogonus spp.)",
+      "type": "Insect",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Nymphs and adult grasshoppers chew the leaves from the edges inward, mostly on young crops and along field borders. Damage is usually patchy and becomes serious only in outbreak years.",
+      "symptoms": [
+        "Irregular, ragged feeding along the leaf edges",
+        "Leaves eaten down to the midrib in heavy attack",
+        "Hoppers jump or fly when the crop is disturbed",
+        "Damage is worst along bunds and field borders"
+      ],
+      "spread": "Eggs are laid in the soil of bunds and fallow land, and the hoppers walk or fly into the crop after the first rains.",
+      "action": "Trim and scrape the field bunds to expose egg pods and spray neem oil 5 ml/L on the border rows where the hoppers are feeding.",
+      "manage": "grasshopper",
+      "treatment": [
+        {
+          "name": "Scrape and clean field bunds",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Exposes egg pods to sun and birds; plough fallow land in summer for the same reason."
+        },
+        {
+          "name": "Neem oil 1500 ppm",
+          "type": "Insecticide",
+          "dose": "5 ml/L",
+          "notes": "Spray the border rows and bunds while the hoppers are still small; it discourages feeding."
+        }
+      ]
+    },
+    "Gray leaf spot": {
+      "name": "Gray Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora zeae-maydis",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that forms long rectangular grey-tan lesions between the leaf veins after tasselling. In India it is seen mainly in humid hill regions, and it survives on maize residue left on the soil.",
+      "symptoms": [
+        "Narrow rectangular tan to grey lesions with straight sides along the veins",
+        "Lesions 1-6 cm long running parallel to the veins",
+        "Disease starts on the lower leaves and moves upward",
+        "Lesions merge and whole leaves dry up"
+      ],
+      "spread": "Spores from infected maize residue are carried by wind and rain splash in warm weather with long hours of dew or fog.",
+      "action": "Spray azoxystrobin 18.2% + difenoconazole 11.4% SC 1 ml/L if lesions reach the leaves around the cob before grain filling.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {
+          "name": "Azoxystrobin 18.2% + difenoconazole 11.4% SC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "One spray at tasselling to early grain filling when lesions are moving up the plant; only where the label lists your crop."
+        },
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Lower-cost protectant alternative; repeat after 10-15 days."
+        },
+        {
+          "name": "Bury residue and rotate",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Plough in maize stubble and avoid maize after maize in affected fields."
+        }
+      ]
+    },
+    "Leaf beetle": {
+      "name": "Leaf Beetle",
+      "kind": "pest",
+      "cause": "Leaf-feeding beetles of unspecified species (Chrysomelidae, e.g. Monolepta signata)",
+      "type": "Insect",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Small leaf beetles scrape or chew the leaf surface and may clip the silks at flowering. Damage is usually minor and matters mainly on seedlings or when silks are eaten before pollination.",
+      "symptoms": [
+        "Narrow scraped lines or window-like streaks along the veins",
+        "Small round holes in the leaf",
+        "Small beetles on the leaves, in the whorl or on the silks",
+        "Silks chewed short at flowering"
+      ],
+      "spread": "Adult beetles fly in from weeds and neighbouring crops, and their grubs live in the soil.",
+      "action": "Check 20 plants and spray neem oil 5 ml/L only if the beetles are numerous on seedlings or are cutting the silks.",
+      "manage": "beetles_weevils",
+      "treatment": [
+        {
+          "name": "Neem oil 1500 ppm",
+          "type": "Insecticide",
+          "dose": "5 ml/L",
+          "notes": "Spray in the evening on seedlings or on silks under attack; a grown crop tolerates leaf feeding without loss."
+        },
+        {
+          "name": "Keep bunds weed-free",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove the weeds on which the beetles shelter and breed."
+        }
+      ]
+    },
+    "Leaf blight": {
+      "name": "Leaf Blight",
+      "kind": "disease",
+      "cause": "Exserohilum turcicum (turcicum leaf blight) or Bipolaris maydis (maydis leaf blight)",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal blights that form long tan lesions on the leaves, starting on the lower leaves and moving up. Attack before tasselling scorches the foliage and cuts grain yield sharply.",
+      "symptoms": [
+        "Long, cigar-shaped grey-green to tan lesions 3-15 cm long (turcicum blight)",
+        "Smaller tan, rectangular to diamond-shaped lesions between the veins with brown borders (maydis blight)",
+        "Lesions start on the lower leaves and move upward",
+        "Lesions merge and the leaves look scorched"
+      ],
+      "spread": "Spores from infected crop residue are carried by wind and rain splash in humid weather with heavy dew.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L at the first lesions and repeat after 10 days if the disease is moving up before tasselling.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {
+          "name": "Mancozeb 75 WP",
+          "type": "Fungicide",
+          "dose": "2.5 g/L",
+          "notes": "Start at first lesions; 2-3 sprays at 10-day intervals in wet weather."
+        },
+        {
+          "name": "Azoxystrobin 18.2% + difenoconazole 11.4% SC",
+          "type": "Fungicide",
+          "dose": "1 ml/L",
+          "notes": "Use once when the disease is advancing fast towards the cob leaves; only where the label lists your crop."
+        },
+        {
+          "name": "Tolerant hybrid and residue removal",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Grow a blight-tolerant hybrid and plough in stubble after harvest."
+        }
+      ]
+    },
+    "Streak virus": {
+      "name": "Maize Streak Virus",
+      "kind": "disease",
+      "cause": "Maize streak virus (Mastrevirus)",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A leafhopper-borne virus that marks the leaves with fine broken yellow streaks and stunts plants infected young. It is mainly an African disease and is rare in India, so have similar streaking confirmed by the local agriculture officer; there is no cure.",
+      "symptoms": [
+        "Tiny round pale spots on the youngest leaves",
+        "Narrow, broken yellow-white streaks running along the veins",
+        "Streaks spread evenly over the whole leaf",
+        "Plants infected early are stunted with small or no cobs"
+      ],
+      "spread": "Carried from infected maize and grasses to healthy plants by Cicadulina leafhoppers, and not through seed or soil.",
+      "action": "Pull out and destroy the streaked plants early, because no spray cures the virus.",
+      "manage": "viral_hopper",
+      "vector": "Leafhoppers (Cicadulina spp.)",
+      "treatment": [
+        {
+          "name": "Rogue infected plants",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove streaked plants in the first 4-5 weeks and keep the field and bunds free of grassy weeds."
+        },
+        {
+          "name": "Insecticide seed treatment (e.g. thiamethoxam 30 FS)",
+          "type": "Insecticide",
+          "dose": "as per label",
+          "notes": "Protects seedlings from leafhoppers in the first weeks; it does not cure infected plants."
+        },
+        {
+          "name": "Sow on time, together with neighbours",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Late and staggered sowings are infected most."
+        }
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing maize plant.",
+      "symptoms": [
+        "Uniform dark green leaf blade",
+        "No spots, streaks or pustules",
+        "No holes or excreta in the whorl"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue split nitrogen and check the whorls twice a week for fall armyworm.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

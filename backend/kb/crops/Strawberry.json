@@ -1,0 +1,54 @@
+{
+  "crop": "Strawberry",
+  "scientific_name": "Fragaria × ananassa",
+  "family": "Rosaceae",
+  "description": "Grown in India as a cool-season crop on raised, mulched beds, mainly at Mahabaleshwar (Maharashtra), in Himachal Pradesh, Haryana and Uttar Pradesh, and in winter in hill pockets such as Lambasingi and Araku in Andhra Pradesh. Runners are planted in September-October and fruits are picked from December to March.",
+  "common_varieties": ["Chandler", "Sweet Charlie", "Winter Dawn", "Camarosa", "Festival", "Nabila"],
+  "npk": {"N": 80, "P2O5": 40, "K2O": 40, "unit": "kg/ha"},
+  "npk_split": "Apply 25-50 t/ha FYM with all P and K at bed preparation and the N in two splits, one month after planting and at flowering, or in small weekly doses through drip.",
+  "conditions": {
+    "Leaf scorch": {
+      "name": "Leaf Scorch",
+      "kind": "disease",
+      "cause": "Diplocarpon earlianum",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "Fungal leaf disease that covers leaves with small purple blotches until they dry up and look burnt. Severe attacks weaken the plants and reduce fruit size and number.",
+      "symptoms": [
+        "Many small irregular dark purple blotches on the upper leaf surface, without a white centre",
+        "Blotches merge and the leaf turns reddish-purple to brown",
+        "Leaf margins dry and curl upward as if scorched",
+        "Purple streaks on leaf stalks, runners and fruit stalks"
+      ],
+      "spread": "Rain and sprinkler splash carry spores from infected old leaves to new ones during long wet periods.",
+      "action": "Remove and destroy the infected old leaves and switch from sprinkler to drip irrigation.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Removal of old infected leaves", "type": "Cultural", "dose": "-", "notes": "Clean plants before flowering and again after the last harvest; carry the leaves out of the field."},
+        {"name": "Drip irrigation with plastic or straw mulch", "type": "Cultural", "dose": "-", "notes": "Keeps leaves dry and stops soil splash."},
+        {"name": "Disease-free runners at wider spacing", "type": "Cultural", "dose": "-", "notes": "Start each season with clean planting material; do not spray fungicide on ripening fruits."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep the beds mulched and the leaves dry to keep it that way.",
+      "symptoms": [
+        "Uniform green leaves without purple or brown spots",
+        "No curling, scorching or webbing",
+        "Steady new leaf and flower production"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue drip irrigation, mulching, balanced nutrition and weekly scouting.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

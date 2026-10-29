@@ -1,0 +1,205 @@
+{
+ "leaf_images": 188146,
+ "leaf_classes": 223,
+ "crops": 38,
+ "pest_images": 71965,
+ "pest_species": 102,
+ "sources": 38,
+ "split": {
+  "train": 134089,
+  "test": 27354,
+  "val": 26703
+ },
+ "pest_split": {
+  "train": 43662,
+  "test": 21218,
+  "val": 7085
+ },
+ "by_kind": {
+  "abiotic": {
+   "classes": 3,
+   "images": 697
+  },
+  "deficiency": {
+   "classes": 26,
+   "images": 7116
+  },
+  "disease": {
+   "classes": 127,
+   "images": 114319
+  },
+  "healthy": {
+   "classes": 36,
+   "images": 37997
+  },
+  "other": {
+   "classes": 2,
+   "images": 7997
+  },
+  "pest": {
+   "classes": 29,
+   "images": 20020
+  }
+ },
+ "by_imagery": {
+  "field": 106952,
+  "lab": 58799,
+  "mixed": 14398,
+  "other": 7997
+ },
+ "by_crop": {
+  "Apple": {
+   "classes": 4,
+   "images": 3434
+  },
+  "Banana": {
+   "classes": 12,
+   "images": 6959
+  },
+  "Bean": {
+   "classes": 3,
+   "images": 1295
+  },
+  "Bell Pepper": {
+   "classes": 2,
+   "images": 2603
+  },
+  "Betel": {
+   "classes": 3,
+   "images": 1998
+  },
+  "Black gram": {
+   "classes": 7,
+   "images": 4627
+  },
+  "Blueberry": {
+   "classes": 1,
+   "images": 1616
+  },
+  "Brinjal": {
+   "classes": 6,
+   "images": 3764
+  },
+  "Cashew": {
+   "classes": 5,
+   "images": 6540
+  },
+  "Cassava": {
+   "classes": 6,
+   "images": 16711
+  },
+  "Cherry": {
+   "classes": 2,
+   "images": 1959
+  },
+  "Chilli": {
+   "classes": 5,
+   "images": 530
+  },
+  "Citrus": {
+   "classes": 10,
+   "images": 6355
+  },
+  "Coffee": {
+   "classes": 8,
+   "images": 804
+  },
+  "Cotton": {
+   "classes": 7,
+   "images": 2127
+  },
+  "Date palm": {
+   "classes": 9,
+   "images": 2688
+  },
+  "Grape": {
+   "classes": 7,
+   "images": 6265
+  },
+  "Groundnut": {
+   "classes": 5,
+   "images": 3058
+  },
+  "Lemon": {
+   "classes": 8,
+   "images": 1163
+  },
+  "Lentil": {
+   "classes": 4,
+   "images": 5349
+  },
+  "Maize": {
+   "classes": 9,
+   "images": 13429
+  },
+  "Mango": {
+   "classes": 8,
+   "images": 3731
+  },
+  "Okra": {
+   "classes": 5,
+   "images": 262
+  },
+  "Onion": {
+   "classes": 6,
+   "images": 3666
+  },
+  "Papaya": {
+   "classes": 6,
+   "images": 1368
+  },
+  "Peach": {
+   "classes": 2,
+   "images": 2766
+  },
+  "Potato": {
+   "classes": 7,
+   "images": 4626
+  },
+  "Raspberry": {
+   "classes": 1,
+   "images": 489
+  },
+  "Rice": {
+   "classes": 13,
+   "images": 14992
+  },
+  "Soybean": {
+   "classes": 6,
+   "images": 7911
+  },
+  "Spinach": {
+   "classes": 5,
+   "images": 2955
+  },
+  "Squash": {
+   "classes": 1,
+   "images": 1964
+  },
+  "Strawberry": {
+   "classes": 2,
+   "images": 1661
+  },
+  "Sugarcane": {
+   "classes": 10,
+   "images": 4856
+  },
+  "Sunflower": {
+   "classes": 4,
+   "images": 2328
+  },
+  "Tea": {
+   "classes": 7,
+   "images": 5227
+  },
+  "Tomato": {
+   "classes": 13,
+   "images": 27680
+  },
+  "Turmeric": {
+   "classes": 2,
+   "images": 393
+  }
+ },
+ "split_method": "Stratified by class, grouped by near-duplicate cluster (256-bit dHash, Hamming <= 10, within source+class) and leaf id; seed 42"
+}

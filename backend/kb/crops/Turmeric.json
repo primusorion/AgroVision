@@ -1,0 +1,55 @@
+{
+  "crop": "Turmeric",
+  "scientific_name": "Curcuma longa",
+  "family": "Zingiberaceae",
+  "description": "Turmeric is a 7-9 month rhizome spice grown on raised beds or ridges, with Telangana (Nizamabad), Andhra Pradesh (Duggirala, Kadapa), Maharashtra and Tamil Nadu as the main producers. It needs heavy organic manuring, good drainage and disease-free seed rhizomes.",
+  "common_varieties": ["Duggirala", "Mydukur", "Armoor", "Salem", "Prathibha", "Roma"],
+  "npk": {"N": 150, "P2O5": 60, "K2O": 108, "unit": "kg/ha"},
+  "npk_split": "Apply all P and half the K at planting, give the N in three equal splits at 40, 80 and 120 days after planting, and apply the remaining K with the second split at earthing up.",
+  "conditions": {
+    "Leaf blotch": {
+      "name": "Leaf Blotch",
+      "kind": "disease",
+      "cause": "Taphrina maculans",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf disease that appears on the lower leaves in humid weather, usually from October-November. Many small spots merge and the foliage looks reddish-brown and scorched, which reduces rhizome yield.",
+      "symptoms": [
+        "Many small oval to rectangular yellow spots on both leaf surfaces",
+        "Spots arranged in rows along the veins",
+        "Spots turn dirty yellow, then dark golden-brown",
+        "Spots merge into irregular blotches and the leaf looks scorched",
+        "Lower leaves are affected first"
+      ],
+      "spread": "Airborne spores from infected lower leaves and dried leaf debris spread in humid weather at moderate temperatures.",
+      "action": "Remove and burn badly blotched lower leaves and spray mancozeb 75 WP 2.5 g/L, repeating after 15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Add a sticker and cover both leaf surfaces; 2-3 sprays at 15-day intervals from first spots."},
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Alternate with mancozeb when the disease is spreading fast; only where the label lists your crop."},
+        {"name": "Seed rhizome treatment with mancozeb 75 WP", "type": "Fungicide", "dose": "3 g/L water, dip for 30 minutes", "notes": "Select seed rhizomes from a healthy crop, dip, and dry in shade before planting."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Broad, uniform green leaves",
+        "No yellow spots, brown blotches or drying",
+        "Steady new leaf and tiller growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue fortnightly scouting of the lower leaves, especially in humid weather.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

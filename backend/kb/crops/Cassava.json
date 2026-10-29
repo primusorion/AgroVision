@@ -1,0 +1,147 @@
+{
+  "crop": "Cassava",
+  "scientific_name": "Manihot esculenta",
+  "family": "Euphorbiaceae",
+  "description": "Cassava (tapioca, karrapendalam) is a tuber crop grown from stem cuttings in Kerala, Tamil Nadu and the East Godavari area of Andhra Pradesh for food, sago and starch. It tolerates drought and poor soils, but mosaic disease spreads easily through infected planting setts.",
+  "common_varieties": ["H-226", "H-165", "Sree Vijaya", "Sree Jaya", "Sree Athulya", "Sree Padmanabha"],
+  "npk": {"N": 100, "P2O5": 50, "K2O": 100, "unit": "kg/ha"},
+  "npk_split": "Apply all P with half the N and half the K at planting, and the remaining N and K at 45-60 days after planting along with earthing up.",
+  "conditions": {
+    "Bacterial blight": {
+      "name": "Bacterial Blight",
+      "kind": "disease",
+      "cause": "Xanthomonas phaseoli pv. manihotis (syn. Xanthomonas axonopodis pv. manihotis)",
+      "type": "Bacterial",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "A bacterial disease that blights the leaves and moves into the stem, causing shoot dieback in the rainy season. It is carried in infected cuttings, and antibiotics must not be used.",
+      "symptoms": [
+        "Angular water-soaked spots on the leaves",
+        "Spots merge into brown blighted patches and the leaf wilts and dries",
+        "Yellowish gum drops on leaf stalks and young stems",
+        "Shoot tips die back, leaving bare stem ends"
+      ],
+      "spread": "Carried in infected planting setts and spread by rain splash, tools and insects during wet weather.",
+      "action": "Cut out and burn affected shoots in dry weather, disinfect the knife between plants, and take planting setts only from healthy plants.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Healthy planting setts", "type": "Cultural", "dose": "-", "notes": "The main control; select setts from symptom-free plants and rotate the field with a non-host crop for one season."},
+        {"name": "Copper oxychloride 50 WP", "type": "Bactericide", "dose": "3 g/L water", "notes": "Protective only; limits spread on young plants in wet weather but does not cure infected stems."}
+      ]
+    },
+    "Brown spot": {
+      "name": "Brown Leaf Spot",
+      "kind": "disease",
+      "cause": "Passalora henningsii (syn. Cercosporidium henningsii)",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A common fungal leaf spot of older cassava leaves in warm, humid weather. It causes early fall of the lower leaves but usually little yield loss.",
+      "symptoms": [
+        "Brown angular spots with a darker border on the upper leaf surface, limited by the veins",
+        "Greyish mould on the underside of the spots",
+        "Older lower leaves turn yellow and fall early"
+      ],
+      "spread": "Spores from fallen diseased leaves spread by wind and rain splash in warm, humid weather.",
+      "action": "Collect and destroy fallen diseased leaves, and spray mancozeb 75 WP 2.5 g/L only if young leaves are heavily spotted.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Seldom needed; spray only when spotting is heavy on a crop younger than 5 months."},
+        {"name": "Wider spacing", "type": "Cultural", "dose": "-", "notes": "Plant at the recommended spacing and keep the field weeded so the canopy dries quickly."}
+      ]
+    },
+    "Brown streak disease": {
+      "name": "Brown Streak Disease",
+      "kind": "disease",
+      "cause": "Cassava brown streak virus / Ugandan cassava brown streak virus (ipomoviruses)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A virus disease of East and Central Africa that causes a dry brown rot inside the tubers; it is not known to occur in India. There is no curative spray, and a detection here may be a misreading of mosaic or normal leaf ageing, so get it confirmed.",
+      "symptoms": [
+        "Yellow feathery patches along the smaller veins of older leaves, without leaf distortion",
+        "Brown streaks on the green part of the stem",
+        "Dry brown corky rot inside the tubers",
+        "Tubers constricted and misshapen"
+      ],
+      "spread": "Carried in infected planting setts and spread by whiteflies.",
+      "action": "Uproot and burn the affected plants and report them to the nearest KVK or agriculture officer, because this disease is not known to occur in India.",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {"name": "Roguing and clean setts", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; never take planting setts from affected plants and do not move setts out of the area."}
+      ]
+    },
+    "Green mite": {
+      "name": "Green Mite",
+      "kind": "pest",
+      "cause": "Cassava green mite (Mononychellus tanajoa); in India similar damage is caused by spider mites (Tetranychus spp.)",
+      "type": "Mite",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny mites that suck sap from the young top leaves during the dry season. Leaves become speckled, small and narrow, and in heavy attack the shoot tip sheds its leaves.",
+      "symptoms": [
+        "Tiny yellow pin-prick specks on young top leaves",
+        "Young leaves small, narrow and mottled",
+        "Tiny green or red mites and fine webbing on the leaf underside",
+        "Shoot tip dries and drops leaves, leaving a bare candle-stick tip"
+      ],
+      "spread": "Mites are carried by wind and on planting setts and multiply fast in hot, dry weather.",
+      "action": "Spray water forcefully on the underside of the leaves every 10 days, and spray fenazaquin 10 EC 2 ml/L if the top leaves are still drying.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Water spray", "type": "Cultural", "dose": "-", "notes": "A strong jet of water on the leaf underside at 10-day intervals washes off mites in the dry season."},
+        {"name": "Neem oil 1500 ppm", "type": "Miticide", "dose": "5 ml/L water", "notes": "For light to moderate attack; cover the underside of the top leaves."},
+        {"name": "Fenazaquin 10 EC", "type": "Miticide", "dose": "2 ml/L water", "notes": "Only for heavy attack; one spray, as per label, and only where the label lists your crop."}
+      ]
+    },
+    "Mosaic disease": {
+      "name": "Mosaic Disease",
+      "kind": "disease",
+      "cause": "Indian cassava mosaic virus / Sri Lankan cassava mosaic virus (begomoviruses)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most important disease of cassava in India, carried mainly in infected planting setts and also spread by whitefly. There is no curative spray, and infected plants give few, small tubers.",
+      "symptoms": [
+        "Pale green to yellow and green mosaic patches on the leaves",
+        "Leaflets twisted, distorted and smaller than normal",
+        "Stunted plants",
+        "Few, small tubers"
+      ],
+      "spread": "Spreads mainly through setts taken from infected plants and from plant to plant by whiteflies.",
+      "action": "Uproot and burn mosaic plants as soon as they are seen and take setts for the next crop only from symptom-free plants.",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {"name": "Mosaic-free setts and roguing", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; mark healthy plants during the season and use only their stems for planting."},
+        {"name": "Resistant varieties", "type": "Cultural", "dose": "-", "notes": "Grow mosaic-resistant varieties such as Sree Padmanabha or Sree Reksha where the disease is severe."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L water", "notes": "Whitefly control only, in the first 3 months; install yellow sticky traps."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Mark such plants as a source of healthy planting setts.",
+      "symptoms": [
+        "Uniform green, fully opened hand-shaped leaves",
+        "No mosaic, spots, specks or distortion",
+        "Normal leaf size and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue fortnightly scouting and mark healthy plants for taking planting setts.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

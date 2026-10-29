@@ -1,0 +1,301 @@
+{
+  "crop": "Tomato",
+  "scientific_name": "Solanum lycopersicum",
+  "family": "Solanaceae",
+  "description": "Tomato is one of India's most important vegetables, grown in all seasons for fresh market and processing. It is a warm-season crop that does best at 21-27 °C on well-drained loam with pH 6.0-7.0.",
+  "common_varieties": ["Arka Rakshak (F1)", "Arka Samrat (F1)", "Arka Vikas", "Pusa Ruby", "Pusa Rohini", "PKM 1"],
+  "npk": {"N": 120, "P2O5": 80, "K2O": 80, "unit": "kg/ha"},
+  "npk_split": "Basal at transplanting: 1/2 N + full P2O5 + full K2O; top-dress the remaining N in two equal splits at 30 and 60 days after transplanting (hybrids: up to 200:100:100 kg/ha in 4-5 splits or through drip fertigation).",
+  "conditions": {
+    "Bacterial spot": {
+      "name": "Bacterial Spot",
+      "kind": "disease",
+      "cause": "Xanthomonas spp. (X. euvesicatoria, X. vesicatoria, X. perforans, X. gardneri)",
+      "type": "Bacterial",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Bacterial spot causes leaf spotting, defoliation and blemished fruit in tomato, mainly in warm, wet seasons. Once established it is hard to control, so clean seed and early copper sprays are key.",
+      "symptoms": [
+        "Small (<3 mm), dark, greasy/water-soaked spots on leaves, often with a yellow halo",
+        "Spots turn brown to black, often clustering at leaf margins and tips; centres may fall out",
+        "Severe infection causes yellowing and leaf drop",
+        "Raised, scabby spots on green fruit"
+      ],
+      "spread": "Seed-borne and carried on transplants and crop debris; spreads by rain splash, overhead irrigation, wind-driven rain and handling wet plants; favoured by 24-30 °C and wet, humid weather.",
+      "action": "Spray a copper bactericide (Copper hydroxide 77 WP 2 g/L) now and every 7-10 days in wet weather; remove badly infected leaves.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {"name": "Hot-water seed treatment", "type": "Cultural", "dose": "About 50 °C for 25-30 minutes", "notes": "Kills seed-borne bacteria before sowing; dry the seed in shade afterwards."},
+        {"name": "Rotate away from solanaceous crops", "type": "Cultural", "dose": "2-3 years", "notes": "Tomato, chilli and capsicum share these bacteria."}
+      ]
+    },
+    "Bacterial wilt": {
+      "name": "Bacterial Wilt",
+      "kind": "disease",
+      "cause": "Ralstonia solanacearum",
+      "type": "Bacterial",
+      "severity_weight": 0.95,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Bacterial wilt is a soil-borne disease that kills tomato plants within days in warm, wet soils, and is common in coastal and high-rainfall areas. The bacteria block the water-conducting vessels, so no spray can save an infected plant.",
+      "symptoms": [
+        "Sudden wilting of the whole plant while the leaves are still green",
+        "Youngest leaves droop first in the hot part of the day",
+        "Brown discolouration inside the lower stem when cut",
+        "Milky white ooze streams out when the cut stem is held in a glass of clear water"
+      ],
+      "spread": "The bacteria survive for years in soil, crop debris and weed hosts and enter roots through wounds made by transplanting, weeding and nematodes; spread by irrigation water, soil on tools and infected seedlings, and favoured by warm (28-35 °C), wet soil.",
+      "action": "Uproot wilted plants with the root-ball soil and destroy them away from the field, and stop irrigation water flowing from that spot to healthy plants; no spray cures bacterial wilt.",
+      "manage": "bacterial_wilt",
+      "treatment": [
+        {"name": "Wilt-resistant varieties", "type": "Cultural", "dose": "-", "notes": "Arka Rakshak, Arka Samrat, Arka Abha and Arka Alok (IIHR) resist bacterial wilt; plant them in fields with a wilt history."},
+        {"name": "Grafted seedlings", "type": "Cultural", "dose": "-", "notes": "Tomato grafted on wilt-resistant brinjal rootstock is an option where nurseries supply it."}
+      ]
+    },
+    "Early blight": {
+      "name": "Early Blight",
+      "kind": "disease",
+      "cause": "Alternaria solani / A. linariae (syn. A. tomatophila)",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Early blight is one of the most common tomato diseases, attacking leaves, stems and fruit and starting on the oldest leaves. Repeated defoliation exposes fruit to sunscald and sharply cuts yield.",
+      "symptoms": [
+        "Brown to black spots with concentric rings (target-like) on older leaves",
+        "Yellow halo around spots; heavily spotted leaves yellow and drop",
+        "Dark, sunken 'collar rot' lesions on seedling stems",
+        "Leathery, sunken dark spots near the stem end of fruit"
+      ],
+      "spread": "Survives in infected crop debris, soil and solanaceous weeds; spores spread by wind, rain splash and workers; favoured by warm weather (24-29 °C), alternating wet and dry spells and stressed, under-fed plants.",
+      "action": "Spray Mancozeb 75 WP (2.5 g/L) now, repeat every 7-10 days, and remove infected lower leaves.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Rotate away from solanaceous crops", "type": "Cultural", "dose": "2-3 years", "notes": "Tomato, potato, brinjal and chilli share this fungus; remove solanaceous weeds as well."}
+      ]
+    },
+    "Fruit borer": {
+      "name": "Fruit Borer",
+      "kind": "pest",
+      "cause": "Helicoverpa armigera (tomato fruit borer)",
+      "type": "Insect",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Tomato fruit borer is the most damaging insect pest of tomato in India. Young caterpillars feed on leaves and flowers, then bore into fruits, which rot and cannot be sold.",
+      "symptoms": [
+        "Small ragged holes in young leaves and eaten flower buds",
+        "Round bore holes in green and ripening fruits",
+        "Caterpillar feeding with its head inside the fruit and the rest of the body outside",
+        "Wet droppings around the hole and rotting fruits",
+        "Green to brown caterpillars with pale stripes along the sides"
+      ],
+      "spread": "Moths fly in at night from other host crops such as cotton, chickpea, pigeon pea, maize and okra and lay single eggs on the upper leaves and flowers; numbers peak from flowering to fruiting.",
+      "action": "Collect and destroy bored fruits and caterpillars, set up Helicoverpa pheromone traps, and spray Bt or HaNPV in the evening while the larvae are still small.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Marigold trap crop", "type": "Cultural", "dose": "1 row of marigold for every 16 rows of tomato", "notes": "Transplant 40-day-old tall marigold with 25-day-old tomato seedlings so both flower together; moths lay their eggs on the marigold."},
+        {"name": "HaNPV (Helicoverpa nuclear polyhedrosis virus)", "type": "Biological", "dose": "250 LE/ha", "notes": "Spray in the evening on young larvae; repeat after 7-10 days."},
+        {"name": "Flubendiamide 39.35 SC (480 g/L)", "type": "Insecticide", "dose": "0.2 ml/L", "notes": "If bored fruits keep increasing; pick ripe fruits first and observe the label waiting period; same group (IRAC 28) as Chlorantraniliprole, so do not spray one after the other."}
+      ]
+    },
+    "Late blight": {
+      "name": "Late Blight",
+      "kind": "disease",
+      "cause": "Phytophthora infestans",
+      "type": "Oomycete",
+      "severity_weight": 1.0,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Late blight is a fast-spreading, highly destructive disease of tomato and potato that can kill plants within a week in cool, humid weather. It affects leaves, stems and fruit.",
+      "symptoms": [
+        "Large, irregular, greasy grey-green to dark brown blotches, often from leaf tips and margins",
+        "White downy growth on the lower leaf surface around lesions in humid weather",
+        "Dark brown stem lesions and rapid collapse of foliage",
+        "Firm, greasy, brown mottled rot on green fruit"
+      ],
+      "spread": "Airborne sporangia travel kilometres on wind and rain from infected potato/tomato fields, cull piles, volunteer plants and infected seed tubers; cool nights (10-20 °C), humidity above 90% and long leaf wetness cause explosive epidemics.",
+      "action": "Act immediately: spray Metalaxyl 8% + Mancozeb 64% WP (2.5 g/L), remove and destroy infected plants, and warn neighbouring growers.",
+      "manage": "oomycete_blight",
+      "treatment": [
+        {"name": "Keep tomato away from potato", "type": "Cultural", "dose": "-", "notes": "Do not grow tomato next to potato; destroy potato cull piles and volunteer plants, which carry the same pathogen."}
+      ]
+    },
+    "Leaf curl virus": {
+      "name": "Leaf Curl Virus",
+      "kind": "disease",
+      "cause": "Tomato leaf curl begomoviruses (Tomato leaf curl New Delhi virus and related Indian species; Tomato yellow leaf curl virus, TYLCV)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tomato leaf curl is a whitefly-transmitted viral disease and one of the most damaging tomato diseases in India and the tropics. Plants infected early are severely stunted and set almost no fruit; there is no cure.",
+      "symptoms": [
+        "Upward and inward curling (cupping) of leaflets",
+        "Yellowing of leaf margins and between veins on young leaves",
+        "Small, crumpled leaves; severe stunting with a bushy look",
+        "Flower drop and very poor fruit set"
+      ],
+      "spread": "Transmitted persistently by the silverleaf whitefly (Bemisia tabaci), not by touch or tools; whiteflies build up in warm, dry weather and move in from infected crops and weeds.",
+      "action": "No cure: uproot and destroy infected plants and control whiteflies now (yellow sticky traps plus Diafenthiuron 50 WP 1 g/L).",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {"name": "Leaf-curl-resistant hybrids", "type": "Cultural", "dose": "-", "notes": "Grow resistant hybrids such as Arka Rakshak and Arka Samrat in whitefly-prone seasons."},
+        {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "Repels and suppresses whitefly nymphs; add a sticker/emulsifier."}
+      ]
+    },
+    "Leaf mold": {
+      "name": "Leaf Mold",
+      "kind": "disease",
+      "cause": "Passalora fulva (syn. Fulvia fulva, Cladosporium fulvum)",
+      "type": "Fungal",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Leaf mold is a fungal disease mainly of polyhouse and dense-canopy tomato under high humidity. It rarely kills plants but reduces photosynthesis and yield when many leaves are affected.",
+      "symptoms": [
+        "Pale green to yellow patches with diffuse edges on the upper leaf surface",
+        "Olive-green to greyish-purple velvety mould under the patches",
+        "Patches turn brown; leaves curl, wither and drop",
+        "Starts on older leaves and moves up the plant"
+      ],
+      "spread": "Spores spread by air currents, splashing water, tools and workers; the fungus survives on crop debris and polyhouse structures and is favoured by relative humidity above 85% at 22-24 °C with poor ventilation.",
+      "action": "Lower humidity (ventilate, prune lower leaves) and spray Chlorothalonil 75 WP (2 g/L) or Mancozeb 75 WP (2.5 g/L).",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Ventilate and prune", "type": "Cultural", "dose": "Keep relative humidity below 85%", "notes": "Ventilate polyhouses, especially in the morning; prune lower leaves and suckers and widen spacing."},
+        {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Systemic (FRAC 11); max 2 sprays/season."},
+        {"name": "Leaf-mold-resistant hybrids", "type": "Cultural", "dose": "-", "notes": "Grow resistant (Cf gene) hybrids in polyhouses."}
+      ]
+    },
+    "Mosaic virus": {
+      "name": "Mosaic Virus",
+      "kind": "disease",
+      "cause": "Tomato mosaic virus (ToMV; Tobamovirus)",
+      "type": "Viral",
+      "severity_weight": 0.85,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tomato mosaic is a highly contagious viral disease that stunts plants and lowers fruit yield and quality. The virus is very stable and survives for years in debris, on tools and on seed.",
+      "symptoms": [
+        "Light-green / dark-green mottling (mosaic) on leaves",
+        "Distorted, puckered, fern-like or narrowed leaves",
+        "Stunted plants with reduced fruit set",
+        "Uneven ripening or internal browning of fruit"
+      ],
+      "spread": "Spread mechanically by hands, tools, clothing and plant contact during pruning and staking, and on seed coats and infected debris; it has no insect vector, and tobacco products can carry related tobamoviruses.",
+      "action": "No cure: remove infected plants and disinfect hands and tools; insecticides will not help because ToMV has no insect vector.",
+      "manage": "viral_contact",
+      "treatment": [
+        {"name": "Seed treatment", "type": "Cultural", "dose": "Trisodium phosphate 10% for 15 min, or dry heat 70 °C for 2-4 days", "notes": "Kills virus on the seed coat before sowing."},
+        {"name": "Resistant hybrids", "type": "Cultural", "dose": "-", "notes": "Use certified seed of ToMV-resistant (Tm-2 gene) hybrids."}
+      ]
+    },
+    "Septoria leaf spot": {
+      "name": "Septoria Leaf Spot",
+      "kind": "disease",
+      "cause": "Septoria lycopersici",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Septoria leaf spot is a destructive foliar disease of tomato that causes heavy defoliation, usually after fruit set. Loss of leaves weakens plants, reduces fruit size and exposes fruit to sunscald.",
+      "symptoms": [
+        "Many small (2-3 mm) circular spots with dark brown borders and grey/tan centres",
+        "Tiny black dots (pycnidia) in the spot centres",
+        "Starts on lower leaves; leaves yellow, wither and drop",
+        "Fruit is rarely affected"
+      ],
+      "spread": "Survives on infected debris and solanaceous weeds; spores spread by rain splash, overhead irrigation, hands and tools; favoured by warm (20-25 °C), wet, humid weather.",
+      "action": "Remove spotted lower leaves and spray Mancozeb 75 WP (2.5 g/L) or Chlorothalonil 75 WP (2 g/L) every 7-10 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Control solanaceous weeds", "type": "Cultural", "dose": "-", "notes": "Black nightshade and other solanaceous weeds carry the fungus; rotate 2-3 years with non-solanaceous crops."}
+      ]
+    },
+    "Spider mites": {
+      "name": "Spider Mites",
+      "kind": "pest",
+      "cause": "Tetranychus urticae (two-spotted spider mite)",
+      "type": "Mite",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Two-spotted spider mites are tiny (about 0.5 mm) sap-sucking arachnids that feed on leaf undersides. Populations explode in hot, dry weather and can defoliate plants within weeks if not controlled.",
+      "symptoms": [
+        "Fine yellow-white speckling (stippling) on the upper leaf surface",
+        "Leaves turn bronze or yellow, dry out and drop",
+        "Fine silk webbing on leaf undersides and between leaves",
+        "Tiny moving mites visible under a hand lens"
+      ],
+      "spread": "Mites crawl between touching plants and are carried by wind, workers, tools and infested transplants, and have a very wide host range including weeds; hot (27-32 °C), dry, dusty conditions and water-stressed plants favour outbreaks.",
+      "action": "Spray a miticide (Abamectin 1.9 EC 0.5 ml/L) on leaf undersides now and keep plants well irrigated.",
+      "manage": "spider_mites",
+      "treatment": []
+    },
+    "Target spot": {
+      "name": "Target Spot",
+      "kind": "disease",
+      "cause": "Corynespora cassiicola",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Target spot is a fungal disease of tomato in warm, humid regions that attacks leaves, stems and fruit. Severe infections cause heavy defoliation and pitted fruit lesions.",
+      "symptoms": [
+        "Small water-soaked spots that grow into brown lesions with light-brown concentric rings",
+        "Lesions often have a yellow halo and may crack in the centre",
+        "Starts in the dense lower canopy and moves up; leaves yellow and drop",
+        "Sunken brown spots with a pitted centre on fruit"
+      ],
+      "spread": "Survives on crop debris and many alternate hosts; spores spread by wind and rain splash; favoured by warm (20-28 °C), humid weather, long leaf wetness and a dense canopy.",
+      "action": "Spray Chlorothalonil 75 WP (2 g/L) or Azoxystrobin 23 SC (1 ml/L), prune the lower canopy and remove infected leaves.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Azoxystrobin 23 SC", "type": "Fungicide", "dose": "1 ml/L", "notes": "Systemic (FRAC 11); max 2 sprays/season, rotate with Difenoconazole."},
+        {"name": "Prune the lower canopy", "type": "Cultural", "dose": "-", "notes": "Remove lower leaves to open dense canopies and keep the field weed-free - Corynespora has many hosts."}
+      ]
+    },
+    "Verticillium wilt": {
+      "name": "Verticillium Wilt",
+      "kind": "disease",
+      "cause": "Verticillium dahliae (also V. albo-atrum)",
+      "type": "Fungal",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Verticillium wilt is a soil-borne fungal disease that blocks the water-conducting vessels of tomato, mostly in cooler seasons and hill areas. Plants seldom die quickly but stay stunted and bear small fruit.",
+      "symptoms": [
+        "V-shaped yellow patches at the edges of lower leaflets that turn brown",
+        "Lower leaves wilt in the midday heat and recover in the evening",
+        "Older leaves dry and drop from the bottom of the plant upward",
+        "Light brown streaks inside the lower stem when cut lengthwise",
+        "Stunted plants with small fruit"
+      ],
+      "spread": "The fungus survives for many years in soil as tiny resting bodies, enters through roots and is carried in soil on tools, in irrigation water and on infected seedlings; favoured by cool (20-24 °C), moist soil.",
+      "action": "Remove badly wilted plants, keep the remaining crop evenly watered and fed, and rotate the field to cereals for 3-4 years, because no spray cures Verticillium wilt.",
+      "manage": "soilborne_wilt_rot",
+      "treatment": [
+        {"name": "Resistant hybrids", "type": "Cultural", "dose": "-", "notes": "Where the disease recurs, grow hybrids that the seed supplier lists as Verticillium-resistant (V)."},
+        {"name": "Rotation with cereals", "type": "Cultural", "dose": "3-4 years", "notes": "Keep brinjal, potato, okra, cotton and chilli out of the rotation; they host the same fungus."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "No disease or pest symptoms are visible on this tomato leaf. Keep up balanced nutrition, regular irrigation and weekly scouting to keep the crop healthy.",
+      "symptoms": ["Uniform green colour", "No spots, lesions, mottling, curling or webbing"],
+      "spread": "-",
+      "action": "No treatment is needed.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

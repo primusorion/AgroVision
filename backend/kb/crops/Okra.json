@@ -1,0 +1,147 @@
+{
+  "crop": "Okra",
+  "scientific_name": "Abelmoschus esculentus",
+  "family": "Malvaceae",
+  "description": "Okra (bhendi, bhindi) is a warm-season vegetable grown almost year-round in Andhra Pradesh, Telangana, Gujarat and West Bengal. Whitefly-borne yellow vein mosaic and leaf curl viruses are its main threats, so resistant hybrids are preferred.",
+  "common_varieties": ["Arka Anamika", "Arka Abhay", "Parbhani Kranti", "Pusa A-4", "Varsha Uphar", "Kashi Pragati"],
+  "npk": {"N": 100, "P2O5": 60, "K2O": 50, "unit": "kg/ha"},
+  "npk_split": "Apply half the N with all P and K at sowing and the remaining N in two equal splits at 30 and 45 days after sowing.",
+  "conditions": {
+    "Alternaria leaf spot": {
+      "name": "Alternaria Leaf Spot",
+      "kind": "disease",
+      "cause": "Alternaria alternata",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf spot that attacks older and weak leaves in warm, humid weather. Heavy spotting dries the lower leaves and shortens the picking period.",
+      "symptoms": [
+        "Small brown round spots with ring-like (target) markings",
+        "Yellow halo around the spots",
+        "Spots merge into large dead patches",
+        "Older leaves dry and drop"
+      ],
+      "spread": "Survives on crop debris and spreads by wind and rain splash in warm, humid weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or chlorothalonil 75 WP 2 g/L at the first spots and repeat after 10-15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Pick marketable pods before spraying and observe the label waiting period."},
+        {"name": "Chlorothalonil 75 WP", "type": "Fungicide", "dose": "2 g/L water", "notes": "Alternative protective spray; only where the label lists your crop."}
+      ]
+    },
+    "Cercospora leaf spot": {
+      "name": "Cercospora Leaf Spot",
+      "kind": "disease",
+      "cause": "Cercospora abelmoschi, Cercospora malayensis",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease of okra leaves in humid, rainy weather, seen as sooty black mould under the leaf or as brown spots. Severe attack causes leaves to roll, dry and fall.",
+      "symptoms": [
+        "Sooty black mould patches on the underside of the leaf with no clear border",
+        "Faint yellow patches on the upper surface above the mould",
+        "Brown irregular spots with grey centre and dark margin",
+        "Leaves roll, dry and drop"
+      ],
+      "spread": "Survives on crop residue and spreads by wind and rain splash in humid, rainy weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or carbendazim 50 WP 1 g/L on both leaf surfaces and repeat after 15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Wet the leaf underside; pick pods before spraying and observe the label waiting period."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Alternate with mancozeb."}
+      ]
+    },
+    "Downy mildew": {
+      "name": "Downy Mildew",
+      "kind": "disease",
+      "cause": "Downy-mildew-type oomycete; the species on okra is not well documented",
+      "type": "Oomycete",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A downy-mildew-type leaf disease that appears in cool, wet weather as yellow patches with downy growth underneath. It is uncommon on okra in India and is easily confused with powdery mildew or Cercospora sooty mould, so check the leaf underside before spraying.",
+      "symptoms": [
+        "Pale yellow, angular patches on the upper leaf surface",
+        "Greyish downy growth on the underside below the patches",
+        "Patches turn brown and dry",
+        "Affected leaves curl and drop early"
+      ],
+      "spread": "Spores spread by wind and rain splash when leaves stay wet for long periods in cool, humid weather.",
+      "action": "Remove badly affected leaves, avoid overhead watering, and spray mancozeb 75 WP 2.5 g/L if the patches are spreading in wet weather.",
+      "manage": "downy_mildew",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective spray that also covers the common leaf spots if the diagnosis is uncertain; pick pods before spraying and observe the label waiting period."},
+        {"name": "Wider spacing and drainage", "type": "Cultural", "dose": "-", "notes": "Keep the crop open and well drained so the leaves dry quickly."}
+      ]
+    },
+    "Leaf curl virus": {
+      "name": "Leaf Curl Virus",
+      "kind": "disease",
+      "cause": "Okra enation leaf curl virus (begomovirus)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A whitefly-borne virus disease that curls and thickens the leaves and twists the stem. There is no curative spray, and plants infected early give few, small, deformed pods.",
+      "symptoms": [
+        "Leaves curl upward or downward and become thick and leathery",
+        "Small pin-head outgrowths (enations) on the veins under the leaf",
+        "Main stem and leaf stalks twist and bend",
+        "Stunted plants with few, small, deformed pods"
+      ],
+      "spread": "Spread by whiteflies from infected okra and weed hosts, mostly in hot, dry weather; it is not carried by seed or soil.",
+      "action": "Pull out and destroy curled plants at once and spray thiamethoxam 25 WG 0.3 g/L to check whiteflies.",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {"name": "Roguing and resistant hybrids", "type": "Cultural", "dose": "-", "notes": "No spray cures the virus; remove infected plants early and grow a variety or hybrid released as resistant to leaf curl and yellow vein mosaic."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L water", "notes": "Vector control only; pick pods before spraying and observe the label waiting period; spray in the evening, never on open flowers (toxic to bees)."},
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L water", "notes": "Use between insecticide sprays and install yellow sticky traps for whitefly."}
+      ]
+    },
+    "Phyllosticta leaf spot": {
+      "name": "Phyllosticta Leaf Spot",
+      "kind": "disease",
+      "cause": "Phyllosticta hibiscina",
+      "type": "Fungal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A minor fungal leaf spot of okra seen in warm, wet weather. The spot centres dry and fall out, and badly spotted leaves dry and drop.",
+      "symptoms": [
+        "Round to irregular ash-grey spots with a dark brown margin",
+        "Tiny black dots in the centre of the spots",
+        "Spot centres fall out leaving shot-holes",
+        "Badly spotted leaves dry and drop"
+      ],
+      "spread": "Survives on infected crop debris and spreads by rain splash in warm, wet weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or copper oxychloride 50 WP 3 g/L at the first spots and repeat after 10-15 days if rain continues.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Pick marketable pods before spraying and observe the label waiting period."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L water", "notes": "Alternative protective spray."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Uniform green lobed leaves with green veins",
+        "No spots, mould, curling or yellow veins",
+        "Normal leaf size and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting and watch for whiteflies and yellow veins on young leaves.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

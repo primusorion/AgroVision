@@ -1,0 +1,27 @@
+# local only: datasets, environments, caches, editor/tool settings
+data/
+.venv/
+__pycache__/
+*.pyc
+.claude/
+backend.zip
+Problem statement.pdf
+
+# unpublished manuscript
+paper/
+
+# large or intermediate results (per-image test probabilities, logs, old runs)
+results/v1/
+results/smoke/
+results/**/*.npz
+results/*.log
+results/*.done
+models/v1/
+
+# only the deployed models are published; the rest can be retrained with ml/train_all.bat
+models/*.pt
+!models/leaf_efficientnet_v2_s.pt
+!models/pest_efficientnet_v2_s.pt
+models/*_calibration.json
+!models/leaf_efficientnet_v2_s_calibration.json
+!models/pest_efficientnet_v2_s_calibration.json

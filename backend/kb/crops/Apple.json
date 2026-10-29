@@ -1,0 +1,104 @@
+{
+  "crop": "Apple",
+  "scientific_name": "Malus domestica",
+  "family": "Rosaceae",
+  "description": "Temperate fruit tree grown in India mainly in Jammu & Kashmir, Himachal Pradesh and Uttarakhand. It needs winter chilling, so in the plains and in Andhra Pradesh / Telangana only low-chill varieties such as Anna and HRMN-99 are tried.",
+  "common_varieties": ["Royal Delicious", "Red Delicious", "Golden Delicious", "Ambri", "Gala", "Anna (low-chill)"],
+  "npk": {"N": 700, "P2O5": 350, "K2O": 700, "unit": "g/plant/year"},
+  "npk_split": "For trees 10 years and older: apply FYM with all P and K in December-January, half the N 2-3 weeks before flowering and the rest a month later.",
+  "conditions": {
+    "Black rot": {
+      "name": "Black Rot",
+      "kind": "disease",
+      "cause": "Botryosphaeria obtusa (Diplodia seriata)",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal disease that causes 'frog-eye' leaf spots, a firm black fruit rot and cankers on limbs. The fungus lives in dead wood and mummified fruits and builds up in poorly pruned orchards.",
+      "symptoms": [
+        "Small purple specks on leaves that grow into round spots with a tan centre and purple-brown border (frog-eye)",
+        "Badly spotted leaves turn yellow and fall early",
+        "Firm brown to black rot starting at the blossom end of the fruit",
+        "Rotted fruits dry into black mummies that stay on the tree",
+        "Sunken, cracked, reddish-brown bark (canker) on limbs"
+      ],
+      "spread": "Rain splashes spores from cankers, dead wood and mummified fruits onto leaves, fruits and wounds in warm wet weather.",
+      "action": "Prune out cankered and dead wood, remove all mummified fruits and protect new growth with a fungicide spray after petal fall.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Canker pruning and removal of mummified fruits", "type": "Cultural", "dose": "-", "notes": "Cut back to healthy wood during dry weather and burn the prunings."},
+        {"name": "Copper oxychloride 50 WP paste or Bordeaux paste", "type": "Fungicide", "dose": "Paint on pruning cuts", "notes": "Seal every large cut the same day."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "From petal fall at 14-day intervals in wet weather."}
+      ]
+    },
+    "Cedar apple rust": {
+      "name": "Cedar Apple Rust",
+      "kind": "disease",
+      "cause": "Gymnosporangium juniperi-virginianae",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Rust disease that needs both apple and juniper (cedar) trees to complete its life cycle. It is a North American disease not known to be established in India, so have the diagnosis confirmed before spraying.",
+      "symptoms": [
+        "Bright yellow-orange round spots on the upper leaf surface, often with a red border",
+        "Tiny black dots in the centre of the spots",
+        "Small pale tube-like tufts under the spots on the leaf underside",
+        "Heavily spotted leaves turn yellow and drop",
+        "Similar orange spots on young fruits"
+      ],
+      "spread": "Wind carries spores from galls on juniper trees to apple leaves in wet spring weather; it does not spread from apple to apple.",
+      "action": "Get the diagnosis confirmed by the horticulture officer and remove juniper (cedar) hosts close to the orchard.",
+      "manage": "rust",
+      "treatment": [
+        {"name": "Removal of juniper (cedar) hosts near the orchard", "type": "Cultural", "dose": "-", "notes": "Breaks the life cycle; the rust cannot survive on apple alone."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Protective sprays from pink bud until 3-4 weeks after petal fall."},
+        {"name": "Myclobutanil 10 WP", "type": "Fungicide", "dose": "0.4 g/L", "notes": "Registered on apple for scab; the same sprays also check rust."}
+      ]
+    },
+    "Scab": {
+      "name": "Apple Scab",
+      "kind": "disease",
+      "cause": "Venturia inaequalis",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most damaging fungal disease of apple in Kashmir and Himachal Pradesh, attacking leaves and fruits in cool, wet springs. Scabbed fruits crack, stay small and lose market value.",
+      "symptoms": [
+        "Olive-green to black velvety spots on leaves",
+        "Spotted leaves pucker, turn yellow and fall early",
+        "Dark, rough, corky scabs on fruits",
+        "Scabbed fruits are misshapen and crack"
+      ],
+      "spread": "Spores released from last year's fallen leaves infect new leaves in spring rain and then spread from spot to spot by rain splash.",
+      "action": "Start protective fungicide sprays at green tip to pink bud stage and repeat every 10-14 days while the weather stays wet.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Protectant; from green tip / pink bud stage at 10-14 day intervals."},
+        {"name": "Difenoconazole 25 EC", "type": "Fungicide", "dose": "0.15 ml/L (30 ml in 200 L)", "notes": "At petal fall and fruit set; not more than 2 sprays a season."},
+        {"name": "Urea 5% spray on leaves before leaf fall", "type": "Cultural", "dose": "50 g/L", "notes": "Speeds up rotting of fallen leaves that carry the fungus; also collect and burn fallen leaves."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep following the regular orchard spray and nutrition schedule.",
+      "symptoms": [
+        "Uniform green leaves without spots or powdery growth",
+        "No curling, puckering or early leaf fall",
+        "Normal shoot growth"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue regular pruning, balanced manuring and weekly scouting of the orchard.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "crop": "Coffee",
+  "scientific_name": "Coffea arabica (arabica), Coffea canephora (robusta)",
+  "family": "Rubiaceae",
+  "description": "Coffee is a shade-grown perennial bush of the hills of Karnataka, Kerala and Tamil Nadu and of the Araku valley and Eastern Ghats of Andhra Pradesh, where tribal growers raise arabica under silver oak and pepper. The acidic, high-rainfall hill soils leach nutrients fast, so regular liming and split manuring decide the yield.",
+  "common_varieties": ["Sln.795 (S.795)", "Sln.9", "Chandragiri", "Cauvery (Catimor)", "S.274 (Robusta)", "CxR (Robusta)"],
+  "npk": {"N": 160, "P2O5": 120, "K2O": 160, "unit": "kg/ha"},
+  "npk_split": "Apply in 3-4 equal splits - pre-blossom (March), pre-monsoon (May), mid-monsoon (August, where the crop is heavy) and post-monsoon (October); the dose is for bearing arabica yielding 1 t/ha or more, and robusta needs about 120:90:120.",
+  "conditions": {
+    "Boron deficiency": {
+      "name": "Boron Deficiency",
+      "kind": "deficiency",
+      "cause": "Boron (B)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of boron, seen on sandy, leached or freshly limed soils and during dry spells. It kills shoot tips and deforms new leaves, which reduces flowering wood and fruit set.",
+      "symptoms": [
+        "Shows on the youngest leaves and shoot tips",
+        "New leaves small, narrow, twisted and leathery with uneven edges",
+        "Pale olive-green mottling towards the tip of young leaves",
+        "Shoot tip dies and many side shoots grow below it, giving a fan-like bunch",
+        "Short internodes and poor fruit set"
+      ],
+      "spread": "Not infectious - occurs on leached sandy soils, after heavy liming and in drought.",
+      "action": "Spray boric acid on the new flush at the label rate and avoid over-liming.",
+      "manage": "deficiency_B",
+      "nutrient": "B",
+      "treatment": [
+        {"name": "Boric acid / soluble boron foliar spray", "type": "Fertilizer", "dose": "1 g/L (as per label)", "notes": "Spray on new flush before the monsoon; never exceed the dose, since excess boron scorches leaves."},
+        {"name": "Mulch and conserve soil moisture", "type": "Cultural", "dose": "-", "notes": "Boron uptake stops in dry soil."}
+      ]
+    },
+    "Calcium deficiency": {
+      "name": "Calcium Deficiency",
+      "kind": "deficiency",
+      "cause": "Calcium (Ca)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Shortage of calcium, typical of strongly acidic, leached coffee soils that have not been limed. It distorts the young leaves, kills shoot and root tips and makes the bush prone to dieback.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "Yellowing starts at the leaf edges and moves inward between the veins",
+        "Area along the midrib stays dark green",
+        "Young leaves cupped or curved, with edges that later dry",
+        "Shoot tips die back in severe cases"
+      ],
+      "spread": "Not infectious - occurs on very acid, leached soils and where potash or ammonium fertilisers are used heavily without lime.",
+      "action": "Test the soil pH and apply agricultural lime or dolomite at the recommended rate after the monsoon.",
+      "manage": "deficiency_Ca",
+      "nutrient": "Ca",
+      "treatment": [
+        {"name": "Agricultural lime or dolomite to soil", "type": "Fertilizer", "dose": "as per soil test (pH)", "notes": "Broadcast between the rows once in 2-3 years, at least a month apart from fertiliser application."}
+      ]
+    },
+    "Iron deficiency": {
+      "name": "Iron Deficiency",
+      "kind": "deficiency",
+      "cause": "Iron (Fe)",
+      "type": "Nutrient",
+      "severity_weight": 0.45,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available iron in the new growth, usually from over-liming, waterlogging, poor roots or too little shade rather than a soil truly low in iron. Young leaves turn pale and growth slows.",
+      "symptoms": [
+        "Shows on the youngest leaves",
+        "Leaf turns pale green, yellow or almost white while the midrib and all fine veins stay sharply green",
+        "Leaf size and shape stay normal",
+        "Older leaves below remain dark green",
+        "Commoner in open, exposed patches and after heavy crops"
+      ],
+      "spread": "Not infectious - brought on by over-liming, waterlogging, root damage and loss of shade.",
+      "action": "Correct drainage, shade and over-liming first, and spray ferrous sulphate on the new flush at the label rate.",
+      "manage": "deficiency_Fe",
+      "nutrient": "Fe",
+      "treatment": [
+        {"name": "Ferrous sulphate or iron chelate foliar spray", "type": "Fertilizer", "dose": "as per label", "notes": "Spray on the new flush and repeat after 2-3 weeks."},
+        {"name": "Open drains and restore shade", "type": "Cultural", "dose": "-", "notes": "Iron deficiency in coffee usually disappears once roots and shade are corrected."}
+      ]
+    },
+    "Magnesium deficiency": {
+      "name": "Magnesium Deficiency",
+      "kind": "deficiency",
+      "cause": "Magnesium (Mg)",
+      "type": "Nutrient",
+      "severity_weight": 0.45,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of magnesium, common on acid, leached soils and on branches carrying a heavy crop, and made worse by heavy potash. Older leaves yellow and drop, weakening the bearing branches.",
+      "symptoms": [
+        "Shows on older leaves, mostly on branches loaded with berries",
+        "Yellow to olive-bronze colour between the veins",
+        "Midrib and main side veins keep a green band along them, giving a herringbone pattern",
+        "Brown dead spots later appear in the yellow areas",
+        "Affected leaves fall early"
+      ],
+      "spread": "Not infectious - occurs on acid, leached soils, with heavy potash use and in heavy-crop years.",
+      "action": "Apply dolomitic lime as per soil test and spray magnesium sulphate on the leaves.",
+      "manage": "deficiency_Mg",
+      "nutrient": "Mg",
+      "treatment": [
+        {"name": "Dolomitic lime to soil", "type": "Fertilizer", "dose": "as per soil test (pH)", "notes": "Supplies both calcium and magnesium on acid coffee soils."},
+        {"name": "Magnesium sulphate (Epsom salt) foliar spray", "type": "Fertilizer", "dose": "5 g/L", "notes": "Quick correction during berry development; repeat after 3-4 weeks."}
+      ]
+    },
+    "Manganese deficiency": {
+      "name": "Manganese Deficiency",
+      "kind": "deficiency",
+      "cause": "Manganese (Mn)",
+      "type": "Nutrient",
+      "severity_weight": 0.4,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available manganese, seen on over-limed or high-pH patches and on sun-exposed bushes. It is usually mild but lowers leaf efficiency if it persists.",
+      "symptoms": [
+        "Shows on young, fully opened leaves near the shoot tip",
+        "Pale green to olive-yellow mottle between the veins",
+        "Veins stay green but with a blurred edge, less sharp than in iron deficiency",
+        "Small pale yellow or whitish specks between the veins",
+        "More on the sunny side of the bush"
+      ],
+      "spread": "Not infectious - occurs on over-limed or high-pH soils and in exposed, unshaded areas.",
+      "action": "Spray manganese sulphate on the new flush at the label rate and stop liming until the soil pH is checked.",
+      "manage": "deficiency_Mn",
+      "nutrient": "Mn",
+      "treatment": [
+        {"name": "Manganese sulphate foliar spray", "type": "Fertilizer", "dose": "as per label", "notes": "Spray on the new flush; repeat after 3-4 weeks if new leaves still show mottling."}
+      ]
+    },
+    "Nitrogen deficiency": {
+      "name": "Nitrogen Deficiency",
+      "kind": "deficiency",
+      "cause": "Nitrogen (N)",
+      "type": "Nutrient",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of nitrogen, the most common deficiency of coffee, worst in open or thinly shaded blocks, on weedy or eroded soil and in heavy-crop years. The bush turns pale, sheds leaves and bearing branches die back.",
+      "symptoms": [
+        "Older leaves turn evenly pale green to yellow, veins included",
+        "Later the whole bush looks pale and thin",
+        "New leaves small; shoots short",
+        "Leaf fall and dieback of branches carrying berries",
+        "Worse in unshaded, sun-exposed patches"
+      ],
+      "spread": "Not infectious - seen with missed fertiliser rounds, heavy leaching rain, weed competition and too little shade.",
+      "action": "Apply the due split of nitrogen fertiliser in the drip circle on moist soil and regulate shade and mulch.",
+      "manage": "deficiency_N",
+      "nutrient": "N",
+      "treatment": [
+        {"name": "Urea / ammonium sulphate to soil", "type": "Fertilizer", "dose": "as per schedule (about 40 kg N/ha per split)", "notes": "Apply in the drip circle on moist soil and cover with mulch; not during heavy rain."},
+        {"name": "Maintain shade and mulch", "type": "Cultural", "dose": "-", "notes": "Unshaded arabica uses nitrogen much faster and yellows first."}
+      ]
+    },
+    "Phosphorus deficiency": {
+      "name": "Phosphorus Deficiency",
+      "kind": "deficiency",
+      "cause": "Phosphorus (P)",
+      "type": "Nutrient",
+      "severity_weight": 0.45,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available phosphorus, common on strongly acid red and lateritic soils that fix phosphate. It shows mostly on young plants and heavily bearing branches, with poor roots and little new bearing wood.",
+      "symptoms": [
+        "Shows on older leaves, especially on branches carrying berries",
+        "Leaves lose their gloss and develop yellow mottling",
+        "Mottled areas turn reddish, purple-brown or bronze",
+        "Affected leaves fall early",
+        "Weak root growth and thin new shoots"
+      ],
+      "spread": "Not infectious - occurs on very acid soils that lock up phosphate and where phosphorus is not applied.",
+      "action": "Apply the recommended phosphate (rock phosphate on acid soils) in the drip circle and lime the soil as per soil test.",
+      "manage": "deficiency_P",
+      "nutrient": "P",
+      "treatment": [
+        {"name": "Rock phosphate (acid soils) or single super phosphate to soil", "type": "Fertilizer", "dose": "as per schedule (about 30 kg P2O5/ha per split)", "notes": "Fork lightly into the drip circle and cover with mulch."},
+        {"name": "Lime to correct soil acidity", "type": "Fertilizer", "dose": "as per soil test (pH)", "notes": "Phosphate is far more available once the soil pH is near 6."}
+      ]
+    },
+    "Potassium deficiency": {
+      "name": "Potassium Deficiency",
+      "kind": "deficiency",
+      "cause": "Potassium (K)",
+      "type": "Nutrient",
+      "severity_weight": 0.55,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Shortage of potassium, seen on leached soils and in heavy-crop years because developing berries draw potassium out of the leaves. It scorches older leaves, causes branch dieback and gives light, poorly filled beans.",
+      "symptoms": [
+        "Shows on older leaves, mostly on heavily bearing branches",
+        "Leaf tip and edges turn yellow, then dark brown and dry",
+        "Scorched band moves inward from the edge, with a narrow yellow border",
+        "Leaf edges curl; leaves fall early",
+        "Dieback of bearing branches"
+      ],
+      "spread": "Not infectious - occurs on leached, sandy or eroded soils and when a heavy crop is carried without enough potash.",
+      "action": "Apply the due split of muriate of potash in the drip circle on moist soil.",
+      "manage": "deficiency_K",
+      "nutrient": "K",
+      "treatment": [
+        {"name": "Muriate of potash (60% K2O) to soil", "type": "Fertilizer", "dose": "as per schedule (about 40 kg K2O/ha per split)", "notes": "Apply together with the nitrogen split; do not skip the post-monsoon round in a heavy-crop year."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient deficiency. A dark green, glossy leaf indicates a well-fed bush under adequate shade.",
+      "symptoms": [
+        "Uniform dark green, glossy leaf",
+        "No yellowing between veins, scorched edges or spots",
+        "New leaves of normal size and shape"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue split fertiliser application, liming as per soil test, shade regulation and mulching.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

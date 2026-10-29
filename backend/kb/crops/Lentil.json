@@ -1,0 +1,101 @@
+{
+  "crop": "Lentil",
+  "scientific_name": "Lens culinaris",
+  "family": "Fabaceae",
+  "description": "Lentil (masur) is a cool-season rabi pulse grown mainly in Madhya Pradesh, Uttar Pradesh, Bihar and West Bengal, often on residual moisture after rice. It fixes its own nitrogen and needs only a small starter dose with phosphorus and sulphur.",
+  "common_varieties": ["K 75 (Mallika)", "DPL 62 (Sheri)", "IPL 81 (Noori)", "HUL 57", "JL 3", "L 4076"],
+  "npk": {"N": 20, "P2O5": 40, "K2O": 20, "unit": "kg/ha"},
+  "npk_split": "Apply all N, P and K as basal at sowing along with 20 kg sulphur/ha, and treat the seed with Rhizobium culture.",
+  "conditions": {
+    "Ascochyta blight": {
+      "name": "Ascochyta Blight",
+      "kind": "disease",
+      "cause": "Ascochyta lentis (Didymella lentis)",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A seed- and residue-borne fungal blight that attacks leaves, stems and pods in cool, wet weather. It causes leaf drop, shoot dieback and shrivelled, discoloured seed.",
+      "symptoms": [
+        "Tan to light brown spots with a darker brown margin on leaflets, stems and pods",
+        "Tiny black dots in the centre of the spots",
+        "Leaflets drop and shoot tips die back",
+        "Seed shrivelled with brown patches"
+      ],
+      "spread": "Comes with infected seed and crop residue and spreads by rain splash during cool, wet spells.",
+      "action": "Spray chlorothalonil 75 WP 2 g/L or mancozeb 75 WP 2.5 g/L at the first spots and repeat after 10-15 days if wet weather continues.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Chlorothalonil 75 WP", "type": "Fungicide", "dose": "2 g/L water", "notes": "Protective; most useful at flowering and early pod stage to protect the seed; only where the label lists your crop."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Alternative protective spray."},
+        {"name": "Carbendazim 50 WP seed treatment", "type": "Fungicide", "dose": "2 g/kg seed", "notes": "Use seed from a disease-free crop and treat before sowing; rotate with cereals for 2-3 years."}
+      ]
+    },
+    "Powdery mildew": {
+      "name": "Powdery Mildew",
+      "kind": "disease",
+      "cause": "Erysiphe trifolii (often reported in India as Erysiphe polygoni)",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that covers the plant with white powder, usually late in the season on late-sown crops. Severe attack dries the leaves early and gives small, shrivelled seed.",
+      "symptoms": [
+        "White powdery patches on leaflets, stems and pods",
+        "Whole plant looks dusted with flour",
+        "Leaves turn yellow, curl, dry and drop",
+        "Small, shrivelled seed"
+      ],
+      "spread": "Airborne spores spread quickly in dry weather with warm days and cool nights.",
+      "action": "Spray wettable sulphur 80 WP 3 g/L at the first white patches and repeat after 10-15 days.",
+      "manage": "powdery_mildew",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Fungicide", "dose": "2-3 g/L water", "notes": "Cover both leaf surfaces; do not spray in very hot afternoon sun."},
+        {"name": "Timely sowing", "type": "Cultural", "dose": "-", "notes": "Sow at the recommended time; late-sown lentil is hit hardest."}
+      ]
+    },
+    "Rust": {
+      "name": "Rust",
+      "kind": "disease",
+      "cause": "Uromyces viciae-fabae",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most damaging foliar disease of lentil in north and central India, appearing from flowering in cool, humid weather. Badly affected patches dry up early and look scorched.",
+      "symptoms": [
+        "Yellowish-white pustules on leaflets and pods early in the attack",
+        "Brown powdery pustules on both leaf surfaces, stems and pods",
+        "Pustules turn dark brown to black later",
+        "Plants dry up early in patches that look burnt"
+      ],
+      "spread": "Wind-borne spores from crop debris and self-sown plants spread in cool, cloudy, humid weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or propiconazole 25 EC 1 ml/L at the first pustules and repeat after 10-15 days.",
+      "manage": "rust",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Two sprays at 10-12 day intervals from first appearance."},
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Use when rust is already spreading in the field; only where the label lists your crop."},
+        {"name": "Rust-resistant varieties", "type": "Cultural", "dose": "-", "notes": "Grow resistant varieties such as DPL 62 or L 4076 in rust-prone areas and sow early."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The plant shows no sign of disease, pest or nutrient problem. Keep up regular field scouting.",
+      "symptoms": [
+        "Uniform green leaflets",
+        "No spots, pustules or powdery growth",
+        "Normal branching and flowering"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting, especially from flowering to pod filling.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

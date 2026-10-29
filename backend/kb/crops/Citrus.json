@@ -1,0 +1,278 @@
+{
+  "crop": "Citrus",
+  "scientific_name": "Citrus sinensis (sweet orange), Citrus reticulata (mandarin)",
+  "family": "Rutaceae",
+  "description": "Sweet orange (Sathgudi, Mosambi) and mandarin are evergreen fruit trees grown widely in Andhra Pradesh, Telangana, Maharashtra and Punjab, mostly budded on Rangpur lime or rough lemon rootstock. Trees bear from the 4th-5th year and suffer most from micronutrient deficiencies, greening (HLB) and pests of the tender new flush.",
+  "common_varieties": ["Sathgudi", "Mosambi", "Nagpur Mandarin", "Kinnow", "Coorg Mandarin", "Blood Red Malta"],
+  "npk": {"N": 600, "P2O5": 200, "K2O": 300, "unit": "g/plant/year"},
+  "npk_split": "Apply in two equal splits with FYM in the tree basin - December-January (before flowering) and June-July (onset of monsoon); the dose is for trees of 6 years and older.",
+  "conditions": {
+    "Citrus mite": {
+      "name": "Citrus Mite",
+      "kind": "pest",
+      "cause": "Citrus rust mite (Phyllocoptruta oleivora), citrus red mite (Panonychus citri), oriental mite (Eutetranychus orientalis)",
+      "type": "Mite",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny mites that scrape and suck the surface cells of citrus leaves and fruit, mostly in hot, dry weather. Heavy attack dulls the leaves, causes leaf drop and leaves the fruit rind rusty or silvery, which lowers the market price.",
+      "symptoms": [
+        "Fine pale grey or silvery speckling on the upper leaf surface",
+        "Leaves look dull, dusty or bronzed and may drop early",
+        "Fruit rind turns rusty brown or silvery and rough",
+        "Tiny red, brown or yellowish mites visible with a hand lens, mostly along the midrib"
+      ],
+      "spread": "Mites crawl between touching branches and are carried by wind, and multiply fast on dusty, water-stressed trees in dry weather.",
+      "action": "Spray wettable sulphur or a registered miticide to wet both leaf surfaces and the young fruit as soon as speckling or rind russet is seen.",
+      "manage": "spider_mites",
+      "treatment": [
+        {"name": "Wettable sulphur 80 WP", "type": "Miticide", "dose": "3 g/L", "notes": "Do not spray above 35 C or within 2-3 weeks of an oil spray (leaf burn)."},
+        {"name": "Propargite 57 EC", "type": "Miticide", "dose": "1-2 ml/L (as per label)", "notes": "Use if sulphur does not hold the mites; do not repeat the same miticide more than twice; only where the label lists your crop."},
+        {"name": "Irrigate and wash dust off the canopy", "type": "Cultural", "dose": "-", "notes": "Water-stressed, dusty trees along roads carry the heaviest mite load."}
+      ]
+    },
+    "Greasy spot": {
+      "name": "Greasy Spot",
+      "kind": "disease",
+      "cause": "Zasmidium citri-griseum (syn. Mycosphaerella citri)",
+      "type": "Fungal",
+      "severity_weight": 0.6,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal leaf disease that develops slowly on mature citrus leaves in warm, humid weather. It causes heavy leaf fall in winter, which weakens the tree and reduces the next crop.",
+      "symptoms": [
+        "Yellow mottled patch on the upper side of mature leaves",
+        "Matching slightly raised, pale orange to brown blister on the underside",
+        "Spots turn dark brown to black and look greasy or oily",
+        "Affected leaves drop early, mostly in winter"
+      ],
+      "spread": "Spores are released from decaying fallen leaves on the orchard floor after rain or irrigation and infect the underside of the leaves.",
+      "action": "Collect and bury or compost fallen leaves and spray copper oxychloride on the underside of the leaves once the monsoon flush has fully expanded.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Direct the spray to the underside of the leaves; repeat once after 3-4 weeks in wet seasons."},
+        {"name": "Horticultural mineral (spray) oil", "type": "Fungicide", "dose": "as per label", "notes": "Slows symptom development; never mix with or follow sulphur, and do not spray in hot afternoon sun."},
+        {"name": "Remove fallen leaf litter", "type": "Cultural", "dose": "-", "notes": "The fungus forms its spores only on dead leaves lying under the tree."}
+      ]
+    },
+    "Huanglongbing": {
+      "name": "Huanglongbing (Citrus Greening)",
+      "kind": "disease",
+      "cause": "Candidatus Liberibacter asiaticus",
+      "type": "Bacterial",
+      "severity_weight": 1.0,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most destructive disease of citrus, caused by a bacterium that lives in the food-conducting vessels of the tree and is carried by the citrus psyllid. There is no cure; infected trees decline over a few years and remain a source of infection for the whole orchard.",
+      "symptoms": [
+        "Blotchy yellow mottle that is NOT the same on the two halves of the leaf (deficiencies give a matching pattern on both halves)",
+        "Yellow shoots on one branch or one side of the tree first",
+        "Small, upright new leaves that look like zinc deficiency",
+        "Small, lopsided fruit that stays green at the bottom end, with dark aborted seeds and bitter juice",
+        "Twig dieback, leaf drop and off-season flowering"
+      ],
+      "spread": "Spread by the Asian citrus psyllid feeding on new flush and by budwood or nursery plants taken from infected trees.",
+      "action": "Get the tree confirmed by the horticulture department, then uproot and destroy infected trees and control psyllids on every new flush across the orchard.",
+      "manage": "phytoplasma",
+      "vector": "Asian citrus psyllid (Diaphorina citri)",
+      "treatment": [
+        {"name": "Remove infected trees and replant with certified disease-free budlings", "type": "Cultural", "dose": "-", "notes": "No spray, nutrient or pruning cures an infected tree; buy plants only from insect-proof certified nurseries."},
+        {"name": "Thiamethoxam 25 WG", "type": "Insecticide", "dose": "0.3 g/L", "notes": "For psyllids at the start of each new flush; do not spray during flowering (bee safety)."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Alternative psyllid spray on new flush; same group (IRAC 4A) as thiamethoxam, so rotate either one with neem oil 1500 ppm 5 ml/L rather than with each other, and avoid the flowering period."}
+      ]
+    },
+    "Iron deficiency": {
+      "name": "Iron Deficiency",
+      "kind": "deficiency",
+      "cause": "Iron (Fe)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available iron, usually because the soil is calcareous, alkaline or waterlogged rather than truly low in iron. The new growth turns yellow and weak, and shoots die back if it continues.",
+      "symptoms": [
+        "Youngest leaves turn pale yellow while every vein stays green, giving a fine dark-green network",
+        "Leaf size stays nearly normal at first (unlike zinc deficiency)",
+        "In severe cases the whole young leaf turns ivory-white and small",
+        "Older leaves lower on the shoot remain green",
+        "Twig dieback and a thin canopy over time"
+      ],
+      "spread": "Not infectious - appears on high-pH, lime-rich or poorly drained soils and after over-irrigation, all of which lock up iron.",
+      "action": "Spray ferrous sulphate on the new flush and correct waterlogging or over-irrigation in the basin.",
+      "manage": "deficiency_Fe",
+      "nutrient": "Fe",
+      "treatment": [
+        {"name": "Ferrous sulphate (19% Fe) foliar spray", "type": "Fertilizer", "dose": "2.5 g/L + lime 1.25 g/L", "notes": "Spray on half-grown new flush and repeat after 15-20 days; old yellow leaves regreen only partly."},
+        {"name": "Iron chelate (Fe-EDDHA) to soil", "type": "Fertilizer", "dose": "as per label", "notes": "More reliable than ferrous sulphate on calcareous soils."},
+        {"name": "Improve drainage and add FYM / compost", "type": "Cultural", "dose": "-", "notes": "Avoid flooding the basin; organic matter keeps iron available."}
+      ]
+    },
+    "Leafminer": {
+      "name": "Citrus Leafminer",
+      "kind": "pest",
+      "cause": "Phyllocnistis citrella",
+      "type": "Insect",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The larva of a tiny moth that tunnels just under the skin of tender citrus leaves. It is most damaging in nurseries and young orchards, and the wounds let citrus canker enter.",
+      "symptoms": [
+        "Silvery, winding tunnels on young leaves, mostly on the underside",
+        "Thin dark line of excreta along the centre of each tunnel",
+        "Young leaves curl, twist and crumple",
+        "Damage only on tender new flush, not on hardened leaves",
+        "Canker spots often develop along the mines"
+      ],
+      "spread": "The moth lays eggs on tender flush at night, and numbers peak on the monsoon and autumn flushes.",
+      "action": "Spray neem oil or a registered insecticide when the new flush is just emerging (leaves 1-2 cm long), because sprays do not reach larvae inside older mines.",
+      "manage": "leaf_miner",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "Spray on newly emerging flush and repeat after 7-10 days; safe for natural enemies."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "For nurseries and young trees under heavy attack; not during flowering."},
+        {"name": "Avoid pruning and heavy nitrogen during the flushing season", "type": "Cultural", "dose": "-", "notes": "Both force repeated tender flushes that the moth attacks; clip and destroy badly mined shoots in the nursery."}
+      ]
+    },
+    "Magnesium deficiency": {
+      "name": "Magnesium Deficiency",
+      "kind": "deficiency",
+      "cause": "Magnesium (Mg)",
+      "type": "Nutrient",
+      "severity_weight": 0.45,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of magnesium, common on light sandy or acidic soils and where heavy potash or a heavy seeded crop draws it out of the leaves. Old leaves yellow and fall, leading to weak flushes and alternate bearing.",
+      "symptoms": [
+        "Starts on mature, older leaves, especially on shoots carrying fruit",
+        "Yellow blotches begin between the veins near the leaf edge and spread inward",
+        "A green inverted-V (wedge) remains at the leaf base along the midrib",
+        "Whole leaf finally turns yellow-bronze and drops",
+        "Young leaves at the shoot tip stay green"
+      ],
+      "spread": "Not infectious - seen on leached sandy or acid soils and where potash or calcium has been applied in excess.",
+      "action": "Spray magnesium sulphate on the expanded new flush and apply magnesium to the soil as per soil test.",
+      "manage": "deficiency_Mg",
+      "nutrient": "Mg",
+      "treatment": [
+        {"name": "Magnesium sulphate (Epsom salt) foliar spray", "type": "Fertilizer", "dose": "5 g/L", "notes": "Spray on two-thirds expanded flush; repeat after 15-20 days. Already yellow leaves do not regreen fully."},
+        {"name": "Dolomitic limestone (acid soils) or magnesium sulphate to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Use dolomite only where the soil is acidic."}
+      ]
+    },
+    "Manganese deficiency": {
+      "name": "Manganese Deficiency",
+      "kind": "deficiency",
+      "cause": "Manganese (Mn)",
+      "type": "Nutrient",
+      "severity_weight": 0.4,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of available manganese, mostly on alkaline or calcareous soils and often together with zinc and iron deficiency. Mild cases do little harm, but lasting deficiency reduces growth and yield.",
+      "symptoms": [
+        "Appears on both young and mature leaves, which stay normal in size and shape",
+        "Light-green to yellowish mottle between the veins",
+        "Midrib and main veins stay green with a broad darker-green band along them",
+        "Pattern is the same on both halves of the leaf and less sharp than in iron or zinc deficiency",
+        "More noticeable on the shaded side of the tree"
+      ],
+      "spread": "Not infectious - occurs on high-pH, calcareous or over-limed soils and on leached sandy soils.",
+      "action": "Spray manganese sulphate on the new flush, alone or together with zinc sulphate.",
+      "manage": "deficiency_Mn",
+      "nutrient": "Mn",
+      "treatment": [
+        {"name": "Manganese sulphate foliar spray", "type": "Fertilizer", "dose": "2 g/L + lime 1 g/L", "notes": "Spray on two-thirds expanded flush; can go in the same tank as zinc sulphate."}
+      ]
+    },
+    "Nitrogen deficiency": {
+      "name": "Nitrogen Deficiency",
+      "kind": "deficiency",
+      "cause": "Nitrogen (N)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Shortage of nitrogen from under-manuring, leaching in sandy soils or damaged roots. The whole tree looks pale and thin, and flowering and fruit size fall quickly.",
+      "symptoms": [
+        "Older leaves turn uniformly pale green to yellow, veins included",
+        "No mottle or pattern - the whole leaf fades evenly",
+        "New flush is short, with small thin leaves",
+        "Thin canopy and early leaf drop",
+        "Poor flowering and small fruit"
+      ],
+      "spread": "Not infectious - seen on unmanured, sandy or waterlogged soils and after heavy rain has leached nitrogen.",
+      "action": "Apply the due split of nitrogen fertiliser with FYM in the basin and irrigate, and give a urea spray for quick greening.",
+      "manage": "deficiency_N",
+      "nutrient": "N",
+      "treatment": [
+        {"name": "Urea / ammonium sulphate to soil", "type": "Fertilizer", "dose": "as per the tree-age schedule (about 300 g N per split for a bearing tree)", "notes": "Spread in the basin away from the trunk, mix into the soil and irrigate."},
+        {"name": "Urea foliar spray", "type": "Fertilizer", "dose": "10 g/L", "notes": "Quick correction on the new flush; use low-biuret urea and do not spray in hot sun."}
+      ]
+    },
+    "Red scale": {
+      "name": "Red Scale",
+      "kind": "pest",
+      "cause": "Aonidiella aurantii",
+      "type": "Insect",
+      "severity_weight": 0.65,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "An armoured scale insect that fixes itself on leaves, twigs and fruit and sucks sap while injecting toxic saliva. Heavy infestation causes leaf yellowing, twig dieback and encrusted fruit that cannot be sold.",
+      "symptoms": [
+        "Round, flat, reddish-brown scales about 1-2 mm wide on leaves, twigs and fruit",
+        "Yellow spot on the leaf around each scale",
+        "Leaves turn yellow and drop, twigs dry back",
+        "Fruit crusted with hard scales that do not wash off"
+      ],
+      "spread": "Tiny crawlers walk to new growth or are carried by wind, birds, workers and infested nursery plants, and build up in dry, dusty conditions.",
+      "action": "Prune and burn heavily encrusted twigs and spray horticultural mineral oil with full coverage when the young crawlers are moving.",
+      "manage": "scale_mealybug",
+      "treatment": [
+        {"name": "Horticultural mineral (spray) oil", "type": "Insecticide", "dose": "as per label", "notes": "Needs thorough wetting of twigs and both leaf surfaces; not in hot sun and not near a sulphur spray."},
+        {"name": "Buprofezin 25 SC", "type": "Insecticide", "dose": "1.5 ml/L", "notes": "Growth regulator effective only on young crawlers; follow the label, and use only where the label lists your crop."},
+        {"name": "Conserve parasitic wasps (Aphytis) and ladybird beetles (Chilocorus)", "type": "Biological", "dose": "-", "notes": "Avoid broad-spectrum sprays and control ants, which protect the scales."}
+      ]
+    },
+    "Zinc deficiency": {
+      "name": "Zinc Deficiency (Mottle Leaf)",
+      "kind": "deficiency",
+      "cause": "Zinc (Zn)",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "The most common micronutrient deficiency of citrus in India, worst on alkaline, calcareous or heavily phosphate-fertilised soils. It stunts the new growth and sharply reduces fruit size and yield.",
+      "symptoms": [
+        "New leaves are small, narrow, pointed and stand upright (little leaf)",
+        "Bright yellow to creamy areas between veins that stay sharply green",
+        "Short internodes give the shoot a bunched, bushy look",
+        "Twigs die back from the tip",
+        "Fruit small, pale and few"
+      ],
+      "spread": "Not infectious - occurs on high-pH or sandy soils low in organic matter and where phosphate is over-applied.",
+      "action": "Spray zinc sulphate neutralised with lime on every major new flush.",
+      "manage": "deficiency_Zn",
+      "nutrient": "Zn",
+      "treatment": [
+        {"name": "Zinc sulphate (21% Zn) foliar spray", "type": "Fertilizer", "dose": "5 g/L + lime 2.5 g/L", "notes": "Spray when the new flush is two-thirds expanded; repeat on each flush (2-3 times a year)."},
+        {"name": "Zinc sulphate to soil", "type": "Fertilizer", "dose": "as per soil test", "notes": "Apply with FYM, not mixed with phosphate fertiliser; foliar spray works faster on alkaline soils."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient deficiency. An even dark green, glossy leaf indicates a well-fed tree.",
+      "symptoms": [
+        "Uniform dark green, glossy leaf of normal size",
+        "No spots, mottling, tunnels or curling",
+        "Veins and the tissue between them are the same green"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue regular manuring, irrigation and a check of every new flush for psyllids, leafminer and mites.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

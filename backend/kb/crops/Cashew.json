@@ -1,0 +1,126 @@
+{
+  "crop": "Cashew",
+  "scientific_name": "Anacardium occidentale",
+  "family": "Anacardiaceae",
+  "description": "Hardy tree of the coastal belt, grown in Andhra Pradesh mainly in Srikakulam, Vizianagaram, Visakhapatnam and the Godavari districts on sandy and red soils. The new flush and flowering period (about November to March) is the critical time for pests and diseases.",
+  "common_varieties": ["BPP-8 (H 2/16)", "BPP-6", "Vengurla-4", "Vengurla-7", "VRI-3", "Bhaskara"],
+  "npk": {"N": 500, "P2O5": 125, "K2O": 125, "unit": "g/plant/year"},
+  "npk_split": "For trees from the third year onward: apply in two equal splits, at the start of the monsoon (June-July) and after it (September-October), in a circular band 1.5 m from the trunk when the soil is moist.",
+  "conditions": {
+    "Anthracnose": {
+      "name": "Anthracnose",
+      "kind": "disease",
+      "cause": "Colletotrichum gloeosporioides",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": true,
+      "description": "Fungal disease of tender leaves, shoots, flowers and young nuts that is worst in humid, rainy or misty weather during flushing and flowering. It causes blossom blight, shoot die-back and nut drop.",
+      "symptoms": [
+        "Reddish-brown, shiny, water-soaked spots on tender leaves and shoots",
+        "Affected young leaves crinkle, turn black and fall",
+        "Gum (resin) oozing from spots on shoots",
+        "Flower bunches turn black and dry",
+        "Young nuts and apples shrivel and drop"
+      ],
+      "spread": "Rain and dew splash spores from dead twigs and dried panicles onto the new flush, and tea mosquito bug feeding wounds make infection easier.",
+      "action": "Prune and burn dried shoots and panicles and spray a copper fungicide on the new flush and at flowering.",
+      "manage": "anthracnose",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "At flushing and again at flowering; Bordeaux mixture 1% is an alternative."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L", "notes": "If the disease continues after the copper spray."},
+        {"name": "Tea mosquito bug control at flushing", "type": "Cultural", "dose": "-", "notes": "The bug's feeding wounds let the fungus in; managing it reduces die-back and blossom blight."}
+      ]
+    },
+    "Gummosis": {
+      "name": "Gummosis",
+      "kind": "disease",
+      "cause": "Lasiodiplodia theobromae",
+      "type": "Fungal",
+      "severity_weight": 0.75,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Fungal canker of the trunk and main branches that makes the bark crack and ooze gum. Branches above the canker yellow and die back, and stressed or wounded trees are affected most.",
+      "symptoms": [
+        "Cracked bark on the trunk or branches oozing amber to dark brown gum",
+        "Dark, sunken, dead bark under the gum",
+        "Leaves on the affected branch turn yellow and fall",
+        "Branch dries from the tip downward",
+        "Gum mixed with sawdust-like frass at the trunk base points to stem and root borer instead"
+      ],
+      "spread": "Spores spread by rain and wind enter through bark wounds, pruning cuts and borer holes, especially on trees under drought stress.",
+      "action": "Scrape off the diseased bark down to healthy tissue, burn the scrapings and paint the wound with Bordeaux paste.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Scraping of cankered bark and removal of dead branches", "type": "Cultural", "dose": "-", "notes": "Work in dry weather and burn the removed bark and wood."},
+        {"name": "Bordeaux paste (10%) or copper oxychloride 50 WP paste", "type": "Fungicide", "dose": "Paint on cleaned wound", "notes": "Repeat after the monsoon if gum oozes again."},
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Spray the trunk and main branches after treating the wounds."}
+      ]
+    },
+    "Leaf miner": {
+      "name": "Leaf Miner",
+      "kind": "pest",
+      "cause": "Acrocercops syngramma",
+      "type": "Insect",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Tiny caterpillars tunnel under the upper skin of tender leaves, leaving silvery blisters. Damage is worst on the new flush of nursery plants and young plantations.",
+      "symptoms": [
+        "Winding silvery-white mines on tender leaves",
+        "Mines widen into whitish blistered patches",
+        "Blisters dry, turn brown and tear, leaving holes in older leaves",
+        "Young leaves crinkle and are deformed"
+      ],
+      "spread": "Small moths lay eggs on tender leaves of every new flush, so the attack repeats with each flush.",
+      "action": "Clip and destroy badly mined tender leaves in nurseries and young trees and spray the new flush with neem oil.",
+      "manage": "leaf_miner",
+      "treatment": [
+        {"name": "Neem oil 1500 ppm", "type": "Insecticide", "dose": "5 ml/L", "notes": "On the new flush; repeat after 10 days."},
+        {"name": "Lambda-cyhalothrin 5 EC", "type": "Insecticide", "dose": "0.6 ml/L", "notes": "At flushing if damage is heavy; the same spray controls tea mosquito bug. Highly toxic to bees - do not spray on open flowers; only where the label lists your crop."}
+      ]
+    },
+    "Red rust": {
+      "name": "Red Rust (Algal Leaf Spot)",
+      "kind": "disease",
+      "cause": "Cephaleuros virescens (parasitic alga)",
+      "type": "Algal",
+      "severity_weight": 0.55,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A parasitic alga, not a true rust fungus, that forms rusty-orange velvety spots on leaves and twigs. It mainly attacks weak, shaded or poorly fed trees in humid weather.",
+      "symptoms": [
+        "Round, raised, orange to rust-red velvety spots on the upper leaf surface",
+        "Spots later turn greyish-green and crusty",
+        "Bark of infected twigs cracks",
+        "Heavily spotted leaves yellow and fall"
+      ],
+      "spread": "Spores are carried by rain splash and wind in warm, humid weather.",
+      "action": "Spray a copper fungicide and prune crowded branches to let in light and air.",
+      "manage": "algal",
+      "treatment": [
+        {"name": "Copper oxychloride 50 WP", "type": "Fungicide", "dose": "3 g/L", "notes": "Two sprays 15 days apart; Bordeaux mixture 1% is an alternative."},
+        {"name": "Canopy opening and balanced manuring", "type": "Cultural", "dose": "-", "notes": "Well-fed trees in open sunlight are rarely affected."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or deficiency. Keep watching the new flush and flower bunches, where most problems begin.",
+      "symptoms": [
+        "Uniform green leaves without spots, mines or rusty patches",
+        "No gum oozing from shoots or bark",
+        "Normal new flush"
+      ],
+      "spread": "Not applicable - no disease or pest detected.",
+      "action": "Continue balanced manuring, weeding around the trunk and weekly scouting during flushing and flowering.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

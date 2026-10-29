@@ -1,0 +1,243 @@
+{
+  "crop": "Cotton",
+  "scientific_name": "Gossypium hirsutum",
+  "family": "Malvaceae",
+  "description": "Cotton is the main kharif cash crop of Telangana and Andhra Pradesh, grown mostly as rainfed Bt hybrids on black soils. Sucking pests, pink bollworm and leaf reddening are the most common field problems.",
+  "common_varieties": [
+    "Bunny (NCS 145) BG II",
+    "Mallika (NCS 207) BG II",
+    "RCH 659 BG II",
+    "Ankur 3028 BG II",
+    "Narasimha (NA 1325)",
+    "Suraj"
+  ],
+  "npk": {"N": 120, "P2O5": 60, "K2O": 60, "unit": "kg/ha"},
+  "npk_split": "Apply all P at sowing; give N and K in four equal splits at 20, 40, 60 and 80 days after sowing, placed beside the plants when the soil is moist.",
+  "conditions": {
+    "Bacterial blight": {
+      "name": "Bacterial Blight",
+      "kind": "disease",
+      "cause": "Xanthomonas citri pv. malvacearum",
+      "type": "Bacterial",
+      "severity_weight": 0.75,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A seed-borne bacterial disease that attacks leaves, stems and bolls, also called angular leaf spot or black arm. It flares up in warm, rainy, windy weather and causes leaf fall and boll rot.",
+      "symptoms": [
+        "Small water-soaked spots that turn dark brown to black and angular, limited by the veins",
+        "Black lesions running along the main veins (vein blight)",
+        "Black, sunken, elongated lesions on stems and branches (black arm)",
+        "Water-soaked sunken spots on bolls that later rot",
+        "Affected leaves drop early"
+      ],
+      "spread": "Carried on seed and crop residue and spread by rain splash, wind-driven rain and wet tools or clothing.",
+      "action": "Spray copper oxychloride 50 WP 3 g/L and avoid working in the crop while the leaves are wet.",
+      "manage": "bacterial_foliar",
+      "treatment": [
+        {
+          "name": "Copper oxychloride 50 WP",
+          "type": "Bactericide",
+          "dose": "3 g/L",
+          "notes": "Spray at first angular spots and repeat after 10-15 days in rainy weather; it limits spread but does not cure infected leaves."
+        },
+        {
+          "name": "Pseudomonas fluorescens (seed treatment)",
+          "type": "Biological",
+          "dose": "10 g/kg seed",
+          "notes": "For the next sowing, on acid-delinted seed."
+        },
+        {
+          "name": "Remove and destroy crop residue",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Pull out and destroy stalks after the last picking and do not keep a ratoon crop."
+        }
+      ]
+    },
+    "Herbicide damage": {
+      "name": "Herbicide Damage",
+      "kind": "abiotic",
+      "cause": "Herbicide drift, sprayer contamination or soil residue (most often 2,4-D; also glyphosate and paraquat)",
+      "type": "Abiotic",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Injury from weedkiller reaching the cotton plant, most often 2,4-D drifting from a nearby field or left in a sprayer. Cotton is extremely sensitive, and the new leaves come out narrow and deformed.",
+      "symptoms": [
+        "New leaves narrow and strap-shaped with veins running side by side",
+        "Leaves cupped, puckered or twisted, with deformed squares and flowers",
+        "Yellowing or bleaching of the new growth, or brown scorch spots where spray drops landed",
+        "Damage follows a pattern, worst on the side facing the sprayed field"
+      ],
+      "spread": "Does not spread from plant to plant; it comes from spray drift, a sprayer not washed after herbicide use, or herbicide left in the soil.",
+      "action": "Irrigate if possible and give one foliar spray of urea 20 g/L to push new growth, and keep a separate sprayer for herbicides.",
+      "manage": "abiotic",
+      "treatment": [
+        {
+          "name": "Urea (foliar spray)",
+          "type": "Fertilizer",
+          "dose": "20 g/L",
+          "notes": "One spray with irrigation helps the plant grow out of mild injury; severe 2,4-D damage does not recover fully."
+        },
+        {
+          "name": "Separate, well-washed sprayer",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Never use a sprayer that has held 2,4-D on cotton; spray herbicides only in calm weather with a hood."
+        }
+      ]
+    },
+    "Jassids": {
+      "name": "Jassids (Leafhopper)",
+      "kind": "pest",
+      "cause": "Amrasca biguttula biguttula",
+      "type": "Insect",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Small green leafhoppers that suck sap from the underside of the leaves and inject a toxin. Leaf edges turn yellow, then red-brown and dry, a condition called hopper burn.",
+      "symptoms": [
+        "Leaf margins turn yellow and curl downward",
+        "Margins then turn red-brown and dry (hopper burn)",
+        "Pale green wedge-shaped insects that walk sideways on the leaf underside",
+        "Stunted plants and shedding of squares in heavy attack"
+      ],
+      "spread": "Adults fly in from okra, brinjal and weeds, and build up fast in cloudy weather with light, intermittent rain.",
+      "action": "Count the nymphs under the leaves and spray flonicamid 50 WG 0.3 g/L if there are more than 2 per leaf with yellowing margins.",
+      "manage": "sucking_insects",
+      "treatment": [
+        {
+          "name": "Neem oil 1500 ppm",
+          "type": "Insecticide",
+          "dose": "5 ml/L",
+          "notes": "First choice in the first 60 days, to protect the natural enemies of sucking pests."
+        },
+        {
+          "name": "Flonicamid 50 WG",
+          "type": "Insecticide",
+          "dose": "0.3 g/L",
+          "notes": "Spray the leaf undersides when there are more than 2 nymphs per leaf with yellowing margins; do not repeat the same insecticide."
+        }
+      ]
+    },
+    "Leaf curl virus": {
+      "name": "Cotton Leaf Curl Disease",
+      "kind": "disease",
+      "cause": "Cotton leaf curl virus complex (Begomovirus with betasatellite)",
+      "type": "Viral",
+      "severity_weight": 0.95,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "A whitefly-borne virus disease that curls the leaves, thickens the veins and stunts the plant. It is serious mainly in north India (Punjab, Haryana, Rajasthan), and there is no cure for an infected plant.",
+      "symptoms": [
+        "Leaves curl upward or downward at the edges",
+        "Veins thickened and dark green on the underside",
+        "Small leaf-like outgrowths on the veins under the leaf",
+        "Stunted plants with few flowers and bolls"
+      ],
+      "spread": "Carried from infected cotton, okra and weeds to healthy plants by whiteflies, and not through seed or soil.",
+      "action": "Pull out and bury plants that show curling in the first 45 days and control whiteflies, because no spray cures the virus.",
+      "manage": "viral_whitefly",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "treatment": [
+        {
+          "name": "Rogue early-infected plants and weed hosts",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Remove curled plants early and clear weeds in and around the field that harbour the virus and whiteflies."
+        },
+        {
+          "name": "Neem oil 1500 ppm",
+          "type": "Insecticide",
+          "dose": "5 ml/L",
+          "notes": "For whitefly in the first 60 days; spray the leaf undersides."
+        },
+        {
+          "name": "Diafenthiuron 50 WP",
+          "type": "Insecticide",
+          "dose": "1 g/L",
+          "notes": "For heavy whitefly later in the season; it controls the vector only and does not cure infected plants."
+        }
+      ]
+    },
+    "Leaf reddening": {
+      "name": "Leaf Reddening",
+      "kind": "deficiency",
+      "cause": "Magnesium and nitrogen shortage, worsened by cold nights, moisture stress and heavy boll load",
+      "type": "Nutrient",
+      "severity_weight": 0.5,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "nutrient": "Mg",
+      "description": "A nutritional disorder of Bt cotton in which leaves turn red during boll development because the plant cannot supply enough magnesium and nitrogen. Cold nights, dry spells, waterlogging and a heavy boll load make it worse, and jassid attack can cause similar reddening.",
+      "symptoms": [
+        "Older leaves turn yellow, then red or purple, starting at the margins and between the veins",
+        "Veins stay green at first",
+        "Whole leaf turns red, dries and drops early",
+        "Appears from flowering to boll development"
+      ],
+      "spread": "Does not spread; it appears across the field when the soil is short of magnesium or the roots cannot take up nutrients.",
+      "action": "Spray magnesium sulphate 10 g/L with urea 20 g/L twice at 10-day intervals, after checking the leaf undersides for jassids.",
+      "manage": "deficiency_Mg",
+      "treatment": [
+        {
+          "name": "Magnesium sulphate (foliar spray)",
+          "type": "Fertilizer",
+          "dose": "10 g/L",
+          "notes": "2 sprays 10 days apart, starting at the first reddening or at boll formation."
+        },
+        {
+          "name": "Urea (foliar spray)",
+          "type": "Fertilizer",
+          "dose": "20 g/L",
+          "notes": "Mix with the magnesium sulphate spray when the boll load is heavy."
+        },
+        {
+          "name": "Relieve water stress",
+          "type": "Cultural",
+          "dose": "-",
+          "notes": "Give a protective irrigation in dry spells and drain standing water after heavy rain."
+        }
+      ]
+    },
+    "Leaf variegation": {
+      "name": "Leaf Variegation",
+      "kind": "abiotic",
+      "cause": "Non-infectious genetic variegation (chimera)",
+      "type": "Abiotic",
+      "severity_weight": 0.3,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Patchy white, cream or yellow sectors on otherwise normal leaves, usually from a harmless genetic fault in a single plant. It is not infectious and does not need any spray.",
+      "symptoms": [
+        "Sharp-edged white, cream or yellow patches or sectors on the leaf",
+        "Leaf shape and size are normal, with no curling",
+        "Seen on single scattered plants or branches",
+        "The pattern does not move to neighbouring plants"
+      ],
+      "spread": "Does not spread from plant to plant.",
+      "action": "Do not spray; mark the plant and consult the agriculture officer only if many plants show mottling together with curling or stunting.",
+      "manage": "abiotic",
+      "treatment": []
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Colour and shape are normal for a growing cotton plant.",
+      "symptoms": [
+        "Uniform green, flat leaf",
+        "No spots, curling or reddening",
+        "No insects on the underside"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue split fertiliser doses and check the leaf undersides every week for sucking pests.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

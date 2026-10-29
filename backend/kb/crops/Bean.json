@@ -1,0 +1,78 @@
+{
+  "crop": "Bean",
+  "scientific_name": "Phaseolus vulgaris",
+  "family": "Fabaceae",
+  "description": "French bean (common bean, rajma) is grown for green pods and dry seed in the hills and, in the cool season, in the plains of Karnataka, Maharashtra and Andhra Pradesh. It forms few root nodules, so it needs more nitrogen fertilizer than other pulses.",
+  "common_varieties": ["Arka Komal", "Arka Suvidha", "Arka Anoop", "Contender", "Pusa Parvati", "Pant Anupama"],
+  "npk": {"N": 63, "P2O5": 100, "K2O": 75, "unit": "kg/ha"},
+  "npk_split": "Apply half the N with all P and K at sowing and the remaining N at 20-25 days after sowing, before flowering.",
+  "conditions": {
+    "Angular leaf spot": {
+      "name": "Angular Leaf Spot",
+      "kind": "disease",
+      "cause": "Pseudocercospora griseola (syn. Phaeoisariopsis griseola)",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A seed- and residue-borne fungal disease that causes angular spots on leaves and round spots on pods in warm, humid weather. Heavy infection leads to early leaf fall and blemished pods.",
+      "symptoms": [
+        "Grey to brown angular spots bounded by the leaf veins",
+        "Dark grey bristly mould on the underside of the spots",
+        "Spots merge, leaves turn yellow and drop early",
+        "Round reddish-brown spots with dark borders on pods"
+      ],
+      "spread": "Carried by infected seed and crop debris and spread by wind and rain splash in warm, humid weather.",
+      "action": "Spray mancozeb 75 WP 2.5 g/L or carbendazim 50 WP 1 g/L at the first spots and repeat after 10-15 days.",
+      "manage": "fungal_leaf_spot",
+      "treatment": [
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective spray; observe the label waiting period before picking green pods."},
+        {"name": "Carbendazim 50 WP", "type": "Fungicide", "dose": "1 g/L water", "notes": "Alternate with mancozeb."},
+        {"name": "Clean seed and rotation", "type": "Cultural", "dose": "-", "notes": "Use seed from a disease-free crop, remove old bean debris and keep a 2-year gap between bean crops."}
+      ]
+    },
+    "Rust": {
+      "name": "Rust",
+      "kind": "disease",
+      "cause": "Uromyces appendiculatus",
+      "type": "Fungal",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "A fungal disease that forms rusty pustules on the leaves in cool to mild weather with long dew periods. Severe attack before flowering causes leaf drop and poor pod set.",
+      "symptoms": [
+        "Small raised reddish-brown pustules, mostly on the leaf underside, often with a yellow ring",
+        "Rusty powder comes off on the fingers",
+        "Pustules turn dark brown to black on older leaves",
+        "Leaves yellow, dry and drop in heavy infection"
+      ],
+      "spread": "Wind-borne spores from old crop residue and volunteer bean plants infect leaves that stay wet with dew.",
+      "action": "Spray propiconazole 25 EC 1 ml/L or mancozeb 75 WP 2.5 g/L at the first pustules and repeat after 10-15 days.",
+      "manage": "rust",
+      "treatment": [
+        {"name": "Propiconazole 25 EC", "type": "Fungicide", "dose": "1 ml/L water", "notes": "Wet the underside of the leaves; observe the label waiting period before picking pods; only where the label lists your crop."},
+        {"name": "Mancozeb 75 WP", "type": "Fungicide", "dose": "2.5 g/L water", "notes": "Protective alternative for early or light infection."},
+        {"name": "Resistant variety", "type": "Cultural", "dose": "-", "notes": "Grow a rust-resistant variety such as Arka Anoop in rust-prone seasons."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "The leaf shows no sign of disease, pest or nutrient problem. Keep up regular field scouting and balanced nutrition.",
+      "symptoms": [
+        "Uniform green trifoliate leaves",
+        "No spots, pustules, holes or mottling",
+        "Normal leaf size and steady new growth"
+      ],
+      "spread": "Not applicable.",
+      "action": "Continue weekly scouting, especially from flowering to pod picking.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

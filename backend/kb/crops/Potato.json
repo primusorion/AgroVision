@@ -1,0 +1,170 @@
+{
+  "crop": "Potato",
+  "scientific_name": "Solanum tuberosum",
+  "family": "Solanaceae",
+  "description": "Potato is a cool-season tuber crop grown mainly in the rabi season on the Indo-Gangetic plains and in summer in the hills. It grows best at 15-25 °C, and tubers form best when nights are below 20 °C.",
+  "common_varieties": ["Kufri Jyoti", "Kufri Pukhraj", "Kufri Bahar", "Kufri Chipsona-1", "Kufri Sindhuri", "Kufri Himalini"],
+  "npk": {"N": 180, "P2O5": 80, "K2O": 100, "unit": "kg/ha"},
+  "npk_split": "Basal at planting: 1/2 N + full P2O5 + full K2O placed in furrows; remaining 1/2 N at earthing-up, 25-30 days after planting (range 150-180 : 80-100 : 100-120 kg/ha depending on soil and variety).",
+  "conditions": {
+    "Bacterial wilt": {
+      "name": "Bacterial Wilt",
+      "kind": "disease",
+      "cause": "Ralstonia solanacearum",
+      "type": "Bacterial",
+      "severity_weight": 0.95,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "Bacterial wilt (brown rot) is a soil- and tuber-borne disease that wilts potato plants and rots tubers in warm, moist soils. Infected seed tubers carry it to new fields, and no spray can cure an infected plant.",
+      "symptoms": [
+        "Sudden wilting of leaves, first on one stem or at the top, while they are still green",
+        "Plants wilt in the day and partly recover at night before collapsing",
+        "Brown ring inside the cut stem base and in cut tubers",
+        "Milky white ooze from the cut stem, the tuber ring or the tuber eyes, with soil sticking to the eyes"
+      ],
+      "spread": "Carried in infected seed tubers and surviving in soil, crop residue and weed hosts; spreads through irrigation water, cut-seed knives and root wounds, and is favoured by warm (25-35 °C), wet soil.",
+      "action": "Uproot wilted plants with their tubers and surrounding soil and destroy them, and do not keep any tubers from this field as seed; no spray cures bacterial wilt.",
+      "manage": "bacterial_wilt",
+      "treatment": [
+        {"name": "Healthy whole seed tubers", "type": "Cultural", "dose": "-", "notes": "Plant certified, uncut seed tubers; cutting tubers spreads the bacteria on the knife."},
+        {"name": "Stable bleaching powder", "type": "Bactericide", "dose": "12 kg/ha", "notes": "Mix with fertilizer and apply in the furrows at planting in fields with a wilt history (ICAR-CPRI practice)."},
+        {"name": "Rotation with cereals", "type": "Cultural", "dose": "2-3 years", "notes": "Grow maize, wheat or other cereals; keep tomato, brinjal and chilli off the same land."}
+      ]
+    },
+    "Early blight": {
+      "name": "Early Blight",
+      "kind": "disease",
+      "cause": "Alternaria solani",
+      "type": "Fungal",
+      "severity_weight": 0.8,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Early blight is a common fungal disease of potato that starts on older, lower leaves, especially on stressed or under-fed plants. Severe defoliation reduces tuber size, and tubers can develop dark, sunken lesions.",
+      "symptoms": [
+        "Dark brown to black spots with concentric rings (target-board pattern) on older leaves",
+        "Spots are often angular, limited by veins, with a yellow halo",
+        "Leaves yellow, dry and drop from the bottom of the plant upward",
+        "Dark, dry, sunken lesions on tubers"
+      ],
+      "spread": "Survives in infected crop debris, soil and solanaceous weeds; spores spread by wind, rain splash and workers; favoured by warm weather (24-29 °C), alternating wet and dry spells and stressed, under-fed plants.",
+      "action": "Spray Mancozeb 75 WP (2.5 g/L) now, repeat every 7-10 days, and remove infected lower leaves.",
+      "manage": "fungal_blight",
+      "treatment": [
+        {"name": "Rotate away from solanaceous crops", "type": "Cultural", "dose": "2-3 years", "notes": "Potato, tomato, brinjal and chilli share this fungus; remove solanaceous weeds as well."}
+      ]
+    },
+    "Insect damage": {
+      "name": "Insect Damage",
+      "kind": "pest",
+      "cause": "Unspecified chewing or sucking insects, such as hadda beetle (Henosepilachna vigintioctopunctata), cutworm (Agrotis ipsilon), leaf-eating caterpillar (Spodoptera litura), aphids (Myzus persicae) and leafhoppers",
+      "type": "Insect",
+      "severity_weight": 0.6,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "This class covers feeding injury by chewing or sucking insects on potato leaves; the photo cannot tell which species is responsible. Light leaf feeding rarely cuts tuber yield, so identify the insect before spraying.",
+      "symptoms": [
+        "Irregular holes or ragged, eaten leaf edges",
+        "Leaf surface scraped into a net-like pattern (hadda beetle)",
+        "Young plants cut at ground level (cutworm)",
+        "Curled or puckered leaves with small insects on the underside (aphids, leafhoppers)",
+        "Insects, eggs or droppings on the leaf underside"
+      ],
+      "spread": "Adults fly or crawl in from weeds, neighbouring crops and crop residue, and numbers build up in warm weather on lush, heavily fertilised crops.",
+      "action": "Check both leaf surfaces in the early morning or evening to find the insect, hand-pick beetles and caterpillars, and spray neem oil 1500 ppm 3-5 ml/L if fresh damage keeps appearing.",
+      "manage": "caterpillars",
+      "treatment": [
+        {"name": "Identify the insect first", "type": "Cultural", "dose": "-", "notes": "Chewed holes mean beetles or caterpillars; curled leaves with tiny insects underneath mean aphids or leafhoppers."},
+        {"name": "Neem oil 1500 ppm", "type": "Biological", "dose": "3-5 ml/L", "notes": "First spray for light damage by any of these insects; cover leaf undersides."},
+        {"name": "Imidacloprid 17.8 SL", "type": "Insecticide", "dose": "0.3 ml/L", "notes": "Only for confirmed aphids or leafhoppers, which also spread potato viruses; max 2 sprays per season, avoid during flowering (bees)."}
+      ]
+    },
+    "Late blight": {
+      "name": "Late Blight",
+      "kind": "disease",
+      "cause": "Phytophthora infestans",
+      "type": "Oomycete",
+      "severity_weight": 1.0,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": true,
+      "description": "Late blight is the most destructive potato disease (cause of the Irish famine) and can destroy a field within 7-10 days in cool, wet weather. It attacks leaves, stems and tubers, which rot in the field and in storage.",
+      "symptoms": [
+        "Pale green, water-soaked spots, often starting at leaf tips and margins, that quickly turn dark brown to black",
+        "White, downy growth on the underside of lesions in humid mornings",
+        "Dark lesions on stems and petioles; foliage collapses with a foul smell",
+        "Reddish-brown dry rot under the skin of tubers"
+      ],
+      "spread": "Airborne sporangia travel kilometres on wind and rain from infected potato/tomato fields, cull piles, volunteer plants and infected seed tubers; cool nights (10-20 °C), humidity above 90% and long leaf wetness cause explosive epidemics.",
+      "action": "Act immediately: spray Metalaxyl 8% + Mancozeb 64% WP (2.5 g/L), remove and destroy infected plants, and warn neighbouring growers.",
+      "manage": "oomycete_blight",
+      "treatment": [
+        {"name": "Certified seed and high earthing-up", "type": "Cultural", "dose": "-", "notes": "Use certified disease-free seed tubers, earth up well, and cut haulms 10-15 days before harvest so that tubers are not infected."},
+        {"name": "Blight-resistant varieties", "type": "Cultural", "dose": "-", "notes": "Kufri Girdhari, Kufri Himalini and Kufri Chipsona-1 carry late blight resistance; ask your KVK which variety suits your area."}
+      ]
+    },
+    "Nematode damage": {
+      "name": "Nematode Damage",
+      "kind": "disease",
+      "cause": "Root-knot nematodes (Meloidogyne incognita, M. javanica) and potato cyst nematodes (Globodera rostochiensis, G. pallida)",
+      "type": "Nematode",
+      "severity_weight": 0.7,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Nematodes are microscopic soil worms that feed on potato roots and tubers, so the damage seen on leaves is the result of a weak root system. Root-knot nematodes occur widely, while potato cyst nematodes are a quarantine pest of hill areas such as the Nilgiris.",
+      "symptoms": [
+        "Patches of stunted plants with pale yellow leaves",
+        "Plants wilt at midday even when the soil is moist",
+        "Swellings (galls) on roots, or pinhead-sized white to golden cysts on roots",
+        "Pimple-like warts on the tuber skin",
+        "Early drying of the crop with few, small tubers"
+      ],
+      "spread": "Carried in soil on tools, footwear and machinery, in irrigation water and on infected seed tubers, and builds up when potato or other host crops are grown year after year.",
+      "action": "Uproot a few weak plants and check the roots for galls or cysts, then plan a 3-4 year rotation with non-host crops, because no leaf spray controls nematodes.",
+      "manage": "nematode",
+      "treatment": [
+        {"name": "Rotation with non-host crops", "type": "Cultural", "dose": "3-4 years", "notes": "Cereals, cabbage, radish and garlic do not host potato cyst nematode; keep tomato and brinjal out of the rotation."},
+        {"name": "Clean seed tubers", "type": "Cultural", "dose": "-", "notes": "Do not use seed tubers from infested fields; moving seed potato out of cyst-nematode areas is restricted by quarantine."},
+        {"name": "Resistant variety", "type": "Cultural", "dose": "-", "notes": "Kufri Swarna resists potato cyst nematode in the Nilgiris; ask your KVK about varieties for your area."}
+      ]
+    },
+    "Viral disease": {
+      "name": "Viral Disease",
+      "kind": "disease",
+      "cause": "Virus complex: Potato virus Y, Potato leafroll virus, Potato virus X, S and A, and Tomato leaf curl New Delhi virus (apical leaf curl)",
+      "type": "Viral",
+      "severity_weight": 0.9,
+      "causes_chlorosis": true,
+      "causes_marginal_necrosis": false,
+      "description": "Potato is attacked by a complex of viruses that pass from crop to crop in seed tubers, which is why farm-saved seed degenerates and yields fall each year. The photo cannot tell which virus is present, and there is no cure for an infected plant.",
+      "symptoms": [
+        "Light and dark green mottling (mosaic) on leaves",
+        "Leaflets rolled upward, stiff and leathery (leafroll)",
+        "Crinkled, puckered leaves, sometimes with dark dead streaks on the veins",
+        "Top leaves curled and yellow-mottled (apical leaf curl)",
+        "Stunted plants with few, small tubers"
+      ],
+      "spread": "Carried mainly in infected seed tubers and spread in the field by aphids (virus Y, leafroll), whiteflies (apical leaf curl) and, for viruses X and S, by contact with plants, tools and cut-seed knives.",
+      "action": "No cure: uproot and remove infected plants together with their tubers, and do not save seed from this crop.",
+      "manage": "viral_aphid",
+      "vector": "Aphids (Myzus persicae, Aphis gossypii); whitefly (Bemisia tabaci) for apical leaf curl",
+      "treatment": [
+        {"name": "Certified seed tubers", "type": "Cultural", "dose": "-", "notes": "Replace farm-saved seed with certified seed; most potato virus comes in with the seed tubers."},
+        {"name": "Early haulm cutting in seed crops", "type": "Cultural", "dose": "When aphids reach 20 per 100 compound leaves", "notes": "Cut the haulms of a seed crop at this aphid count so that late virus infection does not reach the tubers (ICAR-CPRI seed plot technique)."}
+      ]
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "healthy",
+      "cause": "-",
+      "type": "None",
+      "severity_weight": 0,
+      "causes_chlorosis": false,
+      "causes_marginal_necrosis": false,
+      "description": "No disease or pest symptoms are visible on this potato leaf. Keep up balanced nutrition, regular irrigation and weekly scouting to keep the crop healthy.",
+      "symptoms": ["Uniform green colour", "No spots, lesions, mottling, curling or webbing"],
+      "spread": "-",
+      "action": "No treatment is needed.",
+      "manage": "healthy",
+      "treatment": []
+    }
+  }
+}

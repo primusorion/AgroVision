@@ -1,0 +1,378 @@
+{
+ "n_leaf": 3746,
+ "status": {
+  "ok": 3726,
+  "rejected": 20
+ },
+ "mode": {
+  "leaf": 3744,
+  "insect": 2
+ },
+ "rejection_reasons": [
+  [
+   "Sharpness",
+   15
+  ],
+  [
+   "Resolution",
+   3
+  ],
+  [
+   "Brightness",
+   1
+  ],
+  [
+   "Plant check",
+   1
+  ]
+ ],
+ "rejected_by_imagery": {
+  "field": 0.0087,
+  "lab": 0.0,
+  "mixed": 0.0013
+ },
+ "accuracy_answered": 0.9280343716433942,
+ "crop_accuracy_answered": 0.9981203007518797,
+ "accuracy_all": 0.9225840896956754,
+ "accuracy_confident": 0.960081585081585,
+ "low_confidence_rate": 0.07841031149301826,
+ "latency_ms": {
+  "p50": 194.23374999314547,
+  "p95": 263.7263999786228,
+  "p99": 314.6971250360367
+ },
+ "stage_ms_p50": {
+  "quality": 15.9,
+  "classify": 133.55,
+  "analysis": 19.7,
+  "advisory": 0.3,
+  "total": 174.05
+ },
+ "by_kind": {
+  "abiotic": {
+   "n": 52,
+   "accuracy": 1.0,
+   "health_mean": 70.26923076923077,
+   "health_p10_p90": [
+    50.0,
+    79.0
+   ],
+   "deficiency_flag_rate": 0.23076923076923078,
+   "deficiency_from_model_rate": 0.0,
+   "pest_flag_rate": 0.07692307692307693,
+   "pest_from_classifier_rate": 0.0,
+   "urgency": {
+    "Soon": 0.981,
+    "Immediate": 0.019
+   }
+  },
+  "deficiency": {
+   "n": 395,
+   "accuracy": 0.8126582278481013,
+   "health_mean": 60.2253164556962,
+   "health_p10_p90": [
+    42.0,
+    74.0
+   ],
+   "deficiency_flag_rate": 0.9721518987341772,
+   "deficiency_from_model_rate": 0.9721518987341772,
+   "pest_flag_rate": 0.02278481012658228,
+   "pest_from_classifier_rate": 0.002531645569620253,
+   "urgency": {
+    "Soon": 0.927,
+    "Immediate": 0.063,
+    "Routine": 0.01
+   }
+  },
+  "disease": {
+   "n": 2164,
+   "accuracy": 0.9376155268022182,
+   "health_mean": 56.79713493530499,
+   "health_p10_p90": [
+    38.0,
+    72.0
+   ],
+   "deficiency_flag_rate": 0.12615526802218113,
+   "deficiency_from_model_rate": 0.0027726432532347504,
+   "pest_flag_rate": 0.20609981515711645,
+   "pest_from_classifier_rate": 0.013863216266173753,
+   "urgency": {
+    "Soon": 0.63,
+    "Immediate": 0.366,
+    "Routine": 0.004
+   }
+  },
+  "healthy": {
+   "n": 622,
+   "accuracy": 0.9485530546623794,
+   "health_mean": 93.55305466237942,
+   "health_p10_p90": [
+    77.0,
+    100.0
+   ],
+   "deficiency_flag_rate": 0.06591639871382636,
+   "deficiency_from_model_rate": 0.006430868167202572,
+   "pest_flag_rate": 0.05787781350482315,
+   "pest_from_classifier_rate": 0.017684887459807074,
+   "urgency": {
+    "Routine": 0.815,
+    "Soon": 0.164,
+    "Immediate": 0.021
+   }
+  },
+  "pest": {
+   "n": 491,
+   "accuracy": 0.945010183299389,
+   "health_mean": 55.57841140529531,
+   "health_p10_p90": [
+    38.0,
+    66.0
+   ],
+   "deficiency_flag_rate": 0.1079429735234216,
+   "deficiency_from_model_rate": 0.002036659877800407,
+   "pest_flag_rate": 0.9633401221995926,
+   "pest_from_classifier_rate": 0.955193482688391,
+   "urgency": {
+    "Immediate": 0.933,
+    "Soon": 0.061,
+    "Routine": 0.006
+   }
+  }
+ },
+ "insect": {
+  "n": 600,
+  "routed_to_pest_model": 0.9066666666666666,
+  "species_top1_of_routed": 0.7647058823529411,
+  "species_top3_of_routed": 0.9080882352941176,
+  "species_top1_end_to_end": 0.6933333333333334
+ },
+ "not_a_plant_test": {
+  "n": 400,
+  "rejected": 0.99
+ },
+ "non_leaf_photos": {
+  "n": 31,
+  "rejected": 27,
+  "answered_with_warning": 2,
+  "answered_silently": 2,
+  "rows": [
+   {
+    "file": "Minduka_Present_Blue_Pack.png",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "grace_hopper.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "logo2.png",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img0_1920x1200.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img19_1920x1200.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img100.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img101.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img102.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img103.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img104.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img105.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img14.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img50.jpg",
+    "status": "ok",
+    "mode": "insect",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img20.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img21.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img22.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img23.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img24.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img25.jpg",
+    "status": "ok",
+    "mode": "leaf",
+    "prediction": "Blueberry___healthy",
+    "warned": true
+   },
+   {
+    "file": "img26.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img27.jpg",
+    "status": "ok",
+    "mode": "insect",
+    "prediction": null,
+    "warned": false
+   },
+   {
+    "file": "img28.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img29.jpg",
+    "status": "ok",
+    "mode": "insect",
+    "prediction": null,
+    "warned": false
+   },
+   {
+    "file": "img30.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img31.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img32.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img33.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img34.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img35.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img0.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   },
+   {
+    "file": "img19.jpg",
+    "status": "rejected",
+    "mode": "leaf",
+    "prediction": null,
+    "warned": true
+   }
+  ]
+ }
+}
