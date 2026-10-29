@@ -80,12 +80,17 @@ if __name__ == "__main__":
             print(f"skip {task}: no deployed model ({f.name})")
             continue
         clf = Classifier(f)
-        df = pd.read_csv(root / "data" / f"manifest_{task}.csv")
-        test = df[df.split == "test"].sample(40, random_state=0)
+        manifest = root / "data" / f"manifest_{task}.csv"
+        if manifest.exists():
+            test = pd.read_csv(manifest).query("split == 'test'").sample(40, random_state=0)
+            pairs = list(zip(test.path, test.key))
+        else:                                    # cloned repo without the dataset: use the bundled sample photos
+            samples = json.loads((root / "frontend" / "samples" / "samples.json").read_text(encoding="utf-8"))
+            pairs = [("frontend" + s["url"], s["key"]) for s in samples if (s["kind"] == "insect") == (task == "pest")]
         hit = 0
-        for path, key in zip(test.path, test.key):
+        for path, key in pairs:
             p, cam, shift = clf.predict(center_square(np.asarray(Image.open(root / path).convert("RGB"))))
             assert abs(p.sum() - 1) < 1e-4 and (cam is None or (cam.shape == (256, 256, 3) and cam.dtype == np.uint8))
             hit += clf.classes[p.argmax()] == key
-        print(f"{task}: {clf.name}, {len(clf.classes)} classes, {hit}/40 sample test images correct")
-        assert hit >= (30 if task == "leaf" else 20)
+        print(f"{task}: {clf.name}, {len(clf.classes)} classes, {hit}/{len(pairs)} test images correct")
+        assert hit >= (0.75 if task == "leaf" else 0.5) * len(pairs)
